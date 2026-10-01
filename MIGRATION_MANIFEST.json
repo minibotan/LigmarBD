@@ -1,0 +1,274 @@
+{
+  "files": [
+    {
+      "path": "build-tiers.md"
+    },
+    {
+      "path": "equipment-quality-formula.md"
+    },
+    {
+      "path": "лигмар/2026-09-27-допрос-механики.md"
+    },
+    {
+      "path": "лигмар/README.md"
+    },
+    {
+      "path": "лигмар/dot-battles-evidence.json"
+    },
+    {
+      "path": "лигмар/extract_skills.py"
+    },
+    {
+      "path": "лигмар/АНАЛИЗ_УМЕНИЙ.md"
+    },
+    {
+      "path": "лигмар/ЛОГ_ДВУХ_БОЁВ.md"
+    },
+    {
+      "path": "лигмар/МЕХАНИКИ.md"
+    },
+    {
+      "path": "лигмар/ПРОБЛЕМЫ.md"
+    },
+    {
+      "path": "лигмар/ПРОВЕРКА_DOT.md"
+    },
+    {
+      "path": "лигмар/ФОРМУЛЫ_ИГРЫ.md"
+    },
+    {
+      "path": "лигмар/воин.json"
+    },
+    {
+      "path": "лигмар/жрец.json"
+    },
+    {
+      "path": "лигмар/источники/формулы/1.png"
+    },
+    {
+      "path": "лигмар/источники/формулы/2.png"
+    },
+    {
+      "path": "лигмар/источники/формулы/3.png"
+    },
+    {
+      "path": "лигмар/источники/формулы/4.png"
+    },
+    {
+      "path": "лигмар/лучник.json"
+    },
+    {
+      "path": "лигмар/маг.json"
+    },
+    {
+      "path": "лигмар/страж.json"
+    },
+    {
+      "path": "лигмар/убийца.json"
+    },
+    {
+      "path": "exports/ligmar-json/abilities.json"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/README.md"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/chest-heavy-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/chest-heavy-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/chest-light-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/chest-light-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/chest-magic-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/chest-magic-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/feet-heavy-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/feet-heavy-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/feet-light-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/feet-light-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/feet-magic-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/feet-magic-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/finger-heavy-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/finger-heavy-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/finger-magic-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/hands-heavy-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/hands-light-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/hands-magic-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/hands-magic-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/head-heavy-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/head-heavy-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/head-light-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/head-light-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/head-magic-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/head-magic-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/legs-heavy-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/legs-heavy-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/legs-light-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/legs-light-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/legs-magic-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/legs-magic-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/neck-heavy-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/neck-light-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/neck-light-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/neck-magic-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/neck-magic-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/shoulders-cloak-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/waist-heavy-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/waist-light-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/waist-light-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/waist-magic-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/waist-magic-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-axe-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-bow-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-crossbow-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-daggers-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-fist-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-hammer-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-staff-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-staff-epic.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-stiletto-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-sword-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/gear/weapon-wand-common.webp"
+    },
+    {
+      "path": "exports/ligmar-json/item-images/index.json"
+    },
+    {
+      "path": "exports/ligmar-json/library.json"
+    },
+    {
+      "path": "exports/ligmar-json/locations.json"
+    },
+    {
+      "path": "exports/ligmar-json/manifest.json"
+    },
+    {
+      "path": "exports/ligmar-json/mobs.json"
+    },
+    {
+      "path": "outputs/ligmar_code_data/ligmar_player_data_v0.40.509.xlsx"
+    },
+    {
+      "path": "outputs/ligmar_code_data/ligmar_player_data_v0.40.509.xlsx.inspect.ndjson"
+    },
+    {
+      "path": "work/ligmar_code_data/build.mjs"
+    },
+    {
+      "path": "work/ligmar_code_data/previews/Заточка_и_сокеты.png"
+    },
+    {
+      "path": "work/ligmar_code_data/previews/Маршруты.png"
+    },
+    {
+      "path": "work/ligmar_code_data/previews/Обзор.png"
+    },
+    {
+      "path": "work/ligmar_code_data/previews/Предметы.png"
+    },
+    {
+      "path": "work/ligmar_code_data/previews/Прогресс.png"
+    }
+  ]
+}

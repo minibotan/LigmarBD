@@ -1,0 +1,1589 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "abilities_total": 7,
+    "levels_per_ability": 10,
+    "observed_progression_levels_across_all_abilities": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "extrapolated_progression_levels": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "class_passive_abilities": 6,
+    "shared_active_abilities": 1,
+    "light_of_power_observed_levels": [
+      1,
+      2
+    ],
+    "light_of_power_extrapolated_levels": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "abilities": [
+    {
+      "id": "3391a679ae40808d8f62eb10b431d31d",
+      "name": {
+        "ru": "Свет могущества",
+        "en": "Light of the Power"
+      },
+      "owner": "account",
+      "type": "support",
+      "current_level_in_snapshot": 1,
+      "max_level": 8,
+      "activation": {
+        "cooldown": 30000,
+        "consumables": [
+          {
+            "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+            "quantity": 1
+          }
+        ],
+        "mana_cost": 0,
+        "time": 0,
+        "weapon": [
+          "any",
+          "unarmed",
+          "defenseStand"
+        ]
+      },
+      "objects": [
+        "self"
+      ],
+      "range": "ranged",
+      "progression": [
+        {
+          "level": 1,
+          "attack_bonus_percent": 150,
+          "effect_duration_seconds": 10,
+          "invulnerability_seconds": 0.6,
+          "removes_negative_effects": true,
+          "required_character_level": 30,
+          "required_status_level": 3,
+          "research_item": {
+            "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+            "quantity": 40
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 3
+          },
+          "description": {
+            "ru": "Повышает атаку на 150% в течение 10 с. При активации накладывает неуязвимость на 0.6 с и снимает все негативные эффекты.",
+            "en": "Increases attack by 150% for 10 s. On activation, grants invulnerability for 0.6 s and removes all negative effects."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 2,
+          "attack_bonus_percent": 200,
+          "effect_duration_seconds": 10,
+          "invulnerability_seconds": 0.8,
+          "removes_negative_effects": true,
+          "required_character_level": 40,
+          "required_status_level": 4,
+          "research_item": {
+            "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+            "quantity": 80
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 4
+          },
+          "description": {
+            "ru": "Повышает атаку на 200% в течение 10 с. При активации накладывает неуязвимость на 0.8 с и снимает все негативные эффекты.",
+            "en": "Increases attack by 200% for 10 s. On activation, grants invulnerability for 0.8 s and removes all negative effects."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 3,
+          "attack_bonus_percent": 250,
+          "effect_duration_seconds": 10,
+          "invulnerability_seconds": 1.0,
+          "removes_negative_effects": true,
+          "required_character_level": 50,
+          "required_status_level": 5,
+          "research_item": {
+            "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+            "quantity": 160
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 5
+          },
+          "description": {
+            "ru": "Повышает атаку на 250% в течение 10 с. При активации накладывает неуязвимость на 1 с и снимает все негативные эффекты.",
+            "en": "Increases attack by 250% for 10 s. On activation, grants invulnerability for 1 s and removes all negative effects."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 4,
+          "attack_bonus_percent": 300,
+          "effect_duration_seconds": 10,
+          "invulnerability_seconds": 1.2,
+          "removes_negative_effects": true,
+          "required_character_level": 60,
+          "required_status_level": 6,
+          "research_item": {
+            "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+            "quantity": 320
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 6
+          },
+          "description": {
+            "ru": "Повышает атаку на 300% в течение 10 с. При активации накладывает неуязвимость на 1.2 с и снимает все негативные эффекты.",
+            "en": "Increases attack by 300% for 10 s. On activation, grants invulnerability for 1.2 s and removes all negative effects."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 5,
+          "attack_bonus_percent": 350,
+          "effect_duration_seconds": 10,
+          "invulnerability_seconds": 1.4,
+          "removes_negative_effects": true,
+          "required_character_level": 70,
+          "required_status_level": 7,
+          "research_item": {
+            "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+            "quantity": 640
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 7
+          },
+          "description": {
+            "ru": "Повышает атаку на 350% в течение 10 с. При активации накладывает неуязвимость на 1.4 с и снимает все негативные эффекты.",
+            "en": "Increases attack by 350% for 10 s. On activation, grants invulnerability for 1.4 s and removes all negative effects."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 6,
+          "attack_bonus_percent": 400,
+          "effect_duration_seconds": 10,
+          "invulnerability_seconds": 1.6,
+          "removes_negative_effects": true,
+          "required_character_level": 80,
+          "required_status_level": 8,
+          "research_item": {
+            "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+            "quantity": 1280
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 8
+          },
+          "description": {
+            "ru": "Повышает атаку на 400% в течение 10 с. При активации накладывает неуязвимость на 1.6 с и снимает все негативные эффекты.",
+            "en": "Increases attack by 400% for 10 s. On activation, grants invulnerability for 1.6 s and removes all negative effects."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 7,
+          "attack_bonus_percent": 450,
+          "effect_duration_seconds": 10,
+          "invulnerability_seconds": 1.8,
+          "removes_negative_effects": true,
+          "required_character_level": 90,
+          "required_status_level": 9,
+          "research_item": {
+            "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+            "quantity": 2560
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 9
+          },
+          "description": {
+            "ru": "Повышает атаку на 450% в течение 10 с. При активации накладывает неуязвимость на 1.8 с и снимает все негативные эффекты.",
+            "en": "Increases attack by 450% for 10 s. On activation, grants invulnerability for 1.8 s and removes all negative effects."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 8,
+          "attack_bonus_percent": 500,
+          "effect_duration_seconds": 10,
+          "invulnerability_seconds": 2.0,
+          "removes_negative_effects": true,
+          "required_character_level": 100,
+          "required_status_level": 10,
+          "research_item": {
+            "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+            "quantity": 5120
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 10
+          },
+          "description": {
+            "ru": "Повышает атаку на 500% в течение 10 с. При активации накладывает неуязвимость на 2 с и снимает все негативные эффекты.",
+            "en": "Increases attack by 500% for 10 s. On activation, grants invulnerability for 2 s and removes all negative effects."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        }
+      ],
+      "observed_levels_in_snapshot": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "3391a679ae408099bc32df14217ad8ad",
+      "name": {
+        "ru": "Сила лучника",
+        "en": "Archer Power"
+      },
+      "owner": "archer",
+      "type": "passive",
+      "current_level_in_snapshot": 0,
+      "max_level": 10,
+      "activation": {
+        "cooldown": 0,
+        "consumables": null,
+        "mana_cost": 0,
+        "time": 0,
+        "weapon": [
+          "any"
+        ]
+      },
+      "objects": [
+        "self"
+      ],
+      "range": "ranged",
+      "progression": [
+        {
+          "level": 1,
+          "attack_bonus_percent": 6,
+          "required_character_level": 30,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 20
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 6%.",
+            "en": "Increases class attack by 6%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 2,
+          "attack_bonus_percent": 12,
+          "required_character_level": 35,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 40
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 12%.",
+            "en": "Increases class attack by 12%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 3,
+          "attack_bonus_percent": 18,
+          "required_character_level": 40,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 80
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 18%.",
+            "en": "Increases class attack by 18%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 4,
+          "attack_bonus_percent": 24,
+          "required_character_level": 45,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 160
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 24%.",
+            "en": "Increases class attack by 24%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 5,
+          "attack_bonus_percent": 30,
+          "required_character_level": 50,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 320
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 30%.",
+            "en": "Increases class attack by 30%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 6,
+          "attack_bonus_percent": 36,
+          "required_character_level": 55,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 640
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 36%.",
+            "en": "Increases class attack by 36%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 7,
+          "attack_bonus_percent": 42,
+          "required_character_level": 60,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 1280
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 42%.",
+            "en": "Increases class attack by 42%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 8,
+          "attack_bonus_percent": 48,
+          "required_character_level": 65,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 2560
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 48%.",
+            "en": "Increases class attack by 48%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 9,
+          "attack_bonus_percent": 54,
+          "required_character_level": 70,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 5120
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 54%.",
+            "en": "Increases class attack by 54%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 10,
+          "attack_bonus_percent": 60,
+          "required_character_level": 75,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 10240
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 60%.",
+            "en": "Increases class attack by 60%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        }
+      ],
+      "observed_levels_in_snapshot": [
+        1
+      ]
+    },
+    {
+      "id": "33c1a679ae40802e8af3e0b96322770c",
+      "name": {
+        "ru": "Сила жреца",
+        "en": "Priest Power"
+      },
+      "owner": "priest",
+      "type": "passive",
+      "current_level_in_snapshot": 2,
+      "max_level": 10,
+      "activation": {
+        "cooldown": 0,
+        "consumables": null,
+        "mana_cost": 0,
+        "time": 0,
+        "weapon": [
+          "any"
+        ]
+      },
+      "objects": [
+        "self"
+      ],
+      "range": "ranged",
+      "progression": [
+        {
+          "level": 1,
+          "attack_bonus_percent": 6,
+          "required_character_level": 30,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 20
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 6%.",
+            "en": "Increases class attack by 6%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 2,
+          "attack_bonus_percent": 12,
+          "required_character_level": 35,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 40
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 12%.",
+            "en": "Increases class attack by 12%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 3,
+          "attack_bonus_percent": 18,
+          "required_character_level": 40,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 80
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 18%.",
+            "en": "Increases class attack by 18%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 4,
+          "attack_bonus_percent": 24,
+          "required_character_level": 45,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 160
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 24%.",
+            "en": "Increases class attack by 24%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 5,
+          "attack_bonus_percent": 30,
+          "required_character_level": 50,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 320
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 30%.",
+            "en": "Increases class attack by 30%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 6,
+          "attack_bonus_percent": 36,
+          "required_character_level": 55,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 640
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 36%.",
+            "en": "Increases class attack by 36%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 7,
+          "attack_bonus_percent": 42,
+          "required_character_level": 60,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 1280
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 42%.",
+            "en": "Increases class attack by 42%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 8,
+          "attack_bonus_percent": 48,
+          "required_character_level": 65,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 2560
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 48%.",
+            "en": "Increases class attack by 48%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 9,
+          "attack_bonus_percent": 54,
+          "required_character_level": 70,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 5120
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 54%.",
+            "en": "Increases class attack by 54%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 10,
+          "attack_bonus_percent": 60,
+          "required_character_level": 75,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 10240
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 60%.",
+            "en": "Increases class attack by 60%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        }
+      ],
+      "observed_levels_in_snapshot": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "33c1a679ae40805094d9d46ddccb7941",
+      "name": {
+        "ru": "Сила мага",
+        "en": "Mage Power"
+      },
+      "owner": "mage",
+      "type": "passive",
+      "current_level_in_snapshot": 3,
+      "max_level": 10,
+      "activation": {
+        "cooldown": 0,
+        "consumables": null,
+        "mana_cost": 0,
+        "time": 0,
+        "weapon": [
+          "any"
+        ]
+      },
+      "objects": [
+        "self"
+      ],
+      "range": "ranged",
+      "progression": [
+        {
+          "level": 1,
+          "attack_bonus_percent": 6,
+          "required_character_level": 30,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 20
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 6%.",
+            "en": "Increases class attack by 6%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 2,
+          "attack_bonus_percent": 12,
+          "required_character_level": 35,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 40
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 12%.",
+            "en": "Increases class attack by 12%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 3,
+          "attack_bonus_percent": 18,
+          "required_character_level": 40,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 80
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 18%.",
+            "en": "Increases class attack by 18%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 4,
+          "attack_bonus_percent": 24,
+          "required_character_level": 45,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 160
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 24%.",
+            "en": "Increases class attack by 24%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 5,
+          "attack_bonus_percent": 30,
+          "required_character_level": 50,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 320
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 30%.",
+            "en": "Increases class attack by 30%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 6,
+          "attack_bonus_percent": 36,
+          "required_character_level": 55,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 640
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 36%.",
+            "en": "Increases class attack by 36%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 7,
+          "attack_bonus_percent": 42,
+          "required_character_level": 60,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 1280
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 42%.",
+            "en": "Increases class attack by 42%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 8,
+          "attack_bonus_percent": 48,
+          "required_character_level": 65,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 2560
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 48%.",
+            "en": "Increases class attack by 48%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 9,
+          "attack_bonus_percent": 54,
+          "required_character_level": 70,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 5120
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 54%.",
+            "en": "Increases class attack by 54%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 10,
+          "attack_bonus_percent": 60,
+          "required_character_level": 75,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 10240
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 60%.",
+            "en": "Increases class attack by 60%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        }
+      ],
+      "observed_levels_in_snapshot": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "33c1a679ae4080c2b7e4df745448a1c3",
+      "name": {
+        "ru": "Сила стража",
+        "en": "Guardian Power"
+      },
+      "owner": "guardian",
+      "type": "passive",
+      "current_level_in_snapshot": 1,
+      "max_level": 10,
+      "activation": {
+        "cooldown": 0,
+        "consumables": null,
+        "mana_cost": 0,
+        "time": 0,
+        "weapon": [
+          "any"
+        ]
+      },
+      "objects": [
+        "self"
+      ],
+      "range": "ranged",
+      "progression": [
+        {
+          "level": 1,
+          "attack_bonus_percent": 6,
+          "required_character_level": 30,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 20
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 6%.",
+            "en": "Increases class attack by 6%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 2,
+          "attack_bonus_percent": 12,
+          "required_character_level": 35,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 40
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 12%.",
+            "en": "Increases class attack by 12%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 3,
+          "attack_bonus_percent": 18,
+          "required_character_level": 40,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 80
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 18%.",
+            "en": "Increases class attack by 18%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 4,
+          "attack_bonus_percent": 24,
+          "required_character_level": 45,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 160
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 24%.",
+            "en": "Increases class attack by 24%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 5,
+          "attack_bonus_percent": 30,
+          "required_character_level": 50,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 320
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 30%.",
+            "en": "Increases class attack by 30%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 6,
+          "attack_bonus_percent": 36,
+          "required_character_level": 55,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 640
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 36%.",
+            "en": "Increases class attack by 36%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 7,
+          "attack_bonus_percent": 42,
+          "required_character_level": 60,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 1280
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 42%.",
+            "en": "Increases class attack by 42%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 8,
+          "attack_bonus_percent": 48,
+          "required_character_level": 65,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 2560
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 48%.",
+            "en": "Increases class attack by 48%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 9,
+          "attack_bonus_percent": 54,
+          "required_character_level": 70,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 5120
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 54%.",
+            "en": "Increases class attack by 54%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 10,
+          "attack_bonus_percent": 60,
+          "required_character_level": 75,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 10240
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 60%.",
+            "en": "Increases class attack by 60%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        }
+      ],
+      "observed_levels_in_snapshot": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "33c1a679ae4080d6800ffe7b44dc4923",
+      "name": {
+        "ru": "Сила убийцы",
+        "en": "Assassin Power"
+      },
+      "owner": "assassin",
+      "type": "passive",
+      "current_level_in_snapshot": 2,
+      "max_level": 10,
+      "activation": {
+        "cooldown": 0,
+        "consumables": null,
+        "mana_cost": 0,
+        "time": 0,
+        "weapon": [
+          "any"
+        ]
+      },
+      "objects": [
+        "self"
+      ],
+      "range": "ranged",
+      "progression": [
+        {
+          "level": 1,
+          "attack_bonus_percent": 6,
+          "required_character_level": 30,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 20
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 6%.",
+            "en": "Increases class attack by 6%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 2,
+          "attack_bonus_percent": 12,
+          "required_character_level": 35,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 40
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 12%.",
+            "en": "Increases class attack by 12%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 3,
+          "attack_bonus_percent": 18,
+          "required_character_level": 40,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 80
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 18%.",
+            "en": "Increases class attack by 18%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 4,
+          "attack_bonus_percent": 24,
+          "required_character_level": 45,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 160
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 24%.",
+            "en": "Increases class attack by 24%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 5,
+          "attack_bonus_percent": 30,
+          "required_character_level": 50,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 320
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 30%.",
+            "en": "Increases class attack by 30%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 6,
+          "attack_bonus_percent": 36,
+          "required_character_level": 55,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 640
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 36%.",
+            "en": "Increases class attack by 36%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 7,
+          "attack_bonus_percent": 42,
+          "required_character_level": 60,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 1280
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 42%.",
+            "en": "Increases class attack by 42%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 8,
+          "attack_bonus_percent": 48,
+          "required_character_level": 65,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 2560
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 48%.",
+            "en": "Increases class attack by 48%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 9,
+          "attack_bonus_percent": 54,
+          "required_character_level": 70,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 5120
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 54%.",
+            "en": "Increases class attack by 54%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 10,
+          "attack_bonus_percent": 60,
+          "required_character_level": 75,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae408061bbd3efa77984a71a",
+            "quantity": 10240
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 60%.",
+            "en": "Increases class attack by 60%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        }
+      ],
+      "observed_levels_in_snapshot": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "33c1a679ae4080fba385cd754eee4610",
+      "name": {
+        "ru": "Сила воина",
+        "en": "Warrior Power"
+      },
+      "owner": "warrior",
+      "type": "passive",
+      "current_level_in_snapshot": 3,
+      "max_level": 10,
+      "activation": {
+        "cooldown": 0,
+        "consumables": null,
+        "mana_cost": 0,
+        "time": 0,
+        "weapon": [
+          "any"
+        ]
+      },
+      "objects": [
+        "self"
+      ],
+      "range": "ranged",
+      "progression": [
+        {
+          "level": 1,
+          "attack_bonus_percent": 6,
+          "required_character_level": 30,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 20
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 6%.",
+            "en": "Increases class attack by 6%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 2,
+          "attack_bonus_percent": 12,
+          "required_character_level": 35,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 40
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 12%.",
+            "en": "Increases class attack by 12%."
+          },
+          "data_status": "derived_from_shared_observed_progression"
+        },
+        {
+          "level": 3,
+          "attack_bonus_percent": 18,
+          "required_character_level": 40,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 80
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 18%.",
+            "en": "Increases class attack by 18%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 4,
+          "attack_bonus_percent": 24,
+          "required_character_level": 45,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 160
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 24%.",
+            "en": "Increases class attack by 24%."
+          },
+          "data_status": "observed"
+        },
+        {
+          "level": 5,
+          "attack_bonus_percent": 30,
+          "required_character_level": 50,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 320
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 30%.",
+            "en": "Increases class attack by 30%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 6,
+          "attack_bonus_percent": 36,
+          "required_character_level": 55,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 640
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 36%.",
+            "en": "Increases class attack by 36%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 7,
+          "attack_bonus_percent": 42,
+          "required_character_level": 60,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 1280
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 42%.",
+            "en": "Increases class attack by 42%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 8,
+          "attack_bonus_percent": 48,
+          "required_character_level": 65,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 2560
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 48%.",
+            "en": "Increases class attack by 48%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 9,
+          "attack_bonus_percent": 54,
+          "required_character_level": 70,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 5120
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 54%.",
+            "en": "Increases class attack by 54%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        },
+        {
+          "level": 10,
+          "attack_bonus_percent": 60,
+          "required_character_level": 75,
+          "required_status_level": 0,
+          "research_item": {
+            "item_template_id": "3391a679ae4080abb9a8db029ba53923",
+            "quantity": 10240
+          },
+          "required_building": {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "level": 1
+          },
+          "description": {
+            "ru": "Повышает атаку класса на 60%.",
+            "en": "Increases class attack by 60%."
+          },
+          "data_status": "extrapolated_beyond_observed_levels"
+        }
+      ],
+      "observed_levels_in_snapshot": [
+        3,
+        4
+      ]
+    }
+  ],
+  "progression_models": {
+    "class_passives": {
+      "attack_bonus_percent": "6 * ability_level",
+      "required_character_level": "30 + 5 * (ability_level - 1)",
+      "research_item_quantity": "20 * 2^(ability_level - 1)",
+      "required_status_level": 0,
+      "required_building_level": 1,
+      "confidence_note": "Levels 1-4 are supported by matching records across the six class abilities. Levels 5-10 are mathematical extrapolations and were not observed directly."
+    },
+    "light_of_power": {
+      "attack_bonus_percent": "100 + 50 * ability_level",
+      "effect_duration_seconds": 10,
+      "invulnerability_seconds": "0.4 + 0.2 * ability_level",
+      "required_character_level": "20 + 10 * ability_level",
+      "required_status_level": "2 + ability_level",
+      "research_item_quantity": "40 * 2^(ability_level - 1)",
+      "required_building_level": "2 + ability_level",
+      "confidence_note": "Levels 1-2 were observed directly. Levels 3-8 continue the two-point progression and are explicitly marked as extrapolated."
+    }
+  }
+}

@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "unique_images": 53,
+    "blueprints_mapped": 87
+  },
+  "images": [
+    {
+      "file": "gear/chest-heavy-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae40804c84e5ffbf6bd1d030",
+          "name": {
+            "ru": "Тяжелая броня",
+            "en": "Heavy Plate"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080899964ec9dfa26517a",
+          "name": {
+            "ru": "Тяжелая броня",
+            "en": "Heavy Plate"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/chest-heavy-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080899964ec9dfa26517a",
+          "name": {
+            "ru": "Тяжелая броня",
+            "en": "Heavy Plate"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/chest-light-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080d79376f966edbdaab8",
+          "name": {
+            "ru": "Легкая броня",
+            "en": "Light Armor"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae40805eb754d8fc1b7a5c8a",
+          "name": {
+            "ru": "Легкая броня",
+            "en": "Light Armor"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/chest-light-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae40805eb754d8fc1b7a5c8a",
+          "name": {
+            "ru": "Легкая броня",
+            "en": "Light Armor"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/chest-magic-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080eb9f5cd4b9cf85602b",
+          "name": {
+            "ru": "Волшебная мантия",
+            "en": "Magic Robe"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080e89f55c8e9b33df113",
+          "name": {
+            "ru": "Волшебная мантия",
+            "en": "Magic Robe"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/chest-magic-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080e89f55c8e9b33df113",
+          "name": {
+            "ru": "Волшебная мантия",
+            "en": "Magic Robe"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/feet-heavy-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080f3aa70efabba686a7d",
+          "name": {
+            "ru": "Тяжелые сапоги",
+            "en": "Heavy Footwear"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae40808db284ceba43f8edce",
+          "name": {
+            "ru": "Тяжелые сапоги",
+            "en": "Heavy Footwear"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/feet-heavy-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae40808db284ceba43f8edce",
+          "name": {
+            "ru": "Тяжелые сапоги",
+            "en": "Heavy Footwear"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/feet-light-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae408094b22bc2dd0921ae59",
+          "name": {
+            "ru": "Легкие сапоги",
+            "en": "Light Boots"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae4080068bf3c73a8f3ed8f8",
+          "name": {
+            "ru": "Легкие сапоги",
+            "en": "Light Boots"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/feet-light-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080068bf3c73a8f3ed8f8",
+          "name": {
+            "ru": "Легкие сапоги",
+            "en": "Light Boots"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/feet-magic-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae408009b176f5e6d5c7f61f",
+          "name": {
+            "ru": "Волшебные башмаки",
+            "en": "Magic Shoes"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae4080fd8021dfa01987978e",
+          "name": {
+            "ru": "Волшебные башмаки",
+            "en": "Magic Shoes"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/feet-magic-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080fd8021dfa01987978e",
+          "name": {
+            "ru": "Волшебные башмаки",
+            "en": "Magic Shoes"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/finger-heavy-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080e4afe0f0a7fc25e571",
+          "name": {
+            "ru": "Металлическое кольцо",
+            "en": "Iron Ring"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080faa876cf4896af55a0",
+          "name": {
+            "ru": "Металлическое кольцо",
+            "en": "Iron Ring"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/finger-heavy-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080faa876cf4896af55a0",
+          "name": {
+            "ru": "Металлическое кольцо",
+            "en": "Iron Ring"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/finger-magic-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae40801287f5ea4c337d829a",
+          "name": {
+            "ru": "Драгоценное кольцо",
+            "en": "Magic Ring"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080869652eb5c4db4b111",
+          "name": {
+            "ru": "Драгоценное кольцо",
+            "en": "Magic Ring"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/hands-heavy-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080adb38ed0e1834d662d",
+          "name": {
+            "ru": "Тяжелые рукавицы",
+            "en": "Heavy Bracers"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080f796e2de0c14556018",
+          "name": {
+            "ru": "Тяжелые рукавицы",
+            "en": "Heavy Bracers"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/hands-light-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080468ab4f6a042df9bb9",
+          "name": {
+            "ru": "Легкие наручи",
+            "en": "Light Wristband"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080b28f5bd1937a3e2caf",
+          "name": {
+            "ru": "Легкие наручи",
+            "en": "Light Wristband"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/hands-magic-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae408075a477f73fb7616f51",
+          "name": {
+            "ru": "Волшебные перчатки",
+            "en": "Magic Sleeves"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080d9ab57e36dad54cc9f",
+          "name": {
+            "ru": "Волшебные перчатки",
+            "en": "Magic Sleeves"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/hands-magic-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080d9ab57e36dad54cc9f",
+          "name": {
+            "ru": "Волшебные перчатки",
+            "en": "Magic Sleeves"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/head-heavy-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080749e01eb127e6ed7c2",
+          "name": {
+            "ru": "Тяжелый шлем",
+            "en": "Heavy Helm"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae4080299e51f24350fe6a72",
+          "name": {
+            "ru": "Тяжелый шлем",
+            "en": "Heavy Helm"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/head-heavy-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080299e51f24350fe6a72",
+          "name": {
+            "ru": "Тяжелый шлем",
+            "en": "Heavy Helm"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/head-light-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae40808983ddc194454b9a69",
+          "name": {
+            "ru": "Легкое наголовье",
+            "en": "Light Helmet"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae4080468121e64d5d97092a",
+          "name": {
+            "ru": "Легкое наголовье",
+            "en": "Light Helmet"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/head-light-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080468121e64d5d97092a",
+          "name": {
+            "ru": "Легкое наголовье",
+            "en": "Light Helmet"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/head-magic-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae40806498a3fe07f47646e7",
+          "name": {
+            "ru": "Волшебный капюшон",
+            "en": "Magic Hood"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae4080b49776c516e99a3fa8",
+          "name": {
+            "ru": "Волшебный капюшон",
+            "en": "Magic Hood"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/head-magic-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080b49776c516e99a3fa8",
+          "name": {
+            "ru": "Волшебный капюшон",
+            "en": "Magic Hood"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/legs-heavy-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080078652caa87c18242b",
+          "name": {
+            "ru": "Стальные брюки",
+            "en": "Heavy Leggings"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae4080bdbed5f52bb2c79008",
+          "name": {
+            "ru": "Стальные брюки",
+            "en": "Heavy Leggings"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/legs-heavy-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080bdbed5f52bb2c79008",
+          "name": {
+            "ru": "Стальные брюки",
+            "en": "Heavy Leggings"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/legs-light-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080ee929add8f847ad866",
+          "name": {
+            "ru": "Легкие штаны",
+            "en": "Light Pants"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae40802e986bfc2e549777f9",
+          "name": {
+            "ru": "Легкие штаны",
+            "en": "Light Pants"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/legs-light-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae40802e986bfc2e549777f9",
+          "name": {
+            "ru": "Легкие штаны",
+            "en": "Light Pants"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/legs-magic-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae40802d89b2e16d86eca7d8",
+          "name": {
+            "ru": "Волшебные брюки",
+            "en": "Magic Trousers"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae408032ac1dd9d7d843743f",
+          "name": {
+            "ru": "Волшебные брюки",
+            "en": "Magic Trousers"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/legs-magic-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae408032ac1dd9d7d843743f",
+          "name": {
+            "ru": "Волшебные брюки",
+            "en": "Magic Trousers"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/neck-heavy-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae40808492dbc1e270eebe6c",
+          "name": {
+            "ru": "Подвеска защиты",
+            "en": "Defense Pendant"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080d8be70db0a57c64980",
+          "name": {
+            "ru": "Подвеска защиты",
+            "en": "Defense Pendant"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/neck-light-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080389358d29790518e2b",
+          "name": {
+            "ru": "Амулет уклонения",
+            "en": "Evasion Amulet"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae40800ba73fc108b158311d",
+          "name": {
+            "ru": "Амулет уклонения",
+            "en": "Evasion Amulet"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/neck-light-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae40800ba73fc108b158311d",
+          "name": {
+            "ru": "Амулет уклонения",
+            "en": "Evasion Amulet"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/neck-magic-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae408005b404cc1e0b7e93f9",
+          "name": {
+            "ru": "Кулон сопротивления",
+            "en": "Resistance Coulomb"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae40802b8cefd6912be80d5c",
+          "name": {
+            "ru": "Кулон сопротивления",
+            "en": "Resistance Coulomb"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/neck-magic-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae40802b8cefd6912be80d5c",
+          "name": {
+            "ru": "Кулон сопротивления",
+            "en": "Resistance Coulomb"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/shoulders-cloak-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae40807aa070e534bb9102ee",
+          "name": {
+            "ru": "Плащ",
+            "en": "Cloak"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae408001bf60d59efdca01b5",
+          "name": {
+            "ru": "Плащ",
+            "en": "Cloak"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/waist-heavy-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae408088ae81c03a2252909b",
+          "name": {
+            "ru": "Тяжелый ремень",
+            "en": "Heavy Belt"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae4080f085dee077092e2a88",
+          "name": {
+            "ru": "Тяжелый ремень",
+            "en": "Heavy Belt"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/waist-light-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080fabea2c71f75d855a8",
+          "name": {
+            "ru": "Легкий пояс",
+            "en": "Light Belt"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae408072bd27fb428d13ee1c",
+          "name": {
+            "ru": "Легкий пояс",
+            "en": "Light Belt"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/waist-light-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae408072bd27fb428d13ee1c",
+          "name": {
+            "ru": "Легкий пояс",
+            "en": "Light Belt"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/waist-magic-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080538f6ee9439c06e25b",
+          "name": {
+            "ru": "Волшебная сумка",
+            "en": "Magic Bag"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13f1a679ae4080f5bb58f5b485510a02",
+          "name": {
+            "ru": "Волшебная сумка",
+            "en": "Magic Bag"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/waist-magic-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13f1a679ae4080f5bb58f5b485510a02",
+          "name": {
+            "ru": "Волшебная сумка",
+            "en": "Magic Bag"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-axe-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13c1a679ae4080e58998d2cfcdfe95a6",
+          "name": {
+            "ru": "Топор",
+            "en": "Axe"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13c1a679ae40804894a3ddd1638f1312",
+          "name": {
+            "ru": "Топор",
+            "en": "Axe"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-bow-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13d1a679ae4080778253f4a949a24d13",
+          "name": {
+            "ru": "Лук",
+            "en": "Bow"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13d1a679ae40808aabeee3706d5cdd3c",
+          "name": {
+            "ru": "Лук",
+            "en": "Bow"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-crossbow-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13d1a679ae4080b6ab5ec7f9abf05e68",
+          "name": {
+            "ru": "Арбалет",
+            "en": "Crossbow"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13d1a679ae40800da058d3848c2ecde4",
+          "name": {
+            "ru": "Арбалет",
+            "en": "Crossbow"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-daggers-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13d1a679ae40809a98afce8586e155eb",
+          "name": {
+            "ru": "Кинжалы",
+            "en": "Daggers"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13d1a679ae408053adb5d98e6a15e80c",
+          "name": {
+            "ru": "Кинжалы",
+            "en": "Daggers"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-fist-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13d1a679ae4080fbbb0ae652857a5960",
+          "name": {
+            "ru": "Кастеты",
+            "en": "Fist"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13d1a679ae40803e9aa4ed1bfc5924a1",
+          "name": {
+            "ru": "Кастеты",
+            "en": "Fist"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-hammer-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13d1a679ae4080d08e3be99c2cae96f9",
+          "name": {
+            "ru": "Молот",
+            "en": "Hammer"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13d1a679ae408084acc8d05e4e626dba",
+          "name": {
+            "ru": "Молот",
+            "en": "Hammer"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-staff-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13d1a679ae4080678fe4e291fa223a5b",
+          "name": {
+            "ru": "Посох",
+            "en": "Staff"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13d1a679ae4080b680b0d9141ed57b5b",
+          "name": {
+            "ru": "Посох",
+            "en": "Staff"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-staff-epic.webp",
+      "blueprints": [
+        {
+          "template_id": "13d1a679ae4080b680b0d9141ed57b5b",
+          "name": {
+            "ru": "Посох",
+            "en": "Staff"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "legendary"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-stiletto-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13d1a679ae4080c3a62bec2c68ae6df4",
+          "name": {
+            "ru": "Стилет",
+            "en": "Stiletto"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13d1a679ae4080e897a0c62f4c1042e6",
+          "name": {
+            "ru": "Стилет",
+            "en": "Stiletto"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-sword-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13c1a679ae4080269c8bf81218f850f0",
+          "name": {
+            "ru": "Меч",
+            "en": "Sword"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13c1a679ae408041995fc05c48a17255",
+          "name": {
+            "ru": "Меч",
+            "en": "Sword"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    },
+    {
+      "file": "gear/weapon-wand-common.webp",
+      "blueprints": [
+        {
+          "template_id": "13e1a679ae4080f4acd2cab7638e75cd",
+          "name": {
+            "ru": "Жезл",
+            "en": "Wand"
+          },
+          "item_tier": 4,
+          "blueprint_quality": "standard"
+        },
+        {
+          "template_id": "13e1a679ae408065ba0df4ef7d71aa65",
+          "name": {
+            "ru": "Жезл",
+            "en": "Wand"
+          },
+          "item_tier": 6,
+          "blueprint_quality": "standard"
+        }
+      ]
+    }
+  ]
+}

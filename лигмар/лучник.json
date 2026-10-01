@@ -1,0 +1,2537 @@
+{
+  "schema_version": 1,
+  "class_id": "archer",
+  "class_name_ru": "лучник",
+  "coverage": "observed effective/next ranks, not a complete all-ranks catalog",
+  "summary": {
+    "skills": 19,
+    "observations": 32,
+    "skill_rank_pairs": 32
+  },
+  "rows": [
+    {
+      "skill_id": "1591a679ae4080c297f7d036916c3c06",
+      "name_ru": "Беглый огонь",
+      "name_en": "Rapid Fire",
+      "variant": "effective",
+      "skill_level": 8,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 1,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any",
+        "unarmed"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 2400,
+      "mana_cost": 55,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 699 физического урона.",
+      "description_en": "Deals basic physical damage to the target and an additional 699 physical damage.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae4080c297f7d036916c3c06",
+        "activation": {
+          "cooldown": 2400,
+          "consumables": null,
+          "mana_cost": 55,
+          "time": 1600,
+          "weapon": [
+            "any",
+            "unarmed"
+          ]
+        },
+        "owner": "archer",
+        "level": 8,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>699</b> физического урона.",
+          "en": "Deals basic physical damage to the target and an additional <b>699</b> physical damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae4080c297f7d036916c3c06",
+        "required_character_level": 1,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "1591a679ae4080c297f7d036916c3c06",
+      "name_ru": "Беглый огонь",
+      "name_en": "Rapid Fire",
+      "variant": "next",
+      "skill_level": 9,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 1,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any",
+        "unarmed"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 2400,
+      "mana_cost": 63,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 802 физического урона.",
+      "description_en": "Deals basic physical damage to the target and an additional 802 physical damage.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae4080c297f7d036916c3c06",
+        "activation": {
+          "cooldown": 2400,
+          "consumables": null,
+          "mana_cost": 63,
+          "time": 1600,
+          "weapon": [
+            "any",
+            "unarmed"
+          ]
+        },
+        "owner": "archer",
+        "level": 9,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>802</b> физического урона.",
+          "en": "Deals basic physical damage to the target and an additional <b>802</b> physical damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae4080c297f7d036916c3c06",
+        "required_character_level": 1,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "1591a679ae408025b2b1eb0774d06216",
+      "name_ru": "Снайперский выстрел",
+      "name_en": "Sniper Shot",
+      "variant": "effective",
+      "skill_level": 7,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 3,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 3800,
+      "cooldown_ms": 2400,
+      "mana_cost": 70,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 320000
+          }
+        ],
+        "level": 33,
+        "status_level": 3
+      },
+      "description_ru": "Лучник готовится к выстрелу до 3.8 с и наносит цели базовый физический урон и до 255% физического урона от снаряжения.\n\nМожно прервать в любой момент.",
+      "description_en": "The Archer prepares to fire for up to 3.8 s and deals base physical damage to the target and up to 255% physical damage from gear.\n\nYou can interrupt at any moment.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae408025b2b1eb0774d06216",
+        "activation": {
+          "cooldown": 2400,
+          "consumables": null,
+          "mana_cost": 70,
+          "time": 3800,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 7,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 320000
+            }
+          ],
+          "level": 33,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Лучник готовится к выстрелу до <b>3.8 с</b> и наносит цели базовый физический урон и до <b>255%</b> физического урона от снаряжения.<br><br>Можно прервать в любой момент.",
+          "en": "The Archer prepares to fire for up to <b>3.8 s</b> and deals base physical damage to the target and up to <b>255%</b> physical damage from gear.<br><br>You can interrupt at any moment."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae408025b2b1eb0774d06216",
+        "required_character_level": 3,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "1591a679ae408025b2b1eb0774d06216",
+      "name_ru": "Снайперский выстрел",
+      "name_en": "Sniper Shot",
+      "variant": "next",
+      "skill_level": 8,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 3,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 3600,
+      "cooldown_ms": 2400,
+      "mana_cost": 80,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 450000
+          }
+        ],
+        "level": 38,
+        "status_level": 3
+      },
+      "description_ru": "Лучник готовится к выстрелу до 3.6 с и наносит цели базовый физический урон и до 270% физического урона от снаряжения.\n\nМожно прервать в любой момент.",
+      "description_en": "The Archer prepares to fire for up to 3.6 s and deals base physical damage to the target and up to 270% physical damage from gear.\n\nYou can interrupt at any moment.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae408025b2b1eb0774d06216",
+        "activation": {
+          "cooldown": 2400,
+          "consumables": null,
+          "mana_cost": 80,
+          "time": 3600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 8,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 450000
+            }
+          ],
+          "level": 38,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Лучник готовится к выстрелу до <b>3.6 с</b> и наносит цели базовый физический урон и до <b>270%</b> физического урона от снаряжения.<br><br>Можно прервать в любой момент.",
+          "en": "The Archer prepares to fire for up to <b>3.6 s</b> and deals base physical damage to the target and up to <b>270%</b> physical damage from gear.<br><br>You can interrupt at any moment."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae408025b2b1eb0774d06216",
+        "required_character_level": 3,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "1591a679ae408063a77bd6ed4dd4ab05",
+      "name_ru": "Зачарованные стрелы",
+      "name_en": "Enchanted Arrows",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 6,
+      "unlock_status_level": 0,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3800,
+      "cooldown_ms": 2200,
+      "mana_cost": 140,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 300000
+          }
+        ],
+        "level": 31,
+        "status_level": 3
+      },
+      "description_ru": "Накладывает на лучника эффект, который дополнительно наносит 28% магического урона от снаряжения при каждой атаке в течение 900 с.",
+      "description_en": "Applies an effect to the archer that deals 28% additional magical gear damage with each attack for 900 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae408063a77bd6ed4dd4ab05",
+        "activation": {
+          "cooldown": 2200,
+          "consumables": null,
+          "mana_cost": 140,
+          "time": 3800,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "archer",
+        "level": 6,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 300000
+            }
+          ],
+          "level": 31,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Накладывает на лучника эффект, который дополнительно наносит <b>28%</b> магического урона от снаряжения при каждой атаке в течение <b>900 с</b>.",
+          "en": "Applies an effect to the archer that deals <b>28%</b> additional magical gear damage with each attack for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae408063a77bd6ed4dd4ab05",
+        "required_character_level": 6,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "1591a679ae408063a77bd6ed4dd4ab05",
+      "name_ru": "Зачарованные стрелы",
+      "name_en": "Enchanted Arrows",
+      "variant": "next",
+      "skill_level": 8,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 6,
+      "unlock_status_level": 0,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3800,
+      "cooldown_ms": 2200,
+      "mana_cost": 185,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 550000
+          }
+        ],
+        "level": 41,
+        "status_level": 4
+      },
+      "description_ru": "Накладывает на лучника эффект, который дополнительно наносит 34% магического урона от снаряжения при каждой атаке в течение 900 с.",
+      "description_en": "Applies an effect to the archer that deals 34% additional magical gear damage with each attack for 900 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae408063a77bd6ed4dd4ab05",
+        "activation": {
+          "cooldown": 2200,
+          "consumables": null,
+          "mana_cost": 185,
+          "time": 3800,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "archer",
+        "level": 8,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 550000
+            }
+          ],
+          "level": 41,
+          "status_level": 4
+        },
+        "type": "support",
+        "description": {
+          "ru": "Накладывает на лучника эффект, который дополнительно наносит <b>34%</b> магического урона от снаряжения при каждой атаке в течение <b>900 с</b>.",
+          "en": "Applies an effect to the archer that deals <b>34%</b> additional magical gear damage with each attack for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae408063a77bd6ed4dd4ab05",
+        "required_character_level": 6,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "1591a679ae40807a8b42fb31199a8297",
+      "name_ru": "Ледяной осколок",
+      "name_en": "Ice Shard",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 2800,
+      "mana_cost": 58,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и 816 физического урона. Замедляет цель на 50% в течение 4.2 с.",
+      "description_en": "Deals basic physical damage to the target and 816 physical damage. Slows the target by 50% for 4.2 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae40807a8b42fb31199a8297",
+        "activation": {
+          "cooldown": 2800,
+          "consumables": null,
+          "mana_cost": 58,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 6,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>816</b> физического урона. Замедляет цель на <b>50%</b> в течение <b>4.2 с</b>.",
+          "en": "Deals basic physical damage to the target and <b>816</b> physical damage. Slows the target by <b>50%</b> for <b>4.2 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae40807a8b42fb31199a8297",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "1591a679ae40807a8b42fb31199a8297",
+      "name_ru": "Ледяной осколок",
+      "name_en": "Ice Shard",
+      "variant": "next",
+      "skill_level": 7,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 2800,
+      "mana_cost": 67,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и 947 физического урона. Замедляет цель на 50% в течение 4.4 с.",
+      "description_en": "Deals basic physical damage to the target and 947 physical damage. Slows the target by 50% for 4.4 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae40807a8b42fb31199a8297",
+        "activation": {
+          "cooldown": 2800,
+          "consumables": null,
+          "mana_cost": 67,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 7,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>947</b> физического урона. Замедляет цель на <b>50%</b> в течение <b>4.4 с</b>.",
+          "en": "Deals basic physical damage to the target and <b>947</b> physical damage. Slows the target by <b>50%</b> for <b>4.4 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae40807a8b42fb31199a8297",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "1591a679ae408027a26fc49c44136cc9",
+      "name_ru": "Ветреный купол",
+      "name_en": "Windy Dome",
+      "variant": "effective",
+      "skill_level": 5,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 13,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1300,
+      "cooldown_ms": 35800,
+      "mana_cost": 157,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 320000
+          }
+        ],
+        "level": 33,
+        "status_level": 3
+      },
+      "description_ru": "Накладывает на лучника барьер, который поглощает 435 входящего урона в течение 20 с.",
+      "description_en": "Places a barrier on the archer that absorbs 435 incoming damage for 20 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae408027a26fc49c44136cc9",
+        "activation": {
+          "cooldown": 35800,
+          "consumables": null,
+          "mana_cost": 157,
+          "time": 1300,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "archer",
+        "level": 5,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 320000
+            }
+          ],
+          "level": 33,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Накладывает на лучника барьер, который поглощает <b>435</b> входящего урона в течение <b>20 с</b>.",
+          "en": "Places a barrier on the archer that absorbs <b>435</b> incoming damage for <b>20 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae408027a26fc49c44136cc9",
+        "required_character_level": 13,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "1591a679ae408027a26fc49c44136cc9",
+      "name_ru": "Ветреный купол",
+      "name_en": "Windy Dome",
+      "variant": "next",
+      "skill_level": 6,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 13,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1300,
+      "cooldown_ms": 35800,
+      "mana_cost": 184,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 450000
+          }
+        ],
+        "level": 38,
+        "status_level": 3
+      },
+      "description_ru": "Накладывает на лучника барьер, который поглощает 510 входящего урона в течение 20 с.",
+      "description_en": "Places a barrier on the archer that absorbs 510 incoming damage for 20 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae408027a26fc49c44136cc9",
+        "activation": {
+          "cooldown": 35800,
+          "consumables": null,
+          "mana_cost": 184,
+          "time": 1300,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "archer",
+        "level": 6,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 450000
+            }
+          ],
+          "level": 38,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Накладывает на лучника барьер, который поглощает <b>510</b> входящего урона в течение <b>20 с</b>.",
+          "en": "Places a barrier on the archer that absorbs <b>510</b> incoming damage for <b>20 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae408027a26fc49c44136cc9",
+        "required_character_level": 13,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "1591a679ae4080518dfcc52449c8d317",
+      "name_ru": "Клык змеи",
+      "name_en": "Serpent Fang",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 7400,
+      "mana_cost": 51,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 300000
+          }
+        ],
+        "level": 31,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 1,395 магического урона в течение 15 с.",
+      "description_en": "Deals basic physical damage to the target and additionally 1,395 magic damage over 15 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae4080518dfcc52449c8d317",
+        "activation": {
+          "cooldown": 7400,
+          "consumables": null,
+          "mana_cost": 51,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 4,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 300000
+            }
+          ],
+          "level": 31,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>1,395</b> магического урона в течение <b>15 с</b>.",
+          "en": "Deals basic physical damage to the target and additionally <b>1,395</b> magic damage over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae4080518dfcc52449c8d317",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "1591a679ae4080518dfcc52449c8d317",
+      "name_ru": "Клык змеи",
+      "name_en": "Serpent Fang",
+      "variant": "next",
+      "skill_level": 6,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 7400,
+      "mana_cost": 66,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 550000
+          }
+        ],
+        "level": 41,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 1,905 магического урона в течение 15 с.",
+      "description_en": "Deals basic physical damage to the target and additionally 1,905 magic damage over 15 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae4080518dfcc52449c8d317",
+        "activation": {
+          "cooldown": 7400,
+          "consumables": null,
+          "mana_cost": 66,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 6,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 550000
+            }
+          ],
+          "level": 41,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>1,905</b> магического урона в течение <b>15 с</b>.",
+          "en": "Deals basic physical damage to the target and additionally <b>1,905</b> magic damage over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae4080518dfcc52449c8d317",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "1591a679ae40808790d1dda8fe2e9779",
+      "name_ru": "Грозовой удар",
+      "name_en": "Thunder Strike",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1800,
+      "cooldown_ms": 5200,
+      "mana_cost": 105,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 300000
+          }
+        ],
+        "level": 31,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 936 магического урона.",
+      "description_en": "Deals base physical damage to the target and an additional 936 of magic damage.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae40808790d1dda8fe2e9779",
+        "activation": {
+          "cooldown": 5200,
+          "consumables": null,
+          "mana_cost": 105,
+          "time": 1800,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 4,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 300000
+            }
+          ],
+          "level": 31,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>936</b> магического урона.",
+          "en": "Deals base physical damage to the target and an additional <b>936</b> of magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae40808790d1dda8fe2e9779",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "1591a679ae40808790d1dda8fe2e9779",
+      "name_ru": "Грозовой удар",
+      "name_en": "Thunder Strike",
+      "variant": "next",
+      "skill_level": 6,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1800,
+      "cooldown_ms": 5200,
+      "mana_cost": 142,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 550000
+          }
+        ],
+        "level": 41,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 1,319 магического урона.",
+      "description_en": "Deals base physical damage to the target and an additional 1,319 of magic damage.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae40808790d1dda8fe2e9779",
+        "activation": {
+          "cooldown": 5200,
+          "consumables": null,
+          "mana_cost": 142,
+          "time": 1800,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 6,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 550000
+            }
+          ],
+          "level": 41,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>1,319</b> магического урона.",
+          "en": "Deals base physical damage to the target and an additional <b>1,319</b> of magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae40808790d1dda8fe2e9779",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "1591a679ae40808cb79ff144baf28502",
+      "name_ru": "Отвлекающая стрельба",
+      "name_en": "Distracting Shot",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 11400,
+      "mana_cost": 61,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 883 физического урона. Сбрасывает цель монстрам.",
+      "description_en": "Deals basic physical damage to the target and additionally 883 physical damage. Resets the target to the monsters.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae40808cb79ff144baf28502",
+        "activation": {
+          "cooldown": 11400,
+          "consumables": null,
+          "mana_cost": 61,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 4,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>883</b> физического урона. Сбрасывает цель монстрам.",
+          "en": "Deals basic physical damage to the target and additionally <b>883</b> physical damage. Resets the target to the monsters."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae40808cb79ff144baf28502",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "1591a679ae40808cb79ff144baf28502",
+      "name_ru": "Отвлекающая стрельба",
+      "name_en": "Distracting Shot",
+      "variant": "next",
+      "skill_level": 5,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 11400,
+      "mana_cost": 70,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 1,030 физического урона. Сбрасывает цель монстрам.",
+      "description_en": "Deals basic physical damage to the target and additionally 1,030 physical damage. Resets the target to the monsters.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae40808cb79ff144baf28502",
+        "activation": {
+          "cooldown": 11400,
+          "consumables": null,
+          "mana_cost": 70,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 5,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>1,030</b> физического урона. Сбрасывает цель монстрам.",
+          "en": "Deals basic physical damage to the target and additionally <b>1,030</b> physical damage. Resets the target to the monsters."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae40808cb79ff144baf28502",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "1591a679ae4080eba8d2d67872073b85",
+      "name_ru": "Поступь охотника",
+      "name_en": "Hunter’s Tread",
+      "variant": "effective",
+      "skill_level": 3,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 23,
+      "unlock_status_level": 2,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 5100,
+      "cooldown_ms": 1000,
+      "mana_cost": 50,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 320000
+          }
+        ],
+        "level": 33,
+        "status_level": 3
+      },
+      "description_ru": "Накладывает на лучника и его союзников эффект, который увеличивает уклонение на 14% на 900 с.",
+      "description_en": "Applies an effect to the archer and his allies that increases evasion by 14% for 900 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae4080eba8d2d67872073b85",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 50,
+          "time": 5100,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "archer",
+        "level": 3,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 320000
+            }
+          ],
+          "level": 33,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Накладывает на лучника и его союзников эффект, который увеличивает уклонение на <b>14%</b> на <b>900 с</b>.",
+          "en": "Applies an effect to the archer and his allies that increases evasion by <b>14%</b> for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae4080eba8d2d67872073b85",
+        "required_character_level": 23,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "1591a679ae4080eba8d2d67872073b85",
+      "name_ru": "Поступь охотника",
+      "name_en": "Hunter’s Tread",
+      "variant": "next",
+      "skill_level": 4,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 23,
+      "unlock_status_level": 2,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 5100,
+      "cooldown_ms": 1000,
+      "mana_cost": 57,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 450000
+          }
+        ],
+        "level": 38,
+        "status_level": 3
+      },
+      "description_ru": "Накладывает на лучника и его союзников эффект, который увеличивает уклонение на 17% на 900 с.",
+      "description_en": "Applies an effect to the archer and his allies that increases evasion by 17% for 900 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae4080eba8d2d67872073b85",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 57,
+          "time": 5100,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "archer",
+        "level": 4,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 450000
+            }
+          ],
+          "level": 38,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Накладывает на лучника и его союзников эффект, который увеличивает уклонение на <b>17%</b> на <b>900 с</b>.",
+          "en": "Applies an effect to the archer and his allies that increases evasion by <b>17%</b> for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae4080eba8d2d67872073b85",
+        "required_character_level": 23,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "1591a679ae4080169e8fedd380594e52",
+      "name_ru": "Веерный залп",
+      "name_en": "Fan Volley",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 26,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1400,
+      "cooldown_ms": 1100,
+      "mana_cost": 126,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 300000
+          }
+        ],
+        "level": 31,
+        "status_level": 3
+      },
+      "description_ru": "Наносит ближайшим целям базовый физический урон и дополнительно 735 физического урона.",
+      "description_en": "Deals base physical damage to nearby targets and additionally 735 physical damage.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae4080169e8fedd380594e52",
+        "activation": {
+          "cooldown": 1100,
+          "consumables": null,
+          "mana_cost": 126,
+          "time": 1400,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 2,
+        "objects": [
+          "close"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 300000
+            }
+          ],
+          "level": 31,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим целям базовый физический урон и дополнительно <b>735</b> физического урона.",
+          "en": "Deals base physical damage to nearby targets and additionally <b>735</b> physical damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae4080169e8fedd380594e52",
+        "required_character_level": 26,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "1591a679ae4080169e8fedd380594e52",
+      "name_ru": "Веерный залп",
+      "name_en": "Fan Volley",
+      "variant": "next",
+      "skill_level": 4,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 26,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1400,
+      "cooldown_ms": 1100,
+      "mana_cost": 171,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 550000
+          }
+        ],
+        "level": 41,
+        "status_level": 4
+      },
+      "description_ru": "Наносит ближайшим целям базовый физический урон и дополнительно 1,033 физического урона.",
+      "description_en": "Deals base physical damage to nearby targets and additionally 1,033 physical damage.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "1591a679ae4080169e8fedd380594e52",
+        "activation": {
+          "cooldown": 1100,
+          "consumables": null,
+          "mana_cost": 171,
+          "time": 1400,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 4,
+        "objects": [
+          "close"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 550000
+            }
+          ],
+          "level": 41,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим целям базовый физический урон и дополнительно <b>1,033</b> физического урона.",
+          "en": "Deals base physical damage to nearby targets and additionally <b>1,033</b> physical damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1591a679ae4080169e8fedd380594e52",
+        "required_character_level": 26,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "2801a679ae4080089308e45cf99013db",
+      "name_ru": "Пронзающий прием",
+      "name_en": "Piercing Strike",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 2300,
+      "cooldown_ms": 6000,
+      "mana_cost": 148,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый урон и 1,210 магического урона. Снижает сопротивление цели на 26% в течение 15 с.",
+      "description_en": "Deals base damage to the target and 1,210 magic damage. Reduces the target's resistance by 26% for 15 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae4080089308e45cf99013db",
+        "activation": {
+          "cooldown": 6000,
+          "consumables": null,
+          "mana_cost": 148,
+          "time": 2300,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 2,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый урон и <b>1,210</b> магического урона. Снижает сопротивление цели на <b>26%</b> в течение <b>15 с</b>.",
+          "en": "Deals base damage to the target and <b>1,210</b> magic damage. Reduces the target's resistance by <b>26%</b> for <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae4080089308e45cf99013db",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2801a679ae4080089308e45cf99013db",
+      "name_ru": "Пронзающий прием",
+      "name_en": "Piercing Strike",
+      "variant": "next",
+      "skill_level": 3,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 2300,
+      "cooldown_ms": 6000,
+      "mana_cost": 168,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый урон и 1,425 магического урона. Снижает сопротивление цели на 29% в течение 15 с.",
+      "description_en": "Deals base damage to the target and 1,425 magic damage. Reduces the target's resistance by 29% for 15 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae4080089308e45cf99013db",
+        "activation": {
+          "cooldown": 6000,
+          "consumables": null,
+          "mana_cost": 168,
+          "time": 2300,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 3,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый урон и <b>1,425</b> магического урона. Снижает сопротивление цели на <b>29%</b> в течение <b>15 с</b>.",
+          "en": "Deals base damage to the target and <b>1,425</b> magic damage. Reduces the target's resistance by <b>29%</b> for <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae4080089308e45cf99013db",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2801a679ae40807c9892f28042a2736f",
+      "name_ru": "Оковы природы",
+      "name_en": "Nature's Bonds",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 21600,
+      "mana_cost": 115,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 1,281 физического урона. Имеет 90% шанс обездвижить на 5.6 с.",
+      "description_en": "Deals base physical damage to the target and additional 1,281 physical damage. Has a 90% chance to root the target for 5.6 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae40807c9892f28042a2736f",
+        "activation": {
+          "cooldown": 21600,
+          "consumables": null,
+          "mana_cost": 115,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 2,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>1,281</b> физического урона. Имеет <b>90%</b> шанс обездвижить на <b>5.6 с</b>.",
+          "en": "Deals base physical damage to the target and additional <b>1,281</b> physical damage. Has a <b>90%</b> chance to root the target for <b>5.6 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae40807c9892f28042a2736f",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2801a679ae40807c9892f28042a2736f",
+      "name_ru": "Оковы природы",
+      "name_en": "Nature's Bonds",
+      "variant": "next",
+      "skill_level": 3,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 21600,
+      "mana_cost": 132,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 1,512 физического урона. Имеет 90% шанс обездвижить на 5.9 с.",
+      "description_en": "Deals base physical damage to the target and additional 1,512 physical damage. Has a 90% chance to root the target for 5.9 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae40807c9892f28042a2736f",
+        "activation": {
+          "cooldown": 21600,
+          "consumables": null,
+          "mana_cost": 132,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 3,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>1,512</b> физического урона. Имеет <b>90%</b> шанс обездвижить на <b>5.9 с</b>.",
+          "en": "Deals base physical damage to the target and additional <b>1,512</b> physical damage. Has a <b>90%</b> chance to root the target for <b>5.9 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae40807c9892f28042a2736f",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "3391a679ae408099bc32df14217ad8ad",
+      "name_ru": "Сила лучника",
+      "name_en": "Archer Power",
+      "variant": "next",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 0,
+      "type": "passive",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 0,
+      "mana_cost": 0,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+            "quantity": 20
+          }
+        ],
+        "level": 30,
+        "status_level": 0,
+        "buildings": [
+          {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "lvl": 1
+          }
+        ]
+      },
+      "description_ru": "Повышает атаку лучника на 6%.",
+      "description_en": "Increases the archer's attack by 6%.",
+      "context": "account_library",
+      "context_character_level": null,
+      "raw_definition": {
+        "id": "3391a679ae408099bc32df14217ad8ad",
+        "activation": {
+          "cooldown": 0,
+          "consumables": null,
+          "mana_cost": 0,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "archer",
+        "level": 1,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "3391a679ae40807d8878df89df4dedcc",
+              "quantity": 20
+            }
+          ],
+          "level": 30,
+          "status_level": 0,
+          "buildings": [
+            {
+              "id": "33b1a679ae408076951cd457ed7a3fde",
+              "lvl": 1
+            }
+          ]
+        },
+        "type": "passive",
+        "description": {
+          "ru": "Повышает атаку лучника на <b>6%</b>.",
+          "en": "Increases the archer's attack by <b>6%</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3391a679ae408099bc32df14217ad8ad",
+        "required_character_level": 30,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "2801a679ae4080d8af57ef75e7f46607",
+      "name_ru": "Медвежий коготь",
+      "name_en": "Bear Claw ",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 35,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 7400,
+      "mana_cost": 51,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 1,500 физического урона в течение 15 с.",
+      "description_en": "Deals base physical damage to the target and additionally 1,500 physical damage over 15 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae4080d8af57ef75e7f46607",
+        "activation": {
+          "cooldown": 7400,
+          "consumables": null,
+          "mana_cost": 51,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 1,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>1,500</b> физического урона в течение <b>15 с</b>.",
+          "en": "Deals base physical damage to the target and additionally <b>1,500</b> physical damage over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae4080d8af57ef75e7f46607",
+        "required_character_level": 35,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "2801a679ae4080d8af57ef75e7f46607",
+      "name_ru": "Медвежий коготь",
+      "name_en": "Bear Claw ",
+      "variant": "next",
+      "skill_level": 2,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 35,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 7400,
+      "mana_cost": 59,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 1,770 физического урона в течение 15 с.",
+      "description_en": "Deals base physical damage to the target and additionally 1,770 physical damage over 15 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae4080d8af57ef75e7f46607",
+        "activation": {
+          "cooldown": 7400,
+          "consumables": null,
+          "mana_cost": 59,
+          "time": 1600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 2,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>1,770</b> физического урона в течение <b>15 с</b>.",
+          "en": "Deals base physical damage to the target and additionally <b>1,770</b> physical damage over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae4080d8af57ef75e7f46607",
+        "required_character_level": 35,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "2801a679ae408016bd36e60894a0b138",
+      "name_ru": "Разрывная волна",
+      "name_en": "Rupture Wave",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 5000,
+      "mana_cost": 176,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит ближайшим целям базовый физический урон и дополнительно 1,226 физического урона. Сбрасывает цель монстрам.",
+      "description_en": "Deals base physical damage to nearby targets and additional 1,226 physical damage. Resets monster target.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae408016bd36e60894a0b138",
+        "activation": {
+          "cooldown": 5000,
+          "consumables": null,
+          "mana_cost": 176,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "archer",
+        "level": 1,
+        "objects": [
+          "close"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим целям базовый физический урон и дополнительно <b>1,226</b> физического урона. Сбрасывает цель монстрам.",
+          "en": "Deals base physical damage to nearby targets and additional <b>1,226</b> physical damage. Resets monster target."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae408016bd36e60894a0b138",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "2801a679ae4080a28a21f4b76c688760",
+      "name_ru": "Оглушающая вспышка",
+      "name_en": "Stunning Flash",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 2100,
+      "cooldown_ms": 14400,
+      "mana_cost": 117,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 800 физического урона. Имеет 45% шанс оглушить цель на 3 с.",
+      "description_en": "Deals base physical damage to the target and additional 800 physical damage. Has a 45% chance to stun the target for 3 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae4080a28a21f4b76c688760",
+        "activation": {
+          "cooldown": 14400,
+          "consumables": null,
+          "mana_cost": 117,
+          "time": 2100,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 1,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>800</b> физического урона. Имеет <b>45%</b> шанс оглушить цель на <b>3 с</b>.",
+          "en": "Deals base physical damage to the target and additional <b>800</b> physical damage. Has a <b>45%</b> chance to stun the target for <b>3 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae4080a28a21f4b76c688760",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "2801a679ae40807fa7a8d4931098ca67",
+      "name_ru": "Цепной заряд",
+      "name_en": "Chain Charge",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 45,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 3300,
+      "cooldown_ms": 7200,
+      "mana_cost": 165,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 800000
+          }
+        ],
+        "level": 45,
+        "status_level": 4
+      },
+      "description_ru": "Наносит группе цели базовый физический урон и дополнительно 1,527 магического урона.",
+      "description_en": "Deals base physical damage to the target group and additionally 1,527 magic damage.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "2801a679ae40807fa7a8d4931098ca67",
+        "activation": {
+          "cooldown": 7200,
+          "consumables": null,
+          "mana_cost": 165,
+          "time": 3300,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 1,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 800000
+            }
+          ],
+          "level": 45,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит группе цели базовый физический урон и дополнительно <b>1,527</b> магического урона.",
+          "en": "Deals base physical damage to the target group and additionally <b>1,527</b> magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2801a679ae40807fa7a8d4931098ca67",
+        "required_character_level": 45,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "3641a679ae40806e92bfd6f0fc6c4362",
+      "name_ru": "Осадный выстрел",
+      "name_en": "Siege Shot",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 3600,
+      "cooldown_ms": 11400,
+      "mana_cost": 184,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый физический урон, 2,235 физического урона и 55% физического урона от снаряжения.",
+      "description_en": "Deals base physical damage, 2,235 physical damage and 55% physical gear damage to the target.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "3641a679ae40806e92bfd6f0fc6c4362",
+        "activation": {
+          "cooldown": 11400,
+          "consumables": null,
+          "mana_cost": 184,
+          "time": 3600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 1,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон, <b>2,235</b> физического урона и <b>55%</b> физического урона от снаряжения.",
+          "en": "Deals base physical damage, <b>2,235</b> physical damage and <b>55%</b> physical gear damage to the target."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae40806e92bfd6f0fc6c4362",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "3641a679ae4080e8ac94e1af7024863d",
+      "name_ru": "Гнилая стрела",
+      "name_en": "Rotten Arrow",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "attack",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "crossbow",
+        "bow"
+      ],
+      "activation_time_ms": 2600,
+      "cooldown_ms": 14400,
+      "mana_cost": 74,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Наносит группе цели 1,300 физического урона и снижает их максимальное здоровье на 2% на 30 с.",
+      "description_en": "Deals 1,300 physical damage to target group and reduces their maximum health by 2% for 30 s.",
+      "context": "account_character",
+      "context_character_level": 45,
+      "raw_definition": {
+        "id": "3641a679ae4080e8ac94e1af7024863d",
+        "activation": {
+          "cooldown": 14400,
+          "consumables": null,
+          "mana_cost": 74,
+          "time": 2600,
+          "weapon": [
+            "crossbow",
+            "bow"
+          ]
+        },
+        "owner": "archer",
+        "level": 1,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит группе цели <b>1,300</b> физического урона и снижает их максимальное здоровье на <b>2%</b> на <b>30 с</b>.",
+          "en": "Deals <b>1,300</b> physical damage to target group and reduces their maximum health by <b>2%</b> for <b>30 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae4080e8ac94e1af7024863d",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 0
+      }
+    }
+  ]
+}

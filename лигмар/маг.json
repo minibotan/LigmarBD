@@ -1,0 +1,2734 @@
+{
+  "schema_version": 1,
+  "class_id": "mage",
+  "class_name_ru": "маг",
+  "coverage": "observed effective/next ranks, not a complete all-ranks catalog",
+  "summary": {
+    "skills": 19,
+    "observations": 35,
+    "skill_rank_pairs": 35
+  },
+  "rows": [
+    {
+      "skill_id": "14a1a679ae4080b4a37bedaec2d1c75e",
+      "name_ru": "Магическая стрела",
+      "name_en": "Magic Arrow",
+      "variant": "effective",
+      "skill_level": 10,
+      "learned_level": 10,
+      "max_level": 10,
+      "unlock_character_level": 1,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any",
+        "unarmed"
+      ],
+      "activation_time_ms": 2300,
+      "cooldown_ms": 2200,
+      "mana_cost": 141,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 800000
+          }
+        ],
+        "level": 45,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый магический урон, 1,380 магического урона и 100% магического урона от снаряжения.",
+      "description_en": "Deals base magic damage, 1,380 magic damage and 100% magic damage from gear.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14a1a679ae4080b4a37bedaec2d1c75e",
+        "activation": {
+          "cooldown": 2200,
+          "consumables": null,
+          "mana_cost": 141,
+          "time": 2300,
+          "weapon": [
+            "any",
+            "unarmed"
+          ]
+        },
+        "owner": "mage",
+        "level": 10,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 800000
+            }
+          ],
+          "level": 45,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>1,380</b> магического урона и <b>100%</b> магического урона от снаряжения.",
+          "en": "Deals base magic damage, <b>1,380</b> magic damage and <b>100%</b> magic damage from gear."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14a1a679ae4080b4a37bedaec2d1c75e",
+        "required_character_level": 1,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 10
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080b3931ccd0b9b0d7979",
+      "name_ru": "Пронзающий взгляд",
+      "name_en": "Piercing Gaze",
+      "variant": "effective",
+      "skill_level": 10,
+      "learned_level": 10,
+      "max_level": 10,
+      "unlock_character_level": 3,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 2000,
+      "mana_cost": 144,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1160000
+          }
+        ],
+        "level": 48,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый магический урон, 1,372 магического урона и 100% магического урона от снаряжения. Имеет 92% шанс замедлить цель на 40% в течение 8 с.",
+      "description_en": "Deals base magic damage, 1,372 magic damage and 100% magic damage from gear. Has a 92% chance to slow by 40% for 8 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080b3931ccd0b9b0d7979",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 144,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 10,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1160000
+            }
+          ],
+          "level": 48,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>1,372</b> магического урона и <b>100%</b> магического урона от снаряжения. Имеет <b>92%</b> шанс замедлить цель на <b>40%</b> в течение <b>8 с</b>.",
+          "en": "Deals base magic damage, <b>1,372</b> magic damage and <b>100%</b> magic damage from gear. Has a <b>92%</b> chance to slow by <b>40%</b> for <b>8 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080b3931ccd0b9b0d7979",
+        "required_character_level": 3,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 10
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080b782ebf42072c73ab9",
+      "name_ru": "Разрывающий луч",
+      "name_en": "Disrupting Beam",
+      "variant": "effective",
+      "skill_level": 10,
+      "learned_level": 10,
+      "max_level": 10,
+      "unlock_character_level": 6,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3400,
+      "cooldown_ms": 4600,
+      "mana_cost": 214,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1400000
+          }
+        ],
+        "level": 51,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 2,119 магического урона и 200% магического урона от снаряжения.",
+      "description_en": "Deals basic magic damage, 2,119 magic damage and 200% magic damage from gear.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080b782ebf42072c73ab9",
+        "activation": {
+          "cooldown": 4600,
+          "consumables": null,
+          "mana_cost": 214,
+          "time": 3400,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 10,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1400000
+            }
+          ],
+          "level": 51,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>2,119</b> магического урона и <b>200%</b> магического урона от снаряжения.",
+          "en": "Deals basic magic damage, <b>2,119</b> magic damage and <b>200%</b> magic damage from gear."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080b782ebf42072c73ab9",
+        "required_character_level": 6,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 10
+      }
+    },
+    {
+      "skill_id": "14b1a679ae40803ab74fe7171c5295af",
+      "name_ru": "Магический барьер",
+      "name_en": "Magic Barrier",
+      "variant": "effective",
+      "skill_level": 9,
+      "learned_level": 9,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2200,
+      "cooldown_ms": 2100,
+      "mana_cost": 169,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает сопротивление мага на 28% в течение 900 с.\n\nНевозможно использовать одновременно с умением \"Печать регенерации\" и \"Каменная кожа\".",
+      "description_en": "Increases resistance by 28% for 900 s.\n\nIt is not possible to use simultaneously with the skill \"Regeneration Seal\" and \"Stone Skin\".",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae40803ab74fe7171c5295af",
+        "activation": {
+          "cooldown": 2100,
+          "consumables": null,
+          "mana_cost": 169,
+          "time": 2200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 9,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает сопротивление мага на <b>28%</b> в течение <b>900 с</b>.<br><br><span class=\"c-b\">Невозможно использовать одновременно с умением \"Печать регенерации\" и \"Каменная кожа\".</span>",
+          "en": "Increases resistance by <b>28%</b> for <b>900 s</b>.<br><br><span class=\"c-b\">It is not possible to use simultaneously with the skill \"Regeneration Seal\" and \"Stone Skin\".</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae40803ab74fe7171c5295af",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 9
+      }
+    },
+    {
+      "skill_id": "14b1a679ae40803ab74fe7171c5295af",
+      "name_ru": "Магический барьер",
+      "name_en": "Magic Barrier",
+      "variant": "next",
+      "skill_level": 10,
+      "learned_level": 9,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2200,
+      "cooldown_ms": 2100,
+      "mana_cost": 186,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает сопротивление мага на 30% в течение 900 с.\n\nНевозможно использовать одновременно с умением \"Печать регенерации\" и \"Каменная кожа\".",
+      "description_en": "Increases resistance by 30% for 900 s.\n\nIt is not possible to use simultaneously with the skill \"Regeneration Seal\" and \"Stone Skin\".",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae40803ab74fe7171c5295af",
+        "activation": {
+          "cooldown": 2100,
+          "consumables": null,
+          "mana_cost": 186,
+          "time": 2200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 10,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает сопротивление мага на <b>30%</b> в течение <b>900 с</b>.<br><br><span class=\"c-b\">Невозможно использовать одновременно с умением \"Печать регенерации\" и \"Каменная кожа\".</span>",
+          "en": "Increases resistance by <b>30%</b> for <b>900 s</b>.<br><br><span class=\"c-b\">It is not possible to use simultaneously with the skill \"Regeneration Seal\" and \"Stone Skin\".</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae40803ab74fe7171c5295af",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 9
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080b6a0e7ee549a70c564",
+      "name_ru": "Каменная кожа",
+      "name_en": "Stone Skin",
+      "variant": "effective",
+      "skill_level": 9,
+      "learned_level": 9,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2200,
+      "cooldown_ms": 2100,
+      "mana_cost": 169,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает физическую защиту мага на 90% в течение 900 с.\n\nНевозможно использовать одновременно с умением \"Печать регенерации\" и \"Магический барьер\".",
+      "description_en": "Increases physical defense by 90% for 900 s.\n\nIt is impossible to use simultaneously with the skill \"Regeneration Seal\" and \"Magical Barrier\".",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080b6a0e7ee549a70c564",
+        "activation": {
+          "cooldown": 2100,
+          "consumables": null,
+          "mana_cost": 169,
+          "time": 2200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 9,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает физическую защиту мага на <b>90%</b> в течение <b>900 с</b>.<br><br><span class=\"c-b\">Невозможно использовать одновременно с умением \"Печать регенерации\" и \"Магический барьер\".</span>",
+          "en": "Increases physical defense by <b>90%</b> for <b>900 s</b>.<br><br><span class=\"c-b\">It is impossible to use simultaneously with the skill \"Regeneration Seal\" and \"Magical Barrier\".</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080b6a0e7ee549a70c564",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 9
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080b6a0e7ee549a70c564",
+      "name_ru": "Каменная кожа",
+      "name_en": "Stone Skin",
+      "variant": "next",
+      "skill_level": 10,
+      "learned_level": 9,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2200,
+      "cooldown_ms": 2100,
+      "mana_cost": 186,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает физическую защиту мага на 100% в течение 900 с.\n\nНевозможно использовать одновременно с умением \"Печать регенерации\" и \"Магический барьер\".",
+      "description_en": "Increases physical defense by 100% for 900 s.\n\nIt is impossible to use simultaneously with the skill \"Regeneration Seal\" and \"Magical Barrier\".",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080b6a0e7ee549a70c564",
+        "activation": {
+          "cooldown": 2100,
+          "consumables": null,
+          "mana_cost": 186,
+          "time": 2200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 10,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает физическую защиту мага на <b>100%</b> в течение <b>900 с</b>.<br><br><span class=\"c-b\">Невозможно использовать одновременно с умением \"Печать регенерации\" и \"Магический барьер\".</span>",
+          "en": "Increases physical defense by <b>100%</b> for <b>900 s</b>.<br><br><span class=\"c-b\">It is impossible to use simultaneously with the skill \"Regeneration Seal\" and \"Magical Barrier\".</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080b6a0e7ee549a70c564",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 9
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080c38ef6c2adda65b363",
+      "name_ru": "Печать регенерации",
+      "name_en": "Regeneration Seal",
+      "variant": "effective",
+      "skill_level": 9,
+      "learned_level": 9,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2200,
+      "cooldown_ms": 2100,
+      "mana_cost": 169,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает регенерацию здоровья мага на 18 в течение 900 с.\n\nНевозможно использовать одновременно с умением \"Магический барьер\" и \"Каменная кожа\".",
+      "description_en": "Increases health regeneration by 18 for 900 s.\n\nIt is impossible to use simultaneously with the skill \"Magical Barrier\" and \"Stone Skin\".",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080c38ef6c2adda65b363",
+        "activation": {
+          "cooldown": 2100,
+          "consumables": null,
+          "mana_cost": 169,
+          "time": 2200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 9,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает регенерацию здоровья мага на <b>18</b> в течение <b>900 с</b>.<br><br>Невозможно использовать одновременно с умением \"Магический барьер\" и \"Каменная кожа\".",
+          "en": "Increases health regeneration by <b>18</b> for <b>900 s</b>.<br><br>It is impossible to use simultaneously with the skill \"Magical Barrier\" and \"Stone Skin\"."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080c38ef6c2adda65b363",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 9
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080c38ef6c2adda65b363",
+      "name_ru": "Печать регенерации",
+      "name_en": "Regeneration Seal",
+      "variant": "next",
+      "skill_level": 10,
+      "learned_level": 9,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2200,
+      "cooldown_ms": 2100,
+      "mana_cost": 186,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает регенерацию здоровья мага на 20 в течение 900 с.\n\nНевозможно использовать одновременно с умением \"Магический барьер\" и \"Каменная кожа\".",
+      "description_en": "Increases health regeneration by 20 for 900 s.\n\nIt is impossible to use simultaneously with the skill \"Magical Barrier\" and \"Stone Skin\".",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080c38ef6c2adda65b363",
+        "activation": {
+          "cooldown": 2100,
+          "consumables": null,
+          "mana_cost": 186,
+          "time": 2200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 10,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает регенерацию здоровья мага на <b>20</b> в течение <b>900 с</b>.<br><br>Невозможно использовать одновременно с умением \"Магический барьер\" и \"Каменная кожа\".",
+          "en": "Increases health regeneration by <b>20</b> for <b>900 s</b>.<br><br>It is impossible to use simultaneously with the skill \"Magical Barrier\" and \"Stone Skin\"."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080c38ef6c2adda65b363",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 9
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080668655cfd1bbc9ce75",
+      "name_ru": "Морозная чума",
+      "name_en": "Frosty Plague",
+      "variant": "effective",
+      "skill_level": 8,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 13,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 7000,
+      "mana_cost": 194,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1160000
+          }
+        ],
+        "level": 48,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый магический урон и 2,880 магического урона в течение 15 с. Замедляет цель на 15% в течение 15 с. Имеет шанс 13% обездвижить цель на 3 с.",
+      "description_en": "Deals basic magic damage and 2,880 magic damage over 15 s. Slows by 15% for 15 s. Has a chance of 13% to immobilize for 3 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080668655cfd1bbc9ce75",
+        "activation": {
+          "cooldown": 7000,
+          "consumables": null,
+          "mana_cost": 194,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 8,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1160000
+            }
+          ],
+          "level": 48,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон и <b>2,880</b> магического урона в течение <b>15 с</b>. Замедляет цель на <b>15%</b> в течение <b>15 с</b>. Имеет шанс <b>13%</b> обездвижить цель на <b>3 с</b>.",
+          "en": "Deals basic magic damage and <b>2,880</b> magic damage over <b>15 s</b>. Slows by <b>15%</b> for <b>15 s</b>. Has a chance of <b>13%</b> to immobilize for <b>3 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080668655cfd1bbc9ce75",
+        "required_character_level": 13,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080668655cfd1bbc9ce75",
+      "name_ru": "Морозная чума",
+      "name_en": "Frosty Plague",
+      "variant": "next",
+      "skill_level": 9,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 13,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 7000,
+      "mana_cost": 212,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1600000
+          }
+        ],
+        "level": 53,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон и 3,225 магического урона в течение 15 с. Замедляет цель на 15% в течение 15 с. Имеет шанс 14% обездвижить цель на 3 с.",
+      "description_en": "Deals basic magic damage and 3,225 magic damage over 15 s. Slows by 15% for 15 s. Has a chance of 14% to immobilize for 3 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080668655cfd1bbc9ce75",
+        "activation": {
+          "cooldown": 7000,
+          "consumables": null,
+          "mana_cost": 212,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 9,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1600000
+            }
+          ],
+          "level": 53,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон и <b>3,225</b> магического урона в течение <b>15 с</b>. Замедляет цель на <b>15%</b> в течение <b>15 с</b>. Имеет шанс <b>14%</b> обездвижить цель на <b>3 с</b>.",
+          "en": "Deals basic magic damage and <b>3,225</b> magic damage over <b>15 s</b>. Slows by <b>15%</b> for <b>15 s</b>. Has a chance of <b>14%</b> to immobilize for <b>3 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080668655cfd1bbc9ce75",
+        "required_character_level": 13,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "14b1a679ae40802284d1ca9b4e6ff1c2",
+      "name_ru": "Ледяной шквал",
+      "name_en": "Ice Torrent",
+      "variant": "effective",
+      "skill_level": 8,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3000,
+      "cooldown_ms": 10800,
+      "mana_cost": 184,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1400000
+          }
+        ],
+        "level": 51,
+        "status_level": 5
+      },
+      "description_ru": "Наносит группе цели базовый магический урон и 1,451 магического урона. Имеет шанс 33% обездвижить группу цели на 3.6 с.",
+      "description_en": "Deals the basic magic damage and 1,451 magic damage to the target group. Has a 33% chance to immobilize for 3.6 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae40802284d1ca9b4e6ff1c2",
+        "activation": {
+          "cooldown": 10800,
+          "consumables": null,
+          "mana_cost": 184,
+          "time": 3000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 8,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1400000
+            }
+          ],
+          "level": 51,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит группе цели базовый магический урон и <b>1,451</b> магического урона. Имеет шанс <b>33%</b> обездвижить группу цели на <b>3.6 с</b>.",
+          "en": "Deals the basic magic damage and <b>1,451</b> magic damage to the target group. Has a <b>33%</b> chance to immobilize for <b>3.6 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae40802284d1ca9b4e6ff1c2",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "14b1a679ae40802284d1ca9b4e6ff1c2",
+      "name_ru": "Ледяной шквал",
+      "name_en": "Ice Torrent",
+      "variant": "next",
+      "skill_level": 9,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3000,
+      "cooldown_ms": 10800,
+      "mana_cost": 202,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 2375000
+          }
+        ],
+        "level": 56,
+        "status_level": 5
+      },
+      "description_ru": "Наносит группе цели базовый магический урон и 1,620 магического урона. Имеет шанс 33% обездвижить группу цели на 3.8 с.",
+      "description_en": "Deals the basic magic damage and 1,620 magic damage to the target group. Has a 33% chance to immobilize for 3.8 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae40802284d1ca9b4e6ff1c2",
+        "activation": {
+          "cooldown": 10800,
+          "consumables": null,
+          "mana_cost": 202,
+          "time": 3000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 9,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 2375000
+            }
+          ],
+          "level": 56,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит группе цели базовый магический урон и <b>1,620</b> магического урона. Имеет шанс <b>33%</b> обездвижить группу цели на <b>3.8 с</b>.",
+          "en": "Deals the basic magic damage and <b>1,620</b> magic damage to the target group. Has a <b>33%</b> chance to immobilize for <b>3.8 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae40802284d1ca9b4e6ff1c2",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080549099ff5e97349f57",
+      "name_ru": "Копье тьмы",
+      "name_en": "Spear of Darkness",
+      "variant": "effective",
+      "skill_level": 7,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4000,
+      "cooldown_ms": 2000,
+      "mana_cost": 225,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 2,122 магического урона и 255% урона от снаряжения.",
+      "description_en": "Deals basic magic damage, 2,122 magic damage and 255% damage from gear.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080549099ff5e97349f57",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 225,
+          "time": 4000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 7,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>2,122</b> магического урона и <b>255%</b> урона от снаряжения.",
+          "en": "Deals basic magic damage, <b>2,122</b> magic damage and <b>255%</b> damage from gear."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080549099ff5e97349f57",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080549099ff5e97349f57",
+      "name_ru": "Копье тьмы",
+      "name_en": "Spear of Darkness",
+      "variant": "next",
+      "skill_level": 8,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4000,
+      "cooldown_ms": 2000,
+      "mana_cost": 250,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 2,400 магического урона и 270% урона от снаряжения.",
+      "description_en": "Deals basic magic damage, 2,400 magic damage and 270% damage from gear.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080549099ff5e97349f57",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 250,
+          "time": 4000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 8,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>2,400</b> магического урона и <b>270%</b> урона от снаряжения.",
+          "en": "Deals basic magic damage, <b>2,400</b> magic damage and <b>270%</b> damage from gear."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080549099ff5e97349f57",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080a09f17ed20b2ad1e35",
+      "name_ru": "Аркана лечения",
+      "name_en": "Arcana of Healing",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 25,
+      "unlock_status_level": 2,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 5700,
+      "cooldown_ms": 1000,
+      "mana_cost": 370,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Восстанавливает здоровье на 720 и 23% от базового магического урона.",
+      "description_en": "Restores health by 720 and 23% of the base magic damage.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080a09f17ed20b2ad1e35",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 370,
+          "time": 5700,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 6,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Восстанавливает здоровье на <b>720</b> и <b>23%</b> от базового магического урона.",
+          "en": "Restores health by <b>720</b> and <b>23%</b> of the base magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080a09f17ed20b2ad1e35",
+        "required_character_level": 25,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "14b1a679ae4080a09f17ed20b2ad1e35",
+      "name_ru": "Аркана лечения",
+      "name_en": "Arcana of Healing",
+      "variant": "next",
+      "skill_level": 7,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 25,
+      "unlock_status_level": 2,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 5700,
+      "cooldown_ms": 1000,
+      "mana_cost": 408,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Восстанавливает здоровье на 790 и 26% от базового магического урона.",
+      "description_en": "Restores health by 790 and 26% of the base magic damage.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "14b1a679ae4080a09f17ed20b2ad1e35",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 408,
+          "time": 5700,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 7,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Восстанавливает здоровье на <b>790</b> и <b>26%</b> от базового магического урона.",
+          "en": "Restores health by <b>790</b> and <b>26%</b> of the base magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "14b1a679ae4080a09f17ed20b2ad1e35",
+        "required_character_level": 25,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "2841a679ae40807ea920e244e14d810a",
+      "name_ru": "Чародейский обстрел",
+      "name_en": "Sorcerous Volley",
+      "variant": "effective",
+      "skill_level": 5,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1200,
+      "cooldown_ms": 20700,
+      "mana_cost": 300,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Каждые 3 с наносит базовый магический урон ближайшим врагам и дополнительно 2,563 магического урона. Потребляет 200 маны и продолжается, пока мана не закончится или скилл не будет отменён.",
+      "description_en": "Every 3 s deals base magic damage to nearby enemies and an additional 2,563 magic damage. Consumes 200 mana and continues until mana runs out or is cancelled.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae40807ea920e244e14d810a",
+        "activation": {
+          "cooldown": 20700,
+          "consumables": null,
+          "mana_cost": 300,
+          "time": 1200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 5,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Каждые <b>3 с</b> наносит базовый магический урон ближайшим врагам и дополнительно <b>2,563</b> магического урона. Потребляет <b>200</b> маны и продолжается, пока мана не закончится или скилл не будет отменён.",
+          "en": "Every <b>3 s</b> deals base magic damage to nearby enemies and an additional <b>2,563</b> magic damage. Consumes <b>200</b> mana and continues until mana runs out or is cancelled."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae40807ea920e244e14d810a",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "2841a679ae40807ea920e244e14d810a",
+      "name_ru": "Чародейский обстрел",
+      "name_en": "Sorcerous Volley",
+      "variant": "next",
+      "skill_level": 6,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1200,
+      "cooldown_ms": 20700,
+      "mana_cost": 330,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Каждые 3 с наносит базовый магический урон ближайшим врагам и дополнительно 2,909 магического урона. Потребляет 220 маны и продолжается, пока мана не закончится или скилл не будет отменён.",
+      "description_en": "Every 3 s deals base magic damage to nearby enemies and an additional 2,909 magic damage. Consumes 220 mana and continues until mana runs out or is cancelled.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae40807ea920e244e14d810a",
+        "activation": {
+          "cooldown": 20700,
+          "consumables": null,
+          "mana_cost": 330,
+          "time": 1200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 6,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Каждые <b>3 с</b> наносит базовый магический урон ближайшим врагам и дополнительно <b>2,909</b> магического урона. Потребляет <b>220</b> маны и продолжается, пока мана не закончится или скилл не будет отменён.",
+          "en": "Every <b>3 s</b> deals base magic damage to nearby enemies and an additional <b>2,909</b> magic damage. Consumes <b>220</b> mana and continues until mana runs out or is cancelled."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae40807ea920e244e14d810a",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "33c1a679ae40805094d9d46ddccb7941",
+      "name_ru": "Сила мага",
+      "name_en": "Mage Power",
+      "variant": "effective",
+      "skill_level": 3,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 0,
+      "type": "passive",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 0,
+      "mana_cost": 0,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 80
+          }
+        ],
+        "level": 40,
+        "status_level": 0,
+        "buildings": [
+          {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "lvl": 1
+          }
+        ]
+      },
+      "description_ru": "Повышает атаку мага на 18%.",
+      "description_en": "Increases the mage's attack by 18%.",
+      "context": "account_library",
+      "context_character_level": null,
+      "raw_definition": {
+        "id": "33c1a679ae40805094d9d46ddccb7941",
+        "activation": {
+          "cooldown": 0,
+          "consumables": null,
+          "mana_cost": 0,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 3,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+              "quantity": 80
+            }
+          ],
+          "level": 40,
+          "status_level": 0,
+          "buildings": [
+            {
+              "id": "33b1a679ae408076951cd457ed7a3fde",
+              "lvl": 1
+            }
+          ]
+        },
+        "type": "passive",
+        "description": {
+          "ru": "Повышает атаку мага на <b>18%</b>.",
+          "en": "Increases the mage's attack by <b>18%</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "33c1a679ae40805094d9d46ddccb7941",
+        "required_character_level": 30,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "33c1a679ae40805094d9d46ddccb7941",
+      "name_ru": "Сила мага",
+      "name_en": "Mage Power",
+      "variant": "next",
+      "skill_level": 4,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 0,
+      "type": "passive",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 0,
+      "mana_cost": 0,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+            "quantity": 160
+          }
+        ],
+        "level": 45,
+        "status_level": 0,
+        "buildings": [
+          {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "lvl": 1
+          }
+        ]
+      },
+      "description_ru": "Повышает атаку мага на 24%.",
+      "description_en": "Increases the mage's attack by 24%.",
+      "context": "account_library",
+      "context_character_level": null,
+      "raw_definition": {
+        "id": "33c1a679ae40805094d9d46ddccb7941",
+        "activation": {
+          "cooldown": 0,
+          "consumables": null,
+          "mana_cost": 0,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 4,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "3391a679ae4080278ee0cdffdbe550a9",
+              "quantity": 160
+            }
+          ],
+          "level": 45,
+          "status_level": 0,
+          "buildings": [
+            {
+              "id": "33b1a679ae408076951cd457ed7a3fde",
+              "lvl": 1
+            }
+          ]
+        },
+        "type": "passive",
+        "description": {
+          "ru": "Повышает атаку мага на <b>24%</b>.",
+          "en": "Increases the mage's attack by <b>24%</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "33c1a679ae40805094d9d46ddccb7941",
+        "required_character_level": 30,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "2841a679ae40802498e3d22aca757ea8",
+      "name_ru": "Прилив маны",
+      "name_en": "Mana Surge",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 35,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 4500,
+      "mana_cost": 150,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает максимальный запас маны мага на 30% в течение 600 с.",
+      "description_en": "Increases the mage's maximum mana pool by 30% for 600 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae40802498e3d22aca757ea8",
+        "activation": {
+          "cooldown": 4500,
+          "consumables": null,
+          "mana_cost": 150,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 4,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает максимальный запас маны мага на <b>30%</b> в течение <b>600 с</b>.",
+          "en": "Increases the mage's maximum mana pool by <b>30%</b> for <b>600 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae40802498e3d22aca757ea8",
+        "required_character_level": 35,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "2841a679ae40802498e3d22aca757ea8",
+      "name_ru": "Прилив маны",
+      "name_en": "Mana Surge",
+      "variant": "next",
+      "skill_level": 5,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 35,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 4500,
+      "mana_cost": 150,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает максимальный запас маны мага на 35% в течение 650 с.",
+      "description_en": "Increases the mage's maximum mana pool by 35% for 650 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae40802498e3d22aca757ea8",
+        "activation": {
+          "cooldown": 4500,
+          "consumables": null,
+          "mana_cost": 150,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 5,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает максимальный запас маны мага на <b>35%</b> в течение <b>650 с</b>.",
+          "en": "Increases the mage's maximum mana pool by <b>35%</b> for <b>650 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae40802498e3d22aca757ea8",
+        "required_character_level": 35,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "2841a679ae4080ef94aef44587768400",
+      "name_ru": "Астральный скачок",
+      "name_en": "Astral Blink",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 35,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "attackers"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 40000,
+      "mana_cost": 55,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Позволяет магу моментально скрыться от всех противников.",
+      "description_en": "Allows the mage to instantly hide from all enemies.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae4080ef94aef44587768400",
+        "activation": {
+          "cooldown": 40000,
+          "consumables": null,
+          "mana_cost": 55,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 4,
+        "objects": [
+          "attackers"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Позволяет магу моментально скрыться от всех противников.",
+          "en": "Allows the mage to instantly hide from all enemies."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae4080ef94aef44587768400",
+        "required_character_level": 35,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "2841a679ae4080ef94aef44587768400",
+      "name_ru": "Астральный скачок",
+      "name_en": "Astral Blink",
+      "variant": "next",
+      "skill_level": 5,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 35,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "attackers"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 37500,
+      "mana_cost": 55,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Позволяет магу моментально скрыться от всех противников.",
+      "description_en": "Allows the mage to instantly hide from all enemies.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae4080ef94aef44587768400",
+        "activation": {
+          "cooldown": 37500,
+          "consumables": null,
+          "mana_cost": 55,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 5,
+        "objects": [
+          "attackers"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Позволяет магу моментально скрыться от всех противников.",
+          "en": "Allows the mage to instantly hide from all enemies."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae4080ef94aef44587768400",
+        "required_character_level": 35,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "2841a679ae4080b8a571dcec48ed4113",
+      "name_ru": "Сверхновая",
+      "name_en": "Supernova",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 7000,
+      "mana_cost": 230,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1500000
+          }
+        ],
+        "level": 52,
+        "status_level": 5
+      },
+      "description_ru": "Наносит ближайшим целям базовый магический урон, 2,147 магического урона и 70% магического урона от снаряжения. Сбрасывает цель монстрам.",
+      "description_en": "Deals base magic damage to nearby targets, 2,147 magic damage and 70% magic damage from gear. Resets mob targets.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae4080b8a571dcec48ed4113",
+        "activation": {
+          "cooldown": 7000,
+          "consumables": null,
+          "mana_cost": 230,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 4,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1500000
+            }
+          ],
+          "level": 52,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим целям базовый магический урон, <b>2,147</b> магического урона и <b>70%</b> магического урона от снаряжения. Сбрасывает цель монстрам.",
+          "en": "Deals base magic damage to nearby targets, <b>2,147</b> magic damage and <b>70%</b> magic damage from gear. Resets mob targets."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae4080b8a571dcec48ed4113",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "2841a679ae4080b8a571dcec48ed4113",
+      "name_ru": "Сверхновая",
+      "name_en": "Supernova",
+      "variant": "next",
+      "skill_level": 5,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 7000,
+      "mana_cost": 248,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 2375000
+          }
+        ],
+        "level": 56,
+        "status_level": 5
+      },
+      "description_ru": "Наносит ближайшим целям базовый магический урон, 2,363 магического урона и 75% магического урона от снаряжения. Сбрасывает цель монстрам.",
+      "description_en": "Deals base magic damage to nearby targets, 2,363 magic damage and 75% magic damage from gear. Resets mob targets.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae4080b8a571dcec48ed4113",
+        "activation": {
+          "cooldown": 7000,
+          "consumables": null,
+          "mana_cost": 248,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 5,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 2375000
+            }
+          ],
+          "level": 56,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим целям базовый магический урон, <b>2,363</b> магического урона и <b>75%</b> магического урона от снаряжения. Сбрасывает цель монстрам.",
+          "en": "Deals base magic damage to nearby targets, <b>2,363</b> magic damage and <b>75%</b> magic damage from gear. Resets mob targets."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae4080b8a571dcec48ed4113",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "2841a679ae4080f2a94ae59992b96ffc",
+      "name_ru": "Пелена разума",
+      "name_en": "Mind Haze",
+      "variant": "effective",
+      "skill_level": 3,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 43,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4000,
+      "cooldown_ms": 4500,
+      "mana_cost": 212,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1400000
+          }
+        ],
+        "level": 51,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 2,303 магического урона и 195% магического урона от снаряжения. Снижает меткость противника на 29% в течение 10 с.",
+      "description_en": "Deals basic magic damage to the target, 2,303 magic damage and 195% magic damage from gear. Reduces the enemy's accuracy by 29% for 10 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae4080f2a94ae59992b96ffc",
+        "activation": {
+          "cooldown": 4500,
+          "consumables": null,
+          "mana_cost": 212,
+          "time": 4000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 3,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1400000
+            }
+          ],
+          "level": 51,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>2,303</b> магического урона и <b>195%</b> магического урона от снаряжения. Снижает меткость противника на <b>29%</b> в течение <b>10 с</b>.",
+          "en": "Deals basic magic damage to the target, <b>2,303</b> magic damage and <b>195%</b> magic damage from gear. Reduces the enemy's accuracy by <b>29%</b> for <b>10 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae4080f2a94ae59992b96ffc",
+        "required_character_level": 43,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "2841a679ae4080f2a94ae59992b96ffc",
+      "name_ru": "Пелена разума",
+      "name_en": "Mind Haze",
+      "variant": "next",
+      "skill_level": 4,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 43,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4000,
+      "cooldown_ms": 4500,
+      "mana_cost": 230,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 2,561 магического урона и 210% магического урона от снаряжения. Снижает меткость противника на 32% в течение 10 с.",
+      "description_en": "Deals basic magic damage to the target, 2,561 magic damage and 210% magic damage from gear. Reduces the enemy's accuracy by 32% for 10 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae4080f2a94ae59992b96ffc",
+        "activation": {
+          "cooldown": 4500,
+          "consumables": null,
+          "mana_cost": 230,
+          "time": 4000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 4,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>2,561</b> магического урона и <b>210%</b> магического урона от снаряжения. Снижает меткость противника на <b>32%</b> в течение <b>10 с</b>.",
+          "en": "Deals basic magic damage to the target, <b>2,561</b> magic damage and <b>210%</b> magic damage from gear. Reduces the enemy's accuracy by <b>32%</b> for <b>10 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae4080f2a94ae59992b96ffc",
+        "required_character_level": 43,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "2841a679ae4080f0b3d7ca7188632de7",
+      "name_ru": "Мистический отзвук",
+      "name_en": "Mystic Echo",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 46,
+      "unlock_status_level": 4,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1800,
+      "cooldown_ms": 2000,
+      "mana_cost": 250,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Накладывает на группу мага эффект, который наносит 14% дополнительного магического урона от снаряжения при каждой атаке в течение 900 с.",
+      "description_en": "Applies an effect to the mage's party that deals 14% additional magic damage based on the gear damage with each attack for 900 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae4080f0b3d7ca7188632de7",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 250,
+          "time": 1800,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 2,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Накладывает на группу мага эффект, который наносит <b>14%</b> дополнительного магического урона от снаряжения при каждой атаке в течение <b>900 с</b>.",
+          "en": "Applies an effect to the mage's party that deals <b>14%</b> additional magic damage based on the gear damage with each attack for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae4080f0b3d7ca7188632de7",
+        "required_character_level": 46,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2841a679ae4080f0b3d7ca7188632de7",
+      "name_ru": "Мистический отзвук",
+      "name_en": "Mystic Echo",
+      "variant": "next",
+      "skill_level": 3,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 46,
+      "unlock_status_level": 4,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1800,
+      "cooldown_ms": 2000,
+      "mana_cost": 275,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1700000
+          }
+        ],
+        "level": 54,
+        "status_level": 5
+      },
+      "description_ru": "Накладывает на группу мага эффект, который наносит 16% дополнительного магического урона от снаряжения при каждой атаке в течение 900 с.",
+      "description_en": "Applies an effect to the mage's party that deals 16% additional magic damage based on the gear damage with each attack for 900 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "2841a679ae4080f0b3d7ca7188632de7",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 275,
+          "time": 1800,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 3,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1700000
+            }
+          ],
+          "level": 54,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Накладывает на группу мага эффект, который наносит <b>16%</b> дополнительного магического урона от снаряжения при каждой атаке в течение <b>900 с</b>.",
+          "en": "Applies an effect to the mage's party that deals <b>16%</b> additional magic damage based on the gear damage with each attack for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2841a679ae4080f0b3d7ca7188632de7",
+        "required_character_level": 46,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "3641a679ae408021abbdd2274fbb8520",
+      "name_ru": "Морозный шип",
+      "name_en": "Frost Spike",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4300,
+      "cooldown_ms": 13200,
+      "mana_cost": 221,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 165% магического урона от снаряжения и 2,186 магического урона. С шансом 65% замедляет цель на 80% на 4.2 с.",
+      "description_en": "Deals base magic damage, 165% magic gear damage and 2,186 magic damage to the target. Has a 65% chance to slow the target by 80% for 4.2 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "3641a679ae408021abbdd2274fbb8520",
+        "activation": {
+          "cooldown": 13200,
+          "consumables": null,
+          "mana_cost": 221,
+          "time": 4300,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 1,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>165%</b> магического урона от снаряжения и <b>2,186</b> магического урона. С шансом <b>65%</b> замедляет цель на <b>80%</b> на <b>4.2 с</b>.",
+          "en": "Deals base magic damage, <b>165%</b> magic gear damage and <b>2,186</b> magic damage to the target. Has a <b>65%</b> chance to slow the target by <b>80%</b> for <b>4.2 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae408021abbdd2274fbb8520",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "3641a679ae408021abbdd2274fbb8520",
+      "name_ru": "Морозный шип",
+      "name_en": "Frost Spike",
+      "variant": "next",
+      "skill_level": 2,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4300,
+      "cooldown_ms": 13200,
+      "mana_cost": 239,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1700000
+          }
+        ],
+        "level": 54,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 180% магического урона от снаряжения и 2,440 магического урона. С шансом 68% замедляет цель на 80% на 4.4 с.",
+      "description_en": "Deals base magic damage, 180% magic gear damage and 2,440 magic damage to the target. Has a 68% chance to slow the target by 80% for 4.4 s.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "3641a679ae408021abbdd2274fbb8520",
+        "activation": {
+          "cooldown": 13200,
+          "consumables": null,
+          "mana_cost": 239,
+          "time": 4300,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 2,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1700000
+            }
+          ],
+          "level": 54,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>180%</b> магического урона от снаряжения и <b>2,440</b> магического урона. С шансом <b>68%</b> замедляет цель на <b>80%</b> на <b>4.4 с</b>.",
+          "en": "Deals base magic damage, <b>180%</b> magic gear damage and <b>2,440</b> magic damage to the target. Has a <b>68%</b> chance to slow the target by <b>80%</b> for <b>4.4 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae408021abbdd2274fbb8520",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "3641a679ae4080339ff1f17dc7e8d520",
+      "name_ru": "Жертвенный взрыв",
+      "name_en": "Sacrificial Blast",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 5000,
+      "cooldown_ms": 14000,
+      "mana_cost": 147,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Наносит 2,200 магического урона ближайшим врагам. Расходует 60% от текущего количества здоровья, нанося дополнительно 2.2 магического урона за каждую потраченную единицу здоровья.",
+      "description_en": "Deals 2,200 magic damage to nearby enemies. Consumes 60% of your current health, dealing an additional 2.2 magic damage for each point of health spent.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "3641a679ae4080339ff1f17dc7e8d520",
+        "activation": {
+          "cooldown": 14000,
+          "consumables": null,
+          "mana_cost": 147,
+          "time": 5000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 1,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит <b>2,200</b> магического урона ближайшим врагам. Расходует <b>60%</b> от текущего количества здоровья, нанося дополнительно <b>2.2</b> магического урона за каждую потраченную единицу здоровья.",
+          "en": "Deals <b>2,200</b> magic damage to nearby enemies. Consumes <b>60%</b> of your current health, dealing an additional <b>2.2</b> magic damage for each point of health spent."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae4080339ff1f17dc7e8d520",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "3641a679ae4080339ff1f17dc7e8d520",
+      "name_ru": "Жертвенный взрыв",
+      "name_en": "Sacrificial Blast",
+      "variant": "next",
+      "skill_level": 2,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4800,
+      "cooldown_ms": 14000,
+      "mana_cost": 159,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1700000
+          }
+        ],
+        "level": 54,
+        "status_level": 5
+      },
+      "description_ru": "Наносит 2,400 магического урона ближайшим врагам. Расходует 60% от текущего количества здоровья, нанося дополнительно 2.4 магического урона за каждую потраченную единицу здоровья.",
+      "description_en": "Deals 2,400 magic damage to nearby enemies. Consumes 60% of your current health, dealing an additional 2.4 magic damage for each point of health spent.",
+      "context": "account_character",
+      "context_character_level": 52,
+      "raw_definition": {
+        "id": "3641a679ae4080339ff1f17dc7e8d520",
+        "activation": {
+          "cooldown": 14000,
+          "consumables": null,
+          "mana_cost": 159,
+          "time": 4800,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "mage",
+        "level": 2,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1700000
+            }
+          ],
+          "level": 54,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит <b>2,400</b> магического урона ближайшим врагам. Расходует <b>60%</b> от текущего количества здоровья, нанося дополнительно <b>2.4</b> магического урона за каждую потраченную единицу здоровья.",
+          "en": "Deals <b>2,400</b> magic damage to nearby enemies. Consumes <b>60%</b> of your current health, dealing an additional <b>2.4</b> magic damage for each point of health spent."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae4080339ff1f17dc7e8d520",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 1
+      }
+    }
+  ]
+}

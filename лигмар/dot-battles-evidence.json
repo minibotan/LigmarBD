@@ -1,0 +1,309 @@
+{
+  "time_basis": "Receive timestamps, not server event timestamps",
+  "skill_id": "14b1a679ae4080668655cfd1bbc9ce75",
+  "effect_group": "1581a679ae408000af12c414abc1e076",
+  "battles": [
+    {
+      "battle": 1,
+      "events": [
+        {
+          "time_s": 0.0,
+          "kind": "cast",
+          "damage": 2255,
+          "critical": false
+        },
+        {
+          "time_s": 0.097176,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 1.048264,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 2.016023,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 3.021079,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 4.032115,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 5.143352,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 6.049064,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 7.055772,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 8.058552,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 9.067401,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 10.075008,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 11.128364,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 12.090772,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 13.099699,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 14.004805,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        }
+      ],
+      "segments": [
+        {
+          "cast_number": 1,
+          "cast_at_s": 0.0,
+          "tick_count": 15,
+          "first_tick_after_cast_s": 0.097176,
+          "last_tick_after_cast_s": 14.004805,
+          "median_tick_interval_s": 1.005882,
+          "tick_damage_values": [
+            137
+          ],
+          "sum_tick_damage": 2055
+        }
+      ]
+    },
+    {
+      "battle": 2,
+      "events": [
+        {
+          "time_s": 0.0,
+          "kind": "cast",
+          "damage": 1847,
+          "critical": false
+        },
+        {
+          "time_s": 0.100457,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 1.043689,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 2.01738,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 3.027066,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 4.04473,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 5.040929,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 6.048289,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 7.062783,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 8.141682,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 8.576066,
+          "kind": "cast",
+          "damage": 2163,
+          "critical": false
+        },
+        {
+          "time_s": 8.576143,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 9.580127,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 10.5906,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 11.597767,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 12.605612,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 13.614896,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 14.62127,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 15.628976,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 16.662013,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 17.646036,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 18.653708,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 19.658756,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 20.664767,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 21.669446,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        },
+        {
+          "time_s": 22.580284,
+          "kind": "tick",
+          "damage": 137,
+          "critical": false
+        }
+      ],
+      "segments": [
+        {
+          "cast_number": 1,
+          "cast_at_s": 0.0,
+          "tick_count": 9,
+          "first_tick_after_cast_s": 0.100457,
+          "last_tick_after_cast_s": 8.141682,
+          "median_tick_interval_s": 1.008523,
+          "tick_damage_values": [
+            137
+          ],
+          "sum_tick_damage": 1233
+        },
+        {
+          "cast_number": 2,
+          "cast_at_s": 8.576066,
+          "tick_count": 15,
+          "first_tick_after_cast_s": 7.7e-05,
+          "last_tick_after_cast_s": 14.004218,
+          "median_tick_interval_s": 1.00677,
+          "tick_damage_values": [
+            137
+          ],
+          "sum_tick_damage": 2055
+        }
+      ]
+    }
+  ]
+}

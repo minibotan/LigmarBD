@@ -1,0 +1,2900 @@
+{
+  "schema_version": 1,
+  "class_id": "priest",
+  "class_name_ru": "жрец",
+  "coverage": "observed effective/next ranks, not a complete all-ranks catalog",
+  "summary": {
+    "skills": 20,
+    "observations": 37,
+    "skill_rank_pairs": 37
+  },
+  "rows": [
+    {
+      "skill_id": "15a1a679ae4080738967fa2d8704dcc2",
+      "name_ru": "Стрела веры",
+      "name_en": "Faith Arrow",
+      "variant": "effective",
+      "skill_level": 10,
+      "learned_level": 10,
+      "max_level": 10,
+      "unlock_character_level": 1,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any",
+        "unarmed"
+      ],
+      "activation_time_ms": 2500,
+      "cooldown_ms": 1000,
+      "mana_cost": 140,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 800000
+          }
+        ],
+        "level": 45,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый урон, 100% урона от снаряжения и 1,380 в виде физического урона.",
+      "description_en": "Deals base physical damage to the target, 100% of gear damage and 1,380 as physical damage.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080738967fa2d8704dcc2",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 140,
+          "time": 2500,
+          "weapon": [
+            "any",
+            "unarmed"
+          ]
+        },
+        "owner": "priest",
+        "level": 10,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 800000
+            }
+          ],
+          "level": 45,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый урон, <b>100%</b> урона от снаряжения и <b>1,380</b> в виде физического урона.",
+          "en": "Deals base physical damage to the target, <b>100%</b> of gear damage and <b>1,380</b> as physical damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080738967fa2d8704dcc2",
+        "required_character_level": 1,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 10
+      }
+    },
+    {
+      "skill_id": "15a1a679ae4080dc8c64d05d1f444384",
+      "name_ru": "Дыхание жизни",
+      "name_en": "Life Breath",
+      "variant": "effective",
+      "skill_level": 10,
+      "learned_level": 10,
+      "max_level": 10,
+      "unlock_character_level": 3,
+      "unlock_status_level": 0,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 1000,
+      "mana_cost": 229,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1160000
+          }
+        ],
+        "level": 48,
+        "status_level": 4
+      },
+      "description_ru": "Восстанавливает свое или здоровье цели в размере 705 и 30% от базовой магической атаки в течение 15 с.",
+      "description_en": "Restores own or target's health by 705 and 30% of base magic attack over 15 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080dc8c64d05d1f444384",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 229,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 10,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1160000
+            }
+          ],
+          "level": 48,
+          "status_level": 4
+        },
+        "type": "support",
+        "description": {
+          "ru": "Восстанавливает свое или здоровье цели в размере <b>705</b> и <b>30%</b> от базовой магической атаки в течение <b>15 с</b>.",
+          "en": "Restores own or target's health by <b>705</b> and <b>30%</b> of base magic attack over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080dc8c64d05d1f444384",
+        "required_character_level": 3,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 10
+      }
+    },
+    {
+      "skill_id": "15a1a679ae4080a7852bd27d4cc00327",
+      "name_ru": "Хлыст пламени",
+      "name_en": "Flame Lash",
+      "variant": "effective",
+      "skill_level": 10,
+      "learned_level": 10,
+      "max_level": 10,
+      "unlock_character_level": 6,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 2000,
+      "mana_cost": 144,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1400000
+          }
+        ],
+        "level": 51,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 1,372 магического урона и 100% магического урона от снаряжения. Имеет 92% шанс замедлить цель на 40% в течение 8 с.",
+      "description_en": "Deals basic magic damage to the target, 1,372 magic damage and 100% magic damage from gear. Has a 92% chance to slow the target by 40% for 8 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080a7852bd27d4cc00327",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 144,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 10,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1400000
+            }
+          ],
+          "level": 51,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>1,372</b> магического урона и <b>100%</b> магического урона от снаряжения. Имеет <b>92%</b> шанс замедлить цель на <b>40%</b> в течение <b>8 с</b>.",
+          "en": "Deals basic magic damage to the target, <b>1,372</b> magic damage and <b>100%</b> magic damage from gear. Has a <b>92%</b> chance to slow the target by <b>40%</b> for <b>8 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080a7852bd27d4cc00327",
+        "required_character_level": 6,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 10
+      }
+    },
+    {
+      "skill_id": "15a1a679ae4080d9b29ad52400713d52",
+      "name_ru": "Живительный свет",
+      "name_en": "Vital Light",
+      "variant": "effective",
+      "skill_level": 9,
+      "learned_level": 9,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2500,
+      "cooldown_ms": 1000,
+      "mana_cost": 147,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1240000
+          }
+        ],
+        "level": 49,
+        "status_level": 4
+      },
+      "description_ru": "Восстанавливает свое или здоровье цели в размере 320 и 18% от базового магического урона.",
+      "description_en": "Restores its own or the target's health by 320 and 18% of the base magic damage.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080d9b29ad52400713d52",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 147,
+          "time": 2500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 9,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1240000
+            }
+          ],
+          "level": 49,
+          "status_level": 4
+        },
+        "type": "support",
+        "description": {
+          "ru": "Восстанавливает свое или здоровье цели в размере <b>320</b> и <b>18%</b> от базового магического урона.",
+          "en": "Restores its own or the target's health by <b>320</b> and <b>18%</b> of the base magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080d9b29ad52400713d52",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 9
+      }
+    },
+    {
+      "skill_id": "15a1a679ae4080d9b29ad52400713d52",
+      "name_ru": "Живительный свет",
+      "name_en": "Vital Light",
+      "variant": "next",
+      "skill_level": 10,
+      "learned_level": 9,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2500,
+      "cooldown_ms": 1000,
+      "mana_cost": 162,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1700000
+          }
+        ],
+        "level": 54,
+        "status_level": 5
+      },
+      "description_ru": "Восстанавливает свое или здоровье цели в размере 350 и 20% от базового магического урона.",
+      "description_en": "Restores its own or the target's health by 350 and 20% of the base magic damage.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080d9b29ad52400713d52",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 162,
+          "time": 2500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 10,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1700000
+            }
+          ],
+          "level": 54,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Восстанавливает свое или здоровье цели в размере <b>350</b> и <b>20%</b> от базового магического урона.",
+          "en": "Restores its own or the target's health by <b>350</b> and <b>20%</b> of the base magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080d9b29ad52400713d52",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 9
+      }
+    },
+    {
+      "skill_id": "15a1a679ae40800e936df1ddbdb35657",
+      "name_ru": "Эгида",
+      "name_en": "Aegis",
+      "variant": "effective",
+      "skill_level": 8,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 13,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 33400,
+      "mana_cost": 92,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1160000
+          }
+        ],
+        "level": 48,
+        "status_level": 4
+      },
+      "description_ru": "Поглощает 74% входящего физического урона в течение 20 с. На каждую единицу урона расходуется 1.3 маны.",
+      "description_en": "Absorbs 74% of incoming physical damage for 20 s. Each unit of damage absorbed costs 1.3 mana.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae40800e936df1ddbdb35657",
+        "activation": {
+          "cooldown": 33400,
+          "consumables": null,
+          "mana_cost": 92,
+          "time": 1500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 8,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1160000
+            }
+          ],
+          "level": 48,
+          "status_level": 4
+        },
+        "type": "support",
+        "description": {
+          "ru": "Поглощает <b>74%</b> входящего физического урона в течение <b>20 с</b>. На каждую единицу урона расходуется <b>1.3</b> маны.",
+          "en": "Absorbs <b>74%</b> of incoming physical damage for <b>20 s</b>. Each unit of damage absorbed costs <b>1.3</b> mana."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae40800e936df1ddbdb35657",
+        "required_character_level": 13,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "15a1a679ae40800e936df1ddbdb35657",
+      "name_ru": "Эгида",
+      "name_en": "Aegis",
+      "variant": "next",
+      "skill_level": 9,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 13,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 33400,
+      "mana_cost": 104,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1600000
+          }
+        ],
+        "level": 53,
+        "status_level": 5
+      },
+      "description_ru": "Поглощает 77% входящего физического урона в течение 20 с. На каждую единицу урона расходуется 1.2 маны.",
+      "description_en": "Absorbs 77% of incoming physical damage for 20 s. Each unit of damage absorbed costs 1.2 mana.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae40800e936df1ddbdb35657",
+        "activation": {
+          "cooldown": 33400,
+          "consumables": null,
+          "mana_cost": 104,
+          "time": 1500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 9,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1600000
+            }
+          ],
+          "level": 53,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Поглощает <b>77%</b> входящего физического урона в течение <b>20 с</b>. На каждую единицу урона расходуется <b>1.2</b> маны.",
+          "en": "Absorbs <b>77%</b> of incoming physical damage for <b>20 s</b>. Each unit of damage absorbed costs <b>1.2</b> mana."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae40800e936df1ddbdb35657",
+        "required_character_level": 13,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "15a1a679ae40801ca15fd3cd95d3ff82",
+      "name_ru": "Боевая молитва",
+      "name_en": "Battle Prayer",
+      "variant": "effective",
+      "skill_level": 8,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 1000,
+      "mana_cost": 111,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1400000
+          }
+        ],
+        "level": 51,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает всем участникам группы физическую защиту и сопротивление на 50% в течение 900 с.",
+      "description_en": "Increases all party members' physical defense and resistance by 50% for 900 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae40801ca15fd3cd95d3ff82",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 111,
+          "time": 1500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 8,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1400000
+            }
+          ],
+          "level": 51,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает всем участникам группы физическую защиту и сопротивление на <b>50%</b> в течение <b>900 с</b>.",
+          "en": "Increases all party members' physical defense and resistance by <b>50%</b> for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae40801ca15fd3cd95d3ff82",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "15a1a679ae40801ca15fd3cd95d3ff82",
+      "name_ru": "Боевая молитва",
+      "name_en": "Battle Prayer",
+      "variant": "next",
+      "skill_level": 9,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 1000,
+      "mana_cost": 120,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 2375000
+          }
+        ],
+        "level": 56,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает всем участникам группы физическую защиту и сопротивление на 55% в течение 900 с.",
+      "description_en": "Increases all party members' physical defense and resistance by 55% for 900 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae40801ca15fd3cd95d3ff82",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 120,
+          "time": 1500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 9,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 2375000
+            }
+          ],
+          "level": 56,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает всем участникам группы физическую защиту и сопротивление на <b>55%</b> в течение <b>900 с</b>.",
+          "en": "Increases all party members' physical defense and resistance by <b>55%</b> for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae40801ca15fd3cd95d3ff82",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "15a1a679ae408063b2ebcd181b6f9e26",
+      "name_ru": "Дар солнца",
+      "name_en": "Solar Gift",
+      "variant": "effective",
+      "skill_level": 8,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 1000,
+      "mana_cost": 264,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1400000
+          }
+        ],
+        "level": 51,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает всем участникам группы скорость восстановления здоровья и маны на 16 в секунду в течение 900 с.",
+      "description_en": "Increases all party members' health and mana regeneration by 16 per second for 900 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae408063b2ebcd181b6f9e26",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 264,
+          "time": 1500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 8,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1400000
+            }
+          ],
+          "level": 51,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает всем участникам группы скорость восстановления здоровья и маны на <b>16</b> в секунду в течение <b>900 с</b>.",
+          "en": "Increases all party members' health and mana regeneration by <b>16</b> per second for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae408063b2ebcd181b6f9e26",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "15a1a679ae408063b2ebcd181b6f9e26",
+      "name_ru": "Дар солнца",
+      "name_en": "Solar Gift",
+      "variant": "next",
+      "skill_level": 9,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 1000,
+      "mana_cost": 282,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 2375000
+          }
+        ],
+        "level": 56,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает всем участникам группы скорость восстановления здоровья и маны на 18 в секунду в течение 900 с.",
+      "description_en": "Increases all party members' health and mana regeneration by 18 per second for 900 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae408063b2ebcd181b6f9e26",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 282,
+          "time": 1500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 9,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 2375000
+            }
+          ],
+          "level": 56,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает всем участникам группы скорость восстановления здоровья и маны на <b>18</b> в секунду в течение <b>900 с</b>.",
+          "en": "Increases all party members' health and mana regeneration by <b>18</b> per second for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae408063b2ebcd181b6f9e26",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "15a1a679ae4080e09e7cd7a888c91a1c",
+      "name_ru": "Испепеление",
+      "name_en": "Incineration",
+      "variant": "effective",
+      "skill_level": 7,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3600,
+      "cooldown_ms": 6800,
+      "mana_cost": 166,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон и 3,030 магического урона в течение 15 с.",
+      "description_en": "Deals base magic damage to the target and 3,030 magic damage over 15 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080e09e7cd7a888c91a1c",
+        "activation": {
+          "cooldown": 6800,
+          "consumables": null,
+          "mana_cost": 166,
+          "time": 3600,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 7,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон и <b>3,030</b> магического урона в течение <b>15 с</b>.",
+          "en": "Deals base magic damage to the target and <b>3,030</b> magic damage over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080e09e7cd7a888c91a1c",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "15a1a679ae4080e09e7cd7a888c91a1c",
+      "name_ru": "Испепеление",
+      "name_en": "Incineration",
+      "variant": "next",
+      "skill_level": 8,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3600,
+      "cooldown_ms": 6800,
+      "mana_cost": 184,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон и 3,465 магического урона в течение 15 с.",
+      "description_en": "Deals base magic damage to the target and 3,465 magic damage over 15 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080e09e7cd7a888c91a1c",
+        "activation": {
+          "cooldown": 6800,
+          "consumables": null,
+          "mana_cost": 184,
+          "time": 3600,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 8,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон и <b>3,465</b> магического урона в течение <b>15 с</b>.",
+          "en": "Deals base magic damage to the target and <b>3,465</b> magic damage over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080e09e7cd7a888c91a1c",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "15a1a679ae408000a48efe6ccc85a088",
+      "name_ru": "Божественное касание",
+      "name_en": "Divine Touch",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 23,
+      "unlock_status_level": 2,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 7000,
+      "cooldown_ms": 1000,
+      "mana_cost": 660,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1160000
+          }
+        ],
+        "level": 48,
+        "status_level": 4
+      },
+      "description_ru": "Воскрешает цель. Сокращает потерю опыта от гибели на 42%.\n\nПри воскрешении персонаж получает 30 от максимального значения здоровья и 30 от максимального значения маны.",
+      "description_en": "Revives the target. Reduces experience loss from death by 42%.\n\nUpon resurrection, the character receives 30 of maximum health and 30 of maximum mana.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae408000a48efe6ccc85a088",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 660,
+          "time": 7000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 6,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1160000
+            }
+          ],
+          "level": 48,
+          "status_level": 4
+        },
+        "type": "support",
+        "description": {
+          "ru": "Воскрешает цель. Сокращает потерю опыта от гибели на <b>42%</b>.<br><br>При воскрешении персонаж получает <b>30</b> от максимального значения здоровья и <b>30</b> от максимального значения маны.",
+          "en": "Revives the target. Reduces experience loss from death by <b>42%</b>.<br><br>Upon resurrection, the character receives <b>30</b> of maximum health and <b>30</b> of maximum mana."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae408000a48efe6ccc85a088",
+        "required_character_level": 23,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "15a1a679ae408000a48efe6ccc85a088",
+      "name_ru": "Божественное касание",
+      "name_en": "Divine Touch",
+      "variant": "next",
+      "skill_level": 7,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 23,
+      "unlock_status_level": 2,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 7000,
+      "cooldown_ms": 1000,
+      "mana_cost": 735,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1600000
+          }
+        ],
+        "level": 53,
+        "status_level": 5
+      },
+      "description_ru": "Воскрешает цель. Сокращает потерю опыта от гибели на 49%.\n\nПри воскрешении персонаж получает 30 от максимального значения здоровья и 30 от максимального значения маны.",
+      "description_en": "Revives the target. Reduces experience loss from death by 49%.\n\nUpon resurrection, the character receives 30 of maximum health and 30 of maximum mana.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae408000a48efe6ccc85a088",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 735,
+          "time": 7000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 7,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1600000
+            }
+          ],
+          "level": 53,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Воскрешает цель. Сокращает потерю опыта от гибели на <b>49%</b>.<br><br>При воскрешении персонаж получает <b>30</b> от максимального значения здоровья и <b>30</b> от максимального значения маны.",
+          "en": "Revives the target. Reduces experience loss from death by <b>49%</b>.<br><br>Upon resurrection, the character receives <b>30</b> of maximum health and <b>30</b> of maximum mana."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae408000a48efe6ccc85a088",
+        "required_character_level": 23,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "2871a679ae408052a471e9189b8b8c30",
+      "name_ru": "Сияющий каскад",
+      "name_en": "Radiant Cascade",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 23,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4000,
+      "cooldown_ms": 6500,
+      "mana_cost": 216,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1160000
+          }
+        ],
+        "level": 48,
+        "status_level": 4
+      },
+      "description_ru": "Наносит группе цели базовый магический урон, 1,458 магического урона и 160% магического урона от снаряжения.",
+      "description_en": "Deals basic magic damage to the target's party, 1,458 magic damage and 160% magic damage from gear.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae408052a471e9189b8b8c30",
+        "activation": {
+          "cooldown": 6500,
+          "consumables": null,
+          "mana_cost": 216,
+          "time": 4000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 6,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1160000
+            }
+          ],
+          "level": 48,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит группе цели базовый магический урон, <b>1,458</b> магического урона и <b>160%</b> магического урона от снаряжения.",
+          "en": "Deals basic magic damage to the target's party, <b>1,458</b> magic damage and <b>160%</b> magic damage from gear."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae408052a471e9189b8b8c30",
+        "required_character_level": 23,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "2871a679ae408052a471e9189b8b8c30",
+      "name_ru": "Сияющий каскад",
+      "name_en": "Radiant Cascade",
+      "variant": "next",
+      "skill_level": 7,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 23,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4000,
+      "cooldown_ms": 6500,
+      "mana_cost": 239,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1600000
+          }
+        ],
+        "level": 53,
+        "status_level": 5
+      },
+      "description_ru": "Наносит группе цели базовый магический урон, 1,646 магического урона и 170% магического урона от снаряжения.",
+      "description_en": "Deals basic magic damage to the target's party, 1,646 magic damage and 170% magic damage from gear.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae408052a471e9189b8b8c30",
+        "activation": {
+          "cooldown": 6500,
+          "consumables": null,
+          "mana_cost": 239,
+          "time": 4000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 7,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1600000
+            }
+          ],
+          "level": 53,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит группе цели базовый магический урон, <b>1,646</b> магического урона и <b>170%</b> магического урона от снаряжения.",
+          "en": "Deals basic magic damage to the target's party, <b>1,646</b> magic damage and <b>170%</b> magic damage from gear."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae408052a471e9189b8b8c30",
+        "required_character_level": 23,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "15a1a679ae4080a89e34f4e3d83bb4af",
+      "name_ru": "Узы подавления",
+      "name_en": "Suppressing Chains",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 26,
+      "unlock_status_level": 2,
+      "type": "curse",
+      "targets": [
+        "self",
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 2000,
+      "mana_cost": 132,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1400000
+          }
+        ],
+        "level": 51,
+        "status_level": 5
+      },
+      "description_ru": "Снижает физическую защиту и сопротивление жреца и цели на 22% в течение 16 с.",
+      "description_en": "Decreases the priest's and target's physical defense and resistance by 22% for 16 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080a89e34f4e3d83bb4af",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 132,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 6,
+        "objects": [
+          "self",
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1400000
+            }
+          ],
+          "level": 51,
+          "status_level": 5
+        },
+        "type": "curse",
+        "description": {
+          "ru": "Снижает физическую защиту и сопротивление жреца и цели на <b>22%</b> в течение <b>16 с</b>.",
+          "en": "Decreases the priest's and target's physical defense and resistance by <b>22%</b> for <b>16 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080a89e34f4e3d83bb4af",
+        "required_character_level": 26,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "15a1a679ae4080a89e34f4e3d83bb4af",
+      "name_ru": "Узы подавления",
+      "name_en": "Suppressing Chains",
+      "variant": "next",
+      "skill_level": 7,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 26,
+      "unlock_status_level": 2,
+      "type": "curse",
+      "targets": [
+        "self",
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 2000,
+      "mana_cost": 147,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 2375000
+          }
+        ],
+        "level": 56,
+        "status_level": 5
+      },
+      "description_ru": "Снижает физическую защиту и сопротивление жреца и цели на 24% в течение 17 с.",
+      "description_en": "Decreases the priest's and target's physical defense and resistance by 24% for 17 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "15a1a679ae4080a89e34f4e3d83bb4af",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 147,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 7,
+        "objects": [
+          "self",
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 2375000
+            }
+          ],
+          "level": 56,
+          "status_level": 5
+        },
+        "type": "curse",
+        "description": {
+          "ru": "Снижает физическую защиту и сопротивление жреца и цели на <b>24%</b> в течение <b>17 с</b>.",
+          "en": "Decreases the priest's and target's physical defense and resistance by <b>24%</b> for <b>17 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "15a1a679ae4080a89e34f4e3d83bb4af",
+        "required_character_level": 26,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "2871a679ae4080b88088f0a7a45da2ce",
+      "name_ru": "Очищение",
+      "name_en": "Purification",
+      "variant": "effective",
+      "skill_level": 5,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 9000,
+      "mana_cost": 110,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Снимает все негативные эффекты с цели.",
+      "description_en": "Removes all negative effects from the target.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae4080b88088f0a7a45da2ce",
+        "activation": {
+          "cooldown": 9000,
+          "consumables": null,
+          "mana_cost": 110,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 5,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Снимает все негативные эффекты с цели.",
+          "en": "Removes all negative effects from the target."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae4080b88088f0a7a45da2ce",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "2871a679ae4080b88088f0a7a45da2ce",
+      "name_ru": "Очищение",
+      "name_en": "Purification",
+      "variant": "next",
+      "skill_level": 6,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 8000,
+      "mana_cost": 110,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Снимает все негативные эффекты с цели.",
+      "description_en": "Removes all negative effects from the target.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae4080b88088f0a7a45da2ce",
+        "activation": {
+          "cooldown": 8000,
+          "consumables": null,
+          "mana_cost": 110,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 6,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Снимает все негативные эффекты с цели.",
+          "en": "Removes all negative effects from the target."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae4080b88088f0a7a45da2ce",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "2871a679ae4080dfbff9d4d54bc1b844",
+      "name_ru": "Величие духа",
+      "name_en": "Spiritual Majesty",
+      "variant": "effective",
+      "skill_level": 8,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 1000,
+      "mana_cost": 300,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1400000
+          }
+        ],
+        "level": 51,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает всем участникам группы магическую атаку на 60% в течение 900 с.",
+      "description_en": "Increases all party members' magic attack by 60% for 900 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae4080dfbff9d4d54bc1b844",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 300,
+          "time": 1500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 8,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1400000
+            }
+          ],
+          "level": 51,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает всем участникам группы магическую атаку на <b>60%</b> в течение <b>900 с</b>.",
+          "en": "Increases all party members' magic attack by <b>60%</b> for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae4080dfbff9d4d54bc1b844",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "2871a679ae4080dfbff9d4d54bc1b844",
+      "name_ru": "Величие духа",
+      "name_en": "Spiritual Majesty",
+      "variant": "next",
+      "skill_level": 9,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 1000,
+      "mana_cost": 318,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1700000
+          }
+        ],
+        "level": 54,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает всем участникам группы магическую атаку на 65% в течение 900 с.",
+      "description_en": "Increases all party members' magic attack by 65% for 900 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae4080dfbff9d4d54bc1b844",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 318,
+          "time": 1500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 9,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1700000
+            }
+          ],
+          "level": 54,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает всем участникам группы магическую атаку на <b>65%</b> в течение <b>900 с</b>.",
+          "en": "Increases all party members' magic attack by <b>65%</b> for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae4080dfbff9d4d54bc1b844",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "33c1a679ae40802e8af3e0b96322770c",
+      "name_ru": "Сила жреца",
+      "name_en": "Priest Power",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 0,
+      "type": "passive",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 0,
+      "mana_cost": 0,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 40
+          }
+        ],
+        "level": 35,
+        "status_level": 0,
+        "buildings": [
+          {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "lvl": 1
+          }
+        ]
+      },
+      "description_ru": "Повышает атаку жреца на 12%.",
+      "description_en": "Increases the priest's attack by 12%.",
+      "context": "account_library",
+      "context_character_level": null,
+      "raw_definition": {
+        "id": "33c1a679ae40802e8af3e0b96322770c",
+        "activation": {
+          "cooldown": 0,
+          "consumables": null,
+          "mana_cost": 0,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 2,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+              "quantity": 40
+            }
+          ],
+          "level": 35,
+          "status_level": 0,
+          "buildings": [
+            {
+              "id": "33b1a679ae408076951cd457ed7a3fde",
+              "lvl": 1
+            }
+          ]
+        },
+        "type": "passive",
+        "description": {
+          "ru": "Повышает атаку жреца на <b>12%</b>.",
+          "en": "Increases the priest's attack by <b>12%</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "33c1a679ae40802e8af3e0b96322770c",
+        "required_character_level": 30,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "33c1a679ae40802e8af3e0b96322770c",
+      "name_ru": "Сила жреца",
+      "name_en": "Priest Power",
+      "variant": "next",
+      "skill_level": 3,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 0,
+      "type": "passive",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 0,
+      "mana_cost": 0,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+            "quantity": 80
+          }
+        ],
+        "level": 40,
+        "status_level": 0,
+        "buildings": [
+          {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "lvl": 1
+          }
+        ]
+      },
+      "description_ru": "Повышает атаку жреца на 18%.",
+      "description_en": "Increases the priest's attack by 18%.",
+      "context": "account_library",
+      "context_character_level": null,
+      "raw_definition": {
+        "id": "33c1a679ae40802e8af3e0b96322770c",
+        "activation": {
+          "cooldown": 0,
+          "consumables": null,
+          "mana_cost": 0,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 3,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "3391a679ae408039983bd7bdd26c037e",
+              "quantity": 80
+            }
+          ],
+          "level": 40,
+          "status_level": 0,
+          "buildings": [
+            {
+              "id": "33b1a679ae408076951cd457ed7a3fde",
+              "lvl": 1
+            }
+          ]
+        },
+        "type": "passive",
+        "description": {
+          "ru": "Повышает атаку жреца на <b>18%</b>.",
+          "en": "Increases the priest's attack by <b>18%</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "33c1a679ae40802e8af3e0b96322770c",
+        "required_character_level": 30,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2871a679ae40809797e5fb8e790b6b4a",
+      "name_ru": "Дрожь земли",
+      "name_en": "Earth Tremor",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 35,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 21000,
+      "mana_cost": 396,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Наносит ближайшим целям базовый магический урон и 1,877 магического урона. Имеет шанс 50% обездвижить на 3 с.",
+      "description_en": "Deals base magic damage and 1,877 magic damage to nearby targets. Has a 50% chance to immobilize for 3 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae40809797e5fb8e790b6b4a",
+        "activation": {
+          "cooldown": 21000,
+          "consumables": null,
+          "mana_cost": 396,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 4,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим целям базовый магический урон и <b>1,877</b> магического урона. Имеет шанс <b>50%</b> обездвижить на <b>3 с</b>.",
+          "en": "Deals base magic damage and <b>1,877</b> magic damage to nearby targets. Has a <b>50%</b> chance to immobilize for <b>3 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae40809797e5fb8e790b6b4a",
+        "required_character_level": 35,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "2871a679ae40809797e5fb8e790b6b4a",
+      "name_ru": "Дрожь земли",
+      "name_en": "Earth Tremor",
+      "variant": "next",
+      "skill_level": 5,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 35,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 21000,
+      "mana_cost": 441,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1800000
+          }
+        ],
+        "level": 55,
+        "status_level": 5
+      },
+      "description_ru": "Наносит ближайшим целям базовый магический урон и 2,150 магического урона. Имеет шанс 50% обездвижить на 3 с.",
+      "description_en": "Deals base magic damage and 2,150 magic damage to nearby targets. Has a 50% chance to immobilize for 3 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae40809797e5fb8e790b6b4a",
+        "activation": {
+          "cooldown": 21000,
+          "consumables": null,
+          "mana_cost": 441,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 5,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1800000
+            }
+          ],
+          "level": 55,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим целям базовый магический урон и <b>2,150</b> магического урона. Имеет шанс <b>50%</b> обездвижить на <b>3 с</b>.",
+          "en": "Deals base magic damage and <b>2,150</b> magic damage to nearby targets. Has a <b>50%</b> chance to immobilize for <b>3 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae40809797e5fb8e790b6b4a",
+        "required_character_level": 35,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "2871a679ae40805dab2be748310332e9",
+      "name_ru": "Исцеляющий молебен",
+      "name_en": "Healing Moleben",
+      "variant": "effective",
+      "skill_level": 3,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4500,
+      "cooldown_ms": 2000,
+      "mana_cost": 585,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1160000
+          }
+        ],
+        "level": 48,
+        "status_level": 4
+      },
+      "description_ru": "Восстанавливает здоровье всех участников группы в размере 650 и 13% от базового магического урона.",
+      "description_en": "Restores health to all party members in the amount of 650 and 13% of base magic damage.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae40805dab2be748310332e9",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 585,
+          "time": 4500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 3,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1160000
+            }
+          ],
+          "level": 48,
+          "status_level": 4
+        },
+        "type": "support",
+        "description": {
+          "ru": "Восстанавливает здоровье всех участников группы в размере <b>650</b> и <b>13%</b> от базового магического урона.",
+          "en": "Restores health to all party members in the amount of <b>650</b> and <b>13%</b> of base magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae40805dab2be748310332e9",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "2871a679ae40805dab2be748310332e9",
+      "name_ru": "Исцеляющий молебен",
+      "name_en": "Healing Moleben",
+      "variant": "next",
+      "skill_level": 4,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4500,
+      "cooldown_ms": 2000,
+      "mana_cost": 640,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1500000
+          }
+        ],
+        "level": 52,
+        "status_level": 5
+      },
+      "description_ru": "Восстанавливает здоровье всех участников группы в размере 710 и 14% от базового магического урона.",
+      "description_en": "Restores health to all party members in the amount of 710 and 14% of base magic damage.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae40805dab2be748310332e9",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 640,
+          "time": 4500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 4,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1500000
+            }
+          ],
+          "level": 52,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Восстанавливает здоровье всех участников группы в размере <b>710</b> и <b>14%</b> от базового магического урона.",
+          "en": "Restores health to all party members in the amount of <b>710</b> and <b>14%</b> of base magic damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae40805dab2be748310332e9",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "2871a679ae40808592ede56e10738e2b",
+      "name_ru": "Узы захвата",
+      "name_en": "Seizuring Chains",
+      "variant": "effective",
+      "skill_level": 3,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "curse",
+      "targets": [
+        "target",
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 20900,
+      "mana_cost": 233,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1160000
+          }
+        ],
+        "level": 48,
+        "status_level": 4
+      },
+      "description_ru": "Обездвиживает цель до 8.4 с. Снижает магическую атаку жреца на 50% в течение 3.2 с.",
+      "description_en": "Immobilizes the target for up to 8.4 s. Reduces the priest's magic attack by 50% for 3.2 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae40808592ede56e10738e2b",
+        "activation": {
+          "cooldown": 20900,
+          "consumables": null,
+          "mana_cost": 233,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 3,
+        "objects": [
+          "target",
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1160000
+            }
+          ],
+          "level": 48,
+          "status_level": 4
+        },
+        "type": "curse",
+        "description": {
+          "ru": "Обездвиживает цель до <b>8.4 с</b>. Снижает магическую атаку жреца на <b>50%</b> в течение <b>3.2 с</b>.",
+          "en": "Immobilizes the target for up to <b>8.4 s</b>. Reduces the priest's magic attack by <b>50%</b> for <b>3.2 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae40808592ede56e10738e2b",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "2871a679ae40808592ede56e10738e2b",
+      "name_ru": "Узы захвата",
+      "name_en": "Seizuring Chains",
+      "variant": "next",
+      "skill_level": 4,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "curse",
+      "targets": [
+        "target",
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2000,
+      "cooldown_ms": 20900,
+      "mana_cost": 253,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1500000
+          }
+        ],
+        "level": 52,
+        "status_level": 5
+      },
+      "description_ru": "Обездвиживает цель до 9.6 с. Снижает магическую атаку жреца на 50% в течение 3.6 с.",
+      "description_en": "Immobilizes the target for up to 9.6 s. Reduces the priest's magic attack by 50% for 3.6 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae40808592ede56e10738e2b",
+        "activation": {
+          "cooldown": 20900,
+          "consumables": null,
+          "mana_cost": 253,
+          "time": 2000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 4,
+        "objects": [
+          "target",
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1500000
+            }
+          ],
+          "level": 52,
+          "status_level": 5
+        },
+        "type": "curse",
+        "description": {
+          "ru": "Обездвиживает цель до <b>9.6 с</b>. Снижает магическую атаку жреца на <b>50%</b> в течение <b>3.6 с</b>.",
+          "en": "Immobilizes the target for up to <b>9.6 s</b>. Reduces the priest's magic attack by <b>50%</b> for <b>3.6 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae40808592ede56e10738e2b",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "2871a679ae4080569776c44670a83b56",
+      "name_ru": "Огненный столп",
+      "name_en": "Fire Pillar",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 45,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3700,
+      "cooldown_ms": 4800,
+      "mana_cost": 288,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1240000
+          }
+        ],
+        "level": 49,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый магический урон, 2,300 магического урона и 120% магического урона от снаряжения.",
+      "description_en": "Deals base magic damage to the target, 2,300 magic damage and 120% magic damage from gear.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae4080569776c44670a83b56",
+        "activation": {
+          "cooldown": 4800,
+          "consumables": null,
+          "mana_cost": 288,
+          "time": 3700,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 2,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1240000
+            }
+          ],
+          "level": 49,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>2,300</b> магического урона и <b>120%</b> магического урона от снаряжения.",
+          "en": "Deals base magic damage to the target, <b>2,300</b> magic damage and <b>120%</b> magic damage from gear."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae4080569776c44670a83b56",
+        "required_character_level": 45,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2871a679ae4080569776c44670a83b56",
+      "name_ru": "Огненный столп",
+      "name_en": "Fire Pillar",
+      "variant": "next",
+      "skill_level": 3,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 45,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3700,
+      "cooldown_ms": 4800,
+      "mana_cost": 312,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1600000
+          }
+        ],
+        "level": 53,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый магический урон, 2,557 магического урона и 130% магического урона от снаряжения.",
+      "description_en": "Deals base magic damage to the target, 2,557 magic damage and 130% magic damage from gear.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "2871a679ae4080569776c44670a83b56",
+        "activation": {
+          "cooldown": 4800,
+          "consumables": null,
+          "mana_cost": 312,
+          "time": 3700,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 3,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1600000
+            }
+          ],
+          "level": 53,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый магический урон, <b>2,557</b> магического урона и <b>130%</b> магического урона от снаряжения.",
+          "en": "Deals base magic damage to the target, <b>2,557</b> magic damage and <b>130%</b> magic damage from gear."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2871a679ae4080569776c44670a83b56",
+        "required_character_level": 45,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "3641a679ae408024badff8a08e2179a1",
+      "name_ru": "Обновляющий луч",
+      "name_en": "Renewing Ray",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4000,
+      "cooldown_ms": 1000,
+      "mana_cost": 490,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Мгновенно восстанавливает цели здоровье в размере 690 плюс 23% от магической атаки и продолжает восстанавливать 690 здоровья в течение 15 с.",
+      "description_en": "Instantly restores health to the target equal to 690 plus 23% scaling from magic attack, and continues to restore 690 health over 15 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "3641a679ae408024badff8a08e2179a1",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 490,
+          "time": 4000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 1,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Мгновенно восстанавливает цели здоровье в размере <b>690</b> плюс <b>23%</b> от магической атаки и продолжает восстанавливать <b>690</b> здоровья в течение <b>15 с</b>.",
+          "en": "Instantly restores health to the target equal to <b>690</b> plus <b>23%</b> scaling from magic attack, and continues to restore <b>690</b> health over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae408024badff8a08e2179a1",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "3641a679ae408024badff8a08e2179a1",
+      "name_ru": "Обновляющий луч",
+      "name_en": "Renewing Ray",
+      "variant": "next",
+      "skill_level": 2,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "support",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 4000,
+      "cooldown_ms": 1000,
+      "mana_cost": 530,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1700000
+          }
+        ],
+        "level": 54,
+        "status_level": 5
+      },
+      "description_ru": "Мгновенно восстанавливает цели здоровье в размере 750 плюс 26% от магической атаки и продолжает восстанавливать 750 здоровья в течение 15 с.",
+      "description_en": "Instantly restores health to the target equal to 750 plus 26% scaling from magic attack, and continues to restore 750 health over 15 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "3641a679ae408024badff8a08e2179a1",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 530,
+          "time": 4000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 2,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1700000
+            }
+          ],
+          "level": 54,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Мгновенно восстанавливает цели здоровье в размере <b>750</b> плюс <b>26%</b> от магической атаки и продолжает восстанавливать <b>750</b> здоровья в течение <b>15 с</b>.",
+          "en": "Instantly restores health to the target equal to <b>750</b> plus <b>26%</b> scaling from magic attack, and continues to restore <b>750</b> health over <b>15 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae408024badff8a08e2179a1",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "3641a679ae4080adbbd0f2d7eb902159",
+      "name_ru": "Колыбельная",
+      "name_en": "Lullaby",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "curse",
+      "targets": [
+        "self",
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2200,
+      "cooldown_ms": 42900,
+      "mana_cost": 368,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Погружает цель в сон на 12 с. Замедляет жреца на 40% в течение 5 с.",
+      "description_en": "Puts the target to sleep for 12 s. Slows the Priest by 40% for 5 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "3641a679ae4080adbbd0f2d7eb902159",
+        "activation": {
+          "cooldown": 42900,
+          "consumables": null,
+          "mana_cost": 368,
+          "time": 2200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 1,
+        "objects": [
+          "self",
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "curse",
+        "description": {
+          "ru": "Погружает цель в сон на <b>12 с</b>. Замедляет жреца на <b>40%</b> в течение <b>5 с</b>.",
+          "en": "Puts the target to sleep for <b>12 s</b>. Slows the Priest by <b>40%</b> for <b>5 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae4080adbbd0f2d7eb902159",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "3641a679ae4080adbbd0f2d7eb902159",
+      "name_ru": "Колыбельная",
+      "name_en": "Lullaby",
+      "variant": "next",
+      "skill_level": 2,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "curse",
+      "targets": [
+        "target",
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2200,
+      "cooldown_ms": 42900,
+      "mana_cost": 398,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1700000
+          }
+        ],
+        "level": 54,
+        "status_level": 5
+      },
+      "description_ru": "Погружает цель в сон на 14.4 с. Замедляет жреца на 40% в течение 6 с.",
+      "description_en": "Puts the target to sleep for 14.4 s. Slows the Priest by 40% for 6 s.",
+      "context": "account_character",
+      "context_character_level": 51,
+      "raw_definition": {
+        "id": "3641a679ae4080adbbd0f2d7eb902159",
+        "activation": {
+          "cooldown": 42900,
+          "consumables": null,
+          "mana_cost": 398,
+          "time": 2200,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "priest",
+        "level": 2,
+        "objects": [
+          "target",
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1700000
+            }
+          ],
+          "level": 54,
+          "status_level": 5
+        },
+        "type": "curse",
+        "description": {
+          "ru": "Погружает цель в сон на <b>14.4 с</b>. Замедляет жреца на <b>40%</b> в течение <b>6 с</b>.",
+          "en": "Puts the target to sleep for <b>14.4 s</b>. Slows the Priest by <b>40%</b> for <b>6 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae4080adbbd0f2d7eb902159",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 1
+      }
+    }
+  ]
+}

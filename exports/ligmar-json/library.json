@@ -1,0 +1,7628 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "blueprints_total": 87,
+    "tier_4_blueprints": 34,
+    "tier_6_blueprints": 53,
+    "tier_6_standard_blueprints": 34,
+    "tier_6_legendary_blueprints": 19,
+    "skills_total": 0,
+    "abilities_moved_to_abilities_json": 7
+  },
+  "blueprints": [
+    {
+      "template_id": "13f1a679ae40804c84e5ffbf6bd1d030",
+      "name": {
+        "ru": "Тяжелая броня",
+        "en": "Heavy Plate"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "chest",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 2,
+        "resistance": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 69,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 38,
+          "min": 15
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 50,
+          "min": 15
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 80,
+          "min": 22
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 271,
+        "resistance": 114
+      },
+      "item_requirements": {
+        "dexterity": 15,
+        "level": 21,
+        "strength": 54
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 26
+      },
+      "image_path": "item-images/gear/chest-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080d79376f966edbdaab8",
+      "name": {
+        "ru": "Легкая броня",
+        "en": "Light Armor"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "chest",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 3,
+        "stealth": 1,
+        "strength": 3,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 57,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 46,
+          "min": 15
+        },
+        "health": {
+          "max": 30,
+          "min": 10
+        },
+        "healthRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 70,
+          "min": 25
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 124,
+          "min": 40
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 116,
+        "resistance": 179
+      },
+      "item_requirements": {
+        "dexterity": 26,
+        "level": 21,
+        "strength": 25
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/chest-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080eb9f5cd4b9cf85602b",
+      "name": {
+        "ru": "Волшебная мантия",
+        "en": "Magic Robe"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "chest",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 1,
+        "evasion": 3,
+        "health": 1,
+        "magic": 1,
+        "mana": 3,
+        "manaRegen": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 1,
+        "stealth": 1,
+        "strength": 2,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 32,
+          "min": 10
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 24,
+          "min": 9
+        },
+        "health": {
+          "max": 20,
+          "min": 10
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 30,
+        "resistance": 269
+      },
+      "item_requirements": {
+        "level": 21,
+        "magic": 35,
+        "strength": 15
+      },
+      "enhancement_bases": {
+        "standard": 14,
+        "legendary": 18,
+        "special": 20
+      },
+      "image_path": "item-images/gear/chest-magic-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080f3aa70efabba686a7d",
+      "name": {
+        "ru": "Тяжелые сапоги",
+        "en": "Heavy Footwear"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "feet",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 3,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 2,
+        "requirements": 2,
+        "resistance": 1,
+        "strength": 1,
+        "visibility": 3,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 69,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 38,
+          "min": 15
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 50,
+          "min": 15
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 80,
+          "min": 22
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 202,
+        "resistance": 84
+      },
+      "item_requirements": {
+        "dexterity": 18,
+        "level": 26,
+        "strength": 69
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 26
+      },
+      "image_path": "item-images/gear/feet-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae408094b22bc2dd0921ae59",
+      "name": {
+        "ru": "Легкие сапоги",
+        "en": "Light Boots"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "feet",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 3,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 2,
+        "manaRegen": 1,
+        "requirements": 1,
+        "resistance": 1,
+        "strength": 1,
+        "visibility": 3,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 57,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 46,
+          "min": 15
+        },
+        "health": {
+          "max": 30,
+          "min": 10
+        },
+        "healthRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 70,
+          "min": 25
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 124,
+          "min": 40
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "visibility": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 86,
+        "resistance": 134
+      },
+      "item_requirements": {
+        "dexterity": 32,
+        "level": 26,
+        "strength": 31
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/feet-light-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae408009b176f5e6d5c7f61f",
+      "name": {
+        "ru": "Волшебные башмаки",
+        "en": "Magic Shoes"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "feet",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 3,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 3,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 1,
+        "requirements": 1,
+        "resistance": 1,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 32,
+          "min": 10
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 24,
+          "min": 9
+        },
+        "health": {
+          "max": 20,
+          "min": 10
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 22,
+        "resistance": 204
+      },
+      "item_requirements": {
+        "level": 26,
+        "magic": 44,
+        "strength": 18
+      },
+      "enhancement_bases": {
+        "standard": 14,
+        "legendary": 18,
+        "special": 20
+      },
+      "image_path": "item-images/gear/feet-magic-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080e4afe0f0a7fc25e571",
+      "name": {
+        "ru": "Металлическое кольцо",
+        "en": "Iron Ring"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "finger",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "criticalHitRate": 1,
+        "dexterity": 3,
+        "health": 1,
+        "magic": 2,
+        "mana": 1,
+        "physicalAttack": 3,
+        "physicalAttackInterval": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 52,
+          "min": 10
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 5,
+          "min": 1
+        },
+        "health": {
+          "max": 100,
+          "min": 30
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 50,
+          "min": 15
+        },
+        "physicalAttack": {
+          "max": 16,
+          "min": 3
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "strength": {
+          "max": 5,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 5,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttack": 37
+      },
+      "item_requirements": {
+        "level": 29
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/finger-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae40801287f5ea4c337d829a",
+      "name": {
+        "ru": "Драгоценное кольцо",
+        "en": "Magic Ring"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "finger",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 2,
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "dexterity": 3,
+        "health": 1,
+        "magic": 2,
+        "magicAttack": 3,
+        "mana": 1,
+        "stealth": 2,
+        "strength": 2,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 20,
+          "min": 10
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 5,
+          "min": 1
+        },
+        "health": {
+          "max": 80,
+          "min": 30
+        },
+        "magic": {
+          "max": 5,
+          "min": 1
+        },
+        "magicAttack": {
+          "max": 16,
+          "min": 3
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "vitality": {
+          "max": 5,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "magicAttack": 37
+      },
+      "item_requirements": {
+        "level": 29
+      },
+      "enhancement_bases": {
+        "standard": 14,
+        "legendary": 18,
+        "special": 20
+      },
+      "image_path": "item-images/gear/finger-magic-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080adb38ed0e1834d662d",
+      "name": {
+        "ru": "Тяжелые рукавицы",
+        "en": "Heavy Bracers"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "hands",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttackInterval": 1,
+        "requirements": 3,
+        "resistance": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 69,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 38,
+          "min": 15
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 50,
+          "min": 15
+        },
+        "physicalAttackInterval": {
+          "max": 50,
+          "min": 10
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 80,
+          "min": 22
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 140,
+        "resistance": 59
+      },
+      "item_requirements": {
+        "dexterity": 17,
+        "level": 24,
+        "strength": 64
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 26
+      },
+      "image_path": "item-images/gear/hands-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080468ab4f6a042df9bb9",
+      "name": {
+        "ru": "Легкие наручи",
+        "en": "Light Wristband"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "hands",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "activationTime": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 2,
+        "physicalAttackInterval": 1,
+        "requirements": 2,
+        "resistance": 2,
+        "stealth": 2,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "max": 5,
+          "min": 1
+        },
+        "defense": {
+          "max": 45,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 46,
+          "min": 15
+        },
+        "health": {
+          "max": 30,
+          "min": 10
+        },
+        "healthRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 70,
+          "min": 25
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 124,
+          "min": 40
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 60,
+        "resistance": 94
+      },
+      "item_requirements": {
+        "dexterity": 30,
+        "level": 24,
+        "strength": 29
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/hands-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae408075a477f73fb7616f51",
+      "name": {
+        "ru": "Волшебные перчатки",
+        "en": "Magic Sleeves"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "hands",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "activationTime": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 2,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 3,
+        "requirements": 2,
+        "resistance": 1,
+        "stealth": 3,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "max": 8,
+          "min": 1
+        },
+        "defense": {
+          "max": 25,
+          "min": 12
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 18,
+          "min": 9
+        },
+        "health": {
+          "max": 20,
+          "min": 10
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 15,
+        "resistance": 139
+      },
+      "item_requirements": {
+        "level": 24,
+        "magic": 41,
+        "strength": 17
+      },
+      "enhancement_bases": {
+        "standard": 14,
+        "legendary": 18,
+        "special": 20
+      },
+      "image_path": "item-images/gear/hands-magic-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080749e01eb127e6ed7c2",
+      "name": {
+        "ru": "Тяжелый шлем",
+        "en": "Heavy Helm"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "head",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 3,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 2,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 2,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 45,
+          "min": 12
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 30,
+          "min": 9
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 50,
+          "min": 25
+        },
+        "manaRegen": {
+          "max": 4,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 80,
+          "min": 22
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "health": 54
+      },
+      "item_requirements": {
+        "level": 22,
+        "strength": 37
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 26
+      },
+      "image_path": "item-images/gear/head-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae40808983ddc194454b9a69",
+      "name": {
+        "ru": "Легкое наголовье",
+        "en": "Light Helmet"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "head",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 2,
+        "strength": 1,
+        "visibility": 2,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 57,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 46,
+          "min": 15
+        },
+        "health": {
+          "max": 30,
+          "min": 10
+        },
+        "healthRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 50,
+          "min": 25
+        },
+        "manaRegen": {
+          "max": 4,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 124,
+          "min": 40
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "visibility": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 2,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 30
+      },
+      "item_requirements": {
+        "level": 22,
+        "strength": 29
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/head-light-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae40806498a3fe07f47646e7",
+      "name": {
+        "ru": "Волшебный капюшон",
+        "en": "Magic Hood"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "head",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 3,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 2,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 1,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 34,
+          "min": 12
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 24,
+          "min": 9
+        },
+        "health": {
+          "max": 20,
+          "min": 10
+        },
+        "healthRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 20
+        },
+        "manaRegen": {
+          "max": 4,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "mana": 65
+      },
+      "item_requirements": {
+        "level": 22,
+        "magic": 65,
+        "strength": 17
+      },
+      "enhancement_bases": {
+        "standard": 14,
+        "legendary": 18,
+        "special": 20
+      },
+      "image_path": "item-images/gear/head-magic-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080078652caa87c18242b",
+      "name": {
+        "ru": "Стальные брюки",
+        "en": "Heavy Leggings"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "legs",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 69,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 38,
+          "min": 15
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 50,
+          "min": 13
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 80,
+          "min": 22
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 268,
+        "resistance": 114
+      },
+      "item_requirements": {
+        "dexterity": 17,
+        "level": 24,
+        "strength": 62
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 26
+      },
+      "image_path": "item-images/gear/legs-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080ee929add8f847ad866",
+      "name": {
+        "ru": "Легкие штаны",
+        "en": "Light Pants"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "legs",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 2,
+        "manaRegen": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 57,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 46,
+          "min": 15
+        },
+        "health": {
+          "max": 30,
+          "min": 10
+        },
+        "healthRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 70,
+          "min": 25
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 124,
+          "min": 40
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "visibility": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 115,
+        "resistance": 179
+      },
+      "item_requirements": {
+        "dexterity": 29,
+        "level": 24,
+        "strength": 28
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/legs-light-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae40802d89b2e16d86eca7d8",
+      "name": {
+        "ru": "Волшебные брюки",
+        "en": "Magic Trousers"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "legs",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 2,
+        "strength": 1,
+        "visibility": 3,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 32,
+          "min": 10
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 24,
+          "min": 9
+        },
+        "health": {
+          "max": 20,
+          "min": 10
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "visibility": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 29,
+        "resistance": 269
+      },
+      "item_requirements": {
+        "level": 23,
+        "magic": 40,
+        "strength": 17
+      },
+      "enhancement_bases": {
+        "standard": 14,
+        "legendary": 18,
+        "special": 20
+      },
+      "image_path": "item-images/gear/legs-magic-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae40808492dbc1e270eebe6c",
+      "name": {
+        "ru": "Подвеска защиты",
+        "en": "Defense Pendant"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "neck",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "criticalHitRate": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "magic": 3,
+        "physicalAttackInterval": 1,
+        "physicalDamageReduction": 1,
+        "resistance": 3,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 26,
+          "min": 8
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 35,
+          "min": 17
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 30,
+          "min": 15
+        },
+        "health": {
+          "max": 50,
+          "min": 25
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 50,
+          "min": 10
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 45,
+          "min": 24
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 50
+      },
+      "item_requirements": {
+        "level": 23
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/neck-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080389358d29790518e2b",
+      "name": {
+        "ru": "Амулет уклонения",
+        "en": "Evasion Amulet"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "neck",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "criticalHitRate": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 3,
+        "health": 1,
+        "magic": 2,
+        "physicalAttackInterval": 1,
+        "physicalDamageReduction": 1,
+        "resistance": 2,
+        "stealth": 2,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 26,
+          "min": 8
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 26,
+          "min": 13
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 41,
+          "min": 20
+        },
+        "health": {
+          "max": 50,
+          "min": 25
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 45,
+          "min": 14
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 32
+      },
+      "item_requirements": {
+        "level": 23
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/neck-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae408005b404cc1e0b7e93f9",
+      "name": {
+        "ru": "Кулон сопротивления",
+        "en": "Resistance Coulomb"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "neck",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 3,
+        "health": 1,
+        "magic": 1,
+        "resistance": 1,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 26,
+          "min": 8
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 17,
+          "min": 8
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 20,
+          "min": 10
+        },
+        "health": {
+          "max": 50,
+          "min": 25
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "resistance": {
+          "max": 61,
+          "min": 22
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "resistance": 50
+      },
+      "item_requirements": {
+        "level": 23
+      },
+      "enhancement_bases": {
+        "standard": 14,
+        "legendary": 18,
+        "special": 20
+      },
+      "image_path": "item-images/gear/neck-magic-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae40807aa070e534bb9102ee",
+      "name": {
+        "ru": "Плащ",
+        "en": "Cloak"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "shoulders",
+      "item_subtype": "cloak",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "dexterity": 1,
+        "evasion": 3,
+        "health": 3,
+        "healthRegen": 2,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 1,
+        "resistance": 2,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 46,
+          "min": 15
+        },
+        "health": {
+          "max": 30,
+          "min": 10
+        },
+        "healthRegen": {
+          "max": 4,
+          "min": 1
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 70,
+          "min": 25
+        },
+        "manaRegen": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 124,
+          "min": 40
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 53
+      },
+      "item_requirements": {
+        "level": 27
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/shoulders-cloak-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae408088ae81c03a2252909b",
+      "name": {
+        "ru": "Тяжелый ремень",
+        "en": "Heavy Belt"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "waist",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "criticalHitRate": 1,
+        "defense": 3,
+        "dexterity": 3,
+        "evasion": 1,
+        "health": 1,
+        "magic": 1,
+        "physicalAttackInterval": 1,
+        "physicalDamageReduction": 1,
+        "resistance": 1,
+        "strength": 3,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 16,
+          "min": 8
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 35,
+          "min": 17
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 30,
+          "min": 15
+        },
+        "health": {
+          "max": 50,
+          "min": 25
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 50,
+          "min": 10
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 45,
+          "min": 14
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 57
+      },
+      "item_requirements": {
+        "level": 26
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/waist-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080fabea2c71f75d855a8",
+      "name": {
+        "ru": "Легкий пояс",
+        "en": "Light Belt"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "waist",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "criticalHitRate": 1,
+        "defense": 2,
+        "dexterity": 1,
+        "evasion": 3,
+        "health": 2,
+        "magic": 1,
+        "physicalAttackInterval": 1,
+        "physicalDamageReduction": 1,
+        "resistance": 3,
+        "stealth": 2,
+        "strength": 1,
+        "vitality": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 26,
+          "min": 8
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 26,
+          "min": 13
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 41,
+          "min": 20
+        },
+        "health": {
+          "max": 50,
+          "min": 25
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 45,
+          "min": 14
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 37
+      },
+      "item_requirements": {
+        "level": 26
+      },
+      "enhancement_bases": {
+        "standard": 16,
+        "legendary": 20,
+        "special": 22
+      },
+      "image_path": "item-images/gear/waist-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080538f6ee9439c06e25b",
+      "name": {
+        "ru": "Волшебная сумка",
+        "en": "Magic Bag"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "waist",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "magic": 1,
+        "resistance": 1,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 26,
+          "min": 8
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 17,
+          "min": 8
+        },
+        "dexterity": {
+          "max": 2,
+          "min": 1
+        },
+        "evasion": {
+          "max": 20,
+          "min": 10
+        },
+        "health": {
+          "max": 50,
+          "min": 25
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "resistance": {
+          "max": 61,
+          "min": 22
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "resistance": 57
+      },
+      "item_requirements": {
+        "level": 26
+      },
+      "enhancement_bases": {
+        "standard": 14,
+        "legendary": 18,
+        "special": 20
+      },
+      "image_path": "item-images/gear/waist-magic-common.webp"
+    },
+    {
+      "template_id": "13c1a679ae4080e58998d2cfcdfe95a6",
+      "name": {
+        "ru": "Топор",
+        "en": "Axe"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "axe",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 2,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 72,
+          "min": 11
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "health": {
+          "max": 106,
+          "min": 22
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 85,
+          "min": 35
+        },
+        "physicalAttack": {
+          "max": 23,
+          "min": 3
+        },
+        "physicalAttackInterval": {
+          "max": 150,
+          "min": 50
+        },
+        "physicalAttackMax": {
+          "max": 38,
+          "min": 4
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 15,
+          "min": 3
+        },
+        "vitality": {
+          "max": 6,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 214,
+        "physicalAttackMin": 115,
+        "physicalAttackInterval": 1100
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior",
+          "guardian"
+        ],
+        "dexterity": 17,
+        "level": 23,
+        "strength": 76
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 13
+      },
+      "image_path": "item-images/gear/weapon-axe-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080778253f4a949a24d13",
+      "name": {
+        "ru": "Лук",
+        "en": "Bow"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "bow",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 58,
+          "min": 11
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "health": {
+          "max": 29,
+          "min": 3
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 85,
+          "min": 35
+        },
+        "physicalAttack": {
+          "max": 50,
+          "min": 6
+        },
+        "physicalAttackInterval": {
+          "max": 200,
+          "min": 50
+        },
+        "physicalAttackMax": {
+          "max": 85,
+          "min": 22
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 236,
+        "physicalAttackMin": 126,
+        "physicalAttackInterval": 1400
+      },
+      "item_requirements": {
+        "classes": [
+          "archer"
+        ],
+        "dexterity": 70,
+        "level": 21,
+        "strength": 16
+      },
+      "enhancement_bases": {
+        "standard": 11,
+        "legendary": 13,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-bow-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080b6ab5ec7f9abf05e68",
+      "name": {
+        "ru": "Арбалет",
+        "en": "Crossbow"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "crossbow",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "dexterity": 3,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 2,
+        "physicalAttackMax": 1,
+        "requirements": 2,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 58,
+          "min": 11
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "health": {
+          "max": 29,
+          "min": 3
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 85,
+          "min": 35
+        },
+        "physicalAttack": {
+          "max": 50,
+          "min": 6
+        },
+        "physicalAttackMax": {
+          "max": 85,
+          "min": 22
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 307,
+        "physicalAttackMin": 131,
+        "physicalAttackInterval": 1600
+      },
+      "item_requirements": {
+        "classes": [
+          "archer"
+        ],
+        "dexterity": 77,
+        "level": 24,
+        "strength": 19
+      },
+      "enhancement_bases": {
+        "standard": 11,
+        "legendary": 13,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-crossbow-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae40809a98afce8586e155eb",
+      "name": {
+        "ru": "Кинжалы",
+        "en": "Daggers"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "daggers",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 38,
+          "min": 4
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "health": {
+          "max": 16,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 60,
+          "min": 20
+        },
+        "physicalAttack": {
+          "max": 27,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 100,
+          "min": 20
+        },
+        "physicalAttackMax": {
+          "max": 65,
+          "min": 15
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 2,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 140,
+        "physicalAttackMin": 92,
+        "physicalAttackInterval": 800
+      },
+      "item_requirements": {
+        "classes": [
+          "assassin"
+        ],
+        "dexterity": 79,
+        "level": 24,
+        "strength": 18
+      },
+      "enhancement_bases": {
+        "standard": 8,
+        "legendary": 10,
+        "special": 11
+      },
+      "image_path": "item-images/gear/weapon-daggers-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080fbbb0ae652857a5960",
+      "name": {
+        "ru": "Кастеты",
+        "en": "Fist"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "fist",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 3,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 58,
+          "min": 11
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 5,
+          "min": 1
+        },
+        "health": {
+          "max": 85,
+          "min": 22
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 85,
+          "min": 35
+        },
+        "physicalAttack": {
+          "max": 23,
+          "min": 3
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "physicalAttackMax": {
+          "max": 38,
+          "min": 4
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 100,
+        "physicalAttackMin": 89,
+        "physicalAttackInterval": 700
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior"
+        ],
+        "dexterity": 48,
+        "level": 22,
+        "strength": 41
+      },
+      "enhancement_bases": {
+        "standard": 8,
+        "legendary": 10,
+        "special": 11
+      },
+      "image_path": "item-images/gear/weapon-fist-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080d08e3be99c2cae96f9",
+      "name": {
+        "ru": "Молот",
+        "en": "Hammer"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "hammer",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 58,
+          "min": 11
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "health": {
+          "max": 85,
+          "min": 22
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 85,
+          "min": 35
+        },
+        "physicalAttack": {
+          "max": 23,
+          "min": 3
+        },
+        "physicalAttackInterval": {
+          "max": 150,
+          "min": 50
+        },
+        "physicalAttackMax": {
+          "max": 38,
+          "min": 4
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 10,
+          "min": 3
+        },
+        "vitality": {
+          "max": 5,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 291,
+        "physicalAttackMin": 124,
+        "physicalAttackInterval": 1200
+      },
+      "item_requirements": {
+        "classes": [
+          "guardian"
+        ],
+        "dexterity": 19,
+        "level": 26,
+        "strength": 85
+      },
+      "enhancement_bases": {
+        "standard": 11,
+        "legendary": 13,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-hammer-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080678fe4e291fa223a5b",
+      "name": {
+        "ru": "Посох",
+        "en": "Staff"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "staff",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 2,
+        "magicAttack": 1,
+        "magicAttackMax": 1,
+        "mana": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 70,
+          "min": 23
+        },
+        "activationTime": {
+          "max": 12,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "defense": {
+          "max": 33,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "health": {
+          "max": 65,
+          "min": 22
+        },
+        "magic": {
+          "max": 5,
+          "min": 1
+        },
+        "magicAttack": {
+          "max": 23,
+          "min": 3
+        },
+        "magicAttackMax": {
+          "max": 38,
+          "min": 4
+        },
+        "mana": {
+          "max": 110,
+          "min": 30
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "magicAttackMax": 228,
+        "magicAttackMin": 122
+      },
+      "item_requirements": {
+        "classes": [
+          "mage",
+          "priest"
+        ],
+        "level": 26,
+        "magic": 81,
+        "strength": 20
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 13
+      },
+      "image_path": "item-images/gear/weapon-staff-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080c3a62bec2c68ae6df4",
+      "name": {
+        "ru": "Стилет",
+        "en": "Stiletto"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "stiletto",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 38,
+          "min": 4
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "health": {
+          "max": 16,
+          "min": 1
+        },
+        "magic": {
+          "max": 2,
+          "min": 1
+        },
+        "mana": {
+          "max": 60,
+          "min": 20
+        },
+        "physicalAttack": {
+          "max": 27,
+          "min": 1
+        },
+        "physicalAttackMax": {
+          "max": 65,
+          "min": 15
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 2,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 153,
+        "physicalAttackMin": 102,
+        "physicalAttackInterval": 900
+      },
+      "item_requirements": {
+        "classes": [
+          "assassin"
+        ],
+        "dexterity": 69,
+        "level": 21,
+        "strength": 16
+      },
+      "enhancement_bases": {
+        "standard": 8,
+        "legendary": 10,
+        "special": 11
+      },
+      "image_path": "item-images/gear/weapon-stiletto-common.webp"
+    },
+    {
+      "template_id": "13c1a679ae4080269c8bf81218f850f0",
+      "name": {
+        "ru": "Меч",
+        "en": "Sword"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "sword",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 58,
+          "min": 11
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "health": {
+          "max": 85,
+          "min": 22
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 85,
+          "min": 35
+        },
+        "physicalAttack": {
+          "max": 23,
+          "min": 3
+        },
+        "physicalAttackInterval": {
+          "max": 100,
+          "min": 20
+        },
+        "physicalAttackMax": {
+          "max": 38,
+          "min": 4
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 197,
+        "physicalAttackMin": 130,
+        "physicalAttackInterval": 900
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior"
+        ],
+        "dexterity": 48,
+        "level": 28,
+        "strength": 63
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 13
+      },
+      "image_path": "item-images/gear/weapon-sword-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080f4acd2cab7638e75cd",
+      "name": {
+        "ru": "Жезл",
+        "en": "Wand"
+      },
+      "description": {},
+      "world_tier": 1,
+      "item_tier": 4,
+      "item_type": "weapon",
+      "item_subtype": "wand",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "magicAttack": 1,
+        "magicAttackMax": 1,
+        "mana": 1,
+        "manaRegen": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 69,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "health": {
+          "max": 65,
+          "min": 22
+        },
+        "magic": {
+          "max": 5,
+          "min": 1
+        },
+        "magicAttack": {
+          "max": 23,
+          "min": 3
+        },
+        "magicAttackMax": {
+          "max": 38,
+          "min": 4
+        },
+        "mana": {
+          "max": 110,
+          "min": 30
+        },
+        "manaRegen": {
+          "max": 10,
+          "min": 2
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "stealth": {
+          "max": 4,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "magicAttackMax": 135,
+        "magicAttackMin": 130
+      },
+      "item_requirements": {
+        "classes": [
+          "mage",
+          "priest"
+        ],
+        "level": 21,
+        "magic": 66,
+        "strength": 15
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 13
+      },
+      "image_path": "item-images/gear/weapon-wand-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080899964ec9dfa26517a",
+      "name": {
+        "ru": "Тяжелая броня",
+        "en": "Heavy Plate"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "chest",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 2,
+        "healthRegen": 2,
+        "magic": 1,
+        "mana": 2,
+        "physicalDamageReduction": 2,
+        "requirements": 3,
+        "resistance": 2,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 118,
+          "min": 47
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 54,
+          "min": 23
+        },
+        "health": {
+          "max": 70,
+          "min": 30
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 551,
+        "resistance": 234
+      },
+      "item_requirements": {
+        "dexterity": 25,
+        "level": 41,
+        "strength": 104
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/chest-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae40805eb754d8fc1b7a5c8a",
+      "name": {
+        "ru": "Легкая броня",
+        "en": "Light Armor"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "chest",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 3,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 2,
+        "healthRegen": 3,
+        "magic": 1,
+        "mana": 2,
+        "manaRegen": 1,
+        "physicalDamageReduction": 2,
+        "requirements": 3,
+        "resistance": 2,
+        "stealth": 2,
+        "strength": 2,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 81,
+          "min": 34
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 78,
+          "min": 31
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 1
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 110,
+          "min": 45
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 211,
+          "min": 83
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 236,
+        "resistance": 369
+      },
+      "item_requirements": {
+        "dexterity": 46,
+        "level": 41,
+        "strength": 45
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/chest-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080e89f55c8e9b33df113",
+      "name": {
+        "ru": "Волшебная мантия",
+        "en": "Magic Robe"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "chest",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 2,
+        "evasion": 2,
+        "health": 2,
+        "magic": 2,
+        "mana": 2,
+        "manaRegen": 2,
+        "physicalDamageReduction": 1,
+        "requirements": 2,
+        "resistance": 2,
+        "stealth": 3,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 48,
+          "min": 18
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 38,
+          "min": 15
+        },
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 130,
+          "min": 55
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 255,
+          "min": 105
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 61,
+        "resistance": 549
+      },
+      "item_requirements": {
+        "level": 41,
+        "magic": 65,
+        "strength": 25
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/chest-magic-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae40808db284ceba43f8edce",
+      "name": {
+        "ru": "Тяжелые сапоги",
+        "en": "Heavy Footwear"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "feet",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 2,
+        "requirements": 1,
+        "resistance": 2,
+        "strength": 1,
+        "visibility": 3,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 118,
+          "min": 47
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 54,
+          "min": 23
+        },
+        "health": {
+          "max": 70,
+          "min": 30
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 3
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 362,
+        "resistance": 154
+      },
+      "item_requirements": {
+        "dexterity": 28,
+        "level": 47,
+        "strength": 119
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/feet-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080068bf3c73a8f3ed8f8",
+      "name": {
+        "ru": "Легкие сапоги",
+        "en": "Light Boots"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "feet",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 2,
+        "health": 2,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 2,
+        "manaRegen": 1,
+        "requirements": 1,
+        "resistance": 1,
+        "strength": 1,
+        "visibility": 3,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 81,
+          "min": 34
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 78,
+          "min": 31
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 3
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 110,
+          "min": 45
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 211,
+          "min": 83
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 155,
+        "resistance": 239
+      },
+      "item_requirements": {
+        "dexterity": 52,
+        "level": 47,
+        "strength": 51
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/feet-light-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080fd8021dfa01987978e",
+      "name": {
+        "ru": "Волшебные башмаки",
+        "en": "Magic Shoes"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "feet",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 2,
+        "magic": 1,
+        "mana": 2,
+        "manaRegen": 1,
+        "requirements": 3,
+        "resistance": 2,
+        "stealth": 3,
+        "strength": 2,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 48,
+          "min": 18
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 38,
+          "min": 15
+        },
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 130,
+          "min": 55
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 255,
+          "min": 105
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 40,
+        "resistance": 364
+      },
+      "item_requirements": {
+        "level": 47,
+        "magic": 74,
+        "strength": 28
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/feet-magic-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080faa876cf4896af55a0",
+      "name": {
+        "ru": "Металлическое кольцо",
+        "en": "Iron Ring"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "finger",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 2,
+        "magic": 3,
+        "mana": 2,
+        "physicalAttack": 3,
+        "physicalAttackInterval": 1,
+        "strength": 1,
+        "visibility": 3,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 88,
+          "min": 26
+        },
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 7,
+          "min": 2
+        },
+        "health": {
+          "max": 140,
+          "min": 50
+        },
+        "magic": {
+          "max": 6,
+          "min": 2
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "physicalAttack": {
+          "max": 28,
+          "min": 5
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "strength": {
+          "max": 7,
+          "min": 2
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 7,
+          "min": 2
+        }
+      },
+      "base_stats": {
+        "physicalAttack": 69
+      },
+      "item_requirements": {
+        "level": 49
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/finger-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080869652eb5c4db4b111",
+      "name": {
+        "ru": "Драгоценное кольцо",
+        "en": "Magic Ring"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "finger",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "activationTime": 2,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 3,
+        "magicAttack": 3,
+        "mana": 3,
+        "stealth": 3,
+        "strength": 3,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 52,
+          "min": 26
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 7,
+          "min": 2
+        },
+        "health": {
+          "max": 120,
+          "min": 50
+        },
+        "magic": {
+          "max": 7,
+          "min": 2
+        },
+        "magicAttack": {
+          "max": 28,
+          "min": 5
+        },
+        "mana": {
+          "max": 130,
+          "min": 55
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 6,
+          "min": 2
+        },
+        "vitality": {
+          "max": 7,
+          "min": 2
+        }
+      },
+      "base_stats": {
+        "magicAttack": 69
+      },
+      "item_requirements": {
+        "level": 49
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/finger-magic-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080f796e2de0c14556018",
+      "name": {
+        "ru": "Тяжелые рукавицы",
+        "en": "Heavy Bracers"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "hands",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 2,
+        "health": 2,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 2,
+        "physicalAttackInterval": 1,
+        "requirements": 2,
+        "resistance": 1,
+        "strength": 1,
+        "visibility": 3,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 118,
+          "min": 47
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 54,
+          "min": 23
+        },
+        "health": {
+          "max": 70,
+          "min": 30
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 35
+        },
+        "physicalAttackInterval": {
+          "max": 50,
+          "min": 10
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 260,
+        "resistance": 109
+      },
+      "item_requirements": {
+        "dexterity": 27,
+        "level": 45,
+        "strength": 114
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/hands-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080b28f5bd1937a3e2caf",
+      "name": {
+        "ru": "Легкие наручи",
+        "en": "Light Wristband"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "hands",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "activationTime": 2,
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 2,
+        "health": 1,
+        "healthRegen": 2,
+        "magic": 1,
+        "mana": 1,
+        "manaRegen": 2,
+        "physicalAttackInterval": 1,
+        "requirements": 2,
+        "resistance": 3,
+        "stealth": 3,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "max": 5,
+          "min": 1
+        },
+        "defense": {
+          "max": 69,
+          "min": 34
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 78,
+          "min": 31
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 110,
+          "min": 45
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 211,
+          "min": 83
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 111,
+        "resistance": 174
+      },
+      "item_requirements": {
+        "dexterity": 50,
+        "level": 45,
+        "strength": 49
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/hands-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080d9ab57e36dad54cc9f",
+      "name": {
+        "ru": "Волшебные перчатки",
+        "en": "Magic Sleeves"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "hands",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "activationTime": 2,
+        "defense": 3,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 2,
+        "magic": 2,
+        "mana": 2,
+        "manaRegen": 3,
+        "requirements": 3,
+        "resistance": 2,
+        "stealth": 3,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "max": 8,
+          "min": 1
+        },
+        "defense": {
+          "max": 45,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 30,
+          "min": 15
+        },
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 130,
+          "min": 55
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 255,
+          "min": 105
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 28,
+        "resistance": 259
+      },
+      "item_requirements": {
+        "level": 45,
+        "magic": 71,
+        "strength": 27
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/hands-magic-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080299e51f24350fe6a72",
+      "name": {
+        "ru": "Тяжелый шлем",
+        "en": "Heavy Helm"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "head",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 3,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 2,
+        "manaRegen": 2,
+        "physicalDamageReduction": 2,
+        "requirements": 2,
+        "resistance": 2,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 94,
+          "min": 34
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 46,
+          "min": 19
+        },
+        "health": {
+          "max": 70,
+          "min": 30
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 45
+        },
+        "manaRegen": {
+          "max": 4,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "health": 104
+      },
+      "item_requirements": {
+        "level": 42,
+        "strength": 67
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/head-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080468121e64d5d97092a",
+      "name": {
+        "ru": "Легкое наголовье",
+        "en": "Light Helmet"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "head",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 2,
+        "health": 1,
+        "healthRegen": 1,
+        "magic": 2,
+        "mana": 1,
+        "manaRegen": 2,
+        "physicalDamageReduction": 2,
+        "requirements": 2,
+        "resistance": 2,
+        "strength": 1,
+        "visibility": 2,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 81,
+          "min": 34
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 78,
+          "min": 31
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 45
+        },
+        "manaRegen": {
+          "max": 4,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 3,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 211,
+          "min": 83
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 3,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 54
+      },
+      "item_requirements": {
+        "level": 42,
+        "strength": 49
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/head-light-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080b49776c516e99a3fa8",
+      "name": {
+        "ru": "Волшебный капюшон",
+        "en": "Magic Hood"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "head",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 2,
+        "health": 2,
+        "healthRegen": 1,
+        "magic": 1,
+        "mana": 2,
+        "manaRegen": 2,
+        "physicalDamageReduction": 2,
+        "requirements": 2,
+        "resistance": 2,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 57,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 38,
+          "min": 15
+        },
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 130,
+          "min": 40
+        },
+        "manaRegen": {
+          "max": 4,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 255,
+          "min": 105
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "mana": 125
+      },
+      "item_requirements": {
+        "level": 42,
+        "magic": 125,
+        "strength": 27
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/head-magic-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080bdbed5f52bb2c79008",
+      "name": {
+        "ru": "Стальные брюки",
+        "en": "Heavy Leggings"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "legs",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 3,
+        "health": 2,
+        "healthRegen": 3,
+        "magic": 2,
+        "mana": 2,
+        "physicalDamageReduction": 3,
+        "requirements": 3,
+        "resistance": 2,
+        "strength": 2,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 118,
+          "min": 47
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 54,
+          "min": 23
+        },
+        "health": {
+          "max": 70,
+          "min": 30
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 90,
+          "min": 23
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 508,
+        "resistance": 219
+      },
+      "item_requirements": {
+        "dexterity": 27,
+        "level": 44,
+        "strength": 112
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/legs-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae40802e986bfc2e549777f9",
+      "name": {
+        "ru": "Легкие штаны",
+        "en": "Light Pants"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "legs",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 1,
+        "evasion": 2,
+        "health": 2,
+        "healthRegen": 3,
+        "magic": 1,
+        "mana": 2,
+        "manaRegen": 2,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "resistance": 2,
+        "strength": 2,
+        "visibility": 2,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 81,
+          "min": 34
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 78,
+          "min": 31
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 1
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "mana": {
+          "max": 110,
+          "min": 45
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 211,
+          "min": 83
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "visibility": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 217,
+        "resistance": 339
+      },
+      "item_requirements": {
+        "dexterity": 49,
+        "level": 44,
+        "strength": 48
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/legs-light-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae408032ac1dd9d7d843743f",
+      "name": {
+        "ru": "Волшебные брюки",
+        "en": "Magic Trousers"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "legs",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 3,
+        "health": 2,
+        "magic": 2,
+        "mana": 1,
+        "manaRegen": 2,
+        "physicalDamageReduction": 2,
+        "requirements": 2,
+        "resistance": 2,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 48,
+          "min": 18
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 38,
+          "min": 15
+        },
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 130,
+          "min": 55
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "resistance": {
+          "max": 255,
+          "min": 105
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 56,
+        "resistance": 509
+      },
+      "item_requirements": {
+        "level": 44,
+        "magic": 70,
+        "strength": 27
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/legs-magic-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080d8be70db0a57c64980",
+      "name": {
+        "ru": "Подвеска защиты",
+        "en": "Defense Pendant"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "neck",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "defense": 2,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "magic": 1,
+        "physicalAttackInterval": 1,
+        "physicalDamageReduction": 1,
+        "resistance": 3,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 44,
+          "min": 17
+        },
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "defense": {
+          "max": 54,
+          "min": 27
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 51,
+          "min": 25
+        },
+        "health": {
+          "max": 70,
+          "min": 35
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 50,
+          "min": 10
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 77,
+          "min": 30
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 98
+      },
+      "item_requirements": {
+        "level": 43
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/neck-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae40800ba73fc108b158311d",
+      "name": {
+        "ru": "Амулет уклонения",
+        "en": "Evasion Amulet"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "neck",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 2,
+        "defense": 3,
+        "dexterity": 3,
+        "evasion": 3,
+        "health": 2,
+        "magic": 2,
+        "physicalAttackInterval": 1,
+        "physicalDamageReduction": 2,
+        "resistance": 3,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 44,
+          "min": 17
+        },
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "defense": {
+          "max": 45,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 62,
+          "min": 31
+        },
+        "health": {
+          "max": 70,
+          "min": 35
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 77,
+          "min": 30
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 62
+      },
+      "item_requirements": {
+        "level": 43
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/neck-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae40802b8cefd6912be80d5c",
+      "name": {
+        "ru": "Кулон сопротивления",
+        "en": "Resistance Coulomb"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "neck",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "activationTime": 2,
+        "criticalHitRate": 1,
+        "defense": 2,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 2,
+        "magic": 2,
+        "resistance": 2,
+        "stealth": 2,
+        "strength": 2,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 44,
+          "min": 17
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "defense": {
+          "max": 35,
+          "min": 17
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 41,
+          "min": 20
+        },
+        "health": {
+          "max": 70,
+          "min": 35
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "resistance": {
+          "max": 93,
+          "min": 38
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "resistance": 98
+      },
+      "item_requirements": {
+        "level": 43
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/neck-magic-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae408001bf60d59efdca01b5",
+      "name": {
+        "ru": "Плащ",
+        "en": "Cloak"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "shoulders",
+      "item_subtype": "cloak",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "dexterity": 2,
+        "evasion": 2,
+        "health": 3,
+        "healthRegen": 2,
+        "magic": 2,
+        "mana": 3,
+        "manaRegen": 3,
+        "resistance": 2,
+        "stealth": 2,
+        "strength": 2,
+        "vitality": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 78,
+          "min": 31
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 110,
+          "min": 45
+        },
+        "manaRegen": {
+          "max": 3,
+          "min": 1
+        },
+        "resistance": {
+          "max": 211,
+          "min": 88
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 93
+      },
+      "item_requirements": {
+        "level": 48
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/shoulders-cloak-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080f085dee077092e2a88",
+      "name": {
+        "ru": "Тяжелый ремень",
+        "en": "Heavy Belt"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "waist",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 2,
+        "defense": 1,
+        "dexterity": 1,
+        "evasion": 1,
+        "health": 1,
+        "magic": 1,
+        "physicalAttackInterval": 1,
+        "physicalDamageReduction": 1,
+        "resistance": 3,
+        "strength": 1,
+        "visibility": 3,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 44,
+          "min": 17
+        },
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "defense": {
+          "max": 54,
+          "min": 27
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 51,
+          "min": 25
+        },
+        "health": {
+          "max": 70,
+          "min": 35
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 50,
+          "min": 10
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 77,
+          "min": 30
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 105
+      },
+      "item_requirements": {
+        "level": 46
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/waist-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae408072bd27fb428d13ee1c",
+      "name": {
+        "ru": "Легкий пояс",
+        "en": "Light Belt"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "waist",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 2,
+        "criticalHitRate": 2,
+        "defense": 3,
+        "dexterity": 1,
+        "evasion": 3,
+        "health": 1,
+        "magic": 3,
+        "physicalAttackInterval": 1,
+        "physicalDamageReduction": 1,
+        "resistance": 3,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 44,
+          "min": 17
+        },
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "defense": {
+          "max": 45,
+          "min": 22
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 62,
+          "min": 31
+        },
+        "health": {
+          "max": 70,
+          "min": 35
+        },
+        "magic": {
+          "max": 3,
+          "min": 1
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "resistance": {
+          "max": 77,
+          "min": 30
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 67
+      },
+      "item_requirements": {
+        "level": 46
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/waist-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080f5bb58f5b485510a02",
+      "name": {
+        "ru": "Волшебная сумка",
+        "en": "Magic Bag"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "waist",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 3,
+        "activationTime": 2,
+        "criticalHitRate": 2,
+        "defense": 2,
+        "dexterity": 2,
+        "evasion": 3,
+        "health": 1,
+        "magic": 1,
+        "resistance": 2,
+        "stealth": 2,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 44,
+          "min": 17
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "defense": {
+          "max": 35,
+          "min": 17
+        },
+        "dexterity": {
+          "max": 3,
+          "min": 1
+        },
+        "evasion": {
+          "max": 41,
+          "min": 20
+        },
+        "health": {
+          "max": 70,
+          "min": 35
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "resistance": {
+          "max": 93,
+          "min": 38
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "strength": {
+          "max": 3,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "resistance": 105
+      },
+      "item_requirements": {
+        "level": 46
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/waist-magic-common.webp"
+    },
+    {
+      "template_id": "13c1a679ae40804894a3ddd1638f1312",
+      "name": {
+        "ru": "Топор",
+        "en": "Axe"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "axe",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 122,
+          "min": 29
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 5,
+          "min": 1
+        },
+        "health": {
+          "max": 156,
+          "min": 42
+        },
+        "magic": {
+          "max": 5,
+          "min": 1
+        },
+        "mana": {
+          "max": 135,
+          "min": 60
+        },
+        "physicalAttack": {
+          "max": 35,
+          "min": 8
+        },
+        "physicalAttackInterval": {
+          "max": 150,
+          "min": 50
+        },
+        "physicalAttackMax": {
+          "max": 60,
+          "min": 13
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 6,
+          "min": 1
+        },
+        "visibility": {
+          "max": 15,
+          "min": 3
+        },
+        "vitality": {
+          "max": 9,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 419,
+        "physicalAttackMin": 224,
+        "physicalAttackInterval": 1100
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior",
+          "guardian"
+        ],
+        "dexterity": 27,
+        "level": 43,
+        "strength": 136
+      },
+      "enhancement_bases": {
+        "standard": 12,
+        "legendary": 14,
+        "special": 16
+      },
+      "image_path": "item-images/gear/weapon-axe-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae40808aabeee3706d5cdd3c",
+      "name": {
+        "ru": "Лук",
+        "en": "Bow"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "bow",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 98,
+          "min": 29
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 6,
+          "min": 2
+        },
+        "health": {
+          "max": 46,
+          "min": 10
+        },
+        "magic": {
+          "max": 6,
+          "min": 2
+        },
+        "mana": {
+          "max": 135,
+          "min": 60
+        },
+        "physicalAttack": {
+          "max": 78,
+          "min": 18
+        },
+        "physicalAttackInterval": {
+          "max": 200,
+          "min": 50
+        },
+        "physicalAttackMax": {
+          "max": 125,
+          "min": 42
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 5,
+          "min": 2
+        },
+        "vitality": {
+          "max": 5,
+          "min": 2
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 478,
+        "physicalAttackMin": 256,
+        "physicalAttackInterval": 1400
+      },
+      "item_requirements": {
+        "classes": [
+          "archer"
+        ],
+        "dexterity": 130,
+        "level": 41,
+        "strength": 26
+      },
+      "enhancement_bases": {
+        "standard": 13,
+        "legendary": 15,
+        "special": 17
+      },
+      "image_path": "item-images/gear/weapon-bow-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae40800da058d3848c2ecde4",
+      "name": {
+        "ru": "Арбалет",
+        "en": "Crossbow"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "crossbow",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 2,
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackMax": 2,
+        "requirements": 3,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 98,
+          "min": 29
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 6,
+          "min": 2
+        },
+        "health": {
+          "max": 46,
+          "min": 10
+        },
+        "magic": {
+          "max": 6,
+          "min": 2
+        },
+        "mana": {
+          "max": 135,
+          "min": 60
+        },
+        "physicalAttack": {
+          "max": 78,
+          "min": 18
+        },
+        "physicalAttackMax": {
+          "max": 125,
+          "min": 42
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 5,
+          "min": 2
+        },
+        "vitality": {
+          "max": 5,
+          "min": 2
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 586,
+        "physicalAttackMin": 250,
+        "physicalAttackInterval": 1600
+      },
+      "item_requirements": {
+        "classes": [
+          "archer"
+        ],
+        "dexterity": 136,
+        "level": 44,
+        "strength": 30
+      },
+      "enhancement_bases": {
+        "standard": 13,
+        "legendary": 15,
+        "special": 17
+      },
+      "image_path": "item-images/gear/weapon-crossbow-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae408053adb5d98e6a15e80c",
+      "name": {
+        "ru": "Кинжалы",
+        "en": "Daggers"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "daggers",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 2,
+        "physicalAttack": 2,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 2,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 78,
+          "min": 19
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 6,
+          "min": 1
+        },
+        "health": {
+          "max": 29,
+          "min": 8
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 110,
+          "min": 55
+        },
+        "physicalAttack": {
+          "max": 49,
+          "min": 8
+        },
+        "physicalAttackInterval": {
+          "max": 100,
+          "min": 20
+        },
+        "physicalAttackMax": {
+          "max": 105,
+          "min": 32
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 265,
+        "physicalAttackMin": 175,
+        "physicalAttackInterval": 800
+      },
+      "item_requirements": {
+        "classes": [
+          "assassin"
+        ],
+        "dexterity": 139,
+        "level": 44,
+        "strength": 28
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-daggers-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae40803e9aa4ed1bfc5924a1",
+      "name": {
+        "ru": "Кастеты",
+        "en": "Fist"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "fist",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 3,
+        "health": 3,
+        "magic": 1,
+        "mana": 2,
+        "physicalAttack": 3,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 3,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 98,
+          "min": 29
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 7,
+          "min": 1
+        },
+        "health": {
+          "max": 125,
+          "min": 42
+        },
+        "magic": {
+          "max": 5,
+          "min": 1
+        },
+        "mana": {
+          "max": 135,
+          "min": 60
+        },
+        "physicalAttack": {
+          "max": 35,
+          "min": 8
+        },
+        "physicalAttackInterval": {
+          "max": 60,
+          "min": 20
+        },
+        "physicalAttackMax": {
+          "max": 60,
+          "min": 13
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 5,
+          "min": 1
+        },
+        "vitality": {
+          "max": 6,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 198,
+        "physicalAttackMin": 178,
+        "physicalAttackInterval": 700
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior"
+        ],
+        "dexterity": 87,
+        "level": 42,
+        "strength": 72
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-fist-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae408084acc8d05e4e626dba",
+      "name": {
+        "ru": "Молот",
+        "en": "Hammer"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "hammer",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 2,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "visibility": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 98,
+          "min": 29
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 5,
+          "min": 1
+        },
+        "health": {
+          "max": 125,
+          "min": 42
+        },
+        "magic": {
+          "max": 5,
+          "min": 1
+        },
+        "mana": {
+          "max": 135,
+          "min": 60
+        },
+        "physicalAttack": {
+          "max": 35,
+          "min": 8
+        },
+        "physicalAttackInterval": {
+          "max": 150,
+          "min": 50
+        },
+        "physicalAttackMax": {
+          "max": 60,
+          "min": 13
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 6,
+          "min": 1
+        },
+        "visibility": {
+          "max": 10,
+          "min": 3
+        },
+        "vitality": {
+          "max": 7,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 534,
+        "physicalAttackMin": 228,
+        "physicalAttackInterval": 1200
+      },
+      "item_requirements": {
+        "classes": [
+          "guardian"
+        ],
+        "dexterity": 29,
+        "level": 46,
+        "strength": 145
+      },
+      "enhancement_bases": {
+        "standard": 13,
+        "legendary": 15,
+        "special": 17
+      },
+      "image_path": "item-images/gear/weapon-hammer-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080b680b0d9141ed57b5b",
+      "name": {
+        "ru": "Посох",
+        "en": "Staff"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "staff",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "magicAttack": 1,
+        "magicAttackMax": 1,
+        "mana": 1,
+        "physicalDamageReduction": 2,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 118,
+          "min": 47
+        },
+        "activationTime": {
+          "max": 12,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 71,
+          "min": 47
+        },
+        "dexterity": {
+          "max": 6,
+          "min": 1
+        },
+        "health": {
+          "max": 105,
+          "min": 42
+        },
+        "magic": {
+          "max": 7,
+          "min": 1
+        },
+        "magicAttack": {
+          "max": 35,
+          "min": 8
+        },
+        "magicAttackMax": {
+          "max": 60,
+          "min": 13
+        },
+        "mana": {
+          "max": 160,
+          "min": 55
+        },
+        "physicalDamageReduction": {
+          "max": 1,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 5,
+          "min": 1
+        },
+        "vitality": {
+          "max": 5,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "magicAttackMax": 421,
+        "magicAttackMin": 226
+      },
+      "item_requirements": {
+        "classes": [
+          "mage",
+          "priest"
+        ],
+        "level": 46,
+        "magic": 140,
+        "strength": 31
+      },
+      "enhancement_bases": {
+        "standard": 12,
+        "legendary": 14,
+        "special": 16
+      },
+      "image_path": "item-images/gear/weapon-staff-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080e897a0c62f4c1042e6",
+      "name": {
+        "ru": "Стилет",
+        "en": "Stiletto"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "stiletto",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "activationTime": 2,
+        "criticalHitRate": 1,
+        "dexterity": 3,
+        "health": 1,
+        "magic": 2,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackMax": 2,
+        "requirements": 1,
+        "strength": 2,
+        "vitality": 2
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 78,
+          "min": 19
+        },
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 1,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 6,
+          "min": 1
+        },
+        "health": {
+          "max": 29,
+          "min": 8
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "mana": {
+          "max": 110,
+          "min": 55
+        },
+        "physicalAttack": {
+          "max": 49,
+          "min": 8
+        },
+        "physicalAttackMax": {
+          "max": 105,
+          "min": 32
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 290,
+        "physicalAttackMin": 194,
+        "physicalAttackInterval": 900
+      },
+      "item_requirements": {
+        "classes": [
+          "assassin"
+        ],
+        "dexterity": 130,
+        "level": 41,
+        "strength": 26
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-stiletto-common.webp"
+    },
+    {
+      "template_id": "13c1a679ae408041995fc05c48a17255",
+      "name": {
+        "ru": "Меч",
+        "en": "Sword"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "sword",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "accuracy": 1,
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "mana": 1,
+        "physicalAttack": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1,
+        "requirements": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 98,
+          "min": 29
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 6,
+          "min": 1
+        },
+        "health": {
+          "max": 125,
+          "min": 42
+        },
+        "magic": {
+          "max": 5,
+          "min": 1
+        },
+        "mana": {
+          "max": 135,
+          "min": 60
+        },
+        "physicalAttack": {
+          "max": 35,
+          "min": 8
+        },
+        "physicalAttackInterval": {
+          "max": 100,
+          "min": 20
+        },
+        "physicalAttackMax": {
+          "max": 60,
+          "min": 13
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "strength": {
+          "max": 6,
+          "min": 1
+        },
+        "vitality": {
+          "max": 6,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 349,
+        "physicalAttackMin": 231,
+        "physicalAttackInterval": 900
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior"
+        ],
+        "dexterity": 78,
+        "level": 48,
+        "strength": 103
+      },
+      "enhancement_bases": {
+        "standard": 12,
+        "legendary": 14,
+        "special": 16
+      },
+      "image_path": "item-images/gear/weapon-sword-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae408065ba0df4ef7d71aa65",
+      "name": {
+        "ru": "Жезл",
+        "en": "Wand"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "wand",
+      "item_quality": "common",
+      "blueprint_quality": null,
+      "magic_props": {
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "defense": 1,
+        "dexterity": 1,
+        "health": 1,
+        "magic": 1,
+        "magicAttack": 1,
+        "magicAttackMax": 1,
+        "mana": 1,
+        "manaRegen": 1,
+        "physicalDamageReduction": 1,
+        "requirements": 1,
+        "stealth": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "max": 10,
+          "min": 1
+        },
+        "criticalHitRate": {
+          "max": 2,
+          "min": 1
+        },
+        "defense": {
+          "max": 118,
+          "min": 47
+        },
+        "dexterity": {
+          "max": 6,
+          "min": 1
+        },
+        "health": {
+          "max": 105,
+          "min": 42
+        },
+        "magic": {
+          "max": 7,
+          "min": 1
+        },
+        "magicAttack": {
+          "max": 35,
+          "min": 8
+        },
+        "magicAttackMax": {
+          "max": 60,
+          "min": 13
+        },
+        "mana": {
+          "max": 160,
+          "min": 55
+        },
+        "manaRegen": {
+          "max": 14,
+          "min": 4
+        },
+        "physicalDamageReduction": {
+          "max": 2,
+          "min": 1
+        },
+        "requirements": {
+          "max": 20,
+          "min": 10
+        },
+        "stealth": {
+          "max": 4,
+          "min": 1
+        },
+        "strength": {
+          "max": 5,
+          "min": 1
+        },
+        "vitality": {
+          "max": 5,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "magicAttackMax": 282,
+        "magicAttackMin": 274
+      },
+      "item_requirements": {
+        "classes": [
+          "mage",
+          "priest"
+        ],
+        "level": 40,
+        "magic": 127,
+        "strength": 24
+      },
+      "enhancement_bases": {
+        "standard": 12,
+        "legendary": 14,
+        "special": 16
+      },
+      "image_path": "item-images/gear/weapon-wand-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080899964ec9dfa26517a",
+      "name": {
+        "ru": "Тяжелая броня",
+        "en": "Heavy Plate"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "chest",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "defense": 1,
+        "evasion": 1,
+        "resistance": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 118,
+          "min": 47
+        },
+        "evasion": {
+          "max": 54,
+          "min": 23
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        }
+      },
+      "base_stats": {
+        "defense": 551,
+        "resistance": 234
+      },
+      "item_requirements": {
+        "dexterity": 25,
+        "level": 41,
+        "strength": 104
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/chest-heavy-epic.webp"
+    },
+    {
+      "template_id": "13f1a679ae40805eb754d8fc1b7a5c8a",
+      "name": {
+        "ru": "Легкая броня",
+        "en": "Light Armor"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "chest",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "dexterity": 1,
+        "stealth": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 236,
+        "resistance": 369
+      },
+      "item_requirements": {
+        "dexterity": 46,
+        "level": 41,
+        "strength": 45
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/chest-light-epic.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080e89f55c8e9b33df113",
+      "name": {
+        "ru": "Волшебная мантия",
+        "en": "Magic Robe"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "chest",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "health": 1,
+        "magic": 1,
+        "resistance": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "resistance": {
+          "max": 255,
+          "min": 105
+        }
+      },
+      "base_stats": {
+        "defense": 61,
+        "resistance": 549
+      },
+      "item_requirements": {
+        "level": 41,
+        "magic": 65,
+        "strength": 25
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/chest-magic-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae40808db284ceba43f8edce",
+      "name": {
+        "ru": "Тяжелые сапоги",
+        "en": "Heavy Footwear"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "feet",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "defense": 1,
+        "health": 1,
+        "visibility": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 118,
+          "min": 47
+        },
+        "health": {
+          "max": 70,
+          "min": 30
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        }
+      },
+      "base_stats": {
+        "defense": 362,
+        "resistance": 154
+      },
+      "item_requirements": {
+        "dexterity": 28,
+        "level": 47,
+        "strength": 119
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/feet-heavy-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080068bf3c73a8f3ed8f8",
+      "name": {
+        "ru": "Легкие сапоги",
+        "en": "Light Boots"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "feet",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "dexterity": 1,
+        "health": 1,
+        "resistance": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "health": {
+          "max": 50,
+          "min": 20
+        },
+        "resistance": {
+          "max": 211,
+          "min": 83
+        }
+      },
+      "base_stats": {
+        "defense": 155,
+        "resistance": 239
+      },
+      "item_requirements": {
+        "dexterity": 52,
+        "level": 47,
+        "strength": 51
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/feet-light-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080fd8021dfa01987978e",
+      "name": {
+        "ru": "Волшебные башмаки",
+        "en": "Magic Shoes"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "feet",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "health": 1,
+        "magic": 1,
+        "stealth": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 40,
+        "resistance": 364
+      },
+      "item_requirements": {
+        "level": 47,
+        "magic": 74,
+        "strength": 28
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/feet-magic-epic.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080faa876cf4896af55a0",
+      "name": {
+        "ru": "Металлическое кольцо",
+        "en": "Iron Ring"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "finger",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "accuracy": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "max": 88,
+          "min": 26
+        },
+        "strength": {
+          "max": 7,
+          "min": 2
+        },
+        "vitality": {
+          "max": 7,
+          "min": 2
+        }
+      },
+      "base_stats": {
+        "physicalAttack": 69
+      },
+      "item_requirements": {
+        "level": 49
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/finger-heavy-epic.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080d9ab57e36dad54cc9f",
+      "name": {
+        "ru": "Волшебные перчатки",
+        "en": "Magic Sleeves"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "hands",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "activationTime": 1,
+        "magic": 1,
+        "stealth": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "max": 8,
+          "min": 1
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 28,
+        "resistance": 259
+      },
+      "item_requirements": {
+        "level": 45,
+        "magic": 71,
+        "strength": 27
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/hands-magic-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080299e51f24350fe6a72",
+      "name": {
+        "ru": "Тяжелый шлем",
+        "en": "Heavy Helm"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "head",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "health": 1,
+        "strength": 1,
+        "visibility": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "health": {
+          "max": 70,
+          "min": 30
+        },
+        "strength": {
+          "max": 4,
+          "min": 1
+        },
+        "visibility": {
+          "max": 8,
+          "min": 2
+        }
+      },
+      "base_stats": {
+        "health": 104
+      },
+      "item_requirements": {
+        "level": 42,
+        "strength": 67
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/head-heavy-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080468121e64d5d97092a",
+      "name": {
+        "ru": "Легкое наголовье",
+        "en": "Light Helmet"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "head",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "dexterity": 1,
+        "healthRegen": 1,
+        "resistance": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "resistance": {
+          "max": 211,
+          "min": 83
+        }
+      },
+      "base_stats": {
+        "evasion": 54
+      },
+      "item_requirements": {
+        "level": 42,
+        "strength": 49
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/head-light-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080b49776c516e99a3fa8",
+      "name": {
+        "ru": "Волшебный капюшон",
+        "en": "Magic Hood"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "head",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "defense": 1,
+        "health": 1,
+        "magic": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 57,
+          "min": 22
+        },
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "mana": 125
+      },
+      "item_requirements": {
+        "level": 42,
+        "magic": 125,
+        "strength": 27
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/head-magic-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080bdbed5f52bb2c79008",
+      "name": {
+        "ru": "Стальные брюки",
+        "en": "Heavy Leggings"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "legs",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "healthRegen": 1,
+        "resistance": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "healthRegen": {
+          "max": 5,
+          "min": 2
+        },
+        "resistance": {
+          "max": 167,
+          "min": 62
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 508,
+        "resistance": 219
+      },
+      "item_requirements": {
+        "dexterity": 27,
+        "level": 44,
+        "strength": 112
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/legs-heavy-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae40802e986bfc2e549777f9",
+      "name": {
+        "ru": "Легкие штаны",
+        "en": "Light Pants"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "legs",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "dexterity": 1,
+        "evasion": 1,
+        "resistance": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 78,
+          "min": 31
+        },
+        "resistance": {
+          "max": 211,
+          "min": 83
+        }
+      },
+      "base_stats": {
+        "defense": 217,
+        "resistance": 339
+      },
+      "item_requirements": {
+        "dexterity": 49,
+        "level": 44,
+        "strength": 48
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/legs-light-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae408032ac1dd9d7d843743f",
+      "name": {
+        "ru": "Волшебные брюки",
+        "en": "Magic Trousers"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "legs",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "health": 2,
+        "magic": 2,
+        "stealth": 3
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "health": {
+          "max": 40,
+          "min": 20
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "defense": 56,
+        "resistance": 509
+      },
+      "item_requirements": {
+        "level": 44,
+        "magic": 70,
+        "strength": 27
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/legs-magic-epic.webp"
+    },
+    {
+      "template_id": "13f1a679ae40800ba73fc108b158311d",
+      "name": {
+        "ru": "Амулет уклонения",
+        "en": "Evasion Amulet"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "neck",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "dexterity": 1,
+        "evasion": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "evasion": {
+          "max": 62,
+          "min": 31
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 62
+      },
+      "item_requirements": {
+        "level": 43
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/neck-light-epic.webp"
+    },
+    {
+      "template_id": "13f1a679ae40802b8cefd6912be80d5c",
+      "name": {
+        "ru": "Кулон сопротивления",
+        "en": "Resistance Coulomb"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "neck",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "defense": 1,
+        "magic": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "defense": {
+          "max": 35,
+          "min": 17
+        },
+        "magic": {
+          "max": 4,
+          "min": 1
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "resistance": 98
+      },
+      "item_requirements": {
+        "level": 43
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/neck-magic-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae408072bd27fb428d13ee1c",
+      "name": {
+        "ru": "Легкий пояс",
+        "en": "Light Belt"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "waist",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "criticalHitRate": 1,
+        "dexterity": 1,
+        "stealth": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "dexterity": {
+          "max": 4,
+          "min": 1
+        },
+        "stealth": {
+          "max": 2,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "evasion": 67
+      },
+      "item_requirements": {
+        "level": 46
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/waist-light-epic.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080f5bb58f5b485510a02",
+      "name": {
+        "ru": "Волшебная сумка",
+        "en": "Magic Bag"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "waist",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "criticalHitRate": 1,
+        "defense": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "criticalHitRate": {
+          "max": 3,
+          "min": 1
+        },
+        "defense": {
+          "max": 35,
+          "min": 17
+        },
+        "vitality": {
+          "max": 4,
+          "min": 1
+        }
+      },
+      "base_stats": {
+        "resistance": 105
+      },
+      "item_requirements": {
+        "level": 46
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/waist-magic-epic.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080b680b0d9141ed57b5b",
+      "name": {
+        "ru": "Посох",
+        "en": "Staff"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "staff",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "activationTime": 1,
+        "health": 1,
+        "magicAttack": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "max": 12,
+          "min": 1
+        },
+        "health": {
+          "max": 105,
+          "min": 42
+        },
+        "magicAttack": {
+          "max": 35,
+          "min": 8
+        }
+      },
+      "base_stats": {
+        "magicAttackMax": 421,
+        "magicAttackMin": 226
+      },
+      "item_requirements": {
+        "classes": [
+          "mage",
+          "priest"
+        ],
+        "level": 46,
+        "magic": 140,
+        "strength": 31
+      },
+      "enhancement_bases": {
+        "standard": 12,
+        "legendary": 14,
+        "special": 16
+      },
+      "image_path": "item-images/gear/weapon-staff-epic.webp"
+    }
+  ],
+  "skills": [],
+  "numeric_data_semantics": {
+    "magic_props": "Current library research level for the property (1-3).",
+    "property_value_ranges": "Minimum and maximum property roll stored in the linked world item template.",
+    "base_stats": "Base item stats from world.items[].index.",
+    "enhancement_bases": "Item enhancement base values from the linked world item template.",
+    "level_to_value_mapping": "No explicit mapping from library research level to a single final numeric bonus is established.",
+    "abilities": "All seven abilities were moved to abilities.json; extrapolated levels are marked per row."
+  }
+}

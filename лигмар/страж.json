@@ -1,0 +1,2709 @@
+{
+  "schema_version": 1,
+  "class_id": "guardian",
+  "class_name_ru": "страж",
+  "coverage": "observed effective/next ranks, not a complete all-ranks catalog",
+  "summary": {
+    "skills": 20,
+    "observations": 34,
+    "skill_rank_pairs": 34
+  },
+  "rows": [
+    {
+      "skill_id": "1571a679ae4080ac881bd56f67d760f7",
+      "name_ru": "Мощный замах",
+      "name_en": "Powerful Swing",
+      "variant": "effective",
+      "skill_level": 8,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 1,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any",
+        "unarmed"
+      ],
+      "activation_time_ms": 900,
+      "cooldown_ms": 2300,
+      "mana_cost": 37,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон урон и дополнительно 572 физического урона.",
+      "description_en": "Deals basic physical damage to the target and an additional 572 physical damage.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080ac881bd56f67d760f7",
+        "activation": {
+          "cooldown": 2300,
+          "consumables": null,
+          "mana_cost": 37,
+          "time": 900,
+          "weapon": [
+            "any",
+            "unarmed"
+          ]
+        },
+        "owner": "guardian",
+        "level": 8,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон урон и дополнительно <b>572</b> физического урона.",
+          "en": "Deals basic physical damage to the target and an additional <b>572</b> physical damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080ac881bd56f67d760f7",
+        "required_character_level": 1,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080ac881bd56f67d760f7",
+      "name_ru": "Мощный замах",
+      "name_en": "Powerful Swing",
+      "variant": "next",
+      "skill_level": 9,
+      "learned_level": 8,
+      "max_level": 10,
+      "unlock_character_level": 1,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any",
+        "unarmed"
+      ],
+      "activation_time_ms": 900,
+      "cooldown_ms": 2300,
+      "mana_cost": 42,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон урон и дополнительно 648 физического урона.",
+      "description_en": "Deals basic physical damage to the target and an additional 648 physical damage.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080ac881bd56f67d760f7",
+        "activation": {
+          "cooldown": 2300,
+          "consumables": null,
+          "mana_cost": 42,
+          "time": 900,
+          "weapon": [
+            "any",
+            "unarmed"
+          ]
+        },
+        "owner": "guardian",
+        "level": 9,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон урон и дополнительно <b>648</b> физического урона.",
+          "en": "Deals basic physical damage to the target and an additional <b>648</b> physical damage."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080ac881bd56f67d760f7",
+        "required_character_level": 1,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 8
+      }
+    },
+    {
+      "skill_id": "1571a679ae408065959fdd315f787879",
+      "name_ru": "Жгучая рана",
+      "name_en": "Burning Wound",
+      "variant": "effective",
+      "skill_level": 7,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 3,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 1000,
+      "cooldown_ms": 7200,
+      "mana_cost": 26,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 320000
+          }
+        ],
+        "level": 33,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и 1,020 физического урона в течение 15 с.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals basic physical damage to the target and 1,020 physical damage over 15 s.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae408065959fdd315f787879",
+        "activation": {
+          "cooldown": 7200,
+          "consumables": null,
+          "mana_cost": 26,
+          "time": 1000,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 7,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 320000
+            }
+          ],
+          "level": 33,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>1,020</b> физического урона в течение <b>15 с</b>.<br><br>Невозможно использовать в состоянии «Железная воля».",
+          "en": "Deals basic physical damage to the target and <b>1,020</b> physical damage over <b>15 s</b>.<br><br>Cannot be used in the \"Iron Will\" state."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae408065959fdd315f787879",
+        "required_character_level": 3,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "1571a679ae408065959fdd315f787879",
+      "name_ru": "Жгучая рана",
+      "name_en": "Burning Wound",
+      "variant": "next",
+      "skill_level": 8,
+      "learned_level": 7,
+      "max_level": 10,
+      "unlock_character_level": 3,
+      "unlock_status_level": 0,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 1000,
+      "cooldown_ms": 7200,
+      "mana_cost": 30,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 450000
+          }
+        ],
+        "level": 38,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и 1,200 физического урона в течение 15 с.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals basic physical damage to the target and 1,200 physical damage over 15 s.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae408065959fdd315f787879",
+        "activation": {
+          "cooldown": 7200,
+          "consumables": null,
+          "mana_cost": 30,
+          "time": 1000,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 8,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 450000
+            }
+          ],
+          "level": 38,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>1,200</b> физического урона в течение <b>15 с</b>.<br><br>Невозможно использовать в состоянии «Железная воля».",
+          "en": "Deals basic physical damage to the target and <b>1,200</b> physical damage over <b>15 s</b>.<br><br>Cannot be used in the \"Iron Will\" state."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae408065959fdd315f787879",
+        "required_character_level": 3,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 7
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080adb5b3c028697076c9",
+      "name_ru": "Железная воля",
+      "name_en": "Iron Will",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 6,
+      "unlock_status_level": 0,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any",
+        "defenseStand"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 2000,
+      "mana_cost": 45,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 300000
+          }
+        ],
+        "level": 31,
+        "status_level": 3
+      },
+      "description_ru": "Увеличивает максимальное значение здоровья на 22%, ускоряет стража на 38% и снижает физическую атаку на 38%.\n\nЗапрещает использование некоторых умений.",
+      "description_en": "Increases the maximum health value by 22%, accelerates the guardian by 38%, and reduces physical attack from equipment by 38%.\n\nProhibits the use of certain abilities.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080adb5b3c028697076c9",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 45,
+          "time": 0,
+          "weapon": [
+            "any",
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 6,
+        "objects": [
+          "self"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 300000
+            }
+          ],
+          "level": 31,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает максимальное значение здоровья на <b>22%</b>, ускоряет стража на <b>38%</b> и снижает физическую атаку на <b>38%</b>.<br><br><span class=\"c-b\">Запрещает использование некоторых умений.</span>",
+          "en": "Increases the maximum health value by <b>22%</b>, accelerates the guardian by <b>38%</b>, and reduces physical attack from equipment by <b>38%</b>.<br><br><span class=\"c-b\">Prohibits the use of certain abilities.</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080adb5b3c028697076c9",
+        "required_character_level": 6,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080adb5b3c028697076c9",
+      "name_ru": "Железная воля",
+      "name_en": "Iron Will",
+      "variant": "next",
+      "skill_level": 7,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 6,
+      "unlock_status_level": 0,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "melee",
+      "weapons": [
+        "any",
+        "defenseStand"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 2000,
+      "mana_cost": 50,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 390000
+          }
+        ],
+        "level": 36,
+        "status_level": 3
+      },
+      "description_ru": "Увеличивает максимальное значение здоровья на 24%, ускоряет стража на 41% и снижает физическую атаку на 41%.\n\nЗапрещает использование некоторых умений.",
+      "description_en": "Increases the maximum health value by 24%, accelerates the guardian by 41%, and reduces physical attack from equipment by 41%.\n\nProhibits the use of certain abilities.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080adb5b3c028697076c9",
+        "activation": {
+          "cooldown": 2000,
+          "consumables": null,
+          "mana_cost": 50,
+          "time": 0,
+          "weapon": [
+            "any",
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 7,
+        "objects": [
+          "self"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 390000
+            }
+          ],
+          "level": 36,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает максимальное значение здоровья на <b>24%</b>, ускоряет стража на <b>41%</b> и снижает физическую атаку на <b>41%</b>.<br><br><span class=\"c-b\">Запрещает использование некоторых умений.</span>",
+          "en": "Increases the maximum health value by <b>24%</b>, accelerates the guardian by <b>41%</b>, and reduces physical attack from equipment by <b>41%</b>.<br><br><span class=\"c-b\">Prohibits the use of certain abilities.</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080adb5b3c028697076c9",
+        "required_character_level": 6,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080338343e3a09b31a450",
+      "name_ru": "Кровавый зов",
+      "name_en": "Blood Call",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer",
+        "defenseStand"
+      ],
+      "activation_time_ms": 1200,
+      "cooldown_ms": 2200,
+      "mana_cost": 30,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и 1,095 физического урона в течение 15 с. Провоцирует монстров атаковать стража в течение 11 с. Не промахивается.",
+      "description_en": "Deals basic physical damage to the target and 1,095 physical damage over 15 s. Provokes monsters to attack the guardian for 11 s. Does not miss.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080338343e3a09b31a450",
+        "activation": {
+          "cooldown": 2200,
+          "consumables": null,
+          "mana_cost": 30,
+          "time": 1200,
+          "weapon": [
+            "axe",
+            "hammer",
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 6,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>1,095</b> физического урона в течение <b>15 с</b>. Провоцирует монстров атаковать стража в течение <b>11 с</b>. Не промахивается.",
+          "en": "Deals basic physical damage to the target and <b>1,095</b> physical damage over <b>15 s</b>. Provokes monsters to attack the guardian for <b>11 s</b>. Does not miss."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080338343e3a09b31a450",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080338343e3a09b31a450",
+      "name_ru": "Кровавый зов",
+      "name_en": "Blood Call",
+      "variant": "next",
+      "skill_level": 7,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 10,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer",
+        "defenseStand"
+      ],
+      "activation_time_ms": 1200,
+      "cooldown_ms": 2200,
+      "mana_cost": 34,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и 1,275 физического урона в течение 15 с. Провоцирует монстров атаковать стража в течение 12 с. Не промахивается.",
+      "description_en": "Deals basic physical damage to the target and 1,275 physical damage over 15 s. Provokes monsters to attack the guardian for 12 s. Does not miss.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080338343e3a09b31a450",
+        "activation": {
+          "cooldown": 2200,
+          "consumables": null,
+          "mana_cost": 34,
+          "time": 1200,
+          "weapon": [
+            "axe",
+            "hammer",
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 7,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>1,275</b> физического урона в течение <b>15 с</b>. Провоцирует монстров атаковать стража в течение <b>12 с</b>. Не промахивается.",
+          "en": "Deals basic physical damage to the target and <b>1,275</b> physical damage over <b>15 s</b>. Provokes monsters to attack the guardian for <b>12 s</b>. Does not miss."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080338343e3a09b31a450",
+        "required_character_level": 10,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "1571a679ae40804e888afe99842d4426",
+      "name_ru": "Стальной вихрь",
+      "name_en": "Steel Vortex",
+      "variant": "effective",
+      "skill_level": 5,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 13,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 6800,
+      "mana_cost": 50,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 320000
+          }
+        ],
+        "level": 33,
+        "status_level": 3
+      },
+      "description_ru": "Наносит ближайшим противникам базовый физический урон и 544 физического урона.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals basic physical damage to the nearest enemies and 544 physical damage.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae40804e888afe99842d4426",
+        "activation": {
+          "cooldown": 6800,
+          "consumables": null,
+          "mana_cost": 50,
+          "time": 1600,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 5,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 320000
+            }
+          ],
+          "level": 33,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим противникам базовый физический урон и <b>544</b> физического урона.<br><br>Невозможно использовать в состоянии «Железная воля».",
+          "en": "Deals basic physical damage to the nearest enemies and <b>544</b> physical damage.<br><br>Cannot be used in the \"Iron Will\" state."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae40804e888afe99842d4426",
+        "required_character_level": 13,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "1571a679ae40804e888afe99842d4426",
+      "name_ru": "Стальной вихрь",
+      "name_en": "Steel Vortex",
+      "variant": "next",
+      "skill_level": 6,
+      "learned_level": 5,
+      "max_level": 10,
+      "unlock_character_level": 13,
+      "unlock_status_level": 1,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 1600,
+      "cooldown_ms": 6800,
+      "mana_cost": 57,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 450000
+          }
+        ],
+        "level": 38,
+        "status_level": 3
+      },
+      "description_ru": "Наносит ближайшим противникам базовый физический урон и 619 физического урона.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals basic physical damage to the nearest enemies and 619 physical damage.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae40804e888afe99842d4426",
+        "activation": {
+          "cooldown": 6800,
+          "consumables": null,
+          "mana_cost": 57,
+          "time": 1600,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 6,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 450000
+            }
+          ],
+          "level": 38,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим противникам базовый физический урон и <b>619</b> физического урона.<br><br>Невозможно использовать в состоянии «Железная воля».",
+          "en": "Deals basic physical damage to the nearest enemies and <b>619</b> physical damage.<br><br>Cannot be used in the \"Iron Will\" state."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae40804e888afe99842d4426",
+        "required_character_level": 13,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 5
+      }
+    },
+    {
+      "skill_id": "1571a679ae40800c9ec2d2d889d684a9",
+      "name_ru": "Боевая песнь",
+      "name_en": "Battle Song",
+      "variant": "effective",
+      "skill_level": 6,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2500,
+      "cooldown_ms": 1000,
+      "mana_cost": 220,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 550000
+          }
+        ],
+        "level": 41,
+        "status_level": 4
+      },
+      "description_ru": "Увеличивает группе максимальное здоровье на 22% в течение 900 с.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Increases the group's maximum health by 22% for 900 s.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae40800c9ec2d2d889d684a9",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 220,
+          "time": 2500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "guardian",
+        "level": 6,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 550000
+            }
+          ],
+          "level": 41,
+          "status_level": 4
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает группе максимальное здоровье на <b>22%</b> в течение <b>900 с</b>.<br><br>Невозможно использовать в состоянии «Железная воля».",
+          "en": "Increases the group's maximum health by <b>22%</b> for <b>900 s</b>.<br><br>Cannot be used in the \"Iron Will\" state."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae40800c9ec2d2d889d684a9",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "1571a679ae40800c9ec2d2d889d684a9",
+      "name_ru": "Боевая песнь",
+      "name_en": "Battle Song",
+      "variant": "next",
+      "skill_level": 7,
+      "learned_level": 6,
+      "max_level": 10,
+      "unlock_character_level": 16,
+      "unlock_status_level": 1,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 2500,
+      "cooldown_ms": 1000,
+      "mana_cost": 245,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1020000
+          }
+        ],
+        "level": 46,
+        "status_level": 4
+      },
+      "description_ru": "Увеличивает группе максимальное здоровье на 24% в течение 900 с.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Increases the group's maximum health by 24% for 900 s.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae40800c9ec2d2d889d684a9",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 245,
+          "time": 2500,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "guardian",
+        "level": 7,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1020000
+            }
+          ],
+          "level": 46,
+          "status_level": 4
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает группе максимальное здоровье на <b>24%</b> в течение <b>900 с</b>.<br><br>Невозможно использовать в состоянии «Железная воля».",
+          "en": "Increases the group's maximum health by <b>24%</b> for <b>900 s</b>.<br><br>Cannot be used in the \"Iron Will\" state."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae40800c9ec2d2d889d684a9",
+        "required_character_level": 16,
+        "required_status_level": 1,
+        "max_level": 10,
+        "level": 6
+      }
+    },
+    {
+      "skill_id": "1571a679ae408021a9c6da095d745820",
+      "name_ru": "Удар под дых",
+      "name_en": "Gut Punch",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer",
+        "defenseStand"
+      ],
+      "activation_time_ms": 1000,
+      "cooldown_ms": 11000,
+      "mana_cost": 34,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и 700 физического урона. Прерывает подготовку умений цели.",
+      "description_en": "Deals basic physical damage to the target and 700 physical damage. Interrupts the target's ability preparation.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae408021a9c6da095d745820",
+        "activation": {
+          "cooldown": 11000,
+          "consumables": null,
+          "mana_cost": 34,
+          "time": 1000,
+          "weapon": [
+            "axe",
+            "hammer",
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 4,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>700</b> физического урона. Прерывает подготовку умений цели.",
+          "en": "Deals basic physical damage to the target and <b>700</b> physical damage. Interrupts the target's ability preparation."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae408021a9c6da095d745820",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "1571a679ae408021a9c6da095d745820",
+      "name_ru": "Удар под дых",
+      "name_en": "Gut Punch",
+      "variant": "next",
+      "skill_level": 5,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer",
+        "defenseStand"
+      ],
+      "activation_time_ms": 1000,
+      "cooldown_ms": 10500,
+      "mana_cost": 39,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и 806 физического урона. Прерывает подготовку умений цели.",
+      "description_en": "Deals basic physical damage to the target and 806 physical damage. Interrupts the target's ability preparation.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae408021a9c6da095d745820",
+        "activation": {
+          "cooldown": 10500,
+          "consumables": null,
+          "mana_cost": 39,
+          "time": 1000,
+          "weapon": [
+            "axe",
+            "hammer",
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 5,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>806</b> физического урона. Прерывает подготовку умений цели.",
+          "en": "Deals basic physical damage to the target and <b>806</b> physical damage. Interrupts the target's ability preparation."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae408021a9c6da095d745820",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080d59925e859d61067fd",
+      "name_ru": "Каменный приговор",
+      "name_en": "Stone Judgment",
+      "variant": "effective",
+      "skill_level": 4,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 1100,
+      "cooldown_ms": 5100,
+      "mana_cost": 47,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 611 физического урона. Имеет 32% шанс оглушить цель на 4 с. Не промахивается.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals base physical damage and 611 physical damage to the target. Has a 32% chance to stun the target for 4 s. Does not miss.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080d59925e859d61067fd",
+        "activation": {
+          "cooldown": 5100,
+          "consumables": null,
+          "mana_cost": 47,
+          "time": 1100,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 4,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>611</b> физического урона. Имеет <b>32%</b> шанс оглушить цель на <b>4 с</b>. Не промахивается.<br><br><span class=\"c-b\">Невозможно использовать в состоянии «Железная воля».</span>",
+          "en": "Deals base physical damage and <b>611</b> physical damage to the target. Has a <b>32%</b> chance to stun the target for <b>4 s</b>. Does not miss.<br><br><span class=\"c-b\">Cannot be used in the \"Iron Will\" state.</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080d59925e859d61067fd",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080d59925e859d61067fd",
+      "name_ru": "Каменный приговор",
+      "name_en": "Stone Judgment",
+      "variant": "next",
+      "skill_level": 5,
+      "learned_level": 4,
+      "max_level": 10,
+      "unlock_character_level": 20,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 1100,
+      "cooldown_ms": 5100,
+      "mana_cost": 54,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и дополнительно 710 физического урона. Имеет 35% шанс оглушить цель на 4 с. Не промахивается.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals base physical damage and 710 physical damage to the target. Has a 35% chance to stun the target for 4 s. Does not miss.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080d59925e859d61067fd",
+        "activation": {
+          "cooldown": 5100,
+          "consumables": null,
+          "mana_cost": 54,
+          "time": 1100,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 5,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и дополнительно <b>710</b> физического урона. Имеет <b>35%</b> шанс оглушить цель на <b>4 с</b>. Не промахивается.<br><br><span class=\"c-b\">Невозможно использовать в состоянии «Железная воля».</span>",
+          "en": "Deals base physical damage and <b>710</b> physical damage to the target. Has a <b>35%</b> chance to stun the target for <b>4 s</b>. Does not miss.<br><br><span class=\"c-b\">Cannot be used in the \"Iron Will\" state.</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080d59925e859d61067fd",
+        "required_character_level": 20,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 4
+      }
+    },
+    {
+      "skill_id": "1571a679ae408073a4bedc309f43cf22",
+      "name_ru": "Сокрушающий разлом",
+      "name_en": "Crushing Rift",
+      "variant": "effective",
+      "skill_level": 3,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 23,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 900,
+      "cooldown_ms": 2400,
+      "mana_cost": 45,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 320000
+          }
+        ],
+        "level": 33,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и 774 физического урона. Снижает физическую защиту цели на 16% в течение 10 с.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals basic physical damage to the target and 774 physical damage. Reduces the target's physical defense by 16% for 10 s.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae408073a4bedc309f43cf22",
+        "activation": {
+          "cooldown": 2400,
+          "consumables": null,
+          "mana_cost": 45,
+          "time": 900,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 3,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 320000
+            }
+          ],
+          "level": 33,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>774</b> физического урона. Снижает физическую защиту цели на <b>16%</b> в течение <b>10 с</b>.<br><br>Невозможно использовать в состоянии «Железная воля».",
+          "en": "Deals basic physical damage to the target and <b>774</b> physical damage. Reduces the target's physical defense by <b>16%</b> for <b>10 s</b>.<br><br>Cannot be used in the \"Iron Will\" state."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae408073a4bedc309f43cf22",
+        "required_character_level": 23,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "1571a679ae408073a4bedc309f43cf22",
+      "name_ru": "Сокрушающий разлом",
+      "name_en": "Crushing Rift",
+      "variant": "next",
+      "skill_level": 4,
+      "learned_level": 3,
+      "max_level": 10,
+      "unlock_character_level": 23,
+      "unlock_status_level": 2,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 900,
+      "cooldown_ms": 2400,
+      "mana_cost": 52,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 450000
+          }
+        ],
+        "level": 38,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и 900 физического урона. Снижает физическую защиту цели на 18% в течение 10 с.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals basic physical damage to the target and 900 physical damage. Reduces the target's physical defense by 18% for 10 s.\n\nCannot be used in the \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae408073a4bedc309f43cf22",
+        "activation": {
+          "cooldown": 2400,
+          "consumables": null,
+          "mana_cost": 52,
+          "time": 900,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 4,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 450000
+            }
+          ],
+          "level": 38,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>900</b> физического урона. Снижает физическую защиту цели на <b>18%</b> в течение <b>10 с</b>.<br><br>Невозможно использовать в состоянии «Железная воля».",
+          "en": "Deals basic physical damage to the target and <b>900</b> physical damage. Reduces the target's physical defense by <b>18%</b> for <b>10 s</b>.<br><br>Cannot be used in the \"Iron Will\" state."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae408073a4bedc309f43cf22",
+        "required_character_level": 23,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 3
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080c18f38ed6697a69c91",
+      "name_ru": "Завет предков",
+      "name_en": "Ancestral Covenant",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 26,
+      "unlock_status_level": 2,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "defenseStand"
+      ],
+      "activation_time_ms": 3500,
+      "cooldown_ms": 13000,
+      "mana_cost": 93,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 300000
+          }
+        ],
+        "level": 31,
+        "status_level": 3
+      },
+      "description_ru": "Наносит 14% дополнительного магического урона от оружия с каждой атакой в течение 900 с.",
+      "description_en": "Deals 14% additional magic damage from weapons with each attack for 900 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080c18f38ed6697a69c91",
+        "activation": {
+          "cooldown": 13000,
+          "consumables": null,
+          "mana_cost": 93,
+          "time": 3500,
+          "weapon": [
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 2,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 300000
+            }
+          ],
+          "level": 31,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Наносит <b>14%</b> дополнительного магического урона от оружия с каждой атакой в течение <b>900 с</b>.",
+          "en": "Deals <b>14%</b> additional magic damage from weapons with each attack for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080c18f38ed6697a69c91",
+        "required_character_level": 26,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "1571a679ae4080c18f38ed6697a69c91",
+      "name_ru": "Завет предков",
+      "name_en": "Ancestral Covenant",
+      "variant": "next",
+      "skill_level": 3,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 26,
+      "unlock_status_level": 2,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "defenseStand"
+      ],
+      "activation_time_ms": 3500,
+      "cooldown_ms": 13000,
+      "mana_cost": 108,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 390000
+          }
+        ],
+        "level": 36,
+        "status_level": 3
+      },
+      "description_ru": "Наносит 16% дополнительного магического урона от оружия с каждой атакой в течение 900 с.",
+      "description_en": "Deals 16% additional magic damage from weapons with each attack for 900 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "1571a679ae4080c18f38ed6697a69c91",
+        "activation": {
+          "cooldown": 13000,
+          "consumables": null,
+          "mana_cost": 108,
+          "time": 3500,
+          "weapon": [
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 3,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 390000
+            }
+          ],
+          "level": 36,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Наносит <b>16%</b> дополнительного магического урона от оружия с каждой атакой в течение <b>900 с</b>.",
+          "en": "Deals <b>16%</b> additional magic damage from weapons with each attack for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "1571a679ae4080c18f38ed6697a69c91",
+        "required_character_level": 26,
+        "required_status_level": 2,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2821a679ae4080418c3eff3488087ced",
+      "name_ru": "Каленный ураган",
+      "name_en": "Tempered Hurricane",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 2500,
+      "cooldown_ms": 19500,
+      "mana_cost": 56,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит ближайшим противникам базовый физический урон, 120% физического урона от снаряжения и 1,065 магического урона в течение 15 с.\n\nНевозможно использовать в состоянии \"Железная воля\".",
+      "description_en": "Deals basic physical damage to nearby enemies, 120% physical damage from gear, and 1,065 magic damage over 15 s.\n\nCannot be used while in \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae4080418c3eff3488087ced",
+        "activation": {
+          "cooldown": 19500,
+          "consumables": null,
+          "mana_cost": 56,
+          "time": 2500,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 2,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим противникам базовый физический урон, <b>120%</b> физического урона от снаряжения и <b>1,065</b> магического урона в течение <b>15 с</b>.<br><br><span class=\"c-b\">Невозможно использовать в состоянии \"Железная воля\".</span>",
+          "en": "Deals basic physical damage to nearby enemies, <b>120%</b> physical damage from gear, and <b>1,065</b> magic damage over <b>15 s</b>.<br><br><span class=\"c-b\">Cannot be used while in \"Iron Will\" state.</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae4080418c3eff3488087ced",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2821a679ae4080418c3eff3488087ced",
+      "name_ru": "Каленный ураган",
+      "name_en": "Tempered Hurricane",
+      "variant": "next",
+      "skill_level": 3,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 2500,
+      "cooldown_ms": 19500,
+      "mana_cost": 65,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит ближайшим противникам базовый физический урон, 130% физического урона от снаряжения и 1,245 магического урона в течение 15 с.\n\nНевозможно использовать в состоянии \"Железная воля\".",
+      "description_en": "Deals basic physical damage to nearby enemies, 130% physical damage from gear, and 1,245 magic damage over 15 s.\n\nCannot be used while in \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae4080418c3eff3488087ced",
+        "activation": {
+          "cooldown": 19500,
+          "consumables": null,
+          "mana_cost": 65,
+          "time": 2500,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 3,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим противникам базовый физический урон, <b>130%</b> физического урона от снаряжения и <b>1,245</b> магического урона в течение <b>15 с</b>.<br><br><span class=\"c-b\">Невозможно использовать в состоянии \"Железная воля\".</span>",
+          "en": "Deals basic physical damage to nearby enemies, <b>130%</b> physical damage from gear, and <b>1,245</b> magic damage over <b>15 s</b>.<br><br><span class=\"c-b\">Cannot be used while in \"Iron Will\" state.</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae4080418c3eff3488087ced",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2821a679ae4080f6b557c26244f71f60",
+      "name_ru": "Сминающий налет",
+      "name_en": "Crushing Assault",
+      "variant": "effective",
+      "skill_level": 2,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "defenseStand"
+      ],
+      "activation_time_ms": 1200,
+      "cooldown_ms": 5900,
+      "mana_cost": 48,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 350000
+          }
+        ],
+        "level": 35,
+        "status_level": 3
+      },
+      "description_ru": "Наносит цели базовый физический урон и 842 физического урона. Снижает физическую защиту цели на 26% в течение 10 с. А также снижает атаку цели на 2% в течение 4 с.",
+      "description_en": "Deals basic physical damage to the target and 842 physical damage. Reduces the target's physical defense by 26% for 10 s. Also reduces the target's attack by 2% for 4 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae4080f6b557c26244f71f60",
+        "activation": {
+          "cooldown": 5900,
+          "consumables": null,
+          "mana_cost": 48,
+          "time": 1200,
+          "weapon": [
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 2,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 350000
+            }
+          ],
+          "level": 35,
+          "status_level": 3
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>842</b> физического урона. Снижает физическую защиту цели на <b>26%</b> в течение <b>10 с</b>. А также снижает атаку цели на <b>2%</b> в течение <b>4 с</b>.",
+          "en": "Deals basic physical damage to the target and <b>842</b> physical damage. Reduces the target's physical defense by <b>26%</b> for <b>10 s</b>. Also reduces the target's attack by <b>2%</b> for <b>4 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae4080f6b557c26244f71f60",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "2821a679ae4080f6b557c26244f71f60",
+      "name_ru": "Сминающий налет",
+      "name_en": "Crushing Assault",
+      "variant": "next",
+      "skill_level": 3,
+      "learned_level": 2,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 3,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "melee",
+      "weapons": [
+        "defenseStand"
+      ],
+      "activation_time_ms": 1200,
+      "cooldown_ms": 5900,
+      "mana_cost": 55,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит цели базовый физический урон и 981 физического урона. Снижает физическую защиту цели на 29% в течение 10 с. А также снижает атаку цели на 3% в течение 4 с.",
+      "description_en": "Deals basic physical damage to the target and 981 physical damage. Reduces the target's physical defense by 29% for 10 s. Also reduces the target's attack by 3% for 4 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae4080f6b557c26244f71f60",
+        "activation": {
+          "cooldown": 5900,
+          "consumables": null,
+          "mana_cost": 55,
+          "time": 1200,
+          "weapon": [
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 3,
+        "objects": [
+          "target"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон и <b>981</b> физического урона. Снижает физическую защиту цели на <b>29%</b> в течение <b>10 с</b>. А также снижает атаку цели на <b>3%</b> в течение <b>4 с</b>.",
+          "en": "Deals basic physical damage to the target and <b>981</b> physical damage. Reduces the target's physical defense by <b>29%</b> for <b>10 s</b>. Also reduces the target's attack by <b>3%</b> for <b>4 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae4080f6b557c26244f71f60",
+        "required_character_level": 30,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 2
+      }
+    },
+    {
+      "skill_id": "33c1a679ae4080c2b7e4df745448a1c3",
+      "name_ru": "Сила стража",
+      "name_en": "Guardian Power",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 0,
+      "type": "passive",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 0,
+      "mana_cost": 0,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 20
+          }
+        ],
+        "level": 30,
+        "status_level": 0,
+        "buildings": [
+          {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "lvl": 1
+          }
+        ]
+      },
+      "description_ru": "Повышает атаку стража на 6%.",
+      "description_en": "Increases the guardian's attack by 6%.",
+      "context": "account_library",
+      "context_character_level": null,
+      "raw_definition": {
+        "id": "33c1a679ae4080c2b7e4df745448a1c3",
+        "activation": {
+          "cooldown": 0,
+          "consumables": null,
+          "mana_cost": 0,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "guardian",
+        "level": 1,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+              "quantity": 20
+            }
+          ],
+          "level": 30,
+          "status_level": 0,
+          "buildings": [
+            {
+              "id": "33b1a679ae408076951cd457ed7a3fde",
+              "lvl": 1
+            }
+          ]
+        },
+        "type": "passive",
+        "description": {
+          "ru": "Повышает атаку стража на <b>6%</b>.",
+          "en": "Increases the guardian's attack by <b>6%</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "33c1a679ae4080c2b7e4df745448a1c3",
+        "required_character_level": 30,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "33c1a679ae4080c2b7e4df745448a1c3",
+      "name_ru": "Сила стража",
+      "name_en": "Guardian Power",
+      "variant": "next",
+      "skill_level": 2,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 30,
+      "unlock_status_level": 0,
+      "type": "passive",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 0,
+      "cooldown_ms": 0,
+      "mana_cost": 0,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+            "quantity": 40
+          }
+        ],
+        "level": 35,
+        "status_level": 0,
+        "buildings": [
+          {
+            "id": "33b1a679ae408076951cd457ed7a3fde",
+            "lvl": 1
+          }
+        ]
+      },
+      "description_ru": "Повышает атаку стража на 12%.",
+      "description_en": "Increases the guardian's attack by 12%.",
+      "context": "account_library",
+      "context_character_level": null,
+      "raw_definition": {
+        "id": "33c1a679ae4080c2b7e4df745448a1c3",
+        "activation": {
+          "cooldown": 0,
+          "consumables": null,
+          "mana_cost": 0,
+          "time": 0,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "guardian",
+        "level": 2,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "3391a679ae4080f49d68dd8e783fbfbc",
+              "quantity": 40
+            }
+          ],
+          "level": 35,
+          "status_level": 0,
+          "buildings": [
+            {
+              "id": "33b1a679ae408076951cd457ed7a3fde",
+              "lvl": 1
+            }
+          ]
+        },
+        "type": "passive",
+        "description": {
+          "ru": "Повышает атаку стража на <b>12%</b>.",
+          "en": "Increases the guardian's attack by <b>12%</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "33c1a679ae4080c2b7e4df745448a1c3",
+        "required_character_level": 30,
+        "required_status_level": 0,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "2821a679ae40808a8b3cf9a215155052",
+      "name_ru": "Объятия войны",
+      "name_en": "War’s Embrace",
+      "variant": "effective",
+      "skill_level": 1,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 33,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3000,
+      "cooldown_ms": 13000,
+      "mana_cost": 29,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 320000
+          }
+        ],
+        "level": 33,
+        "status_level": 3
+      },
+      "description_ru": "Снижает максимальное здоровье стража на 25% и увеличивает меткость на 110% в течение 900 с.\n\nНевозможно использовать в состоянии \"Железная воля\".",
+      "description_en": "Reduces the guardian's maximum health by 25% and increases accuracy by 110% for 900 s.\n\nCannot be used while in \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae40808a8b3cf9a215155052",
+        "activation": {
+          "cooldown": 13000,
+          "consumables": null,
+          "mana_cost": 29,
+          "time": 3000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "guardian",
+        "level": 1,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 320000
+            }
+          ],
+          "level": 33,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Снижает максимальное здоровье стража на <b>25%</b> и увеличивает меткость на <b>110%</b> в течение <b>900 с</b>.<br><br><span class=\"c-b\">Невозможно использовать в состоянии \"Железная воля\".</span>",
+          "en": "Reduces the guardian's maximum health by <b>25%</b> and increases accuracy by <b>110%</b> for <b>900 s</b>.<br><br><span class=\"c-b\">Cannot be used while in \"Iron Will\" state.</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae40808a8b3cf9a215155052",
+        "required_character_level": 33,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "2821a679ae40808a8b3cf9a215155052",
+      "name_ru": "Объятия войны",
+      "name_en": "War’s Embrace",
+      "variant": "next",
+      "skill_level": 2,
+      "learned_level": 1,
+      "max_level": 10,
+      "unlock_character_level": 33,
+      "unlock_status_level": 3,
+      "type": "support",
+      "targets": [
+        "self"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "any"
+      ],
+      "activation_time_ms": 3000,
+      "cooldown_ms": 13000,
+      "mana_cost": 34,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 450000
+          }
+        ],
+        "level": 38,
+        "status_level": 3
+      },
+      "description_ru": "Снижает максимальное здоровье стража на 24% и увеличивает меткость на 120% в течение 900 с.\n\nНевозможно использовать в состоянии \"Железная воля\".",
+      "description_en": "Reduces the guardian's maximum health by 24% and increases accuracy by 120% for 900 s.\n\nCannot be used while in \"Iron Will\" state.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae40808a8b3cf9a215155052",
+        "activation": {
+          "cooldown": 13000,
+          "consumables": null,
+          "mana_cost": 34,
+          "time": 3000,
+          "weapon": [
+            "any"
+          ]
+        },
+        "owner": "guardian",
+        "level": 2,
+        "objects": [
+          "self"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 450000
+            }
+          ],
+          "level": 38,
+          "status_level": 3
+        },
+        "type": "support",
+        "description": {
+          "ru": "Снижает максимальное здоровье стража на <b>24%</b> и увеличивает меткость на <b>120%</b> в течение <b>900 с</b>.<br><br><span class=\"c-b\">Невозможно использовать в состоянии \"Железная воля\".</span>",
+          "en": "Reduces the guardian's maximum health by <b>24%</b> and increases accuracy by <b>120%</b> for <b>900 s</b>.<br><br><span class=\"c-b\">Cannot be used while in \"Iron Will\" state.</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae40808a8b3cf9a215155052",
+        "required_character_level": 33,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 1
+      }
+    },
+    {
+      "skill_id": "2821a679ae40807c870ed757290d695c",
+      "name_ru": "Провоцирующий крик",
+      "name_en": "Taunting Shout",
+      "variant": "next",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 36,
+      "unlock_status_level": 3,
+      "type": "curse",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "defenseStand"
+      ],
+      "activation_time_ms": 3000,
+      "cooldown_ms": 58000,
+      "mana_cost": 48,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 390000
+          }
+        ],
+        "level": 36,
+        "status_level": 3
+      },
+      "description_ru": "Провоцирует всех монстров атаковать стража в течение 10.5 с.",
+      "description_en": "Provokes all monsters to attack the guardian for 10.5 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae40807c870ed757290d695c",
+        "activation": {
+          "cooldown": 58000,
+          "consumables": null,
+          "mana_cost": 48,
+          "time": 3000,
+          "weapon": [
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 1,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 390000
+            }
+          ],
+          "level": 36,
+          "status_level": 3
+        },
+        "type": "curse",
+        "description": {
+          "ru": "Провоцирует всех монстров атаковать стража в течение <b>10.5 с</b>.",
+          "en": "Provokes all monsters to attack the guardian for <b>10.5 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae40807c870ed757290d695c",
+        "required_character_level": 36,
+        "required_status_level": 3,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "2821a679ae40806eb8bcdd29457085d3",
+      "name_ru": "Сотрясающий натиск",
+      "name_en": "Concussive Onslaught ",
+      "variant": "next",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 6900,
+      "mana_cost": 59,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит ближайшим противникам базовый физический урон и 1,001 физического урона. Сбрасывает цель монстрам.\n\nНевозможно использовать в состоянии «Железная воля».",
+      "description_en": "Deals base physical damage and 1,001 physical damage to nearby enemies. Resets mob's target.\n\nCannot be used while under the effect of \"Iron Will\".",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae40806eb8bcdd29457085d3",
+        "activation": {
+          "cooldown": 6900,
+          "consumables": null,
+          "mana_cost": 59,
+          "time": 1500,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 1,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит ближайшим противникам базовый физический урон и <b>1,001</b> физического урона. Сбрасывает цель монстрам.<br><br><span class=\"c-b\">Невозможно использовать в состоянии «Железная воля».</span>",
+          "en": "Deals base physical damage and <b>1,001</b> physical damage to nearby enemies. Resets mob's target.<br><br><span class=\"c-b\">Cannot be used while under the effect of \"Iron Will\".</span>"
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae40806eb8bcdd29457085d3",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "2821a679ae4080e2bf46c75b725a148d",
+      "name_ru": "Землетрясение",
+      "name_en": "Earthquake",
+      "variant": "next",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 40,
+      "unlock_status_level": 4,
+      "type": "attack",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "defenseStand"
+      ],
+      "activation_time_ms": 1400,
+      "cooldown_ms": 7000,
+      "mana_cost": 59,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 410000
+          }
+        ],
+        "level": 40,
+        "status_level": 4
+      },
+      "description_ru": "Наносит группе противников базовый физический урон и 498 физического урона. Замедляет их на 50% в течение 4.4 с.",
+      "description_en": "Deals basic physical damage to a group of enemies and 498 physical damage. Slows them by 50% for 4.4 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae4080e2bf46c75b725a148d",
+        "activation": {
+          "cooldown": 7000,
+          "consumables": null,
+          "mana_cost": 59,
+          "time": 1400,
+          "weapon": [
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 1,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 410000
+            }
+          ],
+          "level": 40,
+          "status_level": 4
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит группе противников базовый физический урон и <b>498</b> физического урона. Замедляет их на <b>50%</b> в течение <b>4.4 с</b>.",
+          "en": "Deals basic physical damage to a group of enemies and <b>498</b> physical damage. Slows them by <b>50%</b> for <b>4.4 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae4080e2bf46c75b725a148d",
+        "required_character_level": 40,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "2821a679ae408003baddeddfc8ccacf1",
+      "name_ru": "Подавляющее присутствие",
+      "name_en": "Overwhelming Presence",
+      "variant": "next",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 45,
+      "unlock_status_level": 4,
+      "type": "curse",
+      "targets": [
+        "close"
+      ],
+      "range": "melee",
+      "weapons": [
+        "axe",
+        "hammer",
+        "defenseStand"
+      ],
+      "activation_time_ms": 3000,
+      "cooldown_ms": 13000,
+      "mana_cost": 62,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 800000
+          }
+        ],
+        "level": 45,
+        "status_level": 4
+      },
+      "description_ru": "Снижает физическую атаку на 12 от физического урона снаряжения стража и скорость атаки на 23% ближайших противников в течение 10 с.",
+      "description_en": "Reduces physical attack by 12 of the guardian's physical gear damage and attack speed by 23% of nearby enemies for 10 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "2821a679ae408003baddeddfc8ccacf1",
+        "activation": {
+          "cooldown": 13000,
+          "consumables": null,
+          "mana_cost": 62,
+          "time": 3000,
+          "weapon": [
+            "axe",
+            "hammer",
+            "defenseStand"
+          ]
+        },
+        "owner": "guardian",
+        "level": 1,
+        "objects": [
+          "close"
+        ],
+        "range": "melee",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 800000
+            }
+          ],
+          "level": 45,
+          "status_level": 4
+        },
+        "type": "curse",
+        "description": {
+          "ru": "Снижает физическую атаку на <b>12</b> от физического урона снаряжения стража и скорость атаки на <b>23%</b> ближайших противников в течение <b>10 с</b>.",
+          "en": "Reduces physical attack by <b>12</b> of the guardian's physical gear damage and attack speed by <b>23%</b> of nearby enemies for <b>10 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "2821a679ae408003baddeddfc8ccacf1",
+        "required_character_level": 45,
+        "required_status_level": 4,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "3641a679ae408004a79ac00343a8f7e4",
+      "name_ru": "Знамя победы",
+      "name_en": "Banner of Victory",
+      "variant": "next",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "support",
+      "targets": [
+        "party"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 3000,
+      "cooldown_ms": 1000,
+      "mana_cost": 245,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Увеличивает физическую атаку всех членов группы на 12% на 900 с.",
+      "description_en": "Increases the physical attack of all party members by 12% for 900 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "3641a679ae408004a79ac00343a8f7e4",
+        "activation": {
+          "cooldown": 1000,
+          "consumables": null,
+          "mana_cost": 245,
+          "time": 3000,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 1,
+        "objects": [
+          "party"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "support",
+        "description": {
+          "ru": "Увеличивает физическую атаку всех членов группы на <b>12%</b> на <b>900 с</b>.",
+          "en": "Increases the physical attack of all party members by <b>12%</b> for <b>900 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae408004a79ac00343a8f7e4",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 0
+      }
+    },
+    {
+      "skill_id": "3641a679ae4080d8aa7bea790ff5bc32",
+      "name_ru": "Удар по коленям",
+      "name_en": "Knee Strike",
+      "variant": "next",
+      "skill_level": 1,
+      "learned_level": 0,
+      "max_level": 10,
+      "unlock_character_level": 50,
+      "unlock_status_level": 5,
+      "type": "attack",
+      "targets": [
+        "target"
+      ],
+      "range": "ranged",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "activation_time_ms": 1500,
+      "cooldown_ms": 6900,
+      "mana_cost": 59,
+      "consumables": null,
+      "rank_requirements": {
+        "items": [
+          {
+            "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+            "quantity": 1310000
+          }
+        ],
+        "level": 50,
+        "status_level": 5
+      },
+      "description_ru": "Наносит цели базовый физический урон, 1,275 физического урона и 55% физического урона от снаряжения и снижает её уклонение на 23% на 8 с.",
+      "description_en": "Deals base physical damage, 1,275 physical damage and 55% physical gear damage to the target, and reduces its evasion by 23% for 8 s.",
+      "context": "account_character",
+      "context_character_level": 44,
+      "raw_definition": {
+        "id": "3641a679ae4080d8aa7bea790ff5bc32",
+        "activation": {
+          "cooldown": 6900,
+          "consumables": null,
+          "mana_cost": 59,
+          "time": 1500,
+          "weapon": [
+            "axe",
+            "hammer"
+          ]
+        },
+        "owner": "guardian",
+        "level": 1,
+        "objects": [
+          "target"
+        ],
+        "range": "ranged",
+        "requirements": {
+          "items": [
+            {
+              "item_template_id": "f6d603e7beb34e4e9c3f99d5d9208ac3",
+              "quantity": 1310000
+            }
+          ],
+          "level": 50,
+          "status_level": 5
+        },
+        "type": "attack",
+        "description": {
+          "ru": "Наносит цели базовый физический урон, <b>1,275</b> физического урона и <b>55%</b> физического урона от снаряжения и снижает её уклонение на <b>23%</b> на <b>8 с</b>.",
+          "en": "Deals base physical damage, <b>1,275</b> physical damage and <b>55%</b> physical gear damage to the target, and reduces its evasion by <b>23%</b> for <b>8 s</b>."
+        }
+      },
+      "raw_wrapper_metadata": {
+        "id": "3641a679ae4080d8aa7bea790ff5bc32",
+        "required_character_level": 50,
+        "required_status_level": 5,
+        "max_level": 10,
+        "level": 0
+      }
+    }
+  ]
+}

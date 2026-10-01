@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "exported_on": "2026-09-27",
+  "files": {
+    "mobs.json": {
+      "unique_mobs": 219,
+      "location_associations": 228,
+      "unlinked_mobs": 22
+    },
+    "locations.json": {
+      "locations": 30,
+      "main_locations": 28,
+      "event_locations": 2
+    },
+    "library.json": {
+      "blueprints_total": 87,
+      "tier_4_blueprints": 34,
+      "tier_6_blueprints": 53,
+      "tier_6_standard_blueprints": 34,
+      "tier_6_legendary_blueprints": 19,
+      "skills_total": 0
+    },
+    "item-images/index.json": {
+      "unique_images": 53,
+      "blueprints_mapped": 87
+    },
+    "abilities.json": {
+      "abilities_total": 7,
+      "class_passive_abilities": 6,
+      "shared_active_abilities": 1,
+      "class_levels_per_ability": 10,
+      "light_of_power_levels": 8
+    }
+  },
+  "notes": [
+    "locations.json includes mob_level_min, mob_level_max, mob_levels, and a per-location mob list.",
+    "Basement mobs are classified as event mobs.",
+    "library.json includes research levels, property value ranges, base item stats, requirements, and standard/legendary/special enhancement bases.",
+    "Every library blueprint now has image_path; item-images/index.json maps 87 blueprints to 53 local WebP icons.",
+    "All seven abilities were moved from library.json to abilities.json. Each inferred row is explicitly marked as extrapolated."
+  ]
+}

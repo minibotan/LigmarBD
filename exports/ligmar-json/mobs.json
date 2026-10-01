@@ -1,0 +1,4860 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "unique_mobs": 219,
+    "location_associations": 228,
+    "unlinked_mobs": 22
+  },
+  "mobs": [
+    {
+      "id": "13e1a679ae4080d3992af111273478fb",
+      "name": "Бес",
+      "level": 1,
+      "magic": false,
+      "ranged": false,
+      "type": "common",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "3201a679ae4080f1aa07f63e0ced095a",
+      "name": "Гоблин",
+      "level": 1,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae40808690a8fb9aebcba133",
+      "name": "Гоблин-ворожей",
+      "level": 1,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae4080d18ebdfed83450cd7e",
+      "name": "Гоблин-убийца",
+      "level": 1,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "13e1a679ae4080209840fc3033e0f146",
+      "name": "Демон-солдат",
+      "level": 1,
+      "magic": false,
+      "ranged": false,
+      "type": "common",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae408024b2f4dc5935b37595",
+      "name": "Живой труп",
+      "level": 1,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae40808c9253cee5a4bb91de",
+      "name": "Змей-кровопускатель",
+      "level": 1,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "3b81a679ae4080ac8e55e456cb2bc099",
+      "name": "Керамический автоматон",
+      "level": 1,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "b01c9cc2c0c949a68314d685b1f74464",
+      "name": "Керамический гоблин",
+      "level": 1,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "13f1a679ae40808ca8c5f4398d5be2d9",
+      "name": "Кислотный жук",
+      "level": 1,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Пригород",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "33b1a679ae40809f9018d51a8789ff96",
+      "name": "Кислотный паук",
+      "level": 1,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae40806eb6e4c832e70d6ceb",
+      "name": "Користый миконид",
+      "level": 1,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "3201a679ae408008aa10ebb6b9094004",
+      "name": "Пасхальный гоблин",
+      "level": 1,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae4080f8bad9d69f6abd1ff0",
+      "name": "Призрак волшебника",
+      "level": 1,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae4080f5a74ff9c0c95d1dc2",
+      "name": "Слизкий миконид",
+      "level": 1,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "ae7797376e884ddd9a7a59fd4b396cbe",
+      "name": "Сосудник памяти",
+      "level": 1,
+      "magic": true,
+      "ranged": true,
+      "type": "champion",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae4080e1b170d6f490227ab3",
+      "name": "Шипастый паук",
+      "level": 1,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "33b1a679ae40807e8eebc50618fdb200",
+      "name": "Штормовой орлан",
+      "level": 1,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "13f1a679ae4080c98686d841af66b99c",
+      "name": "Гигантский червь",
+      "level": 2,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Пригород",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13e1a679ae408091a2c2dee9d2340253",
+      "name": "Демон-офицер",
+      "level": 2,
+      "magic": false,
+      "ranged": false,
+      "type": "champion",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "13f1a679ae4080fa8129fba498ed7ee5",
+      "name": "Муравей-огневик",
+      "level": 3,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Пригород",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae40800691d2c02dcfb6c693",
+      "name": "Оса-секач",
+      "level": 4,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Пригород",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3e01a679ae4080278b0cc440c4c149dc",
+      "name": "Загадочный муравей",
+      "level": 5,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Пригород",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae40808f90eee22d6bce4873",
+      "name": "Саблезубый крот",
+      "level": 5,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Пригород",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080b79552f6cf90378854",
+      "name": "Ядовитый паук",
+      "level": 6,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый сад",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae40806585f0c436b75aff18",
+      "name": "Земляной змей",
+      "level": 7,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый сад",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3e01a679ae408038b6fbea2a29cd3c9a",
+      "name": "Багровый богомол",
+      "level": 8,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый сад",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080ef9ae6dde1d325e864",
+      "name": "Дикий богомол",
+      "level": 8,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый сад",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080188089c28d9b1d739e",
+      "name": "Лунная бабочка",
+      "level": 9,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый сад",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "28c1a679ae40809d9880d42ae53407d2",
+      "name": "Альфа-беснователь",
+      "level": 10,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae408033b5a8eee417ce6ff9",
+      "name": "Бешенный пес",
+      "level": 10,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый сад",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae408057827dc2a2b0104371",
+      "name": "Волк-людоед",
+      "level": 11,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Окраина леса",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080288d4dc3bb4aa42bf8",
+      "name": "Злобный кабан",
+      "level": 12,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Окраина леса",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3e01a679ae4080a3837fdb0ef0dfba36",
+      "name": "Муравей-солдат роя",
+      "level": 13,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Окраина леса",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080b09137dd3abfc86ced",
+      "name": "Черный лось",
+      "level": 13,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Окраина леса",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080c09b43f1a4dcaa5b33",
+      "name": "Двуглавый глухарь",
+      "level": 14,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Окраина леса",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3e01a679ae4080a8b3a4d145353afc25",
+      "name": "Муравей-бомбардир роя",
+      "level": 14,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Окраина леса",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080359016de7a1e9cbe25",
+      "name": "Медведь-рвач",
+      "level": 15,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Окраина леса",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "0513e3ede819496fb708fa65370677a4",
+      "name": "Муравей-бомбардир",
+      "level": 15,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "e0fc03ec27e349029fd3b1c378e5431b",
+      "name": "Муравей-солдат",
+      "level": 15,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080e0b6c8e1f2f131ec5a",
+      "name": "Жаба",
+      "level": 16,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Озеро королей",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3e01a679ae408081b524f65858ac6352",
+      "name": "Муравей-бомбардир роя",
+      "level": 16,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Озеро королей",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "37c1a679ae40808c9cacc6c5f0aa2223",
+      "name": "Муравей-бомбардир",
+      "level": 17,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "37c1a679ae40806c88fae65f63c1b7f8",
+      "name": "Муравей-солдат",
+      "level": 17,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080149756c92482c19cb4",
+      "name": "Тритон",
+      "level": 17,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Озеро королей",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae40804b832de3b5b9250d9d",
+      "name": "Гнилой лебедь",
+      "level": 18,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Озеро королей",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3e01a679ae40807ebab8efaaeb31a35b",
+      "name": "Муравей-солдат роя",
+      "level": 19,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Озеро королей",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae408032b1a5fb492c73216b",
+      "name": "Русалка",
+      "level": 19,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Озеро королей",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "28c1a679ae4080c3970ee8150204b21d",
+      "name": "Клубящийся огонь",
+      "level": 20,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae408068a257faee882ea68d",
+      "name": "Туманный огонек",
+      "level": 20,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Озеро королей",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080e0bff4f3999707b680",
+      "name": "Черный волк",
+      "level": 21,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Березовая роща",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40806c832ff35c97f87e0c",
+      "name": "Паук-метатель",
+      "level": 22,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Березовая роща",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40805ca979f0915257d989",
+      "name": "Малый древень",
+      "level": 23,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Березовая роща",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae408052b087e5af53363231",
+      "name": "Гоблин-лучник",
+      "level": 24,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Березовая роща",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080bd8b6de481a7e34592",
+      "name": "Проклятый ястреб",
+      "level": 25,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Березовая роща",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3061a679ae4080a0a31fc510633150c0",
+      "name": "Браконьер",
+      "level": 26,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Охотничьи угодья",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3061a679ae40808789c4f10069f1c5cb",
+      "name": "Ползучий плющ",
+      "level": 27,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Охотничьи угодья",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3061a679ae40800296c8c172e4b8269e",
+      "name": "Ядовитый цветень",
+      "level": 28,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Охотничьи угодья",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3061a679ae408015bae5c674ff994846",
+      "name": "Благородный олень",
+      "level": 29,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Охотничьи угодья",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae40803b9563f644c34c2fb7",
+      "name": "Длиннорукий",
+      "level": 30,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "a3c7d9497356464f8f0b1037ed22fe0e",
+      "name": "Ловкие пальцы",
+      "level": 30,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2691a679ae408002bb80c05fc99777fa",
+      "name": "Муравей-бомбардир",
+      "level": 30,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Ядовитый улей",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2691a679ae4080baa3bee374d11cb555",
+      "name": "Муравей-солдат",
+      "level": 30,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Ядовитый улей",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3061a679ae408048bfccd47115573b16",
+      "name": "Одичавшая дриада",
+      "level": 30,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Охотничьи угодья",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3a61a679ae4080cc9032f273a5018555",
+      "name": "Проворный карманник",
+      "level": 30,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3061a679ae408048bfe4e1a26dd5a964",
+      "name": "Хранитель угодий",
+      "level": 30,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Охотничьи угодья",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae40801f8997d6103e2bc784",
+      "name": "Волдырь",
+      "level": 31,
+      "magic": true,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "ee875aba422045fe8a31b59ecf369d3c",
+      "name": "Гнилая пасть",
+      "level": 31,
+      "magic": true,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080bbb227ce5208ec3787",
+      "name": "Кикимора",
+      "level": 31,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зеленые топи",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae40809e8987e1d78c8f0aea",
+      "name": "Костяной паук",
+      "level": 31,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Старые рудники",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "d41f5682e6e54bb7a21d92083f4dc0ad",
+      "name": "Чумная крыса",
+      "level": 31,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "64cfadb24f3f446f888b2b0216fb18df",
+      "name": "Компост",
+      "level": 32,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae408012b075f01be30bdb7f",
+      "name": "Призрак шахтера",
+      "level": 32,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Старые рудники",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae40805d9d69dc67223605b2",
+      "name": "Сточный Король",
+      "level": 32,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "9961860105aa4e329cd371cc1caac5d2",
+      "name": "Сточный слизень",
+      "level": 32,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae40804084dbf2328c465418",
+      "name": "Темная пиявка",
+      "level": 32,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зеленые топи",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "1e43ac889e0740caa1a2264d02c97fcc",
+      "name": "Иглоспин",
+      "level": 33,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae40806b9655f816216f437d",
+      "name": "Костоглот",
+      "level": 33,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080f5abfaf9a07cac6607",
+      "name": "Миконид",
+      "level": 33,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Старые рудники",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae40805190b7c7d6f97f6b66",
+      "name": "Скелет",
+      "level": 33,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зеленые топи",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "19a68932556a4d91b345e0a196585cd9",
+      "name": "Трупный падальщик",
+      "level": 33,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080d59205fe17223be4f7",
+      "name": "Костоед",
+      "level": 34,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зеленые топи",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "291b3dce0c3b4d6daa308f17f2105643",
+      "name": "Разбитый патрульный",
+      "level": 34,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080c9bfddcfbf8ccabe02",
+      "name": "Свечной демон",
+      "level": 34,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Старые рудники",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae408000a194e708580e038d",
+      "name": "Стальной глаз",
+      "level": 34,
+      "magic": false,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "a6a38ff5be2445b0b8138108542e1b25",
+      "name": "Сын мэра",
+      "level": 34,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "2fd5519376f7406aa5ea84ff3786e33c",
+      "name": "Хранитель трущоб",
+      "level": 34,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 349363,
+        "average_damage_dealt": 9907,
+        "battles": 3
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зловонные трущобы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "26a1a679ae4080528664e18123e6fc9c",
+      "name": "Зомби",
+      "level": 35,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый некрополь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae40809a8482d6b1f8e87dfd",
+      "name": "Кобольд",
+      "level": 35,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Старые рудники",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2691a679ae4080a78008d4af2d3fc498",
+      "name": "Королева муравейника",
+      "level": 35,
+      "magic": true,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Ядовитый улей",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "38f1a679ae40800581b9ebd2f2cf93c1",
+      "name": "Королева муравейника",
+      "level": 35,
+      "magic": true,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae40807c846decc513eb7542",
+      "name": "Красный Жнец",
+      "level": 35,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "a3159fe3280448d9bbcdf3d61c8424f2",
+      "name": "Макоголовый",
+      "level": 35,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "26a1a679ae4080659bead9ec472729a2",
+      "name": "Проклятый зомби",
+      "level": 35,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый некрополь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "8d634e36a9d84319a9a783e4a0c18eb1",
+      "name": "Сборщик урожая",
+      "level": 35,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "26a1a679ae4080ed9571da426cbc0fe2",
+      "name": "Скелет-лучник",
+      "level": 35,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый некрополь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "26a1a679ae408048ac37d4ab78700c1b",
+      "name": "Скелет-чародей",
+      "level": 35,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый некрополь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "13f1a679ae4080628b7fe97a2af63304",
+      "name": "Утопший",
+      "level": 35,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зеленые топи",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "1dc1a679ae4080d8a13bf5d450ab396e",
+      "name": "Хранитель рудников",
+      "level": 35,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Старые рудники",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "1dc1a679ae4080e48c17f5639d5c8295",
+      "name": "Хранитель топей",
+      "level": 35,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Зеленые топи",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080349254ce63455f2e1c",
+      "name": "Огромный краб",
+      "level": 36,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Изумрудная бухта",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3c0553ab0dcc4ec1a2778d0b8b32395d",
+      "name": "Одурманенный легионер",
+      "level": 36,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae408066a000f4ca88ecd7cb",
+      "name": "Спящий Центурион",
+      "level": 36,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bf1a679ae40801d8b17d2721c9b5262",
+      "name": "Тессерарий",
+      "level": 36,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3b51a679ae40805ba23ac6da2a10db82",
+      "name": "Вор компаса",
+      "level": 37,
+      "magic": true,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae40809e84a5e1fea637b4b7",
+      "name": "Матка Сонницы",
+      "level": 37,
+      "magic": true,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae408040acc6c15b0563cac4",
+      "name": "Морской тритон",
+      "level": 37,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Изумрудная бухта",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "5697411f5fe74d77b258c51a6382a336",
+      "name": "Острое жало",
+      "level": 37,
+      "magic": true,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "bccd2d4163a44ad7b29f10ae06fe8b20",
+      "name": "Сонная оса",
+      "level": 37,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "1a1fc654390c4dcdbf632e9283b2bf55",
+      "name": "Отголосок героя",
+      "level": 38,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae408048badec555fd1eae23",
+      "name": "Плотоядная чайка",
+      "level": 38,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Изумрудная бухта",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "83f57587ae024cc39e0d9921b1153ba8",
+      "name": "Расколотая душа",
+      "level": 38,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae4080f5be32e2db2b3221dc",
+      "name": "Рваное Эхо",
+      "level": 38,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae40807c9a1cf762b55ae019",
+      "name": "Госпожа Сна",
+      "level": 39,
+      "magic": false,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "757b8f167a2a43269e51f6cb383278d2",
+      "name": "Дева дрём",
+      "level": 39,
+      "magic": false,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080f5ae42ebd2fdd6c6ad",
+      "name": "Каменная черепаха",
+      "level": 39,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Изумрудная бухта",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "12aa552396e2419494765dadacb5835d",
+      "name": "Маковая нимфа",
+      "level": 39,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "c97e62e1a8c24a48821bf5858518796b",
+      "name": "Хранитель полей",
+      "level": 39,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 470618,
+        "average_damage_dealt": 24300,
+        "battles": 3
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Маковые поля",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "26a1a679ae40809c9222d4e0f735c05d",
+      "name": "Аколит",
+      "level": 40,
+      "magic": true,
+      "ranged": true,
+      "type": "champion",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый некрополь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "26a1a679ae4080dcbacddf27a94884af",
+      "name": "Бронированный зомби",
+      "level": 40,
+      "magic": false,
+      "ranged": false,
+      "type": "champion",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый некрополь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "1fbc90666f9e4dee9ed6ef801b7a1aae",
+      "name": "Гигантская сколопендра",
+      "level": 40,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "d8da908e0bcf4b65b500ec2725f38a73",
+      "name": "Жвала смерти",
+      "level": 40,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080d981e6f5cf39e14334",
+      "name": "Малый элементаль воды",
+      "level": 40,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Изумрудная бухта",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2321a679ae4080cbac59e12d67bfb955",
+      "name": "Слуга тьмы",
+      "level": 40,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Храм тьмы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2321a679ae40807daec1df34e6aa1479",
+      "name": "Слуга тьмы",
+      "level": 40,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Храм тьмы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae4080ddbe3ae8de0fa5b24a",
+      "name": "Хитиновый Вал",
+      "level": 40,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40802f8e27c8b9095747b1",
+      "name": "Хранитель бухты",
+      "level": 40,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Изумрудная бухта",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "1541ef7551754792a6030f71903dabdc",
+      "name": "Погибель путника",
+      "level": 41,
+      "magic": true,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae408033a752d16f21b89302",
+      "name": "Сторожевой пес",
+      "level": 41,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Заброшенная деревня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae4080a7bd86f850b2c1d217",
+      "name": "Чернохвост",
+      "level": 41,
+      "magic": true,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "baaaf205647a40e48e2101bce75b09eb",
+      "name": "Чёрный скорпион",
+      "level": 41,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae4080b196fccc16760c798f",
+      "name": "Железный Аркан",
+      "level": 42,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae4080558007fcd5b0f39798",
+      "name": "Живодёр",
+      "level": 42,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080868f59ec10842c0363",
+      "name": "Зомби-житель",
+      "level": 42,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Заброшенная деревня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "9629f20793f145c6bc5fd34e375698b1",
+      "name": "Работорговец",
+      "level": 42,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae408080af3deb9153300eca",
+      "name": "Буревой Кулак",
+      "level": 43,
+      "magic": false,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "f128228eccfe4cee8fdbf54eea6fc8fb",
+      "name": "Душа Бархана",
+      "level": 43,
+      "magic": false,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40803faae0f8c2512575a3",
+      "name": "Летучая мышь",
+      "level": 43,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Заброшенная деревня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "012daa89eb1346188491d0bc825cce76",
+      "name": "Песчаный элементаль",
+      "level": 43,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "66ce30f2662d47699b144083afa947ab",
+      "name": "Бывший мэр Аркса",
+      "level": 44,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "dc76019d00a74800be56ce24d0799840",
+      "name": "Живой мираж",
+      "level": 44,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae4080419bb1c0979d60fd3e",
+      "name": "Ложный Оазис",
+      "level": 44,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40800399fde3bd5d3fc18e",
+      "name": "Скелет-метатель",
+      "level": 44,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Заброшенная деревня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "38922393830c4713942425ba8e3111bb",
+      "name": "Усиленный сын мэра",
+      "level": 44,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "8fb7c8c809e6405cacf9d8b896057d70",
+      "name": "Хранитель долины",
+      "level": 44,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 617631,
+        "average_damage_dealt": 27209,
+        "battles": 3
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Песчаная долина",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2731a679ae4080e8bb46c27f16473089",
+      "name": "Вампир-дуэлянт",
+      "level": 45,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Кровавая часовня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2731a679ae4080ccaef4e69fdf7efdc9",
+      "name": "Вампир-стрелок",
+      "level": 45,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Кровавая часовня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2731a679ae40804b8380ef829dcdd1c1",
+      "name": "Вампир-танцор",
+      "level": 45,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Кровавая часовня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2731a679ae4080f585b0ceeb55f33a47",
+      "name": "Вампир-чернокнижник",
+      "level": 45,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Кровавая часовня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "bacabbc69a964e0e8371b970217a5c54",
+      "name": "Глиняный недолиток",
+      "level": 45,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "2781a679ae40809f94e4f534e4abb08e",
+      "name": "Духовная дочь",
+      "level": 45,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Одинокий дуб",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "1ac1a679ae4080b492aaf9779d74ac73",
+      "name": "Каменный колосс",
+      "level": 45,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Старые рудники",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2781a679ae40804bbaf0e6821f6fc840",
+      "name": "Меткий сын",
+      "level": 45,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Одинокий дуб",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40809db0b2ffb2d061d662",
+      "name": "Призрак жителя",
+      "level": 45,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Заброшенная деревня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "64e432c7d3864b968859eadc14115e2e",
+      "name": "Серпорук",
+      "level": 45,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2781a679ae4080dfa24ff2448f94d91c",
+      "name": "Сильный сын",
+      "level": 45,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Одинокий дуб",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2781a679ae4080119f49e3ce91d54a01",
+      "name": "Сопливый сын",
+      "level": 45,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Одинокий дуб",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080c9b8c2dfbd38e8ef02",
+      "name": "Хранитель деревни",
+      "level": 45,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Заброшенная деревня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40803583d3c6b8ffdf2026",
+      "name": "Горный козел",
+      "level": 46,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Горный перевал",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "8d7b4e1e66ff46859df1dffb58d62bf6",
+      "name": "Лжеформовщик",
+      "level": 46,
+      "magic": false,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "a2aa0c243e564a70becb2316a8b9a1d0",
+      "name": "Пыльный формовщик",
+      "level": 46,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "64896bbb67494446b56018d064e7ec5e",
+      "name": "Белый палач",
+      "level": 47,
+      "magic": false,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "0fec07c6fb0a45ac9cd5813e81ee14dd",
+      "name": "Карьерный надсмотрщик",
+      "level": 47,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080249728ccaa7fb29515",
+      "name": "Скальный змей",
+      "level": 47,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Горный перевал",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "df4f28053fb04fff815cfc8e20dc6cf1",
+      "name": "Белоглиняная химера",
+      "level": 48,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae40805884bfc20ac35cbdf2",
+      "name": "Глиняный ужас",
+      "level": 48,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080749cc3fbb31c16316c",
+      "name": "Стервятник",
+      "level": 48,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Горный перевал",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae408062b307cd0802ec5926",
+      "name": "Гоблин-засадник",
+      "level": 49,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Горный перевал",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3bb1a679ae4080648310ea135d597aab",
+      "name": "Жар преисподни",
+      "level": 49,
+      "magic": false,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "d00c87a2d71c453699d27269c68ce049",
+      "name": "Керамический автоматон",
+      "level": 49,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "0298a2b34bc1437f9b8ec24d33bfbca1",
+      "name": "Обжиговый великан",
+      "level": 49,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "cd0772b810ee4b3884f277679cb092b8",
+      "name": "Первый формовщик",
+      "level": 49,
+      "magic": true,
+      "ranged": false,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "ab8e93616eed4205a37683349e023bf0",
+      "name": "Сосудник памяти",
+      "level": 49,
+      "magic": true,
+      "ranged": true,
+      "type": "quest",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подвал",
+          "section": "Ивентовые",
+          "event": true
+        }
+      ]
+    },
+    {
+      "id": "eda78b878cff47e19927de9e21d9677a",
+      "name": "Хранитель карьера",
+      "level": 49,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 812289,
+        "average_damage_dealt": 52907,
+        "battles": 3
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Карьер белой глины",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40808288f9f5e83d33782a",
+      "name": "Живой валун",
+      "level": 50,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Горный перевал",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "26a1a679ae40808ab5e7fdcdbbf4b414",
+      "name": "Некромант",
+      "level": 50,
+      "magic": true,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Проклятый некрополь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "d284477320ee4721a88d8a8d7a3d41b2",
+      "name": "Раб утопленник",
+      "level": 50,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Затонувшие виллы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae408048b4cff17b95fe2eab",
+      "name": "Хранитель перевала",
+      "level": 50,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Горный перевал",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae408086b0a8ea84e4697153",
+      "name": "Жук-короед",
+      "level": 51,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Выжженный лес",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "cf64b89d4c56470a81787b543c8f3f1b",
+      "name": "Илистый осколочник",
+      "level": 51,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Затонувшие виллы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080fa816de06f7c852bc8",
+      "name": "Призрак дровосека",
+      "level": 52,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Выжженный лес",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3acfd3121b7c49a29b3d6a410a78b809",
+      "name": "Смотритель виллы",
+      "level": 52,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Затонувшие виллы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "a75a51470a5f418fb25e8658043fe92e",
+      "name": "Мозаичный павлин",
+      "level": 53,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Затонувшие виллы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40808a9b08ea37279f4c73",
+      "name": "Сова-охотник",
+      "level": 53,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Выжженный лес",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080e886a4e5fd0c34a82a",
+      "name": "Пепельник",
+      "level": 54,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Выжженный лес",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "40d3d962b9bd47d08f3a5bde2784c6d0",
+      "name": "Страж купален",
+      "level": 54,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Затонувшие виллы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "a0a8365c166c4a8b84fa8e4fe2013e07",
+      "name": "Хранитель вилл",
+      "level": 54,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 1003237,
+        "average_damage_dealt": 83006,
+        "battles": 2
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Затонувшие виллы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2771a679ae4080459fa5c50e0dc77a04",
+      "name": "Адская гончая",
+      "level": 55,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подземное святилище",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2771a679ae40802dafb3f0ec010cd264",
+      "name": "Бес-поджигатель",
+      "level": 55,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подземное святилище",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "0710292754844caf9d54c5f54ef3c20d",
+      "name": "Искажённый сосуд",
+      "level": 55,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "2771a679ae40804b9566f198732c80fb",
+      "name": "Мама тролль",
+      "level": 55,
+      "magic": true,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Одинокий дуб",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2771a679ae408099af32fef8dc5d8371",
+      "name": "Мерзкий имп",
+      "level": 55,
+      "magic": false,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подземное святилище",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2771a679ae4080ba8063e48cf557121b",
+      "name": "Одержимый маг",
+      "level": 55,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подземное святилище",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2771a679ae408082b5b9d816852e125c",
+      "name": "Папа тролль",
+      "level": 55,
+      "magic": false,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Одинокий дуб",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "77b55dec5c17427485da2d5e5235c7ab",
+      "name": "Печной исправитель",
+      "level": 55,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм печей душ",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "ffd63eb133c14a568c552ac9459609ad",
+      "name": "Сосудник памяти",
+      "level": 55,
+      "magic": true,
+      "ranged": true,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм печей душ",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "e3875c162ab44c05adca12626294c72e",
+      "name": "Страж Печи",
+      "level": 55,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм печей душ",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae4080bfb0c6f0dd3af4fa2b",
+      "name": "Тлеющий древень",
+      "level": 55,
+      "magic": false,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Выжженный лес",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "03e1836d27c54a5e8b197117c33f2ee2",
+      "name": "Храмовый переписчик",
+      "level": 55,
+      "magic": true,
+      "ranged": false,
+      "type": null,
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм печей душ",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2791a679ae40804ba212f032b517ff00",
+      "name": "Хранитель леса",
+      "level": 55,
+      "magic": true,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Выжженный лес",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "623d75e952774351a9133064cbd64f38",
+      "name": "Слуга обжига",
+      "level": 60,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 679532,
+        "average_damage_dealt": 32455,
+        "battles": 2
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Безымянная печь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "0067d681f79c40e48df5e1bf8e44c6ca",
+      "name": "Слуга обжига",
+      "level": 60,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 679126,
+        "average_damage_dealt": 477,
+        "battles": 1
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Безымянная печь",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "28c1a679ae4080b78dd5d09c42657a2d",
+      "name": "Слуга тьмы",
+      "level": 60,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм тьмы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "28c1a679ae4080cd8e22d1f18ce7d0b4",
+      "name": "Слуга тьмы",
+      "level": 60,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм тьмы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "8a0d9dcc5a1c447c801c462aa9285703",
+      "name": "Великий Гончар",
+      "level": 65,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 410977,
+        "average_damage_dealt": 18204,
+        "battles": 3
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм печей душ",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2731a679ae40808487ecd3d62ca212cd",
+      "name": "Демонолог",
+      "level": 65,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подземное святилище",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3b31a679ae4080eca374c37668823e14",
+      "name": "Заклинательница Эрис",
+      "level": 65,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 344435,
+        "average_damage_dealt": 17146,
+        "battles": 3
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм печей душ",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2781a679ae40801180fbed0b72f37937",
+      "name": "Леди крови",
+      "level": 65,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Кровавая часовня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2781a679ae40801c8f92d8e54cd7ada9",
+      "name": "Лорд боли",
+      "level": 65,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Кровавая часовня",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "bc17d70e777a4ec2a1c1b48fa5070be1",
+      "name": "Матрона Обжига",
+      "level": 65,
+      "magic": false,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 411440,
+        "average_damage_dealt": 18599,
+        "battles": 3
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Храм печей душ",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2731a679ae4080259b50cff4b0a1c673",
+      "name": "Суккуб и Инкуб",
+      "level": 65,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Подземное святилище",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2f61a679ae408099b050d632cb79047e",
+      "name": "Алый дракон",
+      "level": 70,
+      "magic": false,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "3041a679ae408037a14fe20894e9449f",
+      "name": "Защитная башня (I)",
+      "level": 70,
+      "magic": false,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Поле битвы",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Поле битвы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3041a679ae4080b6b63fc8facbca4860",
+      "name": "Защитная башня (II)",
+      "level": 70,
+      "magic": false,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Поле битвы",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Поле битвы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "c095d23f266547c988bb5e90499477e3",
+      "name": "Идеальное творение",
+      "level": 70,
+      "magic": true,
+      "ranged": false,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": 32109710,
+        "average_damage_dealt": 928238,
+        "battles": 1
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Затонувшие виллы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "2f61a679ae408006985be43549eb0c27",
+      "name": "Лазурный дракон",
+      "level": 70,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "1ac1a679ae408098a56ed2ecb82c768e",
+      "name": "Око ужаса",
+      "level": 70,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 2,
+          "location": "Выжженный лес",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    },
+    {
+      "id": "3211a679ae408047be84c08cd6d06782",
+      "name": "Пасхальный охотник",
+      "level": 70,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": []
+    },
+    {
+      "id": "3041a679ae408034b252f77fb9ab2953",
+      "name": "Ядро",
+      "level": 70,
+      "magic": true,
+      "ranged": true,
+      "type": "boss",
+      "subtype": null,
+      "combat_history": {
+        "average_damage_received": null,
+        "average_damage_dealt": null,
+        "battles": null
+      },
+      "locations": [
+        {
+          "world": 1,
+          "location": "Поле битвы",
+          "section": "Основные",
+          "event": false
+        },
+        {
+          "world": 2,
+          "location": "Поле битвы",
+          "section": "Основные",
+          "event": false
+        }
+      ]
+    }
+  ]
+}
