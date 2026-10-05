@@ -1,0 +1,114 @@
+{
+  "levels": [
+    {
+      "craft_level": 1,
+      "experience": 1000,
+      "material_cost_percent": 99,
+      "material_reduction_percent": 1,
+      "quality_chance_percent": {
+        "common": null,
+        "rare": null,
+        "epic": null
+      }
+    },
+    {
+      "craft_level": 2,
+      "experience": 5000,
+      "material_cost_percent": 98,
+      "material_reduction_percent": 2,
+      "quality_chance_percent": {
+        "common": 65,
+        "rare": 25,
+        "epic": 10
+      }
+    },
+    {
+      "craft_level": 3,
+      "experience": 25000,
+      "material_cost_percent": 97,
+      "material_reduction_percent": 3,
+      "quality_chance_percent": {
+        "common": 55,
+        "rare": 30,
+        "epic": 15
+      }
+    },
+    {
+      "craft_level": 4,
+      "experience": 100000,
+      "material_cost_percent": 96,
+      "material_reduction_percent": 4,
+      "quality_chance_percent": {
+        "common": 40,
+        "rare": 40,
+        "epic": 20
+      }
+    },
+    {
+      "craft_level": 5,
+      "experience": 300000,
+      "material_cost_percent": 95,
+      "material_reduction_percent": 5,
+      "quality_chance_percent": {
+        "common": 25,
+        "rare": 50,
+        "epic": 25
+      }
+    },
+    {
+      "craft_level": 6,
+      "experience": null,
+      "material_cost_percent": 94,
+      "material_reduction_percent": 6,
+      "quality_chance_percent": {
+        "common": null,
+        "rare": null,
+        "epic": null
+      }
+    },
+    {
+      "craft_level": 7,
+      "experience": null,
+      "material_cost_percent": 93,
+      "material_reduction_percent": 7,
+      "quality_chance_percent": {
+        "common": null,
+        "rare": null,
+        "epic": null
+      }
+    },
+    {
+      "craft_level": 8,
+      "experience": null,
+      "material_cost_percent": 92,
+      "material_reduction_percent": 8,
+      "quality_chance_percent": {
+        "common": null,
+        "rare": null,
+        "epic": null
+      }
+    },
+    {
+      "craft_level": 9,
+      "experience": null,
+      "material_cost_percent": 91,
+      "material_reduction_percent": 9,
+      "quality_chance_percent": {
+        "common": null,
+        "rare": null,
+        "epic": null
+      }
+    },
+    {
+      "craft_level": 10,
+      "experience": null,
+      "material_cost_percent": null,
+      "material_reduction_percent": null,
+      "quality_chance_percent": {
+        "common": null,
+        "rare": null,
+        "epic": null
+      }
+    }
+  ]
+}

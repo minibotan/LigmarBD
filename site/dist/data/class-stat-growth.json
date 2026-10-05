@@ -1,0 +1,29 @@
+{
+  "levelGainMultiplier": 2,
+  "classes": {
+    "mage": {
+      "hpPerStamina": 10,
+      "manaPerIntelligence": 14
+    },
+    "warrior": {
+      "hpPerStamina": 15,
+      "manaPerIntelligence": 9
+    },
+    "guardian": {
+      "hpPerStamina": 17,
+      "manaPerIntelligence": 7
+    },
+    "priest": {
+      "hpPerStamina": 10,
+      "manaPerIntelligence": 14
+    },
+    "assassin": {
+      "hpPerStamina": 13,
+      "manaPerIntelligence": 11
+    },
+    "archer": {
+      "hpPerStamina": 13,
+      "manaPerIntelligence": 11
+    }
+  }
+}

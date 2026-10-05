@@ -1,0 +1,651 @@
+{
+  "fortune": {
+    "1": {
+      "experience": 150,
+      "silver": 100,
+      "dropChance": 75,
+      "defense": 50,
+      "resistance": 50,
+      "attack": 25,
+      "movementSpeed": 20,
+      "haste": 10
+    },
+    "2": {
+      "experience": 60,
+      "silver": 40,
+      "dropChance": 30,
+      "defense": 20,
+      "resistance": 20,
+      "attack": 10,
+      "movementSpeed": 8,
+      "haste": 4
+    },
+    "3": {
+      "experience": 30,
+      "silver": 20,
+      "dropChance": 15,
+      "defense": 10,
+      "resistance": 10,
+      "attack": 5,
+      "movementSpeed": 4,
+      "haste": 2
+    }
+  },
+  "heroGroups": [
+    {
+      "classId": "mage",
+      "skillId": "2841a679ae4080f0b3d7ca7188632de7",
+      "name": "Мистический отзвук",
+      "levels": {
+        "1": {
+          "bonuses": {
+            "magicExtra": 12
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "2": {
+          "bonuses": {
+            "magicExtra": 14
+          },
+          "estimated": false
+        },
+        "3": {
+          "bonuses": {
+            "magicExtra": 16
+          },
+          "estimated": false
+        },
+        "4": {
+          "bonuses": {
+            "magicExtra": 18
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "5": {
+          "bonuses": {
+            "magicExtra": 20
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "6": {
+          "bonuses": {
+            "magicExtra": 22
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "7": {
+          "bonuses": {
+            "magicExtra": 24
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "8": {
+          "bonuses": {
+            "magicExtra": 26
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "9": {
+          "bonuses": {
+            "magicExtra": 28
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "10": {
+          "bonuses": {
+            "magicExtra": 30
+          },
+          "estimated": false
+        }
+      }
+    },
+    {
+      "classId": "priest",
+      "skillId": "15a1a679ae40801ca15fd3cd95d3ff82",
+      "name": "Боевая молитва",
+      "levels": {
+        "1": {
+          "bonuses": {
+            "defense": 15,
+            "resistance": 15
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "2": {
+          "bonuses": {
+            "defense": 20,
+            "resistance": 20
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "3": {
+          "bonuses": {
+            "defense": 25,
+            "resistance": 25
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "4": {
+          "bonuses": {
+            "defense": 30,
+            "resistance": 30
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "5": {
+          "bonuses": {
+            "defense": 35,
+            "resistance": 35
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "6": {
+          "bonuses": {
+            "defense": 40,
+            "resistance": 40
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "7": {
+          "bonuses": {
+            "defense": 45,
+            "resistance": 45
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "8": {
+          "bonuses": {
+            "defense": 50,
+            "resistance": 50
+          },
+          "estimated": false
+        },
+        "9": {
+          "bonuses": {
+            "defense": 55,
+            "resistance": 55
+          },
+          "estimated": false
+        },
+        "10": {
+          "bonuses": {
+            "defense": 60,
+            "resistance": 60
+          },
+          "estimated": false
+        }
+      }
+    },
+    {
+      "classId": "priest",
+      "skillId": "15a1a679ae408063b2ebcd181b6f9e26",
+      "name": "Дар солнца",
+      "levels": {
+        "1": {
+          "bonuses": {
+            "healthRegen": 2,
+            "manaRegen": 2
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "2": {
+          "bonuses": {
+            "healthRegen": 4,
+            "manaRegen": 4
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "3": {
+          "bonuses": {
+            "healthRegen": 6,
+            "manaRegen": 6
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "4": {
+          "bonuses": {
+            "healthRegen": 8,
+            "manaRegen": 8
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "5": {
+          "bonuses": {
+            "healthRegen": 10,
+            "manaRegen": 10
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "6": {
+          "bonuses": {
+            "healthRegen": 12,
+            "manaRegen": 12
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "7": {
+          "bonuses": {
+            "healthRegen": 14,
+            "manaRegen": 14
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "8": {
+          "bonuses": {
+            "healthRegen": 16,
+            "manaRegen": 16
+          },
+          "estimated": false
+        },
+        "9": {
+          "bonuses": {
+            "healthRegen": 18,
+            "manaRegen": 18
+          },
+          "estimated": false
+        },
+        "10": {
+          "bonuses": {
+            "healthRegen": 20,
+            "manaRegen": 20
+          },
+          "estimated": false
+        }
+      }
+    },
+    {
+      "classId": "priest",
+      "skillId": "2871a679ae4080dfbff9d4d54bc1b844",
+      "name": "Величие духа",
+      "levels": {
+        "1": {
+          "bonuses": {
+            "magicAttack": 25
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "2": {
+          "bonuses": {
+            "magicAttack": 30
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "3": {
+          "bonuses": {
+            "magicAttack": 35
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "4": {
+          "bonuses": {
+            "magicAttack": 40
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "5": {
+          "bonuses": {
+            "magicAttack": 45
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "6": {
+          "bonuses": {
+            "magicAttack": 50
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "7": {
+          "bonuses": {
+            "magicAttack": 55
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "8": {
+          "bonuses": {
+            "magicAttack": 60
+          },
+          "estimated": false
+        },
+        "9": {
+          "bonuses": {
+            "magicAttack": 65
+          },
+          "estimated": false
+        },
+        "10": {
+          "bonuses": {
+            "magicAttack": 70
+          },
+          "estimated": false
+        }
+      }
+    },
+    {
+      "classId": "warrior",
+      "skillId": "1441a679ae4080e0ac0ce466631bc99e",
+      "name": "Авангард",
+      "levels": {
+        "1": {
+          "bonuses": {
+            "defense": 15
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "2": {
+          "bonuses": {
+            "defense": 20
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "3": {
+          "bonuses": {
+            "defense": 25
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "4": {
+          "bonuses": {
+            "defense": 30
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "5": {
+          "bonuses": {
+            "defense": 35
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "6": {
+          "bonuses": {
+            "defense": 40
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "7": {
+          "bonuses": {
+            "defense": 45
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "8": {
+          "bonuses": {
+            "defense": 50
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "9": {
+          "bonuses": {
+            "defense": 55
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "10": {
+          "bonuses": {
+            "defense": 60
+          },
+          "estimated": false
+        }
+      }
+    },
+    {
+      "classId": "guardian",
+      "skillId": "1571a679ae40800c9ec2d2d889d684a9",
+      "name": "Боевая песнь",
+      "levels": {
+        "1": {
+          "bonuses": {
+            "hp": 12
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "2": {
+          "bonuses": {
+            "hp": 14
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "3": {
+          "bonuses": {
+            "hp": 16
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "4": {
+          "bonuses": {
+            "hp": 18
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "5": {
+          "bonuses": {
+            "hp": 20
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "6": {
+          "bonuses": {
+            "hp": 22
+          },
+          "estimated": false
+        },
+        "7": {
+          "bonuses": {
+            "hp": 24
+          },
+          "estimated": false
+        },
+        "8": {
+          "bonuses": {
+            "hp": 26
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "9": {
+          "bonuses": {
+            "hp": 28
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "10": {
+          "bonuses": {
+            "hp": 30
+          },
+          "estimated": false
+        }
+      }
+    },
+    {
+      "classId": "guardian",
+      "skillId": "3641a679ae408004a79ac00343a8f7e4",
+      "name": "Знамя победы",
+      "levels": {
+        "1": {
+          "bonuses": {
+            "physicalAttack": 12
+          },
+          "estimated": false
+        },
+        "2": {
+          "bonuses": {
+            "physicalAttack": 14
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "3": {
+          "bonuses": {
+            "physicalAttack": 16
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "4": {
+          "bonuses": {
+            "physicalAttack": 18
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "5": {
+          "bonuses": {
+            "physicalAttack": 20
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "6": {
+          "bonuses": {
+            "physicalAttack": 22
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "7": {
+          "bonuses": {
+            "physicalAttack": 24
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "8": {
+          "bonuses": {
+            "physicalAttack": 26
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "9": {
+          "bonuses": {
+            "physicalAttack": 28
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "10": {
+          "bonuses": {
+            "physicalAttack": 30
+          },
+          "estimated": false
+        }
+      }
+    },
+    {
+      "classId": "archer",
+      "skillId": "1591a679ae4080eba8d2d67872073b85",
+      "name": "Поступь охотника",
+      "levels": {
+        "1": {
+          "bonuses": {
+            "evasion": 8
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "2": {
+          "bonuses": {
+            "evasion": 11
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "3": {
+          "bonuses": {
+            "evasion": 14
+          },
+          "estimated": false
+        },
+        "4": {
+          "bonuses": {
+            "evasion": 17
+          },
+          "estimated": false
+        },
+        "5": {
+          "bonuses": {
+            "evasion": 20
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "6": {
+          "bonuses": {
+            "evasion": 23
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "7": {
+          "bonuses": {
+            "evasion": 26
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "8": {
+          "bonuses": {
+            "evasion": 29
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "9": {
+          "bonuses": {
+            "evasion": 32
+          },
+          "estimated": false,
+          "calculated": true
+        },
+        "10": {
+          "bonuses": {
+            "evasion": 35
+          },
+          "estimated": false
+        }
+      }
+    }
+  ]
+}

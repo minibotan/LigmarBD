@@ -1,0 +1,230 @@
+{
+  "item_type_multipliers": {
+    "armor": 1,
+    "jewelry": 2,
+    "weapon": 4
+  },
+  "ancient_costs": {
+    "forging": {
+      "ancient_shards_per_item_tier_and_type_multiplier": 1,
+      "material_reduction_applies": true,
+      "round_up": true,
+      "phoenix_tears_for_revert": 1
+    },
+    "melting": {
+      "ancient_shards_per_item_tier_and_type_multiplier": 1,
+      "material_reduction_applies": true,
+      "round_up": true,
+      "phoenix_tears_locked_properties_exponent": 2
+    },
+    "ancient_melting": {
+      "material_reduction_applies": false,
+      "ancient_shards_per_item_tier_and_type_multiplier": [
+        {
+          "minimum_existing_ancient_properties": 0,
+          "maximum_existing_ancient_properties": 0,
+          "ancient_shards": 25
+        },
+        {
+          "minimum_existing_ancient_properties": 1,
+          "maximum_existing_ancient_properties": 1,
+          "ancient_shards": 100
+        },
+        {
+          "minimum_existing_ancient_properties": 2,
+          "maximum_existing_ancient_properties": 2,
+          "ancient_shards": 200
+        },
+        {
+          "minimum_existing_ancient_properties": 3,
+          "maximum_existing_ancient_properties": 3,
+          "ancient_shards": 300
+        },
+        {
+          "minimum_existing_ancient_properties": 4,
+          "maximum_existing_ancient_properties": null,
+          "ancient_shards": 375
+        }
+      ],
+      "phoenix_tears": 0
+    }
+  },
+  "costs": [
+    {
+      "workshop": "blacksmith",
+      "item_tier": 4,
+      "operation": "creation",
+      "tokens": 160,
+      "scrap": 1792,
+      "shards": 0,
+      "pine": 48
+    },
+    {
+      "workshop": "blacksmith",
+      "item_tier": 4,
+      "operation": "forging",
+      "tokens": 240,
+      "scrap": 768,
+      "shards": 192,
+      "pine": 16
+    },
+    {
+      "workshop": "blacksmith",
+      "item_tier": 4,
+      "operation": "melting",
+      "tokens": 240,
+      "scrap": 768,
+      "shards": 192,
+      "pine": 16
+    },
+    {
+      "workshop": "craftworks",
+      "item_tier": 4,
+      "operation": "creation",
+      "tokens": 80,
+      "scrap": 896,
+      "shards": 0,
+      "pine": 24
+    },
+    {
+      "workshop": "craftworks",
+      "item_tier": 4,
+      "operation": "forging",
+      "tokens": 120,
+      "scrap": 384,
+      "shards": 96,
+      "pine": 8
+    },
+    {
+      "workshop": "craftworks",
+      "item_tier": 4,
+      "operation": "melting",
+      "tokens": 120,
+      "scrap": 384,
+      "shards": 96,
+      "pine": 8
+    },
+    {
+      "workshop": "atelier",
+      "item_tier": 4,
+      "operation": "creation",
+      "tokens": 40,
+      "scrap": 448,
+      "shards": 0,
+      "pine": 12
+    },
+    {
+      "workshop": "atelier",
+      "item_tier": 4,
+      "operation": "forging",
+      "tokens": 60,
+      "scrap": 192,
+      "shards": 48,
+      "pine": 4
+    },
+    {
+      "workshop": "atelier",
+      "item_tier": 4,
+      "operation": "melting",
+      "tokens": 60,
+      "scrap": 192,
+      "shards": 48,
+      "pine": 4
+    },
+    {
+      "workshop": "blacksmith",
+      "item_tier": 6,
+      "operation": "creation",
+      "tokens": 240,
+      "scrap": 4032,
+      "shards": 0,
+      "pine": 72
+    },
+    {
+      "workshop": "blacksmith",
+      "item_tier": 6,
+      "operation": "forging",
+      "tokens": 360,
+      "scrap": 1728,
+      "shards": 432,
+      "pine": 24
+    },
+    {
+      "workshop": "blacksmith",
+      "item_tier": 6,
+      "operation": "melting",
+      "tokens": 360,
+      "scrap": 1728,
+      "shards": 432,
+      "pine": 24
+    },
+    {
+      "workshop": "craftworks",
+      "item_tier": 6,
+      "operation": "creation",
+      "tokens": 120,
+      "scrap": 2016,
+      "shards": 0,
+      "pine": 36
+    },
+    {
+      "workshop": "craftworks",
+      "item_tier": 6,
+      "operation": "forging",
+      "tokens": 180,
+      "scrap": 864,
+      "shards": 216,
+      "pine": 12
+    },
+    {
+      "workshop": "craftworks",
+      "item_tier": 6,
+      "operation": "melting",
+      "tokens": 180,
+      "scrap": 864,
+      "shards": 216,
+      "pine": 12
+    },
+    {
+      "workshop": "atelier",
+      "item_tier": 6,
+      "operation": "creation",
+      "tokens": 60,
+      "scrap": 1008,
+      "shards": 0,
+      "pine": 18
+    },
+    {
+      "workshop": "atelier",
+      "item_tier": 6,
+      "operation": "forging",
+      "tokens": 90,
+      "scrap": 432,
+      "shards": 108,
+      "pine": 6
+    },
+    {
+      "workshop": "atelier",
+      "item_tier": 6,
+      "operation": "melting",
+      "tokens": 90,
+      "scrap": 432,
+      "shards": 108,
+      "pine": 6
+    }
+  ],
+  "material_names": {
+    "blacksmith": {
+      "4": "Медь",
+      "6": "Олово"
+    },
+    "atelier": {
+      "4": "Сосна",
+      "6": "Берёза"
+    },
+    "craftworks": {
+      "4": "Известняк",
+      "6": "Сланец"
+    }
+  }
+}

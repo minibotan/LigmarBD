@@ -1,0 +1,257 @@
+[
+  {
+    "template_id": "13f1a679ae408001bf60d59efdca01b5",
+    "name": {
+      "ru": "Плащ",
+      "en": "Cloak"
+    },
+    "item_tier": 6,
+    "item_type": "shoulders",
+    "item_subtype": "cloak",
+    "image_path": "item-images/gear/shoulders-cloak-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "evasion": null,
+      "health": null,
+      "resistance": null
+    }
+  },
+  {
+    "template_id": "13f1a679ae4080869652eb5c4db4b111",
+    "name": {
+      "ru": "Драгоценное кольцо",
+      "en": "Magic Ring"
+    },
+    "item_tier": 6,
+    "item_type": "finger",
+    "item_subtype": "magic",
+    "image_path": "item-images/gear/finger-magic-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13f1a679ae4080f796e2de0c14556018",
+    "name": {
+      "ru": "Тяжелые рукавицы",
+      "en": "Heavy Bracers"
+    },
+    "item_tier": 6,
+    "item_type": "hands",
+    "item_subtype": "heavy",
+    "image_path": "item-images/gear/hands-heavy-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13f1a679ae4080b28f5bd1937a3e2caf",
+    "name": {
+      "ru": "Легкие наручи",
+      "en": "Light Wristband"
+    },
+    "item_tier": 6,
+    "item_type": "hands",
+    "item_subtype": "light",
+    "image_path": "item-images/gear/hands-light-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13f1a679ae4080d8be70db0a57c64980",
+    "name": {
+      "ru": "Подвеска защиты",
+      "en": "Defense Pendant"
+    },
+    "item_tier": 6,
+    "item_type": "neck",
+    "item_subtype": "heavy",
+    "image_path": "item-images/gear/neck-heavy-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13e1a679ae4080f085dee077092e2a88",
+    "name": {
+      "ru": "Тяжелый ремень",
+      "en": "Heavy Belt"
+    },
+    "item_tier": 6,
+    "item_type": "waist",
+    "item_subtype": "heavy",
+    "image_path": "item-images/gear/waist-heavy-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13c1a679ae40804894a3ddd1638f1312",
+    "name": {
+      "ru": "Топор",
+      "en": "Axe"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "axe",
+    "image_path": "item-images/gear/weapon-axe-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13d1a679ae40808aabeee3706d5cdd3c",
+    "name": {
+      "ru": "Лук",
+      "en": "Bow"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "bow",
+    "image_path": "item-images/gear/weapon-bow-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13d1a679ae40800da058d3848c2ecde4",
+    "name": {
+      "ru": "Арбалет",
+      "en": "Crossbow"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "crossbow",
+    "image_path": "item-images/gear/weapon-crossbow-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13d1a679ae408053adb5d98e6a15e80c",
+    "name": {
+      "ru": "Кинжалы",
+      "en": "Daggers"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "daggers",
+    "image_path": "item-images/gear/weapon-daggers-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13d1a679ae40803e9aa4ed1bfc5924a1",
+    "name": {
+      "ru": "Кастеты",
+      "en": "Fist"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "fist",
+    "image_path": "item-images/gear/weapon-fist-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13d1a679ae408084acc8d05e4e626dba",
+    "name": {
+      "ru": "Молот",
+      "en": "Hammer"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "hammer",
+    "image_path": "item-images/gear/weapon-hammer-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13d1a679ae4080e897a0c62f4c1042e6",
+    "name": {
+      "ru": "Стилет",
+      "en": "Stiletto"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "stiletto",
+    "image_path": "item-images/gear/weapon-stiletto-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13c1a679ae408041995fc05c48a17255",
+    "name": {
+      "ru": "Меч",
+      "en": "Sword"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "sword",
+    "image_path": "item-images/gear/weapon-sword-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  },
+  {
+    "template_id": "13e1a679ae408065ba0df4ef7d71aa65",
+    "name": {
+      "ru": "Жезл",
+      "en": "Wand"
+    },
+    "item_tier": 6,
+    "item_type": "weapon",
+    "item_subtype": "wand",
+    "image_path": "item-images/gear/weapon-wand-common.webp",
+    "blueprint_quality": "legendary",
+    "property_value_ranges": {
+      "unknown_property_1": null,
+      "unknown_property_2": null,
+      "unknown_property_3": null
+    }
+  }
+]

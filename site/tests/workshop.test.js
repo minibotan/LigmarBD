@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {operationCosts,discounts,masterFor} from '../dist/workshop-model.js';
+const base=new URL('../dist/data/',import.meta.url);
+const read=f=>JSON.parse(fs.readFileSync(new URL(f+'.json',base)));
+const costs=read('craft-material-costs'),rules=read('library-levels'),masters=read('craft-master-levels');
+let rows=operationCosts(costs,'blacksmith',6,19,{ancient:1,locked:2,revert:true});
+assert.equal(rows[0].scrap,3266);assert.equal(rows[0].tokens,240);assert.equal(rows[1].ancient,20);assert.equal(rows[1].tears,1);assert.equal(rows[2].tears,4);assert.equal(rows[3].ancient,2400);
+assert.equal(operationCosts(costs,'blacksmith',6,null)[0].scrap,null);
+assert.equal(operationCosts(costs,'blacksmith',6,null)[0].tokens,240);
+assert.deepEqual(operationCosts(costs,'blacksmith',8,19),[]);
+const item={template_id:'a',item_tier:4,item_type:'weapon',property_value_ranges:{defense:{min:1,max:4}}};
+const library={tiers:{4:{items:{a:{owned:true,props:{defense:2}}}}}};
+assert.deepEqual(discounts([item],library,item,4,4,masters,rules),{master:4,collection:4,blueprint:3,book:15,recipe:10,total:29});
+assert.equal(discounts([item],library,item,4,10,masters,rules).total,null);
+assert.equal(masterFor({item_type:'neck'}),'craftworks');
+console.log('Workshop checks passed');

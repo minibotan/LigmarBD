@@ -1,0 +1,77 @@
+{
+  "property_levels": [
+    {
+      "property_level": 1,
+      "magic_property_100_percent_chance_bonus_percent": 0,
+      "ancient_property_unlocked": false
+    },
+    {
+      "property_level": 2,
+      "magic_property_100_percent_chance_bonus_percent": 200,
+      "ancient_property_unlocked": false
+    },
+    {
+      "property_level": 3,
+      "magic_property_100_percent_chance_bonus_percent": 500,
+      "ancient_property_unlocked": true
+    }
+  ],
+  "blueprint_levels": [
+    {
+      "blueprint_level": 1,
+      "minimum_level_of_every_counted_property": 0,
+      "material_reduction_percent": 0,
+      "magic_property_100_percent_chance_bonus_percent": 0
+    },
+    {
+      "blueprint_level": 2,
+      "minimum_level_of_every_counted_property": 1,
+      "material_reduction_percent": 5,
+      "magic_property_100_percent_chance_bonus_percent": 100
+    },
+    {
+      "blueprint_level": 3,
+      "minimum_level_of_every_counted_property": 2,
+      "material_reduction_percent": 10,
+      "magic_property_100_percent_chance_bonus_percent": 300
+    },
+    {
+      "blueprint_level": 4,
+      "minimum_level_of_every_counted_property": 3,
+      "material_reduction_percent": 20,
+      "magic_property_100_percent_chance_bonus_percent": 1000
+    }
+  ],
+  "library_levels": [
+    {
+      "library_level": 1,
+      "minimum_level_of_every_required_blueprint": 0,
+      "material_reduction_percent": 0,
+      "magic_property_100_percent_chance_bonus_percent": 0
+    },
+    {
+      "library_level": 2,
+      "minimum_level_of_every_required_blueprint": 1,
+      "material_reduction_percent": 5,
+      "magic_property_100_percent_chance_bonus_percent": 100
+    },
+    {
+      "library_level": 3,
+      "minimum_level_of_every_required_blueprint": 2,
+      "material_reduction_percent": 10,
+      "magic_property_100_percent_chance_bonus_percent": 300
+    },
+    {
+      "library_level": 4,
+      "minimum_level_of_every_required_blueprint": 3,
+      "material_reduction_percent": 15,
+      "magic_property_100_percent_chance_bonus_percent": 500
+    },
+    {
+      "library_level": 5,
+      "minimum_level_of_every_required_blueprint": 4,
+      "material_reduction_percent": 20,
+      "magic_property_100_percent_chance_bonus_percent": 1000
+    }
+  ]
+}

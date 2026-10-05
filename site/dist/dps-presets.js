@@ -1,0 +1,3 @@
+export function captureRotation(steps,targets){return steps.map(s=>{const c=structuredClone(s);if(c.kind==='skill'){c.targetIndex=c.targetId===''?-1:Math.max(0,targets.findIndex(t=>t.id===c.targetId));delete c.targetId;}return c;});}
+export function restoreRotation(steps,targets){return steps.map(s=>{const c=structuredClone(s);if(c.kind==='skill'){c.targetId=c.targetIndex===-1?'':(targets[c.targetIndex]?.id??targets[0]?.id??'');delete c.targetIndex;}return c;});}
+export function saveNamedPreset(list,preset){const copy=structuredClone(preset),index=list.findIndex(p=>p.name===copy.name&&p.world===copy.world&&p.classId===copy.classId);return index<0?[...list,copy]:list.map((p,i)=>i===index?{...copy,id:p.id}:p);}
