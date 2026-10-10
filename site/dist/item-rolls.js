@@ -1,4 +1,4 @@
-import {presets} from './presets.js';
+import {presets} from './presets.js?v=damage-presets-4';
 export const propertyPresets={'bad':[90,50,50],'mid':[90,90,50],'good':[90,90,90],'100%':[100,90,80],'150%':[150,90,90],'150%+':[150,100,100],'150%++':[150,150,100]};
 export function rollItemProperties(state,item,label,random=Math.random){
  const chosen=presets[state.buildPreset];

@@ -1,0 +1,70 @@
+[
+  {
+    "ID": "30d1a679ae40804f89cdf6ea523fac9f",
+    "Type": "attack",
+    "ActivationTime": 1500000000,
+    "Owner": "special",
+    "Cooldown": 3000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "melee",
+    "Requirements": {
+      "Items": null,
+      "Level": 30,
+      "StatusLevel": 3,
+      "Buildings": null
+    },
+    "Level": 1,
+    "LevelID": "30d1a679ae408094ac81e3c99c5e589b",
+    "Weapon": [
+      "any"
+    ],
+    "TrueHit": true,
+    "Unstoppable": true,
+    "CrossWorld": false,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "da9be323a38a4bccb43a518dc0a81f4d",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "target",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "pureDamage",
+            "Value": 1000000,
+            "IsPercent": false,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      }
+    ],
+    "Name": {
+      "ru": "Удар разрушителя",
+      "en": "Destroyer's Hit"
+    },
+    "Description": {
+      "ru": "Наносит цели <b>1,000,000</b> чистого урона. Не промахивается. Нельзя прервать.",
+      "en": "Deals <b>1,000,000</b> pure damage to the target. Does not miss. Cannot be interrupted."
+    },
+    "Consumables": null
+  }
+]

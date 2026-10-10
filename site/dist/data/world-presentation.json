@@ -1,0 +1,1110 @@
+{
+  "mobs": {
+    "3f21a679ae40807b8fcae41f5a9e4a18": {
+      "name": null,
+      "image": null
+    },
+    "3f21a679ae4080a18ea3fcc4a687e2f6": {
+      "name": null,
+      "image": null
+    },
+    "3f11a679ae40800a8cc0ca3c08e6b45b": {
+      "name": null,
+      "image": null
+    },
+    "3f11a679ae4080ebb5f2eb1c67a99012": {
+      "name": null,
+      "image": null
+    },
+    "3f11a679ae4080e58dfbdc227234d4de": {
+      "name": null,
+      "image": null
+    },
+    "77ff4d918d5e4cf5ae6ad5d72eb675dc": {
+      "name": "Муравей-бомбардир",
+      "image": "https://ligmar.io/game/assets/battle/mobs/77ff4d918d5e4cf5ae6ad5d72eb675dc.webp"
+    },
+    "658e4404d5024cfa80f76e5bc9db5ad3": {
+      "name": "Муравей-солдат",
+      "image": "https://ligmar.io/game/assets/battle/mobs/658e4404d5024cfa80f76e5bc9db5ad3.webp"
+    },
+    "549379795e714b03842adc58362b2397": {
+      "name": "Муравей-бомбардир",
+      "image": "https://ligmar.io/game/assets/battle/mobs/549379795e714b03842adc58362b2397.webp"
+    },
+    "d1651440b40d42b3b5df27a5897107b3": {
+      "name": "Муравей-солдат",
+      "image": "https://ligmar.io/game/assets/battle/mobs/d1651440b40d42b3b5df27a5897107b3.webp"
+    },
+    "42674a360d374fb1958b6207b7888812": {
+      "name": "Муравей-бомбардир",
+      "image": "https://ligmar.io/game/assets/battle/mobs/42674a360d374fb1958b6207b7888812.webp"
+    },
+    "1442404aa1af41fa9d9c084724255ec9": {
+      "name": "Муравей-солдат",
+      "image": "https://ligmar.io/game/assets/battle/mobs/1442404aa1af41fa9d9c084724255ec9.webp"
+    },
+    "a58b2ee41e6d40338189b8e81ffb77b5": {
+      "name": "Шепчущая мать",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/a58b2ee41e6d40338189b8e81ffb77b5.webp"
+    },
+    "17c4d29732da4ef8a7627bbd3fa5f047": {
+      "name": "Каллисто",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/17c4d29732da4ef8a7627bbd3fa5f047.webp"
+    },
+    "deba5d380d5244b383cc54a6e8d16c7d": {
+      "name": "Багряный рог",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/deba5d380d5244b383cc54a6e8d16c7d.webp"
+    },
+    "2ceef5565f0443bb887659d0a24f01c2": {
+      "name": "Гамадриада",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/2ceef5565f0443bb887659d0a24f01c2.webp"
+    },
+    "9cff5ae1c8ac45eabe2775694ece7146": {
+      "name": "Альфа-олень",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/9cff5ae1c8ac45eabe2775694ece7146.webp"
+    },
+    "f61d77f0064c4436ab8019e4f456e6cd": {
+      "name": "Муравей-бомбардир",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/f61d77f0064c4436ab8019e4f456e6cd.webp"
+    },
+    "98c8af2540904ec4940200f1e1c19bb2": {
+      "name": "Цветень-мутант",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/98c8af2540904ec4940200f1e1c19bb2.webp"
+    },
+    "4bb2c26edd1e40bdaf65bddd338c0de3": {
+      "name": "Гнилая вдова",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/4bb2c26edd1e40bdaf65bddd338c0de3.webp"
+    },
+    "cb2e166b4c924da9a962335f35114956": {
+      "name": "Старый душитель",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/cb2e166b4c924da9a962335f35114956.webp"
+    },
+    "512616ab7d83423b98a152d9e948ace4": {
+      "name": "Муравей-рыцарь улья",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/512616ab7d83423b98a152d9e948ace4.webp"
+    },
+    "04ad8df84d4b4c90ae4e9847dc7579f8": {
+      "name": "Муравей-солдат роя",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/04ad8df84d4b4c90ae4e9847dc7579f8.webp"
+    },
+    "faba1b7872f242a6a8d16978484161c7": {
+      "name": "Муравей с устройством",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/faba1b7872f242a6a8d16978484161c7.webp"
+    },
+    "d773f8191069442cb605fe0cce1b933c": {
+      "name": "Муравей-рыцарь улья",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/d773f8191069442cb605fe0cce1b933c.webp"
+    },
+    "dd1cf06abd3f4fb1be04706b0c5cd50f": {
+      "name": "Паук-копейщик",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/dd1cf06abd3f4fb1be04706b0c5cd50f.webp"
+    },
+    "b7a4ddc25d344f149cfd1d83e13ba380": {
+      "name": "Страж дороги",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/b7a4ddc25d344f149cfd1d83e13ba380.webp"
+    },
+    "ed3b658e225b44d2928c98138c09ea8b": {
+      "name": "Муравей-рыцарь улья",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/ed3b658e225b44d2928c98138c09ea8b.webp"
+    },
+    "4524fd1f08334a6c9b0e0725bca3ece3": {
+      "name": "Гоблин-вожак",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/4524fd1f08334a6c9b0e0725bca3ece3.webp"
+    },
+    "c5de9aba0afa4bef9501b066065abce2": {
+      "name": "Косой грим",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/c5de9aba0afa4bef9501b066065abce2.webp"
+    },
+    "dc6e3c4d39424fee97c30adb563eb43a": {
+      "name": "Муравей-разведчик",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/dc6e3c4d39424fee97c30adb563eb43a.webp"
+    },
+    "92042bd95f1e4480bfc8816df21392d4": {
+      "name": "Волк-вожак",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/92042bd95f1e4480bfc8816df21392d4.webp"
+    },
+    "3e01a679ae40807ebab8efaaeb31a35b": {
+      "name": "Муравей-солдат роя",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3e01a679ae40807ebab8efaaeb31a35b.webp"
+    },
+    "3e01a679ae408081b524f65858ac6352": {
+      "name": "Муравей-бомбардир роя",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3e01a679ae408081b524f65858ac6352.webp"
+    },
+    "0513e3ede819496fb708fa65370677a4": {
+      "name": "Муравей-бомбардир",
+      "image": "https://ligmar.io/game/assets/battle/mobs/0513e3ede819496fb708fa65370677a4.webp"
+    },
+    "e0fc03ec27e349029fd3b1c378e5431b": {
+      "name": "Муравей-солдат",
+      "image": "https://ligmar.io/game/assets/battle/mobs/e0fc03ec27e349029fd3b1c378e5431b.webp"
+    },
+    "3e01a679ae4080a8b3a4d145353afc25": {
+      "name": "Муравей-бомбардир роя",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3e01a679ae4080a8b3a4d145353afc25.webp"
+    },
+    "3e01a679ae4080a3837fdb0ef0dfba36": {
+      "name": "Муравей-солдат роя",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3e01a679ae4080a3837fdb0ef0dfba36.webp"
+    },
+    "3e01a679ae408038b6fbea2a29cd3c9a": {
+      "name": "Багровый богомол",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3e01a679ae408038b6fbea2a29cd3c9a.webp"
+    },
+    "3e01a679ae4080278b0cc440c4c149dc": {
+      "name": "Загадочный муравей",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3e01a679ae4080278b0cc440c4c149dc.webp"
+    },
+    "ab8e93616eed4205a37683349e023bf0": {
+      "name": "Сосудник памяти",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/ab8e93616eed4205a37683349e023bf0.webp"
+    },
+    "d00c87a2d71c453699d27269c68ce049": {
+      "name": "Керамический автоматон",
+      "image": "https://ligmar.io/game/assets/battle/mobs/d00c87a2d71c453699d27269c68ce049.webp"
+    },
+    "623d75e952774351a9133064cbd64f38": {
+      "name": "Слуга обжига",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/623d75e952774351a9133064cbd64f38.webp"
+    },
+    "0067d681f79c40e48df5e1bf8e44c6ca": {
+      "name": "Слуга обжига",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/0067d681f79c40e48df5e1bf8e44c6ca.webp"
+    },
+    "3bf1a679ae40801d8b17d2721c9b5262": {
+      "name": "Тессерарий",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bf1a679ae40801d8b17d2721c9b5262.webp"
+    },
+    "3bb1a679ae4080648310ea135d597aab": {
+      "name": "Жар преисподни",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae4080648310ea135d597aab.webp"
+    },
+    "3bb1a679ae40805884bfc20ac35cbdf2": {
+      "name": "Глиняный ужас",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae40805884bfc20ac35cbdf2.webp"
+    },
+    "3bb1a679ae4080419bb1c0979d60fd3e": {
+      "name": "Ложный Оазис",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae4080419bb1c0979d60fd3e.webp"
+    },
+    "3bb1a679ae408080af3deb9153300eca": {
+      "name": "Буревой Кулак",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae408080af3deb9153300eca.webp"
+    },
+    "3bb1a679ae4080558007fcd5b0f39798": {
+      "name": "Живодёр",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae4080558007fcd5b0f39798.webp"
+    },
+    "3bb1a679ae4080a7bd86f850b2c1d217": {
+      "name": "Чернохвост",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae4080a7bd86f850b2c1d217.webp"
+    },
+    "3bb1a679ae4080b196fccc16760c798f": {
+      "name": "Железный Аркан",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae4080b196fccc16760c798f.webp"
+    },
+    "3bb1a679ae4080ddbe3ae8de0fa5b24a": {
+      "name": "Хитиновый Вал",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae4080ddbe3ae8de0fa5b24a.webp"
+    },
+    "3bb1a679ae408066a000f4ca88ecd7cb": {
+      "name": "Спящий Центурион",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae408066a000f4ca88ecd7cb.webp"
+    },
+    "3bb1a679ae40807c846decc513eb7542": {
+      "name": "Красный Жнец",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae40807c846decc513eb7542.webp"
+    },
+    "3bb1a679ae40807c9a1cf762b55ae019": {
+      "name": "Госпожа Сна",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae40807c9a1cf762b55ae019.webp"
+    },
+    "3bb1a679ae40809e84a5e1fea637b4b7": {
+      "name": "Матка Сонницы",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae40809e84a5e1fea637b4b7.webp"
+    },
+    "3bb1a679ae4080f5be32e2db2b3221dc": {
+      "name": "Рваное Эхо",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae4080f5be32e2db2b3221dc.webp"
+    },
+    "3bb1a679ae408000a194e708580e038d": {
+      "name": "Стальной глаз",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae408000a194e708580e038d.webp"
+    },
+    "3bb1a679ae40801f8997d6103e2bc784": {
+      "name": "Волдырь",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae40801f8997d6103e2bc784.webp"
+    },
+    "3bb1a679ae40805d9d69dc67223605b2": {
+      "name": "Сточный Король",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae40805d9d69dc67223605b2.webp"
+    },
+    "3bb1a679ae40806b9655f816216f437d": {
+      "name": "Костоглот",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae40806b9655f816216f437d.webp"
+    },
+    "3bb1a679ae40803b9563f644c34c2fb7": {
+      "name": "Длиннорукий",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/3bb1a679ae40803b9563f644c34c2fb7.webp"
+    },
+    "3b81a679ae4080ac8e55e456cb2bc099": {
+      "name": "Керамический автоматон",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3b81a679ae4080ac8e55e456cb2bc099.webp"
+    },
+    "3b51a679ae40805ba23ac6da2a10db82": {
+      "name": "Вор компаса",
+      "image": null
+    },
+    "b01c9cc2c0c949a68314d685b1f74464": {
+      "name": "Керамический гоблин",
+      "image": "https://ligmar.io/game/assets/battle/mobs/b01c9cc2c0c949a68314d685b1f74464.webp"
+    },
+    "ae7797376e884ddd9a7a59fd4b396cbe": {
+      "name": "Сосудник памяти",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/ae7797376e884ddd9a7a59fd4b396cbe.webp"
+    },
+    "0710292754844caf9d54c5f54ef3c20d": {
+      "name": "Искажённый сосуд",
+      "image": "https://ligmar.io/game/assets/battle/mobs/0710292754844caf9d54c5f54ef3c20d.webp"
+    },
+    "cd0772b810ee4b3884f277679cb092b8": {
+      "name": "Первый формовщик",
+      "image": null
+    },
+    "66ce30f2662d47699b144083afa947ab": {
+      "name": "Бывший мэр Аркса",
+      "image": null
+    },
+    "8d7b4e1e66ff46859df1dffb58d62bf6": {
+      "name": "Лжеформовщик",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/8d7b4e1e66ff46859df1dffb58d62bf6.webp"
+    },
+    "64e432c7d3864b968859eadc14115e2e": {
+      "name": "Серпорук",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/64e432c7d3864b968859eadc14115e2e.webp"
+    },
+    "64896bbb67494446b56018d064e7ec5e": {
+      "name": "Белый палач",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/64896bbb67494446b56018d064e7ec5e.webp"
+    },
+    "38922393830c4713942425ba8e3111bb": {
+      "name": "Усиленный сын мэра",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/38922393830c4713942425ba8e3111bb.webp"
+    },
+    "1541ef7551754792a6030f71903dabdc": {
+      "name": "Погибель путника",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/1541ef7551754792a6030f71903dabdc.webp"
+    },
+    "f128228eccfe4cee8fdbf54eea6fc8fb": {
+      "name": "Душа Бархана",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/f128228eccfe4cee8fdbf54eea6fc8fb.webp"
+    },
+    "d8da908e0bcf4b65b500ec2725f38a73": {
+      "name": "Жвала смерти",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/d8da908e0bcf4b65b500ec2725f38a73.webp"
+    },
+    "a3159fe3280448d9bbcdf3d61c8424f2": {
+      "name": "Макоголовый",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/a3159fe3280448d9bbcdf3d61c8424f2.webp"
+    },
+    "5697411f5fe74d77b258c51a6382a336": {
+      "name": "Острое жало",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/5697411f5fe74d77b258c51a6382a336.webp"
+    },
+    "1a1fc654390c4dcdbf632e9283b2bf55": {
+      "name": "Отголосок героя",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/1a1fc654390c4dcdbf632e9283b2bf55.webp"
+    },
+    "757b8f167a2a43269e51f6cb383278d2": {
+      "name": "Дева дрём",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/757b8f167a2a43269e51f6cb383278d2.webp"
+    },
+    "64cfadb24f3f446f888b2b0216fb18df": {
+      "name": "Компост",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/64cfadb24f3f446f888b2b0216fb18df.webp"
+    },
+    "a3c7d9497356464f8f0b1037ed22fe0e": {
+      "name": "Ловкие пальцы",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/a3c7d9497356464f8f0b1037ed22fe0e.webp"
+    },
+    "1e43ac889e0740caa1a2264d02c97fcc": {
+      "name": "Иглоспин",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/1e43ac889e0740caa1a2264d02c97fcc.webp"
+    },
+    "ee875aba422045fe8a31b59ecf369d3c": {
+      "name": "Гнилая пасть",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/ee875aba422045fe8a31b59ecf369d3c.webp"
+    },
+    "a6a38ff5be2445b0b8138108542e1b25": {
+      "name": "Сын мэра",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/a6a38ff5be2445b0b8138108542e1b25.webp"
+    },
+    "3b31a679ae4080eca374c37668823e14": {
+      "name": "Заклинательница Эрис",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/3b31a679ae4080eca374c37668823e14.webp"
+    },
+    "c095d23f266547c988bb5e90499477e3": {
+      "name": "Идеальное творение",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/c095d23f266547c988bb5e90499477e3.webp"
+    },
+    "bc17d70e777a4ec2a1c1b48fa5070be1": {
+      "name": "Матрона Обжига",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/bc17d70e777a4ec2a1c1b48fa5070be1.webp"
+    },
+    "8a0d9dcc5a1c447c801c462aa9285703": {
+      "name": "Великий Гончар",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/8a0d9dcc5a1c447c801c462aa9285703.webp"
+    },
+    "eda78b878cff47e19927de9e21d9677a": {
+      "name": "Хранитель карьера",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/eda78b878cff47e19927de9e21d9677a.webp"
+    },
+    "a0a8365c166c4a8b84fa8e4fe2013e07": {
+      "name": "Хранитель вилл",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/a0a8365c166c4a8b84fa8e4fe2013e07.webp"
+    },
+    "c97e62e1a8c24a48821bf5858518796b": {
+      "name": "Хранитель полей",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/c97e62e1a8c24a48821bf5858518796b.webp"
+    },
+    "8fb7c8c809e6405cacf9d8b896057d70": {
+      "name": "Хранитель долины",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/8fb7c8c809e6405cacf9d8b896057d70.webp"
+    },
+    "e3875c162ab44c05adca12626294c72e": {
+      "name": "Страж Печи",
+      "image": "https://ligmar.io/game/assets/battle/mobs/e3875c162ab44c05adca12626294c72e.webp"
+    },
+    "ffd63eb133c14a568c552ac9459609ad": {
+      "name": "Сосудник памяти",
+      "image": "https://ligmar.io/game/assets/battle/mobs/ffd63eb133c14a568c552ac9459609ad.webp"
+    },
+    "2fd5519376f7406aa5ea84ff3786e33c": {
+      "name": "Хранитель трущоб",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2fd5519376f7406aa5ea84ff3786e33c.webp"
+    },
+    "77b55dec5c17427485da2d5e5235c7ab": {
+      "name": "Печной исправитель",
+      "image": "https://ligmar.io/game/assets/battle/mobs/77b55dec5c17427485da2d5e5235c7ab.webp"
+    },
+    "03e1836d27c54a5e8b197117c33f2ee2": {
+      "name": "Храмовый переписчик",
+      "image": "https://ligmar.io/game/assets/battle/mobs/03e1836d27c54a5e8b197117c33f2ee2.webp"
+    },
+    "40d3d962b9bd47d08f3a5bde2784c6d0": {
+      "name": "Страж купален",
+      "image": "https://ligmar.io/game/assets/battle/mobs/40d3d962b9bd47d08f3a5bde2784c6d0.webp"
+    },
+    "a75a51470a5f418fb25e8658043fe92e": {
+      "name": "Мозаичный павлин",
+      "image": "https://ligmar.io/game/assets/battle/mobs/a75a51470a5f418fb25e8658043fe92e.webp"
+    },
+    "3acfd3121b7c49a29b3d6a410a78b809": {
+      "name": "Смотритель виллы",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3acfd3121b7c49a29b3d6a410a78b809.webp"
+    },
+    "cf64b89d4c56470a81787b543c8f3f1b": {
+      "name": "Илистый осколочник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/cf64b89d4c56470a81787b543c8f3f1b.webp"
+    },
+    "d284477320ee4721a88d8a8d7a3d41b2": {
+      "name": "Раб утопленник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/d284477320ee4721a88d8a8d7a3d41b2.webp"
+    },
+    "0298a2b34bc1437f9b8ec24d33bfbca1": {
+      "name": "Обжиговый великан",
+      "image": "https://ligmar.io/game/assets/battle/mobs/0298a2b34bc1437f9b8ec24d33bfbca1.webp"
+    },
+    "df4f28053fb04fff815cfc8e20dc6cf1": {
+      "name": "Белоглиняная химера",
+      "image": "https://ligmar.io/game/assets/battle/mobs/df4f28053fb04fff815cfc8e20dc6cf1.webp"
+    },
+    "0fec07c6fb0a45ac9cd5813e81ee14dd": {
+      "name": "Карьерный надсмотрщик",
+      "image": "https://ligmar.io/game/assets/battle/mobs/0fec07c6fb0a45ac9cd5813e81ee14dd.webp"
+    },
+    "a2aa0c243e564a70becb2316a8b9a1d0": {
+      "name": "Пыльный формовщик",
+      "image": "https://ligmar.io/game/assets/battle/mobs/a2aa0c243e564a70becb2316a8b9a1d0.webp"
+    },
+    "bacabbc69a964e0e8371b970217a5c54": {
+      "name": "Глиняный недолиток",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bacabbc69a964e0e8371b970217a5c54.webp"
+    },
+    "dc76019d00a74800be56ce24d0799840": {
+      "name": "Живой мираж",
+      "image": "https://ligmar.io/game/assets/battle/mobs/dc76019d00a74800be56ce24d0799840.webp"
+    },
+    "012daa89eb1346188491d0bc825cce76": {
+      "name": "Песчаный элементаль",
+      "image": "https://ligmar.io/game/assets/battle/mobs/012daa89eb1346188491d0bc825cce76.webp"
+    },
+    "9629f20793f145c6bc5fd34e375698b1": {
+      "name": "Работорговец",
+      "image": "https://ligmar.io/game/assets/battle/mobs/9629f20793f145c6bc5fd34e375698b1.webp"
+    },
+    "baaaf205647a40e48e2101bce75b09eb": {
+      "name": "Чёрный скорпион",
+      "image": "https://ligmar.io/game/assets/battle/mobs/baaaf205647a40e48e2101bce75b09eb.webp"
+    },
+    "1fbc90666f9e4dee9ed6ef801b7a1aae": {
+      "name": "Гигантская сколопендра",
+      "image": "https://ligmar.io/game/assets/battle/mobs/1fbc90666f9e4dee9ed6ef801b7a1aae.webp"
+    },
+    "12aa552396e2419494765dadacb5835d": {
+      "name": "Маковая нимфа",
+      "image": "https://ligmar.io/game/assets/battle/mobs/12aa552396e2419494765dadacb5835d.webp"
+    },
+    "83f57587ae024cc39e0d9921b1153ba8": {
+      "name": "Расколотая душа",
+      "image": "https://ligmar.io/game/assets/battle/mobs/83f57587ae024cc39e0d9921b1153ba8.webp"
+    },
+    "bccd2d4163a44ad7b29f10ae06fe8b20": {
+      "name": "Сонная оса",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bccd2d4163a44ad7b29f10ae06fe8b20.webp"
+    },
+    "3c0553ab0dcc4ec1a2778d0b8b32395d": {
+      "name": "Одурманенный легионер",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3c0553ab0dcc4ec1a2778d0b8b32395d.webp"
+    },
+    "291b3dce0c3b4d6daa308f17f2105643": {
+      "name": "Разбитый патрульный",
+      "image": "https://ligmar.io/game/assets/battle/mobs/291b3dce0c3b4d6daa308f17f2105643.webp"
+    },
+    "9961860105aa4e329cd371cc1caac5d2": {
+      "name": "Сточный слизень",
+      "image": "https://ligmar.io/game/assets/battle/mobs/9961860105aa4e329cd371cc1caac5d2.webp"
+    },
+    "8d634e36a9d84319a9a783e4a0c18eb1": {
+      "name": "Сборщик урожая",
+      "image": "https://ligmar.io/game/assets/battle/mobs/8d634e36a9d84319a9a783e4a0c18eb1.webp"
+    },
+    "19a68932556a4d91b345e0a196585cd9": {
+      "name": "Трупный падальщик",
+      "image": "https://ligmar.io/game/assets/battle/mobs/19a68932556a4d91b345e0a196585cd9.webp"
+    },
+    "d41f5682e6e54bb7a21d92083f4dc0ad": {
+      "name": "Чумная крыса",
+      "image": "https://ligmar.io/game/assets/battle/mobs/d41f5682e6e54bb7a21d92083f4dc0ad.webp"
+    },
+    "3a61a679ae4080cc9032f273a5018555": {
+      "name": "Проворный карманник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3a61a679ae4080cc9032f273a5018555.webp"
+    },
+    "38f1a679ae40800581b9ebd2f2cf93c1": {
+      "name": "Королева муравейника",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/38f1a679ae40800581b9ebd2f2cf93c1.webp"
+    },
+    "37c1a679ae40808c9cacc6c5f0aa2223": {
+      "name": "Муравей-бомбардир",
+      "image": "https://ligmar.io/game/assets/battle/mobs/37c1a679ae40808c9cacc6c5f0aa2223.webp"
+    },
+    "37c1a679ae40806c88fae65f63c1b7f8": {
+      "name": "Муравей-солдат",
+      "image": "https://ligmar.io/game/assets/battle/mobs/37c1a679ae40806c88fae65f63c1b7f8.webp"
+    },
+    "33b1a679ae40807e8eebc50618fdb200": {
+      "name": "Штормовой орлан",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae40807e8eebc50618fdb200.webp"
+    },
+    "33b1a679ae40808c9253cee5a4bb91de": {
+      "name": "Змей-кровопускатель",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae40808c9253cee5a4bb91de.webp"
+    },
+    "33b1a679ae40809f9018d51a8789ff96": {
+      "name": "Кислотный паук",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae40809f9018d51a8789ff96.webp"
+    },
+    "33b1a679ae4080e1b170d6f490227ab3": {
+      "name": "Шипастый паук",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae4080e1b170d6f490227ab3.webp"
+    },
+    "33b1a679ae4080f5a74ff9c0c95d1dc2": {
+      "name": "Слизкий миконид",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae4080f5a74ff9c0c95d1dc2.webp"
+    },
+    "33b1a679ae40806eb6e4c832e70d6ceb": {
+      "name": "Користый миконид",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae40806eb6e4c832e70d6ceb.webp"
+    },
+    "33b1a679ae4080d18ebdfed83450cd7e": {
+      "name": "Гоблин-убийца",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae4080d18ebdfed83450cd7e.webp"
+    },
+    "33b1a679ae40808690a8fb9aebcba133": {
+      "name": "Гоблин-ворожей",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae40808690a8fb9aebcba133.webp"
+    },
+    "33b1a679ae408024b2f4dc5935b37595": {
+      "name": "Живой труп",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae408024b2f4dc5935b37595.webp"
+    },
+    "33b1a679ae4080f8bad9d69f6abd1ff0": {
+      "name": "Призрак волшебника",
+      "image": "https://ligmar.io/game/assets/battle/mobs/33b1a679ae4080f8bad9d69f6abd1ff0.webp"
+    },
+    "3211a679ae408047be84c08cd6d06782": {
+      "name": "Пасхальный охотник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/3211a679ae408047be84c08cd6d06782.webp"
+    },
+    "3201a679ae408008aa10ebb6b9094004": {
+      "name": "Пасхальный гоблин",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3201a679ae408008aa10ebb6b9094004.webp"
+    },
+    "3201a679ae4080f1aa07f63e0ced095a": {
+      "name": "Гоблин",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3201a679ae4080f1aa07f63e0ced095a.webp"
+    },
+    "3061a679ae408048bfe4e1a26dd5a964": {
+      "name": "Хранитель угодий",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/3061a679ae408048bfe4e1a26dd5a964.webp"
+    },
+    "3061a679ae408048bfccd47115573b16": {
+      "name": "Одичавшая дриада",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3061a679ae408048bfccd47115573b16.webp"
+    },
+    "3061a679ae408015bae5c674ff994846": {
+      "name": "Благородный олень",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3061a679ae408015bae5c674ff994846.webp"
+    },
+    "3061a679ae40800296c8c172e4b8269e": {
+      "name": "Ядовитый цветень",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3061a679ae40800296c8c172e4b8269e.webp"
+    },
+    "3061a679ae40808789c4f10069f1c5cb": {
+      "name": "Ползучий плющ",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3061a679ae40808789c4f10069f1c5cb.webp"
+    },
+    "3061a679ae4080a0a31fc510633150c0": {
+      "name": "Браконьер",
+      "image": "https://ligmar.io/game/assets/battle/mobs/3061a679ae4080a0a31fc510633150c0.webp"
+    },
+    "3041a679ae408034b252f77fb9ab2953": {
+      "name": "Ядро",
+      "image": null
+    },
+    "3041a679ae4080b6b63fc8facbca4860": {
+      "name": "Защитная башня (II)",
+      "image": null
+    },
+    "3041a679ae408037a14fe20894e9449f": {
+      "name": "Защитная башня (I)",
+      "image": null
+    },
+    "2f61a679ae408099b050d632cb79047e": {
+      "name": "Алый дракон",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2f61a679ae408099b050d632cb79047e.webp"
+    },
+    "2f61a679ae408006985be43549eb0c27": {
+      "name": "Лазурный дракон",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2f61a679ae408006985be43549eb0c27.webp"
+    },
+    "28c1a679ae4080c3970ee8150204b21d": {
+      "name": "Клубящийся огонь",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/28c1a679ae4080c3970ee8150204b21d.webp"
+    },
+    "28c1a679ae40809d9880d42ae53407d2": {
+      "name": "Альфа-беснователь",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/28c1a679ae40809d9880d42ae53407d2.webp"
+    },
+    "28c1a679ae4080b78dd5d09c42657a2d": {
+      "name": "Слуга тьмы",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/28c1a679ae4080b78dd5d09c42657a2d.webp"
+    },
+    "28c1a679ae4080cd8e22d1f18ce7d0b4": {
+      "name": "Слуга тьмы",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/28c1a679ae4080cd8e22d1f18ce7d0b4.webp"
+    },
+    "2791a679ae40804ba212f032b517ff00": {
+      "name": "Хранитель леса",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2791a679ae40804ba212f032b517ff00.webp"
+    },
+    "2791a679ae408048b4cff17b95fe2eab": {
+      "name": "Хранитель перевала",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2791a679ae408048b4cff17b95fe2eab.webp"
+    },
+    "2791a679ae4080c9b8c2dfbd38e8ef02": {
+      "name": "Хранитель деревни",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2791a679ae4080c9b8c2dfbd38e8ef02.webp"
+    },
+    "2791a679ae40802f8e27c8b9095747b1": {
+      "name": "Хранитель бухты",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2791a679ae40802f8e27c8b9095747b1.webp"
+    },
+    "2791a679ae4080bfb0c6f0dd3af4fa2b": {
+      "name": "Тлеющий древень",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080bfb0c6f0dd3af4fa2b.webp"
+    },
+    "2791a679ae4080e886a4e5fd0c34a82a": {
+      "name": "Пепельник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080e886a4e5fd0c34a82a.webp"
+    },
+    "2791a679ae40808a9b08ea37279f4c73": {
+      "name": "Сова-охотник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae40808a9b08ea37279f4c73.webp"
+    },
+    "2791a679ae4080fa816de06f7c852bc8": {
+      "name": "Призрак дровосека",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080fa816de06f7c852bc8.webp"
+    },
+    "2791a679ae408086b0a8ea84e4697153": {
+      "name": "Жук-короед",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae408086b0a8ea84e4697153.webp"
+    },
+    "2791a679ae40808288f9f5e83d33782a": {
+      "name": "Живой валун",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae40808288f9f5e83d33782a.webp"
+    },
+    "2791a679ae408062b307cd0802ec5926": {
+      "name": "Гоблин-засадник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae408062b307cd0802ec5926.webp"
+    },
+    "2791a679ae4080749cc3fbb31c16316c": {
+      "name": "Стервятник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080749cc3fbb31c16316c.webp"
+    },
+    "2791a679ae4080249728ccaa7fb29515": {
+      "name": "Скальный змей",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080249728ccaa7fb29515.webp"
+    },
+    "2791a679ae40803583d3c6b8ffdf2026": {
+      "name": "Горный козел",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae40803583d3c6b8ffdf2026.webp"
+    },
+    "2791a679ae40809db0b2ffb2d061d662": {
+      "name": "Призрак жителя",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae40809db0b2ffb2d061d662.webp"
+    },
+    "2791a679ae40800399fde3bd5d3fc18e": {
+      "name": "Скелет-метатель",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae40800399fde3bd5d3fc18e.webp"
+    },
+    "2791a679ae40803faae0f8c2512575a3": {
+      "name": "Летучая мышь",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae40803faae0f8c2512575a3.webp"
+    },
+    "2791a679ae4080868f59ec10842c0363": {
+      "name": "Зомби-житель",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080868f59ec10842c0363.webp"
+    },
+    "2791a679ae408033a752d16f21b89302": {
+      "name": "Сторожевой пес",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae408033a752d16f21b89302.webp"
+    },
+    "2791a679ae4080d981e6f5cf39e14334": {
+      "name": "Малый элементаль воды",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080d981e6f5cf39e14334.webp"
+    },
+    "2791a679ae4080f5ae42ebd2fdd6c6ad": {
+      "name": "Каменная черепаха",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080f5ae42ebd2fdd6c6ad.webp"
+    },
+    "2791a679ae408048badec555fd1eae23": {
+      "name": "Плотоядная чайка",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae408048badec555fd1eae23.webp"
+    },
+    "2791a679ae408040acc6c15b0563cac4": {
+      "name": "Морской тритон",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae408040acc6c15b0563cac4.webp"
+    },
+    "2791a679ae4080349254ce63455f2e1c": {
+      "name": "Огромный краб",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080349254ce63455f2e1c.webp"
+    },
+    "2791a679ae40805ca979f0915257d989": {
+      "name": "Малый древень",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae40805ca979f0915257d989.webp"
+    },
+    "2791a679ae408052b087e5af53363231": {
+      "name": "Гоблин-лучник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae408052b087e5af53363231.webp"
+    },
+    "2791a679ae4080bd8b6de481a7e34592": {
+      "name": "Проклятый ястреб",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080bd8b6de481a7e34592.webp"
+    },
+    "2791a679ae40806c832ff35c97f87e0c": {
+      "name": "Паук-метатель",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae40806c832ff35c97f87e0c.webp"
+    },
+    "2791a679ae4080e0bff4f3999707b680": {
+      "name": "Черный волк",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2791a679ae4080e0bff4f3999707b680.webp"
+    },
+    "2781a679ae40809f94e4f534e4abb08e": {
+      "name": "Духовная дочь",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2781a679ae40809f94e4f534e4abb08e.webp"
+    },
+    "2781a679ae4080119f49e3ce91d54a01": {
+      "name": "Сопливый сын",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2781a679ae4080119f49e3ce91d54a01.webp"
+    },
+    "2781a679ae40804bbaf0e6821f6fc840": {
+      "name": "Меткий сын",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2781a679ae40804bbaf0e6821f6fc840.webp"
+    },
+    "2781a679ae4080dfa24ff2448f94d91c": {
+      "name": "Сильный сын",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2781a679ae4080dfa24ff2448f94d91c.webp"
+    },
+    "2781a679ae40801180fbed0b72f37937": {
+      "name": "Леди крови",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2781a679ae40801180fbed0b72f37937.webp"
+    },
+    "2781a679ae40801c8f92d8e54cd7ada9": {
+      "name": "Лорд боли",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2781a679ae40801c8f92d8e54cd7ada9.webp"
+    },
+    "2771a679ae40804b9566f198732c80fb": {
+      "name": "Мама тролль",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2771a679ae40804b9566f198732c80fb.webp"
+    },
+    "2771a679ae408082b5b9d816852e125c": {
+      "name": "Папа тролль",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2771a679ae408082b5b9d816852e125c.webp"
+    },
+    "2771a679ae40802dafb3f0ec010cd264": {
+      "name": "Бес-поджигатель",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2771a679ae40802dafb3f0ec010cd264.webp"
+    },
+    "2771a679ae4080ba8063e48cf557121b": {
+      "name": "Одержимый маг",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2771a679ae4080ba8063e48cf557121b.webp"
+    },
+    "2771a679ae408099af32fef8dc5d8371": {
+      "name": "Мерзкий имп",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2771a679ae408099af32fef8dc5d8371.webp"
+    },
+    "2771a679ae4080459fa5c50e0dc77a04": {
+      "name": "Адская гончая",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2771a679ae4080459fa5c50e0dc77a04.webp"
+    },
+    "2731a679ae40808487ecd3d62ca212cd": {
+      "name": "Демонолог",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2731a679ae40808487ecd3d62ca212cd.webp"
+    },
+    "2731a679ae4080259b50cff4b0a1c673": {
+      "name": "Суккуб и Инкуб",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2731a679ae4080259b50cff4b0a1c673.webp"
+    },
+    "2731a679ae4080f585b0ceeb55f33a47": {
+      "name": "Вампир-чернокнижник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2731a679ae4080f585b0ceeb55f33a47.webp"
+    },
+    "2731a679ae40804b8380ef829dcdd1c1": {
+      "name": "Вампир-танцор",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2731a679ae40804b8380ef829dcdd1c1.webp"
+    },
+    "2731a679ae4080ccaef4e69fdf7efdc9": {
+      "name": "Вампир-стрелок",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2731a679ae4080ccaef4e69fdf7efdc9.webp"
+    },
+    "2731a679ae4080e8bb46c27f16473089": {
+      "name": "Вампир-дуэлянт",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2731a679ae4080e8bb46c27f16473089.webp"
+    },
+    "26a1a679ae40808ab5e7fdcdbbf4b414": {
+      "name": "Некромант",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/26a1a679ae40808ab5e7fdcdbbf4b414.webp"
+    },
+    "26a1a679ae40809c9222d4e0f735c05d": {
+      "name": "Аколит",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/26a1a679ae40809c9222d4e0f735c05d.webp"
+    },
+    "26a1a679ae4080dcbacddf27a94884af": {
+      "name": "Бронированный зомби",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/26a1a679ae4080dcbacddf27a94884af.webp"
+    },
+    "26a1a679ae408048ac37d4ab78700c1b": {
+      "name": "Скелет-чародей",
+      "image": "https://ligmar.io/game/assets/battle/mobs/26a1a679ae408048ac37d4ab78700c1b.webp"
+    },
+    "26a1a679ae4080659bead9ec472729a2": {
+      "name": "Проклятый зомби",
+      "image": "https://ligmar.io/game/assets/battle/mobs/26a1a679ae4080659bead9ec472729a2.webp"
+    },
+    "26a1a679ae4080ed9571da426cbc0fe2": {
+      "name": "Скелет-лучник",
+      "image": "https://ligmar.io/game/assets/battle/mobs/26a1a679ae4080ed9571da426cbc0fe2.webp"
+    },
+    "26a1a679ae4080528664e18123e6fc9c": {
+      "name": "Зомби",
+      "image": "https://ligmar.io/game/assets/battle/mobs/26a1a679ae4080528664e18123e6fc9c.webp"
+    },
+    "2691a679ae4080a78008d4af2d3fc498": {
+      "name": "Королева муравейника",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2691a679ae4080a78008d4af2d3fc498.webp"
+    },
+    "2691a679ae408002bb80c05fc99777fa": {
+      "name": "Муравей-бомбардир",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2691a679ae408002bb80c05fc99777fa.webp"
+    },
+    "2691a679ae4080baa3bee374d11cb555": {
+      "name": "Муравей-солдат",
+      "image": "https://ligmar.io/game/assets/battle/mobs/2691a679ae4080baa3bee374d11cb555.webp"
+    },
+    "2321a679ae4080cbac59e12d67bfb955": {
+      "name": "Слуга тьмы",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2321a679ae4080cbac59e12d67bfb955.webp"
+    },
+    "2321a679ae40807daec1df34e6aa1479": {
+      "name": "Слуга тьмы",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/2321a679ae40807daec1df34e6aa1479.webp"
+    },
+    "1dc1a679ae4080d8a13bf5d450ab396e": {
+      "name": "Хранитель рудников",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/1dc1a679ae4080d8a13bf5d450ab396e.webp"
+    },
+    "1dc1a679ae4080e48c17f5639d5c8295": {
+      "name": "Хранитель топей",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/1dc1a679ae4080e48c17f5639d5c8295.webp"
+    },
+    "1ac1a679ae4080b492aaf9779d74ac73": {
+      "name": "Каменный колосс",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/1ac1a679ae4080b492aaf9779d74ac73.webp"
+    },
+    "1ac1a679ae408098a56ed2ecb82c768e": {
+      "name": "Око ужаса",
+      "image": "https://ligmar.io/game/assets/battle/mobs/bosses/1ac1a679ae408098a56ed2ecb82c768e.webp"
+    },
+    "13f1a679ae4080c98686d841af66b99c": {
+      "name": "Гигантский червь",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080c98686d841af66b99c.webp"
+    },
+    "13f1a679ae4080fa8129fba498ed7ee5": {
+      "name": "Муравей-огневик",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080fa8129fba498ed7ee5.webp"
+    },
+    "13f1a679ae40800691d2c02dcfb6c693": {
+      "name": "Оса-секач",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40800691d2c02dcfb6c693.webp"
+    },
+    "13f1a679ae40808f90eee22d6bce4873": {
+      "name": "Саблезубый крот",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40808f90eee22d6bce4873.webp"
+    },
+    "13f1a679ae4080b79552f6cf90378854": {
+      "name": "Ядовитый паук",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080b79552f6cf90378854.webp"
+    },
+    "13f1a679ae40806585f0c436b75aff18": {
+      "name": "Земляной змей",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40806585f0c436b75aff18.webp"
+    },
+    "13f1a679ae4080ef9ae6dde1d325e864": {
+      "name": "Дикий богомол",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080ef9ae6dde1d325e864.webp"
+    },
+    "13f1a679ae4080188089c28d9b1d739e": {
+      "name": "Лунная бабочка",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080188089c28d9b1d739e.webp"
+    },
+    "13f1a679ae408033b5a8eee417ce6ff9": {
+      "name": "Бешенный пес",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae408033b5a8eee417ce6ff9.webp"
+    },
+    "13f1a679ae408057827dc2a2b0104371": {
+      "name": "Волк-людоед",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae408057827dc2a2b0104371.webp"
+    },
+    "13f1a679ae4080288d4dc3bb4aa42bf8": {
+      "name": "Злобный кабан",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080288d4dc3bb4aa42bf8.webp"
+    },
+    "13f1a679ae4080b09137dd3abfc86ced": {
+      "name": "Черный лось",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080b09137dd3abfc86ced.webp"
+    },
+    "13f1a679ae4080c09b43f1a4dcaa5b33": {
+      "name": "Двуглавый глухарь",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080c09b43f1a4dcaa5b33.webp"
+    },
+    "13f1a679ae4080359016de7a1e9cbe25": {
+      "name": "Медведь-рвач",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080359016de7a1e9cbe25.webp"
+    },
+    "13f1a679ae4080e0b6c8e1f2f131ec5a": {
+      "name": "Жаба",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080e0b6c8e1f2f131ec5a.webp"
+    },
+    "13f1a679ae4080149756c92482c19cb4": {
+      "name": "Тритон",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080149756c92482c19cb4.webp"
+    },
+    "13f1a679ae40804b832de3b5b9250d9d": {
+      "name": "Гнилой лебедь",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40804b832de3b5b9250d9d.webp"
+    },
+    "13f1a679ae408032b1a5fb492c73216b": {
+      "name": "Русалка",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae408032b1a5fb492c73216b.webp"
+    },
+    "13f1a679ae408068a257faee882ea68d": {
+      "name": "Туманный огонек",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae408068a257faee882ea68d.webp"
+    },
+    "13f1a679ae4080bbb227ce5208ec3787": {
+      "name": "Кикимора",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080bbb227ce5208ec3787.webp"
+    },
+    "13f1a679ae40804084dbf2328c465418": {
+      "name": "Темная пиявка",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40804084dbf2328c465418.webp"
+    },
+    "13f1a679ae40805190b7c7d6f97f6b66": {
+      "name": "Скелет",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40805190b7c7d6f97f6b66.webp"
+    },
+    "13f1a679ae4080d59205fe17223be4f7": {
+      "name": "Костоед",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080d59205fe17223be4f7.webp"
+    },
+    "13f1a679ae4080628b7fe97a2af63304": {
+      "name": "Утопший",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080628b7fe97a2af63304.webp"
+    },
+    "13f1a679ae40809e8987e1d78c8f0aea": {
+      "name": "Костяной паук",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40809e8987e1d78c8f0aea.webp"
+    },
+    "13f1a679ae408012b075f01be30bdb7f": {
+      "name": "Призрак шахтера",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae408012b075f01be30bdb7f.webp"
+    },
+    "13f1a679ae4080f5abfaf9a07cac6607": {
+      "name": "Миконид",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080f5abfaf9a07cac6607.webp"
+    },
+    "13f1a679ae4080c9bfddcfbf8ccabe02": {
+      "name": "Свечной демон",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae4080c9bfddcfbf8ccabe02.webp"
+    },
+    "13f1a679ae40809a8482d6b1f8e87dfd": {
+      "name": "Кобольд",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40809a8482d6b1f8e87dfd.webp"
+    },
+    "13f1a679ae40808ca8c5f4398d5be2d9": {
+      "name": "Кислотный жук",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13f1a679ae40808ca8c5f4398d5be2d9.webp"
+    },
+    "13e1a679ae408091a2c2dee9d2340253": {
+      "name": "Демон-офицер",
+      "image": "https://ligmar.io/game/assets/battle/mobs/champions/13e1a679ae408091a2c2dee9d2340253.webp"
+    },
+    "13e1a679ae4080209840fc3033e0f146": {
+      "name": "Демон-солдат",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13e1a679ae4080209840fc3033e0f146.webp"
+    },
+    "13e1a679ae4080d3992af111273478fb": {
+      "name": "Бес",
+      "image": "https://ligmar.io/game/assets/battle/mobs/13e1a679ae4080d3992af111273478fb.webp"
+    }
+  },
+  "locations": {
+    "03a7440cfde941f7aabf201534b16e7c": {
+      "description": "Во тьме поют керамические хоры. У них нет губ и лиц, но есть похищенные души и вечная служба.",
+      "image": "https://ligmar.io/game/assets/images/locations/03a7440cfde941f7aabf201534b16e7c.webp"
+    },
+    "3ab1a679ae408008abd1ce012d35ce7e": {
+      "description": "Колыбель Обжига, где спасение обернулось вечной пыткой души, а печи пылают до сих пор.",
+      "image": "https://ligmar.io/game/assets/images/locations/3ab1a679ae408008abd1ce012d35ce7e.webp"
+    },
+    "3ab1a679ae40809aa273cf9f20263475": {
+      "description": "Утонувший в чёрном иле пригород знати, где керамические слуги всё ещё ждут своих господ.",
+      "image": "https://ligmar.io/game/assets/images/locations/3ab1a679ae40809aa273cf9f20263475.webp"
+    },
+    "3ab1a679ae408065a392fa07e5320f39": {
+      "description": "Священный рудник Империи, где из белой глины родилось безумие обжига и первые тела автоматонов.",
+      "image": "https://ligmar.io/game/assets/images/locations/3ab1a679ae408065a392fa07e5320f39.webp"
+    },
+    "3ab1a679ae40804cafe1c84dd7c13129": {
+      "description": "Погребённый песками торговый тракт Империи, где путников до сих пор водят лживые миражи.",
+      "image": "https://ligmar.io/game/assets/images/locations/3ab1a679ae40804cafe1c84dd7c13129.webp"
+    },
+    "3ab1a679ae4080a5bfe4da19ee2e61bb": {
+      "description": "Багровое море маков на костях Империи: сладкий дурман усыпляет разум и забирает души навсегда.",
+      "image": "https://ligmar.io/game/assets/images/locations/3ab1a679ae4080a5bfe4da19ee2e61bb.webp"
+    },
+    "3a61a679ae408037b6b9cd7e58c0888b": {
+      "description": "Нижние кварталы Аркса, слепленные из обломков: гниль, крысы, воры и сломанные автоматоны.",
+      "image": "https://ligmar.io/game/assets/images/locations/3a61a679ae408037b6b9cd7e58c0888b.webp"
+    },
+    "3061a679ae4080eeb7b8ccb19e384237": {
+      "description": "Место, куда ходят за добычей только те, кто уверен, что сможет сам не стать добычей и вернуться обратно.",
+      "image": "https://ligmar.io/game/assets/images/locations/3061a679ae4080eeb7b8ccb19e384237.webp"
+    },
+    "28c1a679ae4080379b66d9743a4d002b": {
+      "description": "Во тьме, где умерли свет и надежда, покоится сокровище под древней стражей.",
+      "image": "https://ligmar.io/game/assets/images/locations/28c1a679ae4080379b66d9743a4d002b.webp"
+    },
+    "2771a679ae4080af855aff981df64516": {
+      "description": "Скрытный путь контрабандистов<br>стал тропой спасения беглецов<br>от скверны и её слуг.",
+      "image": "https://ligmar.io/game/assets/images/locations/2771a679ae4080af855aff981df64516.webp"
+    },
+    "2771a679ae4080939315e02a70869a30": {
+      "description": "Древняя роща друидов теперь объята вечным огнём. Что стало причиной, знает лишь безмолвный страж.",
+      "image": "https://ligmar.io/game/assets/images/locations/2771a679ae4080939315e02a70869a30.webp"
+    },
+    "2761a679ae40807d8d53eb0e269db8db": {
+      "description": "Прозрачная вода и скалы образуют живописную бухту, чья красота скрывает опасных обитателей глубин.",
+      "image": "https://ligmar.io/game/assets/images/locations/2761a679ae40807d8d53eb0e269db8db.webp"
+    },
+    "2761a679ae4080b2ad35ec9e09fefd3f": {
+      "description": "Здесь звучали песни и играли<br>дети. Теперь лишь ветер воет<br>среди пустых домов и могил.",
+      "image": "https://ligmar.io/game/assets/images/locations/2761a679ae4080b2ad35ec9e09fefd3f.webp"
+    },
+    "2761a679ae4080ae9014f4bde3d804c9": {
+      "description": "Не дай обмануть себя спокойствием рощи — за каждым деревом может скрываться смертельная угроза.",
+      "image": "https://ligmar.io/game/assets/images/locations/2761a679ae4080ae9014f4bde3d804c9.webp"
+    },
+    "2661a679ae408009a87ae5a2ae112777": {
+      "description": "Под сводами древних залов угасшие молитвы шепчут о жертвах, что доныне жаждет тьма.",
+      "image": "https://ligmar.io/game/assets/images/locations/2661a679ae408009a87ae5a2ae112777.webp"
+    },
+    "2661a679ae4080a19250e79acd21d120": {
+      "description": "Среди гробниц затаилась сила, что превращает мертвецов в проклятых.",
+      "image": "https://ligmar.io/game/assets/images/locations/2661a679ae4080a19250e79acd21d120.webp"
+    },
+    "2661a679ae40803aa167ff6410701967": {
+      "description": "Каждый шаг будит древний голод, и вампиры смыкают круг у алтаря.",
+      "image": "https://ligmar.io/game/assets/images/locations/2661a679ae40803aa167ff6410701967.webp"
+    },
+    "2661a679ae4080db98cbd97a1113e4db": {
+      "description": "Старый дуб стал домом для троллиной семьи, которая не терпит незваных гостей.",
+      "image": "https://ligmar.io/game/assets/images/locations/2661a679ae4080db98cbd97a1113e4db.webp"
+    },
+    "2661a679ae4080aa90e0fca310fccf1a": {
+      "description": "Среди ядовитых лабиринтов скрывается неспящее зло, воздвигающее цитадель ужаса.",
+      "image": "https://ligmar.io/game/assets/images/locations/2661a679ae4080aa90e0fca310fccf1a.webp"
+    },
+    "2341a679ae40806098fbf2146e990bfd": {
+      "description": "Во тьме, где умерли свет и надежда, покоится сокровище под древней стражей.",
+      "image": "https://ligmar.io/game/assets/images/locations/2341a679ae40806098fbf2146e990bfd.webp"
+    },
+    "1401a679ae4080a68922c6eb4e9a5e39": {
+      "description": "Рудокопы раскопали не ту жилу, и то что оттуда полезло, было гораздо неприятнее  нежити.",
+      "image": "https://ligmar.io/game/assets/images/locations/1401a679ae4080a68922c6eb4e9a5e39.webp"
+    },
+    "1401a679ae408009bd61c8249df63ecc": {
+      "description": "Нежить, комары размером с кошку, древние руины, неожиданно всплывающие из трясины.",
+      "image": "https://ligmar.io/game/assets/images/locations/1401a679ae408009bd61c8249df63ecc.webp"
+    },
+    "1401a679ae40804a82b0f5a7f5414cd1": {
+      "description": "По легенде, именно в нем утопили аж трех предыдущих владык Зиона.",
+      "image": "https://ligmar.io/game/assets/images/locations/1401a679ae40804a82b0f5a7f5414cd1.webp"
+    },
+    "1401a679ae408007b0b5d241235713a4": {
+      "description": "Окраина леса, невидимая граница, отделяющая Зион от дикой части континента.",
+      "image": "https://ligmar.io/game/assets/images/locations/1401a679ae408007b0b5d241235713a4.webp"
+    },
+    "1401a679ae4080688db8ec29525f5fea": {
+      "description": "Это было любимое место прогулок знати. Но владелец сада, обратился к темной магии.",
+      "image": "https://ligmar.io/game/assets/images/locations/1401a679ae4080688db8ec29525f5fea.webp"
+    },
+    "13e1a679ae4080b2a131dba03425560a": {
+      "description": "Пригород Зиона всегда был местом неспокойным. Жуки, черви, Саблезубый крот.",
+      "image": "https://ligmar.io/game/assets/images/locations/13e1a679ae4080b2a131dba03425560a.webp"
+    }
+  }
+}

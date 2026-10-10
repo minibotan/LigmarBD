@@ -73,5 +73,6 @@
       "material_reduction_percent": 20,
       "magic_property_100_percent_chance_bonus_percent": 1000
     }
-  ]
+  ],
+  "base_magic_property_100_percent_chance_percent": 0.1
 }

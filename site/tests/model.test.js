@@ -12,7 +12,7 @@ test('legendary records share IDs but retain own properties',()=>{const i=find('
 test('foreign world equipment does not contribute stats',()=>{const s={...fresh(),world:'zion',level:35};s.equipment.chest={id:find('chest','light').template_id,quality:'epic',enchant:4,props:[]};assert.equal(calculate(s,items).gear.defense,undefined);assert.ok(calculate(s,items).warnings.length)});
 
 test('auto allocation: all class priorities and full point budget',()=>{
- for(const [cls,expected] of Object.entries({mage:{magic:265},archer:{dexterity:265},assassin:{dexterity:265},warrior:{strength:265},guardian:{vitality:265},priest:{vitality:213,magic:57}})){
+ for(const [cls,expected] of Object.entries({mage:{magic:260},archer:{dexterity:260},assassin:{dexterity:260},warrior:{strength:260},guardian:{vitality:260},priest:{vitality:209,magic:56}})){
   const s=fresh(cls);s.stats.strength=100;const r=autoAllocate(s,items);
   assert.deepEqual(r,{strength:5,dexterity:5,vitality:5,magic:5,...expected});
   assert.equal(s.stats.strength,100);
@@ -22,14 +22,14 @@ test('auto allocation: gear bonuses, reduced requirements and maximum across ite
  const a={template_id:'a',name:{ru:'A'},item_tier:6,item_type:'head',base_stats:{strength:10},enhancement_bases:{},property_value_ranges:{requirements:{min:10,max:20}},item_requirements:{strength:50,magic:30}};
  const b={...a,template_id:'b',base_stats:{},item_requirements:{strength:45}};
  const s=fresh();s.equipment={head:{id:'a',quality:'common',enchant:0,props:[{key:'requirements',percent:100}]},chest:{id:'b',quality:'common',enchant:0,props:[]}};
- const r=autoAllocate(s,[a,b]);assert.equal(r.strength,35);assert.equal(r.magic,235);
+ const r=autoAllocate(s,[a,b]);assert.equal(r.strength,35);assert.equal(r.magic,230);
 });
 test('auto allocation: impossible requirements leave input untouched',()=>{
  const s=fresh(),before=structuredClone(s),i={template_id:'x',name:{ru:'X'},item_tier:6,item_type:'head',base_stats:{},enhancement_bases:{},property_value_ranges:{},item_requirements:{strength:500}};
  s.equipment.head={id:'x',quality:'common',enchant:0,props:[]};assert.throws(()=>autoAllocate(s,[i]),/не хватает/);assert.deepEqual(s.stats,before.stats);
  i.item_requirements={level:55};assert.throws(()=>autoAllocate(s,[i]),/уровень 55/);
 });
-test('priest odd remainder consumes all points with nearest 80/20 split',()=>{const s={...fresh('priest'),level:1};assert.deepEqual(autoAllocate(s,items),{strength:5,dexterity:5,vitality:9,magic:6})});
+test('priest odd remainder consumes all points with nearest 80/20 split',()=>{const s={...fresh('priest'),level:2};assert.deepEqual(autoAllocate(s,items),{strength:5,dexterity:5,vitality:9,magic:6})});
 
 test('property percentage interpolates from minimum and extrapolates above maximum',()=>{
  const r={min:40,max:100};assert.equal(propertyValue(r,0),40);assert.equal(propertyValue(r,90),94);assert.equal(propertyValue(r,100),100);assert.equal(propertyValue(r,150),150);assert.equal(propertyValue({min:7,max:7},150),10);
@@ -65,4 +65,9 @@ test('automatic HP and mana include class level gain, stats, buffs and manual ov
   s.baseHP=1000;s.baseMana=2000;
   assert.equal(calculate(s,items).hp,Math.round((1000+3*hp)*1.3));assert.equal(calculate(s,items).mana,2000+4*mana);
  }
+});
+
+test('stat budget starts at zero and legacy excess is migrated once',()=>{
+ for(const level of [1,2,35,55]){const s={...fresh(),level};const stats=autoAllocate(s,items);assert.equal(Object.values(stats).reduce((a,b)=>a+b,0),20+5*(level-1));validate({...s,stats},items);assert.throws(()=>validate({...s,stats:{...stats,magic:stats.magic+1}},items));}
+ const old={...fresh(),level:1,stats:{strength:5,dexterity:5,vitality:5,magic:10}};delete old.statBudgetVersion;const migrated=validate(old,items);assert.equal(migrated.stats.magic,5);assert.equal(old.stats.magic,10);assert.equal(migrated.statBudgetVersion,2);
 });

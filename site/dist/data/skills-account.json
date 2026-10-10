@@ -1,0 +1,1122 @@
+[
+  {
+    "ID": "3391a679ae40808d8f62eb10b431d31d",
+    "Type": "support",
+    "ActivationTime": 0,
+    "Owner": "account",
+    "Cooldown": 30000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "ranged",
+    "Requirements": {
+      "Items": [
+        {
+          "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+          "quantity": 40
+        }
+      ],
+      "Level": 30,
+      "StatusLevel": 3,
+      "Buildings": [
+        {
+          "ID": "33b1a679ae408076951cd457ed7a3fde",
+          "Level": 3
+        }
+      ]
+    },
+    "Level": 1,
+    "LevelID": "3391a679ae4080f5b282c9000e50ebc8",
+    "Weapon": [
+      "any",
+      "unarmed",
+      "defenseStand"
+    ],
+    "TrueHit": false,
+    "Unstoppable": false,
+    "CrossWorld": true,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "33c1a679ae4080bb8c47de5da2e76d2d",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 600000000,
+        "GroupID": "1e01a679ae40809090aeebc594817aa5",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "invulnerable",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": [
+          {
+            "Type": "invulnerable",
+            "Dispellable": false,
+            "AffectsBosses": true,
+            "Stackable": true
+          }
+        ],
+        "EffectMechanics": null
+      },
+      {
+        "ID": "33c1a679ae4080b9aedefc31ef1c99f1",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 10000000000,
+        "GroupID": "3391a679ae4080e7bb02cd8f959b6e34",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "upAttack",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "attackMultiplier",
+            "Value": 150,
+            "IsPercent": true,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      },
+      {
+        "ID": "80027ef3f318408c8134b521780be5d5",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": false,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": null,
+        "EffectMechanics": [
+          {
+            "Type": "purify"
+          }
+        ]
+      }
+    ],
+    "Name": {
+      "ru": "Свет могущества",
+      "en": "Light of the Power"
+    },
+    "Description": {
+      "ru": "Повышает атаку на <b>150%</b> в течение <b>10 с</b>. При активации дополнительно накладывает эффект неуязвимости на <b>0.6 с</b> и снимает все негативные эффекты.",
+      "en": "Increases attack by <b>150%</b> for <b>10 s</b>. Upon activation, also grants invulnerability for <b>0.6 s</b> and removes all negative effects."
+    },
+    "Consumables": [
+      {
+        "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "ID": "3391a679ae40808d8f62eb10b431d31d",
+    "Type": "support",
+    "ActivationTime": 0,
+    "Owner": "account",
+    "Cooldown": 30000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "ranged",
+    "Requirements": {
+      "Items": [
+        {
+          "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+          "quantity": 80
+        }
+      ],
+      "Level": 40,
+      "StatusLevel": 4,
+      "Buildings": [
+        {
+          "ID": "33b1a679ae408076951cd457ed7a3fde",
+          "Level": 4
+        }
+      ]
+    },
+    "Level": 2,
+    "LevelID": "3391a679ae40801eb9e5fde07e37da1f",
+    "Weapon": [
+      "any",
+      "unarmed",
+      "defenseStand"
+    ],
+    "TrueHit": false,
+    "Unstoppable": false,
+    "CrossWorld": true,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "33c1a679ae408021b65edd06ebc22238",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 800000000,
+        "GroupID": "1e01a679ae40809090aeebc594817aa5",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "invulnerable",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": [
+          {
+            "Type": "invulnerable",
+            "Dispellable": false,
+            "AffectsBosses": true,
+            "Stackable": true
+          }
+        ],
+        "EffectMechanics": null
+      },
+      {
+        "ID": "33c1a679ae4080118deedc78abbbc132",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 10000000000,
+        "GroupID": "3391a679ae4080e7bb02cd8f959b6e34",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "upAttack",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "attackMultiplier",
+            "Value": 200,
+            "IsPercent": true,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      },
+      {
+        "ID": "3087c3428c0f46e2ab65946e98b270a7",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": false,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": null,
+        "EffectMechanics": [
+          {
+            "Type": "purify"
+          }
+        ]
+      }
+    ],
+    "Name": {
+      "ru": "Свет могущества",
+      "en": "Light of the Power"
+    },
+    "Description": {
+      "ru": "Повышает атаку на <b>200%</b> в течение <b>10 с</b>. При активации дополнительно накладывает эффект неуязвимости на <b>0.8 с</b> и снимает все негативные эффекты.",
+      "en": "Increases attack by <b>200%</b> for <b>10 s</b>. Upon activation, also grants invulnerability for <b>0.8 s</b> and removes all negative effects."
+    },
+    "Consumables": [
+      {
+        "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "ID": "3391a679ae40808d8f62eb10b431d31d",
+    "Type": "support",
+    "ActivationTime": 0,
+    "Owner": "account",
+    "Cooldown": 30000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "ranged",
+    "Requirements": {
+      "Items": [
+        {
+          "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+          "quantity": 160
+        }
+      ],
+      "Level": 50,
+      "StatusLevel": 5,
+      "Buildings": [
+        {
+          "ID": "33b1a679ae408076951cd457ed7a3fde",
+          "Level": 5
+        }
+      ]
+    },
+    "Level": 3,
+    "LevelID": "3391a679ae40802380a6ece9f939bcfa",
+    "Weapon": [
+      "any",
+      "unarmed",
+      "defenseStand"
+    ],
+    "TrueHit": false,
+    "Unstoppable": false,
+    "CrossWorld": true,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "33c1a679ae40806b8232f52a3c61af4b",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 1000000000,
+        "GroupID": "1e01a679ae40809090aeebc594817aa5",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "invulnerable",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": [
+          {
+            "Type": "invulnerable",
+            "Dispellable": false,
+            "AffectsBosses": true,
+            "Stackable": true
+          }
+        ],
+        "EffectMechanics": null
+      },
+      {
+        "ID": "33c1a679ae4080c98e5bd108c297ebc0",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 10000000000,
+        "GroupID": "3391a679ae4080e7bb02cd8f959b6e34",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "upAttack",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "attackMultiplier",
+            "Value": 250,
+            "IsPercent": true,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      },
+      {
+        "ID": "e15ce9bf05944696a05c1d631d7b1f54",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": false,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": null,
+        "EffectMechanics": [
+          {
+            "Type": "purify"
+          }
+        ]
+      }
+    ],
+    "Name": {
+      "ru": "Свет могущества",
+      "en": "Light of the Power"
+    },
+    "Description": {
+      "ru": "Повышает атаку на <b>250%</b> в течение <b>10 с</b>. При активации дополнительно накладывает эффект неуязвимости на <b>1 с</b> и снимает все негативные эффекты.",
+      "en": "Increases attack by <b>250%</b> for <b>10 s</b>. Upon activation, also grants invulnerability for <b>1 s</b> and removes all negative effects."
+    },
+    "Consumables": [
+      {
+        "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "ID": "3391a679ae40808d8f62eb10b431d31d",
+    "Type": "support",
+    "ActivationTime": 0,
+    "Owner": "account",
+    "Cooldown": 30000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "ranged",
+    "Requirements": {
+      "Items": [
+        {
+          "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+          "quantity": 320
+        }
+      ],
+      "Level": 60,
+      "StatusLevel": 6,
+      "Buildings": [
+        {
+          "ID": "33b1a679ae408076951cd457ed7a3fde",
+          "Level": 6
+        }
+      ]
+    },
+    "Level": 4,
+    "LevelID": "3391a679ae4080398360d61a432b688c",
+    "Weapon": [
+      "any",
+      "unarmed",
+      "defenseStand"
+    ],
+    "TrueHit": false,
+    "Unstoppable": false,
+    "CrossWorld": true,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "33c1a679ae40803fa661e21738a6c7bf",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 1200000000,
+        "GroupID": "1e01a679ae40809090aeebc594817aa5",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "invulnerable",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": [
+          {
+            "Type": "invulnerable",
+            "Dispellable": false,
+            "AffectsBosses": true,
+            "Stackable": true
+          }
+        ],
+        "EffectMechanics": null
+      },
+      {
+        "ID": "33c1a679ae4080d1ad56c9ad0a3170b8",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 10000000000,
+        "GroupID": "3391a679ae4080e7bb02cd8f959b6e34",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "upAttack",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "attackMultiplier",
+            "Value": 300,
+            "IsPercent": true,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      },
+      {
+        "ID": "13bed07f39894646a22748ab6cd15f38",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": false,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": null,
+        "EffectMechanics": [
+          {
+            "Type": "purify"
+          }
+        ]
+      }
+    ],
+    "Name": {
+      "ru": "Свет могущества",
+      "en": "Light of the Power"
+    },
+    "Description": {
+      "ru": "Повышает атаку на <b>300%</b> в течение <b>10 с</b>. При активации дополнительно накладывает эффект неуязвимости на <b>1.2 с</b> и снимает все негативные эффекты.",
+      "en": "Increases attack by <b>300%</b> for <b>10 s</b>. Upon activation, also grants invulnerability for <b>1.2 s</b> and removes all negative effects."
+    },
+    "Consumables": [
+      {
+        "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "ID": "3391a679ae40808d8f62eb10b431d31d",
+    "Type": "support",
+    "ActivationTime": 0,
+    "Owner": "account",
+    "Cooldown": 30000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "ranged",
+    "Requirements": {
+      "Items": [
+        {
+          "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+          "quantity": 640
+        }
+      ],
+      "Level": 70,
+      "StatusLevel": 7,
+      "Buildings": [
+        {
+          "ID": "33b1a679ae408076951cd457ed7a3fde",
+          "Level": 7
+        }
+      ]
+    },
+    "Level": 5,
+    "LevelID": "3391a679ae4080ce84aeee02bf01894e",
+    "Weapon": [
+      "any",
+      "unarmed",
+      "defenseStand"
+    ],
+    "TrueHit": false,
+    "Unstoppable": false,
+    "CrossWorld": true,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "33c1a679ae40809fa872e9bbad625bfb",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 1400000000,
+        "GroupID": "1e01a679ae40809090aeebc594817aa5",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "invulnerable",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": [
+          {
+            "Type": "invulnerable",
+            "Dispellable": false,
+            "AffectsBosses": true,
+            "Stackable": true
+          }
+        ],
+        "EffectMechanics": null
+      },
+      {
+        "ID": "33c1a679ae4080a487d4da31a7bb52a5",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 10000000000,
+        "GroupID": "3391a679ae4080e7bb02cd8f959b6e34",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "upAttack",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "attackMultiplier",
+            "Value": 350,
+            "IsPercent": true,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      },
+      {
+        "ID": "d24487aee4764dc9885e9226a754bc34",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": false,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": null,
+        "EffectMechanics": [
+          {
+            "Type": "purify"
+          }
+        ]
+      }
+    ],
+    "Name": {
+      "ru": "Свет могущества",
+      "en": "Light of the Power"
+    },
+    "Description": {
+      "ru": "Повышает атаку на <b>350%</b> в течение <b>10 с</b>. При активации дополнительно накладывает эффект неуязвимости на <b>1.4 с</b> и снимает все негативные эффекты.",
+      "en": "Increases attack by <b>350%</b> for <b>10 s</b>. Upon activation, also grants invulnerability for <b>1.4 s</b> and removes all negative effects."
+    },
+    "Consumables": [
+      {
+        "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "ID": "3391a679ae40808d8f62eb10b431d31d",
+    "Type": "support",
+    "ActivationTime": 0,
+    "Owner": "account",
+    "Cooldown": 30000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "ranged",
+    "Requirements": {
+      "Items": [
+        {
+          "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+          "quantity": 1280
+        }
+      ],
+      "Level": 80,
+      "StatusLevel": 8,
+      "Buildings": [
+        {
+          "ID": "33b1a679ae408076951cd457ed7a3fde",
+          "Level": 8
+        }
+      ]
+    },
+    "Level": 6,
+    "LevelID": "3391a679ae4080f4a3c9d0087b73646f",
+    "Weapon": [
+      "any",
+      "unarmed",
+      "defenseStand"
+    ],
+    "TrueHit": false,
+    "Unstoppable": false,
+    "CrossWorld": true,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "33c1a679ae40800fb186e10b00b8ef01",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 1600000000,
+        "GroupID": "1e01a679ae40809090aeebc594817aa5",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "invulnerable",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": [
+          {
+            "Type": "invulnerable",
+            "Dispellable": false,
+            "AffectsBosses": true,
+            "Stackable": true
+          }
+        ],
+        "EffectMechanics": null
+      },
+      {
+        "ID": "33c1a679ae4080f5bcbed4bffa0c58f6",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 10000000000,
+        "GroupID": "3391a679ae4080e7bb02cd8f959b6e34",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "upAttack",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "attackMultiplier",
+            "Value": 400,
+            "IsPercent": true,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      },
+      {
+        "ID": "d0b647ef997347bb932507a3cf8044b5",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": false,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": null,
+        "EffectMechanics": [
+          {
+            "Type": "purify"
+          }
+        ]
+      }
+    ],
+    "Name": {
+      "ru": "Свет могущества",
+      "en": "Light of the Power"
+    },
+    "Description": {
+      "ru": "Повышает атаку на <b>400%</b> в течение <b>10 с</b>. При активации дополнительно накладывает эффект неуязвимости на <b>1.6 с</b> и снимает все негативные эффекты.",
+      "en": "Increases attack by <b>400%</b> for <b>10 s</b>. Upon activation, also grants invulnerability for <b>1.6 s</b> and removes all negative effects."
+    },
+    "Consumables": [
+      {
+        "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "ID": "3391a679ae40808d8f62eb10b431d31d",
+    "Type": "support",
+    "ActivationTime": 0,
+    "Owner": "account",
+    "Cooldown": 30000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "ranged",
+    "Requirements": {
+      "Items": [
+        {
+          "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+          "quantity": 2560
+        }
+      ],
+      "Level": 90,
+      "StatusLevel": 9,
+      "Buildings": [
+        {
+          "ID": "33b1a679ae408076951cd457ed7a3fde",
+          "Level": 9
+        }
+      ]
+    },
+    "Level": 7,
+    "LevelID": "3391a679ae40806c9123d1f283797503",
+    "Weapon": [
+      "any",
+      "unarmed",
+      "defenseStand"
+    ],
+    "TrueHit": false,
+    "Unstoppable": false,
+    "CrossWorld": true,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "33c1a679ae40803d9c03ef654be864e2",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 1800000000,
+        "GroupID": "1e01a679ae40809090aeebc594817aa5",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "invulnerable",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": [
+          {
+            "Type": "invulnerable",
+            "Dispellable": false,
+            "AffectsBosses": true,
+            "Stackable": true
+          }
+        ],
+        "EffectMechanics": null
+      },
+      {
+        "ID": "33c1a679ae40800dba68f803f9718b24",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 10000000000,
+        "GroupID": "3391a679ae4080e7bb02cd8f959b6e34",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "upAttack",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "attackMultiplier",
+            "Value": 450,
+            "IsPercent": true,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      },
+      {
+        "ID": "7884a00ab18e41a9a6a39023eb29014a",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": false,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": null,
+        "EffectMechanics": [
+          {
+            "Type": "purify"
+          }
+        ]
+      }
+    ],
+    "Name": {
+      "ru": "Свет могущества",
+      "en": "Light of the Power"
+    },
+    "Description": {
+      "ru": "Повышает атаку на <b>450%</b> в течение <b>10 с</b>. При активации дополнительно накладывает эффект неуязвимости на <b>1.8 с</b> и снимает все негативные эффекты.",
+      "en": "Increases attack by <b>450%</b> for <b>10 s</b>. Upon activation, also grants invulnerability for <b>1.8 s</b> and removes all negative effects."
+    },
+    "Consumables": [
+      {
+        "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "ID": "3391a679ae40808d8f62eb10b431d31d",
+    "Type": "support",
+    "ActivationTime": 0,
+    "Owner": "account",
+    "Cooldown": 30000000000,
+    "Group": 0,
+    "Mana": 0,
+    "Range": "ranged",
+    "Requirements": {
+      "Items": [
+        {
+          "item_template_id": "3391a679ae408012baa9c4571de1dcb3",
+          "quantity": 5120
+        }
+      ],
+      "Level": 100,
+      "StatusLevel": 10,
+      "Buildings": [
+        {
+          "ID": "33b1a679ae408076951cd457ed7a3fde",
+          "Level": 10
+        }
+      ]
+    },
+    "Level": 8,
+    "LevelID": "3391a679ae4080a1a99dedb6cd19b242",
+    "Weapon": [
+      "any",
+      "unarmed",
+      "defenseStand"
+    ],
+    "TrueHit": false,
+    "Unstoppable": false,
+    "CrossWorld": true,
+    "Cast": {
+      "Mana": 0,
+      "Timeout": 0
+    },
+    "Effects": [
+      {
+        "ID": "3391a679ae4080c8809fedc49cb7b30d",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 2000000000,
+        "GroupID": "1e01a679ae40809090aeebc594817aa5",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "invulnerable",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": [
+          {
+            "Type": "invulnerable",
+            "Dispellable": false,
+            "AffectsBosses": true,
+            "Stackable": true
+          }
+        ],
+        "EffectMechanics": null
+      },
+      {
+        "ID": "3391a679ae408059a036d67515bf0e01",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": true,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 10000000000,
+        "GroupID": "3391a679ae4080e7bb02cd8f959b6e34",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "upAttack",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": [
+          {
+            "Type": "attackMultiplier",
+            "Value": 500,
+            "IsPercent": true,
+            "Ancient": false
+          }
+        ],
+        "EffectStatuses": null,
+        "EffectMechanics": null
+      },
+      {
+        "ID": "16050206316949f0993c0aaa009a55f6",
+        "Account": false,
+        "Accumulative": false,
+        "Battle": false,
+        "Chance": 100,
+        "Cost": 0,
+        "Duration": 0,
+        "GroupID": "",
+        "Independent": false,
+        "Object": "self",
+        "SkillGroup": 0,
+        "Type": "",
+        "Until": false,
+        "TownID": "",
+        "WorldTier": 0,
+        "Trigger": "on_apply",
+        "TriggerCooldown": 0,
+        "BattleStats": null,
+        "EffectStatuses": null,
+        "EffectMechanics": [
+          {
+            "Type": "purify"
+          }
+        ]
+      }
+    ],
+    "Name": {
+      "ru": "Свет могущества",
+      "en": "Light of the Power"
+    },
+    "Description": {
+      "ru": "Повышает атаку на <b>500%</b> в течение <b>10 с</b>. При активации дополнительно накладывает эффект неуязвимости на <b>2 с</b> и снимает все негативные эффекты.",
+      "en": "Increases attack by <b>500%</b> for <b>10 s</b>. Upon activation, also grants invulnerability for <b>2 s</b> and removes all negative effects."
+    },
+    "Consumables": [
+      {
+        "item_template_id": "3491a679ae40801aa49dcd1aa9f50916",
+        "quantity": 1
+      }
+    ]
+  }
+]

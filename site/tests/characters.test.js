@@ -1,9 +1,10 @@
+import {readSkillCatalog} from './skill-catalog-fixture.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {fresh} from '../dist/model.js';
 import {validateSkills,validateRoster,putCharacter,classRoster,addCharacterSlot,learnAllSkills,skillRequirement} from '../dist/characters.js';
-const catalog=JSON.parse(fs.readFileSync(new URL('../dist/data/skills.json',import.meta.url)));
+const catalog=readSkillCatalog();
 const items=JSON.parse(fs.readFileSync(new URL('../dist/data/library.json',import.meta.url))).blueprints;
 test('legacy builds start without learned skills; invalid class skills and ranks rejected',()=>{
  assert.deepEqual(validateSkills(fresh(),catalog).skills,{});
@@ -23,9 +24,9 @@ test('two characters round-trip independently with their learned skills and gear
  assert.equal(roster.characters[0].build.skills[id],10);
  assert.throws(()=>validateRoster({...roster,characters:[roster.characters[0],roster.characters[0]]},items,catalog));
 });
-test('all six catalogs contain the 122 unique skills with bounded rank definitions',()=>{
- assert.equal(Object.keys(catalog).length,6);
- assert.equal(Object.values(catalog).flat().length,122);
+test('all nine owners contain 146 skills plus four synthetic autoattacks',()=>{
+ assert.equal(Object.keys(catalog).length,9);
+ assert.equal(Object.values(catalog).flat().length,150);
  for(const skills of Object.values(catalog)){
   assert.equal(new Set(skills.map(s=>s.id)).size,skills.length);
   for(const s of skills)for(const rank of Object.keys(s.ranks))assert.ok(+rank>=1&&+rank<=s.maxLevel);

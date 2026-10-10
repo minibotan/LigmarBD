@@ -1,0 +1,20 @@
+[
+  {
+    "ID": "3a61a679ae4080eb818ef6cc122e2221",
+    "WorldTier": 2,
+    "SeasonID": "3971a679ae4080149717fe4ddc6419e4",
+    "Ambience": "3c31a679ae4080a78cd3f030325aa195"
+  },
+  {
+    "ID": "2761a679ae408037bcffd5a20f2d4904",
+    "WorldTier": 2,
+    "SeasonID": "",
+    "Ambience": "29d1a679ae40809fbc17cbda4ea54a94"
+  },
+  {
+    "ID": "13e1a679ae4080219840da2108d499ca",
+    "WorldTier": 1,
+    "SeasonID": "",
+    "Ambience": "2941a679ae4080da9165c68675b9dd89"
+  }
+]

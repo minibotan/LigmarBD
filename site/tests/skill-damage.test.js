@@ -1,3 +1,4 @@
+import {readSkillCatalog} from './skill-catalog-fixture.js';
 import fs from 'node:fs';
 import {calculate,fresh} from '../dist/model.js';
 import test from 'node:test';
@@ -16,7 +17,7 @@ test('dots do not crit and are replaced when recast; absent components stay hidd
 });
 
 test('Supernova rank 4 has a calculable DPS even below its level requirement',()=>{
- const catalog=JSON.parse(fs.readFileSync(new URL('../dist/data/skills.json',import.meta.url)));
+ const catalog=readSkillCatalog();
  const rank=catalog.mage.find(s=>s.name==='Сверхновая').ranks[4];
  const build={...fresh(),level:50};
  const result=skillDamage(rank,calculate(build,[]));

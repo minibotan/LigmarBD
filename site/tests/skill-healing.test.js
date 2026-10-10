@@ -1,8 +1,9 @@
+import {readSkillCatalog} from './skill-catalog-fixture.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {skillHealing} from '../dist/skill-healing.js';
-const catalog=JSON.parse(fs.readFileSync(new URL('../dist/data/skills.json',import.meta.url)));
+const catalog=readSkillCatalog();
 const rank=(cls,name,n)=>catalog[cls].find(s=>s.name===name).ranks[n];
 const stats={attack:[1000,2000],gear:{},hp:5000,activation:50,crit:100};
 test('direct heal uses base attack, flat amount, cast with VA and cooldown without crit',()=>{

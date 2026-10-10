@@ -1,0 +1,23 @@
+{
+  "files": {
+    "Towns": "world-towns.json",
+    "Battles": "world-battles.json",
+    "MobTemplates": "world-mob-templates.json",
+    "MobBases": "world-mob-bases.json",
+    "SpecialBattles": "world-battles-special.json"
+  },
+  "counts": {
+    "Towns": 3,
+    "Battles": 26,
+    "MobTemplates": 250,
+    "MobBases": 70,
+    "SpecialBattles": 58
+  },
+  "schemaVersion": 3,
+  "references": {
+    "MobTemplateID": {
+      "file": "world-mob-templates.json",
+      "key": "ID"
+    }
+  }
+}

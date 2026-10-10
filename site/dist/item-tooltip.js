@@ -1,4 +1,4 @@
-import {itemStats,names,quality,propertyValue,propertyPercent,itemTier} from './model.js';
+import {itemStats,names,quality,propertyValue,propertyPercent,itemTier} from './model.js?v=stat-budget-2';
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const number=n=>n==null?'—':Number(n.toFixed(2)).toLocaleString('ru-RU');
 export function itemTooltip(item,e){

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "account": "skills-account.json",
+    "archer": "skills-archer.json",
+    "assassin": "skills-assassin.json",
+    "guardian": "skills-guardian.json",
+    "mage": "skills-mage.json",
+    "mob": "skills-mob.json",
+    "priest": "skills-priest.json",
+    "special": "skills-special.json",
+    "warrior": "skills-warrior.json"
+  },
+  "records": 1518
+}

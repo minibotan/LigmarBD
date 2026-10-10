@@ -1,3 +1,4 @@
+import {readSkillCatalog} from './skill-catalog-fixture.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -5,7 +6,7 @@ import {fresh,calculate} from '../dist/model.js';
 import {makePreset} from '../dist/presets.js';
 import {simulateRotation} from '../dist/dps.js';
 const items=JSON.parse(fs.readFileSync(new URL('../dist/data/library.json',import.meta.url))).blueprints;
-const catalog=JSON.parse(fs.readFileSync(new URL('../dist/data/skills.json',import.meta.url)));
+const catalog=readSkillCatalog();
 const target={id:'one',name:'Цель 1',level:55,defense:1000,resistance:2000,evasion:0};
 const mage=makePreset({...fresh(),level:55},items,'mage_pve','high');
 const skill=(cls,name)=>catalog[cls].find(s=>s.name===name);
@@ -50,7 +51,7 @@ test('uncertain DOT application retains weighted old ticks after a possible miss
  assert.ok(repeated.rows[0].total>normalRepeated.rows[0].total*.5);
 });
 test('unknown rank blocks timing and final DPS rather than fabricating zero damage',()=>{
- const result=run([step('Магическая стрела',1),step('Магическая стрела')]);
+ const result=run([step('Магическая стрела',11),step('Магическая стрела')]);
  assert.equal(result.rows[0].total,null);assert.equal(result.rows[1].end,null);assert.equal(result.dps,null);
 });
 test('saved characters can cast only learned skills',()=>{
