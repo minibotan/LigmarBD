@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "worldMaxLevel": {
+    "zion": 4,
+    "ostrog": 8
+  },
+  "socketLimits": {
+    "weapon": 2,
+    "neck": 0,
+    "waist": 0,
+    "finger": 0,
+    "default": 4
+  },
+  "gems": {
+    "sapphire": {
+      "name": "Сапфир",
+      "weaponStat": "magicAttack",
+      "armorStat": "resistance",
+      "levels": {
+        "1": {
+          "weapon": 3,
+          "armor": 4
+        },
+        "2": {
+          "weapon": 6,
+          "armor": 8
+        },
+        "3": {
+          "weapon": 9,
+          "armor": 12
+        },
+        "4": {
+          "weapon": 12,
+          "armor": 16
+        },
+        "5": {
+          "weapon": 16,
+          "armor": 21
+        },
+        "6": {
+          "weapon": 20,
+          "armor": 26
+        },
+        "7": {
+          "weapon": 25,
+          "armor": 33
+        },
+        "8": {
+          "weapon": 32,
+          "armor": 42
+        },
+        "9": {
+          "weapon": 40,
+          "armor": 53
+        }
+      }
+    },
+    "ruby": {
+      "name": "Рубин",
+      "weaponStat": "physicalAttack",
+      "armorStat": "defense",
+      "levels": {
+        "1": {
+          "weapon": 3,
+          "armor": 5
+        },
+        "2": {
+          "weapon": 6,
+          "armor": 10
+        },
+        "3": {
+          "weapon": 9,
+          "armor": 15
+        },
+        "4": {
+          "weapon": 12,
+          "armor": 20
+        },
+        "5": {
+          "weapon": 16,
+          "armor": 26
+        },
+        "6": {
+          "weapon": 20,
+          "armor": 33
+        },
+        "7": {
+          "weapon": 25,
+          "armor": 41
+        },
+        "8": {
+          "weapon": 32,
+          "armor": 53
+        },
+        "9": {
+          "weapon": 32,
+          "armor": null
+        }
+      }
+    },
+    "topaz": {
+      "name": "Топаз",
+      "weaponStat": "accuracy",
+      "armorStat": "evasion",
+      "levels": {
+        "1": {
+          "weapon": 10,
+          "armor": 5
+        },
+        "2": {
+          "weapon": 20,
+          "armor": 10
+        },
+        "3": {
+          "weapon": 30,
+          "armor": 15
+        },
+        "4": {
+          "weapon": 40,
+          "armor": 20
+        },
+        "5": {
+          "weapon": 50,
+          "armor": 26
+        },
+        "6": {
+          "weapon": 65,
+          "armor": 33
+        },
+        "7": {
+          "weapon": 80,
+          "armor": 41
+        },
+        "8": {
+          "weapon": 100,
+          "armor": 53
+        },
+        "9": {
+          "weapon": null,
+          "armor": null
+        }
+      }
+    },
+    "emerald": {
+      "name": "Изумруд",
+      "weaponStat": "health",
+      "armorStat": "health",
+      "levels": {
+        "1": {
+          "weapon": 5,
+          "armor": 5
+        },
+        "2": {
+          "weapon": 10,
+          "armor": 10
+        },
+        "3": {
+          "weapon": 15,
+          "armor": 15
+        },
+        "4": {
+          "weapon": 20,
+          "armor": 20
+        },
+        "5": {
+          "weapon": 25,
+          "armor": 25
+        },
+        "6": {
+          "weapon": 32,
+          "armor": 32
+        },
+        "7": {
+          "weapon": 40,
+          "armor": 40
+        },
+        "8": {
+          "weapon": 50,
+          "armor": 50
+        },
+        "9": {
+          "weapon": null,
+          "armor": null
+        }
+      }
+    }
+  }
+}

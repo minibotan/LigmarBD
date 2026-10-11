@@ -1,4 +1,4 @@
-import {slots,worlds,calculate,autoAllocate,resolveItem} from './model.js?v=stat-budget-2';
+import {slots,worlds,calculate,autoAllocate,resolveItem} from './model.js?v=legendary-rules-1';
 export const presets={
  priest_heavy:{classId:'priest',name:'Жрец · тяжёлый сет',armor:'heavy',jewels:'magic',hands:'magic',weapon:'staff',stat:null,priority:['activationTime','resistance','vitality','magic','health','defense'],note:'Тяжёлая броня; волшебные руки и бижутерия ради ВА. После требований: 80% очков в живучесть, 20% в интеллект.'},
  mage_pve:{classId:'mage',name:'PvE · тряпки',armor:'magic',jewels:'magic',hands:'magic',weapon:'staff',stat:'magic',priority:['activationTime','magic','defense','health','magicAttack','evasion'],note:'ВА → интеллект → защита. Камни: защита, при необходимости HP.'},

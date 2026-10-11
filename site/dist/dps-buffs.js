@@ -14,7 +14,7 @@ export function applyDpsBuffs(build,selection,builds,data){
  }
  for(const key of ['defense','resistance','hp','evasion'])result.buffs[key]+=(totals[key]||0);
  result.buffs.attack+=(totals.attack||0)+(totals[['mage','priest'].includes(build.classId)?'magicAttack':'physicalAttack']||0);
- result.dpsExternal={speedMultiplier,groupAttack};
+ result.dpsExternal={speedMultiplier,activationReduction:(totals.haste||0)+(totals.activationTime||0),groupAttack};
  if(totals.magicExtra)warnings.push(`Дополнительный магический урон +${totals.magicExtra}%: не включён в DPS, пока не уточнены запускающие его удары.`);
  return {build:result,totals,details,warnings};
 }

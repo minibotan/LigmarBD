@@ -1,6 +1,6 @@
-import {combatRank} from './autoattack.js?v=stat-budget-2';
-import {calculate,resolveItem} from './model.js?v=stat-budget-2';
-import {reduction,hitChance} from './combat-tips.js?v=stat-budget-2';
+import {combatRank} from './autoattack.js?v=gem-catalog-2';
+import {calculate,resolveItem} from './model.js?v=legendary-rules-1';
+import {reduction,hitChance} from './combat-tips.js?v=gem-catalog-2';
 const epsilon=1e-8;
 export function targeting(skill,rank){
  const types=rank?.targets||skill.targets||[];

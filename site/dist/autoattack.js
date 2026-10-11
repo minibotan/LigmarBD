@@ -1,4 +1,4 @@
-import {resolveItem,worlds,propertyValue} from './model.js?v=stat-budget-2';
+import {resolveItem,worlds,propertyValue} from './model.js?v=legendary-rules-1';
 export function combatRank(skill,level,build,items){
  const rank=skill.ranks[level];
  if(!rank||!skill.autoAttack)return rank;

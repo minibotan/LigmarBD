@@ -1,3 +1,56 @@
+export function effectCopy(e){
+ const num=n=>Number(n).toLocaleString('ru-RU',{maximumFractionDigits:2});
+ const statusNames={root:['Обездвиживание','Не позволяет цели перемещаться.'],stun:['Оглушение','Оглушает цель.'],sleep:['Сон','Усыпляет цель.'],silence:['Молчание','Запрещает цели применять умения.'],taunt:['Агр','Заставляет цель атаковать применившего умение.'],invisibility:['Невидимость','Делает цель невидимой.'],revival:['Воскрешение','Воскрешает цель.']};
+ const stats={physicalDefenseMultiplier:'Физическая защита',resistanceMultiplier:'Сопротивление',attackMultiplier:'Урон',physicalAttackMultiplier:'Физический урон',magicAttackMultiplier:'Магический урон',evasionMultiplier:'Уклонение',accuracyMultiplier:'Меткость',maxHealth:'Максимальное HP',maxMana:'Максимальная мана',healthRegen:'Регенерация HP',manaRegen:'Регенерация маны',activationTime:'Время активации',attackSpeed:'Скорость атаки',criticalHitDamage:'Критический урон',skillEvasion:'Уклонение от умений',absorption:'Поглощение урона',experienceGain:'Получаемый опыт',physicalAbsorptionManaCost:'Расход маны на поглощение физического урона',magicConsumeHealthDamage:'Магический урон за счёт HP',physicalAttackCasterAtk:'Атака призванного существа'};
+ const titles=[],parts=[];
+ for(const s of e.EffectStatuses||[]){const text=statusNames[s.Type];if(text){titles.push(text[0]);parts.push(text[1])}}
+ for(const s of e.BattleStats||[]){
+  if(['physicalDamage','magicDamage'].includes(s.Type)){
+   const kind=s.Type==='magicDamage'?'магического':'физического';
+   titles.push(e.Trigger==='periodic'?'Периодический урон':'Урон');
+   parts.push(`${num(s.Value)}${s.IsPercent?'%':''} ${kind} урона${e.Trigger==='periodic'?` за тик${e.TriggerCooldown>0?`; интервал ${num(e.TriggerCooldown/1e9)} с`:''}`:''}.`);
+  }else if(s.Type==='battleSpeed'){
+   titles.push(s.Value<0?'Замедление':'Ускорение');parts.push(`Скорость ${s.Value<0?'снижается':'увеличивается'} на ${num(Math.abs(s.Value))}${s.IsPercent?'%':''}.`);
+  }else if(['healthRestore','healthRestoreAtk','healthRestoreMaxHp','lifeSteal'].includes(s.Type)){
+   titles.push('Восстановление HP');const basis={healthRestore:'HP',healthRestoreAtk:'от базового урона',healthRestoreMaxHp:'от максимального HP',lifeSteal:'от нанесённого урона'}[s.Type];
+   parts.push(`Восстанавливает ${num(s.Value)}${s.IsPercent?'%':''} ${basis}${e.Trigger==='periodic'?' за тик':''}.`);
+  }else if(['physicalGearDamage','magicGearDamage'].includes(s.Type)){
+   titles.push('Дополнительный урон');parts.push(`${num(s.Value)}${s.IsPercent?'%':''} ${s.Type==='magicGearDamage'?'магического':'физического'} урона от снаряжения.`);
+  }else if(stats[s.Type]){titles.push(stats[s.Type]);parts.push(`${stats[s.Type]}: ${s.Value>0?'+':''}${num(s.Value)}${s.IsPercent?'%':''}.`)}
+ }
+ const mechanics={cancelActivation:'Прерывает текущий каст цели.',resetTarget:'Сбрасывает текущую цель.',resetMobTarget:'Сбрасывает цель мобов.',purify:'Очищает от снимаемых эффектов.'};
+ for(const m of e.EffectMechanics||[])if(mechanics[m.Type])parts.push(mechanics[m.Type]);
+ return {title:[...new Set(titles)].join(' · ')||'Особый эффект',label:parts.join(' ')||'Отдельное действие эффекта пока не расшифровано.'};
+}
+export function skillTags(raw){
+ const tags=new Map(),add=(label,tip)=>tags.set(label,{label,tip});
+ const effects=raw.Effects||[];
+ if(raw.Type==='passive')add('Пассивка','Действует без применения.');
+ if(raw.TrueHit||(['mage','priest'].includes(raw.Owner)&&raw.Type==='attack'))add('Не промахивается','Не проверяет меткость и уклонение; другие механики избегания урона могут действовать.');
+ if(raw.Unstoppable)add('Нельзя сбить','Каст нельзя прервать.');
+ if(raw.Cast?.Timeout>0)add('Стойка','Повторное применение в стойке.');
+ const statuses={root:'Обездвиживание',stun:'Оглушение',sleep:'Сон',silence:'Молчание',taunt:'Агр',invisibility:'Невидимость',revival:'Воскрешение'};
+ const mechanics={cancelActivation:'Сбивает каст',resetTarget:'Сброс цели',resetMobTarget:'Сброс цели мобов',purify:'Очищение'};
+ for(const e of effects){
+  const chance=e.Chance<100?` Шанс эффекта: ${e.Chance}%.`:'';
+  for(const st of e.EffectStatuses||[]){const label=statuses[st.Type];if(label)add(label,`${label}.${chance}${st.Dispellable?' Можно рассеять.':''}${st.AffectsBosses===false?' Не действует на боссов.':''}`)}
+  for(const m of e.EffectMechanics||[])if(mechanics[m.Type])add(mechanics[m.Type],mechanics[m.Type]+'.'+chance);
+  if(e.Accumulative)add('Суммируется','Эффект накапливается при повторном наложении.');
+  if(e.Trigger==='periodic')add('Периодический эффект','Эффект срабатывает периодически.');
+  if(e.Trigger==='on_damage_taken')add('При получении урона','Эффект срабатывает при получении урона.');
+  if(['all','close','attacker','party'].includes(e.Object))add('Несколько целей','Область действия и выбор целей указаны в параметрах и описании.');
+  for(const st of e.BattleStats||[]){
+   if(['physicalDamage','magicDamage'].includes(st.Type)&&e.Trigger==='periodic')add('DOT','Периодический урон.'+chance);
+   if(st.Type==='battleSpeed'&&st.Value<0)add('Замедление','Снижает скорость цели.'+chance);
+   if(st.Type==='battleSpeed'&&st.Value>0)add('Ускорение','Увеличивает скорость.');
+   if(st.Type.startsWith('healthRestore'))add('Лечение','Восстанавливает здоровье.');
+   const statTags={absorption:'Поглощение урона',skillEvasion:'Уклонение от умений',physicalAbsorptionManaCost:'Защита за ману',magicConsumeHealthDamage:'Расход HP',physicalAttackCasterAtk:'Призыв',activationTime:'ВА',attackSpeed:'Скорость атаки',healthRegen:'Регенерация HP',manaRegen:'Регенерация маны'};
+   if(statTags[st.Type])add(statTags[st.Type],'Подробные значения и условия указаны в описании навыка.');
+   if(st.Type==='lifeSteal')add('Вампиризм','Восстанавливает здоровье за счёт нанесённого урона.');
+  }
+ }
+ return [...tags.values()];
+}
 const owners=['mage','priest','warrior','guardian','assassin','archer'];
 const plain=s=>(s||'').replace(/<br\s*\/?>/gi,'\n').replace(/<[^>]*>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&');
 export function normalizeSkillCatalog(records){
@@ -9,7 +62,7 @@ export function normalizeSkillCatalog(records){
   const description=plain(raw.Description.ru),effects=raw.Effects||[];
   const targets=[...new Set(effects.map(e=>e.Object).filter(Boolean))];
   const hostile=targets.filter(t=>!['self','party','account'].includes(t));
-  const rank={description,castMs:raw.ActivationTime/1e6,cooldownMs:raw.Cooldown/1e6,mana:raw.Mana,requiredLevel:raw.Requirements.Level,targets:raw.Type==='attack'?(hostile.length?hostile:targets.includes('party')?['party']:['target']):targets,weapons:raw.Weapon,effects:[],damage:[],healing:[],exclusive:[],attackBonus:0,critDamageBonus:0,unresolved:null,cannotMiss:raw.TrueHit};
+  const rank={tags:skillTags(raw),description,castMs:raw.ActivationTime/1e6,cooldownMs:raw.Cooldown/1e6,mana:raw.Mana,requiredLevel:raw.Requirements.Level,targets:raw.Type==='attack'?(hostile.length?hostile:targets.includes('party')?['party']:['target']):targets,weapons:raw.Weapon,effects:[],damage:[],healing:[],exclusive:[],attackBonus:0,critDamageBonus:0,unresolved:null,cannotMiss:raw.TrueHit};
   const unknown=new Set();
   const magic=['mage','priest'].includes(raw.Owner);
   if(raw.Type==='attack'&&/базов[а-я]* (?:физическ[а-я]* |магическ[а-я]* )?урон/i.test(description))rank.damage.push({type:magic?'magic':'physical',base:1,gear:0,flat:0,duration:0});
@@ -20,7 +73,7 @@ export function normalizeSkillCatalog(records){
    const status=(e.EffectStatuses||[])[0]?.Type;
    const slow=(e.BattleStats||[]).find(s=>s.Type==='battleSpeed'&&s.Value<0);
    const family=status||(slow?'slow':e.Type);
-   if(e.Duration>0||status)rank.effects.push({label:description,seconds:e.Duration/1e9,chance:e.Chance/100,family,recipient:e.Object,...(slow?{slowPercent:-slow.Value}:{}),trigger:e.Trigger});
+   if(e.Duration>0||status)rank.effects.push({...effectCopy(e),seconds:e.Duration/1e9,chance:e.Chance/100,family,recipient:e.Object,...(slow?{slowPercent:-slow.Value}:{}),trigger:e.Trigger});
    for(const stat of e.BattleStats||[]){
     const type=stat.Type,value=stat.Value;
     if(['physicalDamage','magicDamage'].includes(type)){

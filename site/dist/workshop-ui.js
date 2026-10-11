@@ -1,5 +1,5 @@
-import {masterFor,discounts,operationCosts} from './workshop-model.js';
-import {blueprintTier} from './library-model.js';
+import {masterFor,discounts,operationCosts} from './workshop-model.js?v=gem-catalog-2';
+import {blueprintTier} from './library-model.js?v=gem-catalog-2';
 const key='ligmarbd.workshop.v1';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mastersList=[['blacksmith','Кузнец','Оружие'],['atelier','Портной','Броня и плащи'],['craftworks','Ремесленник','Украшения'],['jeweler','Ювелир','Создание камней · позже']];

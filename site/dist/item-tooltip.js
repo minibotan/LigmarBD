@@ -1,9 +1,10 @@
-import {itemStats,names,quality,propertyValue,propertyPercent,itemTier} from './model.js?v=stat-budget-2';
+import {installedGems,gemTypeForBonus} from './gems.js?v=gem-colors-1';
+import {itemStats,names,quality,propertyValue,propertyPercent,itemTier} from './model.js?v=legendary-rules-1';
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const number=n=>n==null?'—':Number(n.toFixed(2)).toLocaleString('ru-RU');
 export function itemTooltip(item,e){
  const format=(key,value)=>number(value)+(['activationTime','criticalHitRate','requirements','physicalDamageReduction'].includes(key)?'%':key==='physicalAttackInterval'?' мс':['healthRegen','manaRegen'].includes(key)?'/с':'');
- const base=itemStats(item,{...e,enchant:0,props:[]}),enhanced=itemStats(item,{...e,props:[]});
+ const base=itemStats(item,{...e,enchant:0,props:[],gems:[]}),enhanced=itemStats(item,{...e,props:[],gems:[]});
  const keys=[...new Set([...Object.keys(base),...Object.keys(enhanced)])].filter(k=>base[k]||enhanced[k]);
  const label=k=>escape(names[k]||k);
  const rangeText=(min,max)=>min===max?number(min):number(min)+'–'+number(max);
@@ -23,5 +24,5 @@ export function itemTooltip(item,e){
  const bonuses=Object.fromEntries(keys.map(k=>[k,(enhanced[k]||0)-(base[k]||0)]).filter(([,v])=>v));
  const enchant=statRows(bonuses).map(([name,value])=>`<div class="item-tip-main-row"><span>${name}</span><strong>+${value}</strong></div>`).join('');
  const props=(e.props||[]).map(p=>{const range=item.property_value_ranges[p.key],value=p.value??propertyValue(range,p.percent),percent=p.value!==undefined?propertyPercent(range,value):p.percent,tone=percent>=150?'ancient':percent>=100?'perfect':'';return `<tr class="item-tip-${tone}"><th scope="row">${label(p.key)}</th><td class="item-tip-value">${format(p.key,value)}</td><td>${Math.floor(percent)}%</td></tr>`}).join('');
- return `<div class="item-tip-heading"><strong>${escape(item.name.ru)}</strong><small>T${itemTier(item,e.quality)} · ${escape(quality[e.quality].name||e.quality)}</small></div><div class="item-tip-main">${rows}</div>${enchant?`<div class="item-tip-enhancement"><small>Заточка +${e.enchant}</small>${enchant}</div>`:''}${props?`<table class="item-tip-table item-tip-properties"><caption>Дополнительные свойства</caption><thead><tr><th>Свойство</th><th>Значение</th><th>Качество</th></tr></thead><tbody>${props}</tbody></table>`:''}`;
+ return `<div class="item-tip-heading"><strong>${escape(item.name.ru)}</strong><small>T${itemTier(item,e.quality)} · ${escape(quality[e.quality].name||e.quality)}</small></div><div class="item-tip-main">${rows}</div>${enchant?`<div class="item-tip-enhancement"><small>Заточка +${e.enchant}</small>${enchant}</div>`:''}${installedGems(item,e).length?`<div class="item-tip-enhancement"><small>Камни</small>${installedGems(item,e).map(g=>`<div class="item-tip-main-row gem-tip-row gem-${gemTypeForBonus(g)}"><span>◆ ${escape(g.name)} · ${label(g.key)}${g.level?` · ${g.level} ур.`:''}</span><strong>+${format(g.key,g.value)}</strong></div>`).join('')}</div>`:''}${props?`<table class="item-tip-table item-tip-properties"><caption>Дополнительные свойства</caption><thead><tr><th>Свойство</th><th>Значение</th><th>Качество</th></tr></thead><tbody>${props}</tbody></table>`:''}`;
 }

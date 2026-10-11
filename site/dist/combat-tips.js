@@ -1,5 +1,5 @@
-import {fresh,calculate,classes} from './model.js?v=stat-budget-2';
-import {makePreset} from './presets.js?v=damage-presets-4';
+import {fresh,calculate,classes} from './model.js?v=legendary-rules-1';
+import {makePreset} from './presets.js?v=gem-catalog-2';
 export const reduction=(value,level)=>Math.min(.95,value/(40*level+value-25));
 export const hitChance=(accuracy,evasion)=>2*accuracy+evasion===0?null:2*accuracy/(2*accuracy+evasion);
 export function referenceEnemies(items){

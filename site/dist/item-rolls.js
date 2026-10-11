@@ -1,4 +1,5 @@
-import {presets} from './presets.js?v=damage-presets-4';
+import {normalizeLegendary} from './model.js?v=legendary-rules-1';
+import {presets} from './presets.js?v=gem-catalog-2';
 export const propertyPresets={'bad':[90,50,50],'mid':[90,90,50],'good':[90,90,90],'100%':[100,90,80],'150%':[150,90,90],'150%+':[150,100,100],'150%++':[150,150,100]};
 export function rollItemProperties(state,item,label,random=Math.random){
  const chosen=presets[state.buildPreset];
@@ -10,5 +11,5 @@ export function rollItemProperties(state,item,label,random=Math.random){
   const key=percent===50?candidates[Math.floor(random()*candidates.length)]:candidates[0];
   if(key){used.add(key);result.push({key,percent})}
  }
- return result;
+ return item.blueprint_quality==='legendary'?normalizeLegendary(item,{quality:'legendary',props:result}).props:result;
 }

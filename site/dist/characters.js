@@ -1,4 +1,4 @@
-import {validate,classes,fresh,worlds} from './model.js?v=stat-budget-2';
+import {validate,classes,fresh,worlds} from './model.js?v=legendary-rules-1';
 export function validateSkills(build,catalog){
  const skills=build.skills??{};
  if(!skills||typeof skills!=='object'||Array.isArray(skills))throw Error('Некорректные умения');

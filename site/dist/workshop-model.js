@@ -1,4 +1,4 @@
-import {blueprintLevel,collectionLevel,blueprintTier} from './library-model.js';
+import {blueprintLevel,collectionLevel,blueprintTier} from './library-model.js?v=gem-catalog-2';
 export const masterFor=item=>item.item_type==='weapon'?'blacksmith':['neck','waist','finger'].includes(item.item_type)?'craftworks':'atelier';
 export function discounts(items,library,item,tier,level,masters,rules){
  const master=masters.levels.find(r=>r.craft_level===level)?.material_reduction_percent??null;
