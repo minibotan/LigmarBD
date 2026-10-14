@@ -8,7 +8,7 @@ const buffResponse=await fetch('data/dps-buffs.json?v=linear-2');
 const buffRules=buffResponse.ok?await buffResponse.json():{fortune:{},heroGroups:[]};
 import {itemTooltip} from './item-tooltip.js?v=gem-colors-1';
 import {captureRotation,restoreRotation,saveNamedPreset} from './dps-presets.js?v=gem-catalog-2';
-import {calculate,classes,fresh,worlds,slots,resolveItem,itemTier} from './model.js?v=legendary-rules-1';
+import {calculate,classes,fresh,worlds,slots,resolveItem,itemTier} from './model.js?v=portraits-1';
 import {referenceEnemies} from './combat-tips.js?v=gem-catalog-2';
 import {simulateRotation,targeting} from './dps.js?v=gem-catalog-2';
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -20,7 +20,7 @@ window.addEventListener('details-mode-change',e=>{alt=e.detail;tooltip()});
 function paperdoll(build,items){
  const cls=classes[build.classId];
  const slot=key=>{const equipped=build.equipment[key],item=equipped&&resolveItem(items,equipped.id,equipped.quality),name=slots[key]+': '+(item?item.name.ru:'пусто'),best=Math.max(0,...(equipped?.props||[]).map(p=>p.percent));return `<div class="gear-slot ${escape(equipped?.quality||'empty')}" ${item?`data-item-tip="${key}" tabindex="0" aria-describedby="dps-tooltip"`:''} role="img" aria-label="${escape(name)}">${item?`<img src="${escape(itemImage(item,equipped.quality))}" alt=""><span class="tier ${best>=150?'tier-ancient':best>=100?'tier-perfect':''}">${({4:'IV',6:'VI',8:'VIII'})[itemTier(item,equipped.quality)]||''}</span>${equipped.enchant?`<b>+${equipped.enchant}</b>`:''}${gemMarkers(item,equipped)}`:`<span class="dps-empty-slot">${escape(slots[key])}</span>`}</div>`};
- return `<div class="dps-paperdoll" aria-label="Экипировка персонажа">${cls.portrait?`<img class="dps-portrait" src="https://ligmar.io/game/assets/images/items/skins/${cls.portrait}.webp" alt="${escape(cls.name)}">`:`<div class="dps-class-emblem"><img src="https://ligmar.io/game/assets/icons/${build.classId}.svg" alt="${escape(cls.name)}"></div>`}<div class="dps-gear-column">${['weapon','shoulders','neck','waist','finger'].map(slot).join('')}</div><div class="dps-gear-column dps-gear-right">${['head','chest','hands','legs','feet'].map(slot).join('')}</div></div>`;
+ return `<div class="dps-paperdoll" aria-label="Экипировка персонажа">${cls.portrait?`<img class="dps-portrait" src="https://ligmar.io/game/assets/media/${cls.portrait}.webp" alt="${escape(cls.name)}">`:`<div class="dps-class-emblem"><img src="https://ligmar.io/game/assets/icons/${build.classId}.svg" alt="${escape(cls.name)}"></div>`}<div class="dps-gear-column">${['weapon','shoulders','neck','waist','finger'].map(slot).join('')}</div><div class="dps-gear-column dps-gear-right">${['head','chest','hands','legs','feet'].map(slot).join('')}</div></div>`;
 }
 export function mountDps(root,{builds,items,catalog}){
  const defaults=()=>{const enemy=referenceEnemies(items).archer;return {version:1,selectedId:builds[0]?.id??null,mode:'expected',allies:1,allVisible:true,targets:[{id:'target-1',name:'Цель 1',range:'melee',visible:true,level:55,defense:enemy.defense,resistance:enemy.resistance,evasion:enemy.evasion}],plans:{}}};
