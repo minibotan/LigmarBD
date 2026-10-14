@@ -23,7 +23,7 @@ export async function mountLibrary(root,items){
  root.innerHTML='<p class="loading">Загрузка библиотеки…</p>';
  let rules;try{const response=await fetch('data/library-levels.json?v=chance-base-1',{cache:'no-store'});if(!response.ok)throw Error();rules=await response.json()}catch{root.innerHTML='<p>Не удалось загрузить уровни библиотеки. Обновите страницу.</p>';return}
  if(location.hash!=='#library')return;
- try{const response=await fetch('data/library-extra-blueprints.json');if(!response.ok)throw Error();items=[...items,...await response.json()]}catch{root.innerHTML='<p>Не удалось загрузить чертежи библиотеки. Обновите страницу.</p>';return}
+ try{const response=await fetch('data/library-extra-blueprints.json?v=t8-ranges-1');if(!response.ok)throw Error();items=[...items,...await response.json()]}catch{root.innerHTML='<p>Не удалось загрузить чертежи библиотеки. Обновите страницу.</p>';return}
  let data={version:1,tiers:{}},tier=4,previous=null,notice='',editing=false,showInfo=false;
  try{const saved=JSON.parse(localStorage.getItem(key));if(saved?.version===1&&saved.tiers&&typeof saved.tiers==='object')data=saved}catch{notice='Не удалось прочитать сохранение библиотеки.'}
  const tierItems=t=>items.filter(i=>t===8?i.blueprint_quality==='legendary':i.item_tier===t&&!i.blueprint_quality);

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "summary": {
-    "blueprints_total": 87,
+    "blueprints_total": 101,
     "tier_4_blueprints": 34,
-    "tier_6_blueprints": 53,
+    "tier_6_blueprints": 67,
     "tier_6_standard_blueprints": 34,
-    "tier_6_legendary_blueprints": 19,
+    "tier_6_legendary_blueprints": 33,
     "skills_total": 0,
     "abilities_moved_to_abilities_json": 7
   },
@@ -7614,6 +7614,720 @@
         "special": 16
       },
       "image_path": "item-images/gear/weapon-staff-epic.webp"
+    },
+    {
+      "template_id": "13e1a679ae408065ba0df4ef7d71aa65",
+      "name": {
+        "ru": "Жезл",
+        "en": "Wand"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "wand",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "activationTime": 1,
+        "defense": 1,
+        "magicAttackMax": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "min": 1,
+          "max": 10
+        },
+        "defense": {
+          "min": 47,
+          "max": 118
+        },
+        "magicAttackMax": {
+          "min": 13,
+          "max": 60
+        }
+      },
+      "base_stats": {
+        "magicAttackMax": 282,
+        "magicAttackMin": 274
+      },
+      "item_requirements": {
+        "classes": [
+          "mage",
+          "priest"
+        ],
+        "level": 40,
+        "magic": 127,
+        "strength": 24
+      },
+      "enhancement_bases": {
+        "standard": 12,
+        "legendary": 14,
+        "special": 16
+      },
+      "image_path": "item-images/gear/weapon-wand-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae40808aabeee3706d5cdd3c",
+      "name": {
+        "ru": "Лук",
+        "en": "Bow"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "bow",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "dexterity": 1,
+        "physicalAttackInterval": 1,
+        "physicalAttackMax": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "min": 2,
+          "max": 6
+        },
+        "physicalAttackInterval": {
+          "min": 50,
+          "max": 200
+        },
+        "physicalAttackMax": {
+          "min": 42,
+          "max": 125
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 478,
+        "physicalAttackMin": 256,
+        "physicalAttackInterval": 1400
+      },
+      "item_requirements": {
+        "classes": [
+          "archer"
+        ],
+        "dexterity": 130,
+        "level": 41,
+        "strength": 26
+      },
+      "enhancement_bases": {
+        "standard": 13,
+        "legendary": 15,
+        "special": 17
+      },
+      "image_path": "item-images/gear/weapon-bow-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae40800da058d3848c2ecde4",
+      "name": {
+        "ru": "Арбалет",
+        "en": "Crossbow"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "crossbow",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "activationTime": 1,
+        "criticalHitRate": 1,
+        "physicalAttack": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "min": 1,
+          "max": 10
+        },
+        "criticalHitRate": {
+          "min": 1,
+          "max": 2
+        },
+        "physicalAttack": {
+          "min": 18,
+          "max": 78
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 586,
+        "physicalAttackMin": 250,
+        "physicalAttackInterval": 1600
+      },
+      "item_requirements": {
+        "classes": [
+          "archer"
+        ],
+        "dexterity": 136,
+        "level": 44,
+        "strength": 30
+      },
+      "enhancement_bases": {
+        "standard": 13,
+        "legendary": 15,
+        "special": 17
+      },
+      "image_path": "item-images/gear/weapon-crossbow-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae408053adb5d98e6a15e80c",
+      "name": {
+        "ru": "Кинжалы",
+        "en": "Daggers"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "daggers",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "dexterity": 1,
+        "health": 1,
+        "physicalAttackInterval": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "dexterity": {
+          "min": 1,
+          "max": 6
+        },
+        "health": {
+          "min": 8,
+          "max": 29
+        },
+        "physicalAttackInterval": {
+          "min": 20,
+          "max": 100
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 265,
+        "physicalAttackMin": 175,
+        "physicalAttackInterval": 800
+      },
+      "item_requirements": {
+        "classes": [
+          "assassin"
+        ],
+        "dexterity": 139,
+        "level": 44,
+        "strength": 28
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-daggers-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae4080e897a0c62f4c1042e6",
+      "name": {
+        "ru": "Стилет",
+        "en": "Stiletto"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "stiletto",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "activationTime": 1,
+        "physicalAttackMax": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "min": 1,
+          "max": 10
+        },
+        "physicalAttackMax": {
+          "min": 32,
+          "max": 105
+        },
+        "vitality": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 290,
+        "physicalAttackMin": 194,
+        "physicalAttackInterval": 900
+      },
+      "item_requirements": {
+        "classes": [
+          "assassin"
+        ],
+        "dexterity": 130,
+        "level": 41,
+        "strength": 26
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-stiletto-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae40803e9aa4ed1bfc5924a1",
+      "name": {
+        "ru": "Кастеты",
+        "en": "Fist"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "fist",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "health": 1,
+        "physicalAttackInterval": 1,
+        "strength": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "health": {
+          "min": 42,
+          "max": 125
+        },
+        "physicalAttackInterval": {
+          "min": 20,
+          "max": 60
+        },
+        "strength": {
+          "min": 1,
+          "max": 5
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 198,
+        "physicalAttackMin": 178,
+        "physicalAttackInterval": 700
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior"
+        ],
+        "dexterity": 87,
+        "level": 42,
+        "strength": 72
+      },
+      "enhancement_bases": {
+        "standard": 10,
+        "legendary": 12,
+        "special": 14
+      },
+      "image_path": "item-images/gear/weapon-fist-common.webp"
+    },
+    {
+      "template_id": "13c1a679ae408041995fc05c48a17255",
+      "name": {
+        "ru": "Меч",
+        "en": "Sword"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "sword",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "health": 1,
+        "physicalAttackMax": 1,
+        "strength": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "health": {
+          "min": 42,
+          "max": 125
+        },
+        "physicalAttackMax": {
+          "min": 13,
+          "max": 60
+        },
+        "strength": {
+          "min": 1,
+          "max": 6
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 349,
+        "physicalAttackMin": 231,
+        "physicalAttackInterval": 900
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior"
+        ],
+        "dexterity": 78,
+        "level": 48,
+        "strength": 103
+      },
+      "enhancement_bases": {
+        "standard": 12,
+        "legendary": 14,
+        "special": 16
+      },
+      "image_path": "item-images/gear/weapon-sword-common.webp"
+    },
+    {
+      "template_id": "13c1a679ae40804894a3ddd1638f1312",
+      "name": {
+        "ru": "Топор",
+        "en": "Axe"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "axe",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "accuracy": 1,
+        "health": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "min": 29,
+          "max": 122
+        },
+        "health": {
+          "min": 42,
+          "max": 156
+        },
+        "vitality": {
+          "min": 1,
+          "max": 9
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 419,
+        "physicalAttackMin": 224,
+        "physicalAttackInterval": 1100
+      },
+      "item_requirements": {
+        "classes": [
+          "warrior",
+          "guardian"
+        ],
+        "dexterity": 27,
+        "level": 43,
+        "strength": 136
+      },
+      "enhancement_bases": {
+        "standard": 12,
+        "legendary": 14,
+        "special": 16
+      },
+      "image_path": "item-images/gear/weapon-axe-common.webp"
+    },
+    {
+      "template_id": "13d1a679ae408084acc8d05e4e626dba",
+      "name": {
+        "ru": "Молот",
+        "en": "Hammer"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "weapon",
+      "item_subtype": "hammer",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "criticalHitRate": 1,
+        "physicalAttack": 1,
+        "strength": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "criticalHitRate": {
+          "min": 1,
+          "max": 2
+        },
+        "physicalAttack": {
+          "min": 8,
+          "max": 35
+        },
+        "strength": {
+          "min": 1,
+          "max": 6
+        }
+      },
+      "base_stats": {
+        "physicalAttackMax": 534,
+        "physicalAttackMin": 228,
+        "physicalAttackInterval": 1200
+      },
+      "item_requirements": {
+        "classes": [
+          "guardian"
+        ],
+        "dexterity": 29,
+        "level": 46,
+        "strength": 145
+      },
+      "enhancement_bases": {
+        "standard": 13,
+        "legendary": 15,
+        "special": 17
+      },
+      "image_path": "item-images/gear/weapon-hammer-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080b28f5bd1937a3e2caf",
+      "name": {
+        "ru": "Легкие наручи",
+        "en": "Light Wristband"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "hands",
+      "item_subtype": "light",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "activationTime": 1,
+        "dexterity": 1,
+        "resistance": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "activationTime": {
+          "min": 1,
+          "max": 5
+        },
+        "dexterity": {
+          "min": 1,
+          "max": 4
+        },
+        "resistance": {
+          "min": 83,
+          "max": 211
+        }
+      },
+      "base_stats": {
+        "defense": 111,
+        "resistance": 174
+      },
+      "item_requirements": {
+        "dexterity": 50,
+        "level": 45,
+        "strength": 49
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/hands-light-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080f796e2de0c14556018",
+      "name": {
+        "ru": "Тяжелые рукавицы",
+        "en": "Heavy Bracers"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "hands",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "physicalAttackInterval": 1,
+        "strength": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "physicalAttackInterval": {
+          "min": 10,
+          "max": 50
+        },
+        "strength": {
+          "min": 1,
+          "max": 4
+        },
+        "vitality": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "base_stats": {
+        "defense": 260,
+        "resistance": 109
+      },
+      "item_requirements": {
+        "dexterity": 27,
+        "level": 45,
+        "strength": 114
+      },
+      "enhancement_bases": {
+        "standard": 24,
+        "legendary": 28,
+        "special": 32
+      },
+      "image_path": "item-images/gear/hands-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080d8be70db0a57c64980",
+      "name": {
+        "ru": "Подвеска защиты",
+        "en": "Defense Pendant"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "neck",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "criticalHitRate": 1,
+        "health": 1,
+        "strength": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "criticalHitRate": {
+          "min": 1,
+          "max": 3
+        },
+        "health": {
+          "min": 35,
+          "max": 70
+        },
+        "strength": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "base_stats": {
+        "defense": 98
+      },
+      "item_requirements": {
+        "level": 43
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/neck-heavy-common.webp"
+    },
+    {
+      "template_id": "13e1a679ae4080f085dee077092e2a88",
+      "name": {
+        "ru": "Тяжелый ремень",
+        "en": "Heavy Belt"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "waist",
+      "item_subtype": "heavy",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "accuracy": 1,
+        "resistance": 1,
+        "vitality": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "accuracy": {
+          "min": 17,
+          "max": 44
+        },
+        "resistance": {
+          "min": 30,
+          "max": 77
+        },
+        "vitality": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "base_stats": {
+        "defense": 105
+      },
+      "item_requirements": {
+        "level": 46
+      },
+      "enhancement_bases": {
+        "standard": 20,
+        "legendary": 24,
+        "special": 28
+      },
+      "image_path": "item-images/gear/waist-heavy-common.webp"
+    },
+    {
+      "template_id": "13f1a679ae4080869652eb5c4db4b111",
+      "name": {
+        "ru": "Драгоценное кольцо",
+        "en": "Magic Ring"
+      },
+      "description": {},
+      "world_tier": 2,
+      "item_tier": 6,
+      "item_type": "finger",
+      "item_subtype": "magic",
+      "item_quality": "common",
+      "blueprint_quality": "legendary",
+      "magic_props": {
+        "health": 1,
+        "magic": 1,
+        "magicAttack": 1
+      },
+      "reward": 0,
+      "property_value_ranges": {
+        "health": {
+          "min": 50,
+          "max": 120
+        },
+        "magic": {
+          "min": 2,
+          "max": 7
+        },
+        "magicAttack": {
+          "min": 5,
+          "max": 28
+        }
+      },
+      "base_stats": {
+        "magicAttack": 69
+      },
+      "item_requirements": {
+        "level": 49
+      },
+      "enhancement_bases": {
+        "standard": 18,
+        "legendary": 22,
+        "special": 26
+      },
+      "image_path": "item-images/gear/finger-magic-common.webp"
     }
   ],
   "skills": [],
